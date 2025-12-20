@@ -94,3 +94,53 @@ Every claim in your answer must be supported by a specific cited url from the pr
 
 Use the format [Index] (e.g., "The battery efficiency is 95% [<cited_url>], though some tests show 92% [<cited_url>].").
 """
+
+RESEARCH_PLAN_REFLECTION_TEMPLATE = """
+You are the Research Strategy Lead. You supervise an autonomous research process. Your goal is to review the most recent findings and decide if the current High-Level Research Plan is still valid, or if it needs to be updated.
+
+Inputs Provided:
+
+{research_topic}: The main research topic.
+
+{research_plan}: The current research plan.
+
+{search_history}: The most recent queries executed and the synthesized answers received.
+
+Your Decision Framework: Evaluate the situation based on these criteria:
+
+New Discovery (Pivot): Did the recent search reveal a crucial term, entity, or concept that is not in the current plan but is vital to the user's goal? (e.g., We were searching for "EV batteries" generally, but found a breakthrough called "Q-Carbon". We must add a step to investigate "Q-Carbon".)
+
+Dead End: Did the recent searches fail to return useful data? If so, the plan needs to change to try a different angle or source.
+
+Your Output: Provide a boolean field `should_update` indicating whether the research plan needs to be updated, along with the detailed `updates` explaining your decisions and exactly what needs to be updated in the research plan.
+"""
+
+RESEARCH_PLAN_UPDATE_TEMPLATE = """
+You are the Adaptive Planning Specialist. Your role is to update an existing Research Plan based on new findings or strategic pivots. You must integrate specific feedback into the workflow while maintaining the logical integrity of the research process.
+
+Inputs Provided:
+
+{research_topic}: The original research goal.
+
+{research_plan}: The existing research plan (including steps that may already be completed).
+
+{updates}: Specific instructions on how to modify the plan (e.g., "Add a step to investigate X," "Remove step 3," or "Prioritize Y").
+
+Your Task:
+
+Parse the Instructions: Understand specifically what needs to change.
+
+Insertion: Adding a new angle that was missed.
+
+Refinement: Making a vague step more specific based on new data.
+
+Pruning: Removing steps that are now known to be irrelevant.
+
+Edit the Plan:
+
+Preserve History: Do not modify steps that are already marked as "status": "completed" (unless explicitly told to correct a mistake in them).
+
+Re-Index: If you insert a step in the middle, ensure the step_id numbering remains sequential and logical.
+
+Dependency Check: If you add a new step, does it need to happen before an existing future step? Adjust the order accordingly.
+"""

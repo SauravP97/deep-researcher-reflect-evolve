@@ -26,3 +26,10 @@ class SearchAnswer(BaseModel):
     """Schema for search answer output."""
 
     answer: str
+
+
+class ResearchPlanReflection(BaseModel):
+    """Schema for research plan reflection output."""
+
+    should_update: bool
+    updates: str
