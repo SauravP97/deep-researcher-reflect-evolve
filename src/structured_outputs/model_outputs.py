@@ -1,4 +1,5 @@
 from pydantic import BaseModel
+from typing_extensions import TypedDict
 
 
 class ResearchPlan(BaseModel):
@@ -11,3 +12,17 @@ class SearchQuery(BaseModel):
     """Schema for search query output."""
 
     query: str
+
+
+class WebSearchResult(TypedDict):
+    """Schema for web search result output."""
+
+    cited_url: str
+    content: str
+    score: float
+
+
+class SearchAnswer(BaseModel):
+    """Schema for search answer output."""
+
+    answer: str

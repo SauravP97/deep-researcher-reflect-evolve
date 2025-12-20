@@ -12,6 +12,4 @@ def plan_for_research_topic(research_topic) -> ResearchPlan:
         RESEARCH_PLANNING_TEMPLATE.format(research_topic=research_topic), ResearchPlan
     )
 
-    print("Generated Research Plan:")
-    print("\n".join([f"Step: {step}" for step in response["steps"]]))
     return response
