@@ -16,6 +16,7 @@ from core.report_writer import write_detailed_report
 
 
 MAX_CYCLES = 30
+PERCENTAGE_THRESHOLD = 90.0
 AGENT_CONTEXT_PATH = "agent_context/context.txt"
 REPORT_PATH = "generated_report/report.md"
 
@@ -61,7 +62,7 @@ def execute_deep_research_module(research_topic: str):
             )
             print(f"Interim Research Progress after {steps} steps: {progress}%\n\n")
 
-        if progress > 90.0:
+        if progress > PERCENTAGE_THRESHOLD:
             print("Research progress satisfactory, ending research loop.\n\n")
             break
 
