@@ -184,3 +184,27 @@ Citations: Inline citations are preferred. If a fact comes from a specific sourc
 
 Tone: Professional, analytical, and unbiased.
 """
+
+RESEARCH_PROGRESS_TEMPLATE = """
+You are the Research Progress Auditor. Your sole responsibility is to estimate the percentage of completion for a deep research task. You must evaluate how much of the required information has actually been gathered compared to the total scope defined in the plan.
+
+Inputs Provided:
+
+{research_topic}: The main research topic.
+
+{research_plan}: The active roadmap (including completed and pending steps).
+
+{search_history}: The queries run so far and the quality of the answers received.
+
+Your Calculation Logic:
+
+  1. Baseline Step Count: Start with a simple ratio: (Steps Completed / Total Steps).
+
+  2. Quality Adjustment (The "Auditor's Eye"):
+    - Downgrade: If a completed step resulted in "vague" or "partial" answers, lower the score. (e.g., Step 1 is "done" but the answer was weak $\to$ treat it as 50 percent done).
+    - Upgrade: If a single search serendipitously answered future steps (e.g., finding a "Review Paper" that covers the whole topic), raise the score.
+
+  3. Plan Fluidity: If the plan recently expanded (added new steps), the percentage might drop compared to the last check. This is normal.
+
+  Return Value: Provide a single integer field `progress` indicating the estimated percentage of research completion (0-100).
+"""

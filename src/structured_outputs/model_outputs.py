@@ -34,3 +34,9 @@ class ResearchPlanReflection(BaseModel):
 
     should_update: bool
     updates: str
+
+
+class ResearchProgress(BaseModel):
+    """Schema for research progress output."""
+
+    progress: int

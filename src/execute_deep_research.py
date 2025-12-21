@@ -3,6 +3,7 @@ from core.planning_agent import (
     plan_for_research_topic,
     reflect_on_research_plan,
     maybe_update_research_plan,
+    analyze_research_progress,
 )
 from core.search_agent import generate_search_query, answer_search_query
 from structured_outputs.model_outputs import ResearchPlan, ResearchPlanReflection
@@ -14,7 +15,7 @@ from agent_context.context_utils import (
 from core.report_writer import write_detailed_report
 
 
-MAX_CYCLES = 5
+MAX_CYCLES = 30
 AGENT_CONTEXT_PATH = "agent_context/context.txt"
 REPORT_PATH = "generated_report/report.md"
 
@@ -52,6 +53,22 @@ def execute_deep_research_module(research_topic: str):
             research_topic, research_plan, research_plan_reflection
         )
         steps += 1
+
+        progress = 0.0
+        if steps % 10 == 0:
+            progress = analyze_research_progress(
+                research_topic, research_plan, get_full_context(AGENT_CONTEXT_PATH)
+            )
+            print(f"Interim Research Progress after {steps} steps: {progress}%\n\n")
+
+        if progress > 90.0:
+            print("Research progress satisfactory, ending research loop.\n\n")
+            break
+
+    progress = analyze_research_progress(
+        research_topic, research_plan, get_full_context(AGENT_CONTEXT_PATH)
+    )
+    print(f"Final Research Progress: {progress}%\n\n")
 
     return write_deep_research_report(research_topic, research_plan, citations)
 
