@@ -54,5 +54,6 @@ def maybe_update_research_plan(
             ResearchPlan,
         )
         return updated_research_plan
-
-    return research_plan
+    else:
+        print("No updates to research plan needed.")
+        return research_plan

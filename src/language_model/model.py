@@ -6,7 +6,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 class Model:
     def __init__(
         self,
-        model_name="gemini-3-pro-preview",
+        model_name="gemini-2.5-pro",
         temperature=1.0,
         max_tokens=None,
         timeout=None,
@@ -33,7 +33,7 @@ class Model:
         """Simulate a model call with a given prompt."""
         model = self._initialize_language_model()
         response = model.invoke(prompt)
-        print(response)
+        return response
 
     def call_model_with_structured_output(self, prompt, response_schema):
         """Simulate a model call with structured output."""

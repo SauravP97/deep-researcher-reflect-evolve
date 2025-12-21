@@ -26,6 +26,7 @@ class SearchAnswer(BaseModel):
     """Schema for search answer output."""
 
     answer: str
+    citations: list[str]
 
 
 class ResearchPlanReflection(BaseModel):

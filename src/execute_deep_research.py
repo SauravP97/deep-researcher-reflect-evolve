@@ -1,19 +1,82 @@
 from dotenv import load_dotenv
-from core.planning_agent import plan_for_research_topic
+from core.planning_agent import (
+    plan_for_research_topic,
+    reflect_on_research_plan,
+    maybe_update_research_plan,
+)
 from core.search_agent import generate_search_query, answer_search_query
-from structured_outputs.model_outputs import ResearchPlan
+from structured_outputs.model_outputs import ResearchPlan, ResearchPlanReflection
+from agent_context.context_utils import (
+    add_past_chat_to_context,
+    get_full_context,
+    clear_context,
+)
+from core.report_writer import write_detailed_report
 
-print("Executing Deep Research Module...")
+
+MAX_CYCLES = 5
+AGENT_CONTEXT_PATH = "agent_context/context.txt"
+REPORT_PATH = "generated_report/report.md"
+
+
+def execute_deep_research_module(research_topic: str):
+    """Executes the Deep Research Module for a given research topic."""
+    print("Executing Deep Research Module...")
+    research_plan = plan_for_research_topic(research_topic)
+    print("Generated Research Plan:")
+    print("\n".join([f"Step: {step}" for step in research_plan["steps"]]))
+    print("\n\n")
+    clear_context(AGENT_CONTEXT_PATH)
+
+    citations = []
+    steps = 0
+    while steps < MAX_CYCLES:
+        print(f"--- Research Loop: {steps} --- \n")
+        search_query = generate_search_query(
+            research_topic, research_plan, get_full_context(AGENT_CONTEXT_PATH)
+        )
+        print("Generated Search Query: ", search_query["query"])
+        print("\n\n")
+
+        search_answer = answer_search_query(research_topic, search_query["query"])
+        citations.extend(search_answer["citations"])
+        print("Generated Search Answer: ", search_answer["answer"])
+        print("\n\n")
+
+        add_past_chat_to_context(search_query, search_answer, AGENT_CONTEXT_PATH)
+
+        research_plan_reflection: ResearchPlanReflection = reflect_on_research_plan(
+            research_topic, research_plan, get_full_context(AGENT_CONTEXT_PATH)
+        )
+        research_plan = maybe_update_research_plan(
+            research_topic, research_plan, research_plan_reflection
+        )
+        steps += 1
+
+    return write_deep_research_report(research_topic, research_plan, citations)
+
+
+def write_deep_research_report(
+    research_topic: str, research_plan: ResearchPlan, citations: list[str]
+) -> str:
+    """Writes a detailed research report based on the completed research."""
+    print("Writing Detailed Research Report...")
+    aggregated_research_logs = get_full_context(AGENT_CONTEXT_PATH)
+    report = write_detailed_report(
+        research_topic, "\n".join(research_plan["steps"]), aggregated_research_logs
+    )
+
+    with open(REPORT_PATH, "w") as file:
+        file.write(f"# {research_topic}\n\n")
+        file.write(report)
+        file.write("\n\n")
+        file.write("## Citations \n")
+        file.write("\n".join([f"- {citation}" for citation in citations]))
+
+    return report
+
+
 load_dotenv()
-research_topic = "AI in Healthcare"
-research_plan = plan_for_research_topic(research_topic)
-print("Generated Research Plan:")
-print("\n".join([f"Step: {step}" for step in research_plan["steps"]]))
-print("\n\n")
-
-search_query = generate_search_query(research_topic, research_plan)
-print("Generated Search Query: ", search_query["query"])
-print("\n\n")
-
-search_answer = answer_search_query(research_topic, search_query["query"])
-print("Generated Search Answer: ", search_answer["answer"])
+execute_deep_research_module(
+    "What are the investment philosophies of Duan Yongping, Warren Buffett, and Charlie Munger?"
+)
