@@ -208,3 +208,27 @@ Your Calculation Logic:
 
   Return Value: Provide a single integer field `progress` indicating the estimated percentage of research completion (0-100).
 """
+
+SEARCH_ANSWER_CANDIDATES_CROSS_OVER_TEMPLATE = """
+Your task is to research a topic and try to fulfill the user query in the <user> tags.
+
+<instructions>
+You are given a list of candidate answers in <answer_list> tags below. Combine them into a single answer so that,
++ it best fulfills the initial user query in the <user> tags.
++ If there are conflicting information, try to reconcile them in a logically sound way.
+</instructions>
+
+Here is the user query.
+
+<user>
+{query}
+</user>
+
+Here is the list of candidate answers you need to merge.
+
+<answer_list>
+{answer_list}
+</answer_list>
+
+Only output a combined answer from the answers in <answer_list>. Do NOT use other information.
+"""

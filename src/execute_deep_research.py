@@ -21,7 +21,9 @@ AGENT_CONTEXT_PATH = "agent_context/context.txt"
 REPORT_PATH = "generated_report/report.md"
 
 
-def execute_deep_research_module(research_topic: str):
+def execute_deep_research_module(
+    research_topic: str, enable_self_evolution: bool = False
+):
     """Executes the Deep Research Module for a given research topic."""
     print("Executing Deep Research Module...")
     research_plan = plan_for_research_topic(research_topic)
@@ -40,7 +42,9 @@ def execute_deep_research_module(research_topic: str):
         print("Generated Search Query: ", search_query["query"])
         print("\n\n")
 
-        search_answer = answer_search_query(research_topic, search_query["query"])
+        search_answer = answer_search_query(
+            research_topic, search_query["query"], enable_self_evolution
+        )
         citations.extend(search_answer["citations"])
         print("Generated Search Answer: ", search_answer["answer"])
         print("\n\n")
@@ -96,5 +100,6 @@ def write_deep_research_report(
 
 load_dotenv()
 execute_deep_research_module(
-    "What are the investment philosophies of Duan Yongping, Warren Buffett, and Charlie Munger?"
+    "What are the investment philosophies of Duan Yongping, Warren Buffett, and Charlie Munger?",
+    enable_self_evolution=True,
 )

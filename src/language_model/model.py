@@ -11,12 +11,14 @@ class Model:
         max_tokens=None,
         timeout=None,
         max_retries=1,
+        top_k=None,
     ):
         self.model_name = model_name
         self.temperature = temperature
         self.max_tokens = max_tokens
         self.timeout = timeout
         self.max_retries = max_retries
+        self.top_k = top_k
 
     def _initialize_language_model(self):
         """Initialize and return a language model instance."""
@@ -26,6 +28,7 @@ class Model:
             max_tokens=self.max_tokens,
             timeout=self.timeout,
             max_retries=self.max_retries,
+            top_k=self.top_k,
             # other params...
         )
 
