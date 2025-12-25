@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 51, "topic": "Finance & Business", "language": "en", "prompt": "From 2020 to 2050, how many elderly people will there be in Japan? What is their consumption potential across various aspects such as clothing, food, housing, and transportation? Based on population projections, elderly consumer willingness, and potential changes in their consumption habits, please produce a market size analysis report for the elderly demographic."}
+research_task = {"id": 52, "topic": "Finance & Business", "language": "en", "prompt": "What are the investment philosophies of Duan Yongping, Warren Buffett, and Charlie Munger? "}
 
 research_topic = research_task["prompt"]
 execute_deep_research_module(
