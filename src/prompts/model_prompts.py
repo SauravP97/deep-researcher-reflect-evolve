@@ -56,9 +56,7 @@ Query Formulation:
 
   2. Do not repeat queries found in the search_history.
 
-  3. Optimize: Use advanced operators where logic dictates (e.g., site:reddit.com for opinions, filetype:pdf for papers, after:2024 for recency).
-
-  4. Diversity: Don't ask the same question three ways. Ask for a definition, a statistic, and a counter-argument.
+  3. Diversity: Don't ask the same question three ways. Ask for a definition, a statistic, and a counter-argument.
 """
 
 SEARCH_ANSWER_GENERATION_TEMPLATE = """

@@ -60,7 +60,7 @@ def execute_deep_research_module(
         steps += 1
 
         progress = 0.0
-        if steps % 10 == 0:
+        if steps % 5 == 0:
             progress = analyze_research_progress(
                 research_topic, research_plan, get_full_context(AGENT_CONTEXT_PATH)
             )
@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 72, "prompt": "Please write a literature review on the restructuring impact of Artificial Intelligence (AI) on the labor market. Focus on how AI, as a key driver of the Fourth Industrial Revolution, is causing significant disruptions and affecting various industries. Ensure the review only cites high-quality, English-language journal articles."}
+research_task = {"id": 73, "prompt": "As a senior elementary school English teacher, I need assistance writing a detailed research paper on a 'New Paradigm of Holistic Empowerment in Elementary English Education and Teaching.' Please provide comprehensive content, suggest relevant keywords, and ensure the paper reflects practical, frontline teaching experience, structured to be helpful for novice teachers."}
 
 research_topic = research_task["prompt"]
 execute_deep_research_module(

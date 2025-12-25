@@ -7,10 +7,9 @@ try:
 except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
-
 report_object = {
-    "id": 72,
-    "prompt": "Please write a literature review on the restructuring impact of Artificial Intelligence (AI) on the labor market. Focus on how AI, as a key driver of the Fourth Industrial Revolution, is causing significant disruptions and affecting various industries. Ensure the review only cites high-quality, English-language journal articles.",
+    "id": 73, 
+    "prompt": "As a senior elementary school English teacher, I need assistance writing a detailed research paper on a 'New Paradigm of Holistic Empowerment in Elementary English Education and Teaching.' Please provide comprehensive content, suggest relevant keywords, and ensure the paper reflects practical, frontline teaching experience, structured to be helpful for novice teachers.",
     "article": report_content,
 }
 
