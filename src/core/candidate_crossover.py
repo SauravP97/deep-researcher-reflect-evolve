@@ -1,4 +1,4 @@
-"""Self Evolution Algorithm"""
+"""Candidate Cross-Over Strategy for Answering Search Queries"""
 
 from structured_outputs.model_outputs import (
     WebSearchResult,
@@ -27,11 +27,11 @@ CANDIDATES_CONFIGURATION = [
 ]
 
 
-def answer_search_query_with_self_evolution(
+def answer_search_query_with_candidate_crossover(
     research_topic: str, search_query: str, web_search_response: list[WebSearchResult]
 ) -> SearchAnswer:
-    """Answer the search query using self-evolution strategy"""
-    print("Answering search query with self-evolution strategy...")
+    """Answer the search query using candidate cross-over strategy"""
+    print("Answering search query with candidate cross-over strategy...")
     candidate_answers: list[str] = []
     for config in CANDIDATES_CONFIGURATION:
         model = Model(temperature=config["temperature"], top_k=config["top_k"])

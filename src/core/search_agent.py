@@ -10,7 +10,7 @@ from prompts.model_prompts import (
     SEARCH_QUERY_GENERATION_TEMPLATE,
     SEARCH_ANSWER_GENERATION_TEMPLATE,
 )
-from core.self_evolution import answer_search_query_with_self_evolution
+from core.candidate_crossover import answer_search_query_with_candidate_crossover
 from language_model.model import Model
 from core.web_search import web_search
 
@@ -33,7 +33,7 @@ def generate_search_query(
 
 
 def answer_search_query(
-    research_topic: str, query: str, enable_self_evolution: bool
+    research_topic: str, query: str, enable_candidate_crossover: bool
 ) -> SearchAnswer:
     """Answer the search query using web search results"""
     model = Model()
@@ -41,8 +41,8 @@ def answer_search_query(
     citations = [
         web_search_result["cited_url"] for web_search_result in web_search_response
     ]
-    if enable_self_evolution:
-        response = answer_search_query_with_self_evolution(
+    if enable_candidate_crossover:
+        response = answer_search_query_with_candidate_crossover(
             research_topic, query, web_search_response
         )
     else:

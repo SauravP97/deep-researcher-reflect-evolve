@@ -24,17 +24,21 @@ def _parse_web_search_results(web_search_result) -> list[WebSearchResult]:
     if not web_search_result or "results" not in web_search_result:
         return search_results
 
-    for result in web_search_result["results"]:
-        print(f"Web Search Result: {result} \n")
-        cited_url = result["url"]
-        search_content = result["content"]
-        search_score = result["score"]
+    try:
+        for result in web_search_result["results"]:
+            print(f"Web Search Result: {result} \n")
+            cited_url = result["url"]
+            search_content = result["content"]
+            search_score = result["score"]
 
-        if search_score >= WEB_SEARCH_RELEVANCE_SCORE_THRESHOLD:
-            search_results.append(
-                WebSearchResult(
-                    cited_url=cited_url, content=search_content, score=search_score
+            if search_score >= WEB_SEARCH_RELEVANCE_SCORE_THRESHOLD:
+                search_results.append(
+                    WebSearchResult(
+                        cited_url=cited_url, content=search_content, score=search_score
+                    )
                 )
-            )
+    except Exception as e:
+        print(f"Error parsing web search results: {e}")
+        return []
 
     return search_results

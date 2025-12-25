@@ -9,8 +9,8 @@ except FileNotFoundError:
 
 
 report_object = {
-    "id": 52,
-    "prompt": "What are the investment philosophies of Duan Yongping, Warren Buffett, and Charlie Munger?",
+    "id": 72,
+    "prompt": "Please write a literature review on the restructuring impact of Artificial Intelligence (AI) on the labor market. Focus on how AI, as a key driver of the Fourth Industrial Revolution, is causing significant disruptions and affecting various industries. Ensure the review only cites high-quality, English-language journal articles.",
     "article": report_content,
 }
 

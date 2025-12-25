@@ -22,7 +22,7 @@ REPORT_PATH = "generated_report/report.md"
 
 
 def execute_deep_research_module(
-    research_topic: str, enable_self_evolution: bool = False
+    research_topic: str, enable_candidate_crossover: bool = False
 ):
     """Executes the Deep Research Module for a given research topic."""
     print("Executing Deep Research Module...")
@@ -43,7 +43,7 @@ def execute_deep_research_module(
         print("\n\n")
 
         search_answer = answer_search_query(
-            research_topic, search_query["query"], enable_self_evolution
+            research_topic, search_query["query"], enable_candidate_crossover
         )
         citations.extend(search_answer["citations"])
         print("Generated Search Answer: ", search_answer["answer"])
@@ -99,7 +99,11 @@ def write_deep_research_report(
 
 
 load_dotenv()
+
+research_task = {"id": 72, "prompt": "Please write a literature review on the restructuring impact of Artificial Intelligence (AI) on the labor market. Focus on how AI, as a key driver of the Fourth Industrial Revolution, is causing significant disruptions and affecting various industries. Ensure the review only cites high-quality, English-language journal articles."}
+
+research_topic = research_task["prompt"]
 execute_deep_research_module(
-    "What are the investment philosophies of Duan Yongping, Warren Buffett, and Charlie Munger?",
-    enable_self_evolution=True,
+    research_topic,
+    enable_candidate_crossover=True,
 )
