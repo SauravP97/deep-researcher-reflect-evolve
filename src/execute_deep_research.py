@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 73, "prompt": "As a senior elementary school English teacher, I need assistance writing a detailed research paper on a 'New Paradigm of Holistic Empowerment in Elementary English Education and Teaching.' Please provide comprehensive content, suggest relevant keywords, and ensure the paper reflects practical, frontline teaching experience, structured to be helpful for novice teachers."}
+research_task = {"id": 51, "topic": "Finance & Business", "language": "en", "prompt": "From 2020 to 2050, how many elderly people will there be in Japan? What is their consumption potential across various aspects such as clothing, food, housing, and transportation? Based on population projections, elderly consumer willingness, and potential changes in their consumption habits, please produce a market size analysis report for the elderly demographic."}
 
 research_topic = research_task["prompt"]
 execute_deep_research_module(

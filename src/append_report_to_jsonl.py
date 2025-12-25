@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 73, 
-    "prompt": "As a senior elementary school English teacher, I need assistance writing a detailed research paper on a 'New Paradigm of Holistic Empowerment in Elementary English Education and Teaching.' Please provide comprehensive content, suggest relevant keywords, and ensure the paper reflects practical, frontline teaching experience, structured to be helpful for novice teachers.",
+    "id": 51,
+    "prompt": "From 2020 to 2050, how many elderly people will there be in Japan? What is their consumption potential across various aspects such as clothing, food, housing, and transportation? Based on population projections, elderly consumer willingness, and potential changes in their consumption habits, please produce a market size analysis report for the elderly demographic.",
     "article": report_content,
 }
 
