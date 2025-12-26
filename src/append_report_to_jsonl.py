@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 52,
-    "prompt": "What are the investment philosophies of Duan Yongping, Warren Buffett, and Charlie Munger? ",
+    "id": 53,
+    "prompt": "Researching how the world's wealthiest governments invest.",
     "article": report_content,
 }
 

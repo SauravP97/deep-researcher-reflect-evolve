@@ -100,7 +100,16 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 52, "topic": "Finance & Business", "language": "en", "prompt": "What are the investment philosophies of Duan Yongping, Warren Buffett, and Charlie Munger? "}
+research_task = {
+    "id": 53,
+    "prompt": "Researching how the world's wealthiest governments invest.",
+    "comprehensiveness": 0.34519572953736655,
+    "insight": 0.28515625,
+    "instruction_following": 0.40298507462686567,
+    "readability": 0.3345070422535212,
+    "overall_score": 0.3325232308791994,
+}
+
 
 research_topic = research_task["prompt"]
 execute_deep_research_module(

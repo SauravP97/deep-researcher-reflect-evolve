@@ -4,6 +4,7 @@ from structured_outputs.model_outputs import (
     WebSearchResult,
     SearchAnswer,
 )
+from concurrent.futures import ThreadPoolExecutor
 from language_model.model import Model
 from prompts.model_prompts import (
     SEARCH_ANSWER_GENERATION_TEMPLATE,
@@ -33,20 +34,30 @@ def answer_search_query_with_candidate_crossover(
     """Answer the search query using candidate cross-over strategy"""
     print("Answering search query with candidate cross-over strategy...")
     candidate_answers: list[str] = []
-    for config in CANDIDATES_CONFIGURATION:
-        model = Model(temperature=config["temperature"], top_k=config["top_k"])
-        response = model.call_model_with_structured_output(
-            SEARCH_ANSWER_GENERATION_TEMPLATE.format(
-                research_topic=research_topic,
-                current_query=search_query,
-                search_results="\n".join(
-                    f"{web_search_result['content']} ({web_search_result['cited_url']})"
-                    for web_search_result in web_search_response
-                ),
-            ),
-            SearchAnswer,
-        )
-        candidate_answers.append(response["answer"])
+    futureResponses = []
+
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        for index, config in enumerate(CANDIDATES_CONFIGURATION):
+            model = Model(temperature=config["temperature"], top_k=config["top_k"])
+            futureResponses.append(
+                executor.submit(
+                    model.call_model_with_structured_output,
+                    SEARCH_ANSWER_GENERATION_TEMPLATE.format(
+                        research_topic=research_topic,
+                        current_query=search_query,
+                        search_results="\n".join(
+                            f"{web_search_result['content']} ({web_search_result['cited_url']})"
+                            for web_search_result in web_search_response
+                        ),
+                    ),
+                    SearchAnswer,
+                )
+            )
+
+        for futureResponse in futureResponses:
+            response = futureResponse.result()
+            candidate_answers.append(response["answer"])
+
     answer_after_crossover: str = candidates_cross_over(
         research_topic, candidate_answers
     )

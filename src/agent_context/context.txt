@@ -1,294 +1,278 @@
-Search Query: Warren Buffett Berkshire Hathaway shareholder letters archive
-Search Answer: Several online archives make Warren Buffett's Berkshire Hathaway shareholder letters available. An archive covering the years 1965 to 2012 is available, though some letters contain copyrighted material for sale. Another collection from Battle Investment Group provides letters from 1977 to 2017.
+Search Query: criteria for classifying "wealthy governments" by investment capacity (Sovereign Wealth Fund AUM vs foreign exchange reserves vs GDP)
+Search Answer: One way to classify wealthy governments by their investment capacity is by the total Assets under Management (AuM) in their sovereign wealth funds (SWFs). According to a 2025 ranking, the United States has the highest total AuM at $10,864, followed by China with $3,492, and then Norway. Other countries have significant funds, though with smaller AuMs; for example, Qatar has a total AuM of $465 [5].
 
-Additionally, a digital archive at berkshire.memorex.ai includes both the shareholder letters and transcripts from annual meetings. An unofficial mirror of the letters is also hosted on the Internet Archive at archive.org, and a Reddit thread links to the annual letters as well.
+Search Query: comparison of roles and objectives: Sovereign Wealth Funds, Public Pension Funds, SOEs, Central Bank reserve management
+Search Answer: The world's wealthiest governments invest through various vehicles, primarily Sovereign Wealth Funds (SWFs) [https://www.thecityuk.com/media/2lkb5g5y/sovereign-wealth-funds-global-trends-and-the-uk-s-role-in-the-evolving-landscape-for-sovereign-investment-vehicles.pdf]. SWFs are distinct from other government investment vehicles in their ownership structure, investment strategies, and objectives. A primary type of SWF is a stabilization fund [https://www.thecityuk.com/media/2lkb5g5y/sovereign-wealth-funds-global-trends-and-the-uk-s-role-in-the-evolving-landscape-for-sovereign-investment-vehicles.pdf].
 
-Search Query: archive of Charlie Munger speeches and writings
-Search Answer: Several archives and compilations of Charlie Munger's speeches and writings are available online. One comprehensive resource is a 1,000-page PDF that collects Munger's annual letters from Wesco, Blue Chip Stamps, and the Daily Journal, along with various op-eds and speech transcripts. Another notable collection is "The Best Of Charlie Munger: 1994-2011," a 349-page document containing speeches, essays, and notes from Wesco annual meetings.
+As of 2024, SWFs and Public Pension Funds (PPFs) collectively managed an estimated $36 trillion in assets, with a 6% compound annual growth rate [https://web-assets.bcg.com/ff/f1/546dac984f18a0718586db716d9d/gpi-report-dec-2024-edit.pdf].
 
-More specific archives include:
-*   **Wesco Financial Corporation:** Annual shareholder letters and meeting notes from 1983-2010, with a specific transcript available for the 2010 meeting.
-*   **Daily Journal Corp:** Transcripts from the Annual Meetings for the years 2013 through 2023.
+Separately, the management of central bank reserves is also linked to sovereign wealth management, though its main objective is stability [https://thebloodybuddy.com/_pdfs/virtual-library/kIPeuU/Central%20Bank%20Reserves%20And%20Sovereign%20Wealth%20Management.pdf]. The investment strategies of central bank reserve managers have been tracked since at least 2014 by organizations such as OMFIF's Global Public Investor [https://www.omfif.org/global-public-investor-2025/].
 
-Several of Munger's notable speeches have also been archived, including his 2007 commencement address at USC Law School, a 1986 speech to the Harvard School, and a speech on the "24 Standard Causes of Human Misjudgment."
+The provided information does not contain a comparison for another type of government investment vehicle, State-Owned Enterprises (SOEs).
 
-Search Query: Duan Yongping translated interviews and blog posts on investing
-Search Answer: Based on the provided information, here is the investment philosophy of Duan Yongping:
+Search Query: investment strategies and objectives of state-owned enterprises (SOEs) in foreign markets
+Search Answer: Governments, through state-owned enterprises (SOEs) and Sovereign Wealth Funds (SWFs), invest internationally to support national interests [https://globaledge.msu.edu/global-resources/resource/10027, https://www.sciencedirect.com/science/article/pii/S0954349X22001515?dgcid=rss_sd_all&]. These entities employ different investment strategies in foreign markets. Some take an activist role in managing their portfolios, while others adopt a more passive approach, using investments to build diplomatic relationships and secure goodwill for other national projects [https://globaledge.msu.edu/global-resources/resource/10027].
 
-Duan Yongping, a value investor often referred to as “Asia's Buffett,” bases his investment philosophy on rationality, integrity, and a deep understanding of business fundamentals. His approach emphasizes the importance of understanding a company's business model and its future cash flow. A key tenet of his philosophy is to not invest in anything you do not understand [https://www.futunn.com/en/learn/detail-duan-yongping-dont-do-what-you-dont-understand-when-investing-1259-2109010075, https://phemex.com/news/article/duan-yongping-shares-50-insights-on-investment-and-education-35210, https://www.moomoo.com/community/feed/duan-yongping-s-latest-interview-investment-principles-life-philosophy-why-115620049649670].
+The objectives of these investments often align with the home country's policies. A primary goal can be to secure access to natural resources for other domestic firms [https://globaledge.msu.edu/global-resources/resource/10027]. Additionally, SOE investment strategies are frequently linked to reform efforts aimed at improving their performance and impact. A World Bank Group review of SOE reform projects between 2008 and 2018 identified several common objectives [https://ieg.worldbankgroup.org/evaluations/state-your-business/chapter-1-state-owned-enterprise-challenges-and-world-bank-group]:
+*   Improving competition, productivity, and innovation (24% of projects)
+*   Enhancing operational or financial performance (22%)
+*   Boosting sectoral efficiency (22%)
+*   Strengthening public finances (13%)
+*   Improving service quality or delivery (13%)
 
-His philosophy is guided by three core concepts [https://tianpan.co/blog/2025-02-15-duan-yongping-three-core-business-ideas]:
-*   **"Do the right things, and do things right."** This principle guides him to invest in companies that possess both excellent business models and a strong culture of integrity.
-*   **"No great ambition."** This concept serves as a caution against pursuing quick success through overly aggressive or risky strategies. Instead, he prioritizes long-term stability.
-*   **"Be a person of integrity."** This reflects his focus on trust and ethical business practices.
+These reforms can be "upstream," focusing on governance and regulatory frameworks, or "downstream," targeting the enterprise's specific business operations and financial management [https://ieg.worldbankgroup.org/evaluations/state-your-business/chapter-1-state-owned-enterprise-challenges-and-world-bank-group].
 
-This approach is exemplified by his preference for long-term holdings. For instance, Yongping has stated that in the A-share market, he only holds Moutai [https://longbridge.com/en/news/266048945].
+SOEs' investment capabilities are often enhanced by preferential access to credit and the ability to issue public equity and debt [https://www.state.gov/report/custom/bf839f4338].
 
-Search Query: Warren Buffett biography early life education and investment partnership history
-Search Answer: Warren Edward Buffett was born on August 30, 1930, in Omaha, Nebraska, to Leila and Howard Buffett [https://study.com/academy/lesson/warren-buffet-biography-education-quotes.html, https://www.lifestories.org/interviewees/warren-buffett, https://www.britannica.com/money/Warren-Edward-Buffett]. At age fourteen, using $1,200 of his savings, he invested in his father's business and purchased a 40-acre farm [https://www.vedantu.com/biography/warren-buffett]. He married his first wife, Susan Thompson, in 1952 [https://www.lifestories.org/interviewees/warren-buffett].
+Search Query: mandate and investment objectives of Public Pension Funds (PPFs) versus Sovereign Wealth Funds (SWFs)
+Search Answer: The world's wealthiest governments invest primarily through two types of state-owned vehicles: Sovereign Wealth Funds (SWFs) and Public Pension Funds (PPFs).
 
-In 1956, Buffett established the firm Buffett Partnership Ltd. in Omaha [https://www.lifestories.org/interviewees/warren-buffett, https://www.britannica.com/money/Warren-Edward-Buffett]. By 1957, he was managing five additional partnerships from his home and had doubled his partners' money within three years [https://www.valuespreadsheet.com/blog/warren-buffett-history]. In 1965, he took majority control of the textile manufacturer Berkshire Hathaway Inc., which he transformed into his primary investment vehicle [https://www.britannica.com/money/Warren-Edward-Buffett, https://www.lifestories.org/interviewees/warren-buffett].
+A Sovereign Wealth Fund (SWF) is a state-owned investment fund that manages national wealth derived from sources like commodity revenues, fiscal surpluses, or foreign-exchange reserves. The mandates and investment objectives of SWFs vary significantly by region and can include macroeconomic stabilization, savings, development, or funding pensions. These differing goals lead to notable differences in strategic asset allocation.
 
-Search Query: Charlie Munger biography early life education and pre-Berkshire career
-Search Answer: Charles "Charlie" T. Munger was born in Omaha, Nebraska, on January 1, 1924. During his youth, he worked at Buffett & Son, an upscale grocery store owned by Warren Buffett's family.
+Regional examples of SWF objectives include:
+*   **Latin America and Africa:** A focus on stabilization and development.
+*   **North America:** An emphasis on savings for public services.
+*   **Europe and Oceania:** Often serve as high-governance savings funds.
+*   **Middle East:** A blend of savings with industrial policy.
 
-Munger initially had an interest in meteorology before pursuing a law degree at Harvard University. After his education, he began his career as a real estate attorney and later transitioned into real estate investment and development.
+For instance, development-focused funds may invest directly in infrastructure and private equity, while savings funds might have higher allocations to traditional equities and fixed income.
 
-Before his time at Berkshire Hathaway, Munger ran his own investment partnership, Wheeler, Munger, from 1962 to 1975. The partnership's investments generated an annual return of over 20%, which was four times the market average at the time. During this period, he and Warren Buffett maintained frequent contact, sharing investment ideas through letters and phone calls before they began their formal partnership.
+Public Pension Funds (PPFs), which managed approximately $7 trillion at the end of 2023, have the primary objective of generating returns to provide for public pensions. Their investment strategies have shown a growing tolerance for risk, leading to increased allocations in assets such as public equities, high-yield bonds, and emerging market debt.
 
-Search Query: Duan Yongping biography early life and career with Bubugao BBK Electronics
-Search Answer: Duan Yongping is a Chinese-American billionaire entrepreneur, investor, and electrical engineer born in Nanchang, Jiangxi, China, on March 10, 1961. In 1978, he enrolled at Zhejiang University, where he studied wireless electronics engineering.
+A growing trend for both SWFs and PPFs is the adoption of "double-bottom-line" mandates. This approach involves pursuing investments that generate positive social or environmental impacts alongside financial returns.
 
-His early career included a position as director of the Subor Electronics Industry Corporation. He resigned from Subor on August 28, 1995, and at the age of 34, founded BBK Electronics Group (also known as Bubu Gaoqianli Electronics) in Dongguan, Guangdong Province.
+Search Query: list of top countries by foreign exchange reserves and nominal GDP 2024
+Search Answer: Based on 2025 estimates, the countries with the largest foreign exchange reserves are identified as a key indicator of government wealth. Different sources provide slightly varied figures and rankings.
 
-Duan is the founder and chairman of BBK, the privately held parent company of smartphone brands Oppo, Vivo, OnePlus, and Realme. Due to his role in developing Oppo and Vivo into major global competitors and the overall success of these brands, Duan is widely considered the "godfather" of China's smartphone industry.
+The top countries by foreign exchange reserves include:
+*   **China**: Consistently ranked first, with reserves estimated between $3.16 trillion and $3.346 trillion.
+*   **Japan**: Ranked second, with reserves estimated from $1.28 trillion to $1.359 trillion.
+*   **Russia**: Estimates for its reserves range from $650 billion to $734.588 billion.
+*   **India**: One estimate places its reserves at $780 billion.
+*   **South Korea**: Approximately $430.66 billion.
+*   **Poland**: Around $265 billion.
+*   **Saudi Arabia**: Mentioned as being in the top five by one source.
+*   **Indonesia**: One source lists its reserves at $150 billion.
 
-Search Query: Warren Buffett investment philosophy evolution from Ben Graham's "cigar-butt" investing to "wonderful companies at a fair price"
-Search Answer: Warren Buffett's investment philosophy evolved from an early "cigar-butt" approach, which he learned from his mentor Benjamin Graham, to his current strategy of buying "wonderful companies at a fair price" [https://medium.com/@amar.samant/from-graham-to-buffett-the-evolution-of-a-value-investor-70943ab3b3eb, https://blog.valuesense.io/buffett-philosophy/]. The cigar-butt strategy involves purchasing a struggling company at a price low enough to get one last profitable "puff" out of it, even if its long-term prospects are poor [https://acquirersmultiple.com/2024/08/warren-buffett-why-i-transitioned-from-cigar-butts-to-quality-companies/, https://fortune.com/2023/08/30/warren-buffett-birthday-greatest-investments-berkshire-hathaway-cigar-butt/]. Examples of this early strategy include his purchase of a Baltimore department store, Hochschild Kohn, and the struggling textile business that became Berkshire Hathaway [https://acquirersmultiple.com/2024/08/warren-buffett-why-i-transitioned-from-cigar-butts-to-quality-companies/, https://finance.yahoo.com/news/warren-buffett-just-turned-93-160145468.html].
+It is noted that the provided research did not contain a list of top countries by nominal GDP; it only offered rankings by GDP per capita, which is a different measurement. The data is cited as being from 2025 estimates, with some sources specifically referencing November 2025.
 
-Under the influence of his long-time partner, Charlie Munger, Buffett shifted his focus toward quality [https://finance.yahoo.com/news/warren-buffett-just-turned-93-160145468.html]. In his 1989 Berkshire Hathaway Annual Letter, Buffett explained this new philosophy, stating, "it’s far better to buy a wonderful business at a fair price than a mediocre one at a bargain" [https://acquirersmultiple.com/2024/08/warren-buffett-why-i-transitioned-from-cigar-butts-to-quality-companies/]. This updated approach prioritizes investing in "first-class businesses accompanied by first-class managements" for sustainable, long-term performance [https://acquirersmultiple.com/2024/08/warren-buffett-why-i-transitioned-from-cigar-butts-to-quality-companies/, https://blog.valuesense.io/buffett-philosophy/].
+Search Query: list of top countries by nominal GDP 2024 rankings
+Search Answer: Based on nominal Gross Domestic Product (GDP), the world's largest economies are led by the United States, China, Germany, and Japan. While Japan has often been cited as one of the top three, recent sources indicate that Germany has moved into the third position.
 
-Both Buffett and Munger later reflected on the limitations of the cigar-butt method. Buffett referred to the strategy as a "mistake," telling students in a 2001 lecture that "it’s so much easier just to buy wonderful businesses" [https://finance.yahoo.com/news/warren-buffett-just-turned-93-160145468.html]. Munger noted that the tactic was not scalable [https://finance.yahoo.com/news/warren-buffett-just-turned-93-160145468.html].
+Here is a consolidated ranking of the world's largest economies:
+*   **United States**: Ranked as the largest economy.
+*   **China**: The second-largest economy, with its nominal GDP cited as $14.14 trillion, and projections as high as $19.4 trillion.
+*   **Germany**: The third-largest economy, with a GDP between $4.59 trillion and a projected $5.01 trillion.
+*   **Japan**: The fourth-largest economy, with its GDP listed between $4.11 trillion and a projected $4.28 trillion.
+*   **India**: The fifth-largest economy, with a GDP of $3.94 trillion.
+*   **United Kingdom**: The sixth-largest economy, with a GDP of $2.83 trillion.
+*   **Italy**: The eighth-largest economy, with a nominal GDP of $1.99 trillion.
+*   **Brazil**: The ninth-largest economy, with a nominal GDP of $1.85 trillion.
+*   **Canada**: The tenth-largest economy, with a nominal GDP of $1.73 trillion.
 
-Search Query: Warren Buffett explanation of "circle of competence" "economic moats" and "margin of safety"
-Search Answer: Based on the information provided, here are the key concepts of Warren Buffett's investment philosophy:
+Search Query: world's largest sovereign wealth funds and public pension funds ranked by assets under management (AUM) 2024
+Search Answer: The world's wealthiest governments primarily invest through two main vehicles: sovereign wealth funds (SWFs) and public pension funds.
 
-*   **Circle of Competence**: This is a rule for evaluating potential investments, focusing on areas the investor understands well [https://www.facebook.com/Investopedia/posts/learn-how-warren-buffetts-circle-of-competence-rule-for-evaluating-investments-c/1201210042030802/, https://www.interactivebrokers.com/campus/trading-lessons/circle-of-competence/].
-*   **Economic Moats**: This term refers to a strong, sustainable competitive advantage a company has over its competitors [https://www.facebook.com/Investopedia/posts/learn-how-warren-buffetts-circle-of-competence-rule-for-evaluating-investments-c/1201210042030802/, https://www.interactivebrokers.com/campus/trading-lessons/circle-of-competence/].
-*   **Margin of Safety**: This principle involves purchasing stocks for less than their intrinsic value to provide a cushion against potential losses [https://www.facebook.com/Investopedia/posts/learn-how-warren-buffetts-circle-of-competence-rule-for-evaluating-investments-c/1201210042030802/, https://www.interactivebrokers.com/campus/trading-lessons/circle-of-competence/].
+### Sovereign Wealth Funds (SWFs)
+As of 2024, the largest SWFs, ranked by assets under management (AUM), include:
+*   **Government Pension Fund of Norway (NBIM):** Approximately $2.04 trillion
+*   **China Investment Corporation:** Around $1.33 trillion
+*   **SAFE Investment Company (China):** Approximately $1.09 trillion
+*   **Public Investment Fund (Saudi Arabia):** $925 billion
 
-Search Query: Warren Buffett criteria for evaluating management quality
-Search Answer: Based on the provided information, here are the details of Warren Buffett's investment philosophy, specifically concerning the evaluation of a company's management. The provided answers do not contain information on Duan Yongping or Charlie Munger.
+### Public Pension Funds
+In 2024, the 300 largest pension funds in the world collectively managed $24.4 trillion in assets. North American funds accounted for 47.2% of these assets, with those in the United States holding 41.4% of the total.
 
-Warren Buffett considers the quality of a company's management a crucial factor when evaluating an investment, viewing it as one of four main categories for analysis alongside business fundamentals, financial measures, and valuation [https://www.forbes.com/sites/robertdaugherty/2025/05/29/this-simple-one-page-method-made-warren-buffett-hundreds-of-billions/]. He uses two primary "yardsticks" to judge a management team: how they allocate capital over time and how they treat shareholders versus how they treat themselves [https://www.cnbc.com/2018/05/08/warren-buffett-heres-how-to-judge-management.html].
+The top 20 largest pension funds, which represent 42.4% of the total AUM, allocated their investments as follows:
+*   **Equities:** 53.2%
+*   **Fixed Income:** 28.8%
+*   **Alternatives and Cash:** 18%
 
-Key criteria Buffett uses to evaluate management quality include:
+Search Query: investment strategy and asset allocation for central bank foreign exchange reserves based on stability and liquidity mandates
+Search Answer: The investment strategies for the foreign exchange reserves of the world's governments are guided by mandates of stability and liquidity, and have evolved significantly over time [https://www.westernasset.com/us/en/pdfs/whitepapers/charting-the-next-chapter-in-em-central-bank-reserve-management.pdf, https://documents1.worldbank.org/curated/en/294551588015858209/pdf/Central-Bank-Reserve-Management-Practices-Insights-into-Public-Asset-Management-from-the-Second-Ramp-Survey.pdf]. A common practice is "tranching," where reserves are divided into different portfolios, such as an investment tranche, to manage varying objectives for risk and liquidity [https://documents1.worldbank.org/curated/en/294551588015858209/pdf/Central-Bank-Reserve-Management-Practices-Insights-into-Public-Asset-Management-from-the-Second-Ramp-Survey.pdf].
 
-*   **Capital Allocation**: Buffett assesses management by reviewing what they have accomplished with capital allocation compared to their competitors [https://www.cnbc.com/2018/05/08/warren-buffett-heres-how-to-judge-management.html, https://www.shortform.com/blog/how-to-evaluate-management/].
-*   **Alignment with Shareholder Interests**: He advises investors to see how management treats shareholders. Indicators of strong alignment include a compensation structure where managers receive a large portion of their pay in stock options or when they purchase shares themselves, giving them a vested interest in the company's long-term success [https://www.investopedia.com/articles/02/062602.asp, https://www.cnbc.com/2018/05/08/warren-buffett-heres-how-to-judge-management.html].
-*   **Personal Qualities**: A good manager should be honest, capable, and accountable, and possess an owner's mindset [https://www.linkedin.com/pulse/evaluating-management-quality-key-long-term-value-vinay-paharia-gvzhf].
-*   **Stability and Tenure**: Buffett prefers solid, stable management teams that remain with their companies for the long term. Important indicators include management tenure and consistency in their decision-making [https://www.investopedia.com/articles/02/062602.asp].
-*   **Transparency**: Financial transparency is another key quality Buffett seeks in a management team [https://www.shortform.com/blog/how-to-evaluate-management/].
+The historical asset allocation for these reserves has undergone several shifts:
+*   **1990s**: Portfolios were primarily focused on US Treasuries (USTs), deposits with foreign banks or the Bank for International Settlements (BIS), and some gold holdings [https://www.westernasset.com/us/en/pdfs/whitepapers/charting-the-next-chapter-in-em-central-bank-reserve-management.pdf].
+*   **2000s**: With the introduction of the euro, its share in reserves grew. Central banks also began to extend the duration of their portfolios, though government bonds and deposits remained the core assets [https://www.westernasset.com/us/en/pdfs/whitepapers/charting-the-next-chapter-in-em-central-bank-reserve-management.pdf].
+*   **2010s**: Diversification expanded to include new asset classes such as investment-grade corporate bonds, the Chinese renminbi (RMB), and in some cases, equity and corporate ETFs [https://www.westernasset.com/us/en/pdfs/whitepapers/charting-the-next-chapter-in-em-central-bank-reserve-management.pdf].
 
-Search Query: Charlie Munger explanation of "latticework of mental models" and "inversion"
-Search Answer: Based on the information provided, here is a combined answer on the investment philosophy of Charlie Munger:
+Current trends show a continued push for diversification, along with the integration of new risk factors into investment decisions. Geopolitical risks are increasingly incorporated into asset allocation, particularly by central banks in Africa, the Asia-Pacific region, and Europe [https://www.centralbanking.com/hsbc-reserve-management-trends-2025/7963574/trends-in-reserve-management-2025-survey-results].
 
-Charlie Munger’s investment philosophy is centered on the concept of building a "latticework of mental models," a multidisciplinary framework for making wiser decisions in both investing and life [https://www.raymondjames.com/rzrwealthmanagement/rzr-notes/2024/12/12/not-so-poor-charlie, https://medium.com/@DenisBischof/using-mental-models-to-understand-the-world-charlie-munger-22055280c2c1]. Munger believed that by drawing knowledge from a wide variety of fields, an investor can achieve cognitive diversity. This approach, which he likened to a Swiss Army Knife, allows for error correction, as the weaknesses of one model can be offset by the strengths of another [https://vocal.media/education/mental-model-lattices, https://www.danielmnke.com/p/charlie-mungers-system-of-mental]. He suggested that 80 to 90 core models—such as Margin of Safety, Second-Order Thinking, Probabilistic Thinking, and understanding cognitive biases like Confirmation Bias—are sufficient to handle most decision-making situations [https://www.raymondjames.com/rzrwealthmanagement/rzr-notes/2024/12/12/not-so-poor-charlie, https://vocal.media/education/mental-model-lattices].
+Modern diversification trends include:
+*   **Sustainable Investments**: There is a strong and growing interest in sustainable assets. A 2025 survey of 87 central banks found that 62.1% already invest in green bonds, with an additional 14.9% considering it [https://www.centralbanking.com/hsbc-reserve-management-trends-2025/7963574/trends-in-reserve-management-2025-survey-results].
+*   **Equities**: Some central banks are pursuing a long-term strategy to gradually increase their exposure to equities, with the timing dependent on market conditions [https://www.centralbanking.com/hsbc-reserve-management-trends-2025/7963574/trends-in-reserve-management-2025-survey-results].
+*   **Gold**: Gold ETFs are used to diversify portfolios, as gold often has a low or negative correlation with other assets like bonds [https://www.centralbanking.com/hsbc-reserve-management-trends-2025/7963574/trends-in-reserve-management-2025-survey-results].
+*   **Currencies**: The share of the renminbi in global reserves is expected to grow steadily as China becomes more integrated into the global financial system [https://www.centralbanking.com/hsbc-reserve-management-trends-2025/7963574/trends-in-reserve-management-2025-survey-results].
 
-A key mental model within this framework is "inversion," which involves thinking backward [https://www.raymondjames.com/rzrwealthmanagement/rzr-notes/2024/12/12/not-so-poor-charlie]. Instead of asking how to achieve a positive outcome, the inversion process asks, "What would make this decision fail completely?" [https://drinknumin.com/blogs/news/charlie-mungers-mental-models-framework?srsltid=AfmBOoqRVhc8yrUIsZSYoaqNYCGuaLR9svb_SFoAf9Rwx6en9IgmiwYZ]. When applied to investing, this means thoroughly analyzing the factors that could cause an investment to fail—such as weak management, excessive debt, or overly optimistic growth projections—before committing capital [https://www.raymondjames.com/rzrwealthmanagement/rzr-notes/2024/12/12/not-so-poor-charlie].
+Search Query: ranked list of world's largest individual public pension funds by AUM 2024
+Search Answer: Sources provide conflicting information on which public pension fund is the world's largest by assets under management (AUM).
 
-Search Query: Charlie Munger summary of "The Psychology of Human Misjudgment"
-Search Answer: Based on the provided information, Charlie Munger's philosophy is heavily influenced by understanding human psychology and its role in poor decision-making. In his speech "The Psychology of Human Misjudgment," Munger outlines 25 psychological tendencies and cognitive biases that lead to errors in judgment.
+One ranking lists the U.S. Military Retirement Fund as the largest, with assets of $1,604,673,094,000, followed by the Federal Employees Retirement System with $935,179,531,000. Another source, however, states that the Japan Government Pension Investment Fund is the largest, with $1.4 trillion in assets.
 
-Key tenets of his philosophy derived from this speech include:
-*   **Recognizing Fixed Conclusions:** Munger highlights a "doubt-avoidance" tendency, where individuals cling to fixed conclusions and attitudes. This can cause people to become "imprisoned in poor conclusions" that are difficult to change, even when faced with contradictory evidence.
-*   **Anticipating System "Gaming":** He points out that humans have a tendency to "game" systems. To counteract this, he advises implementing anti-gaming measures and avoiding rewards for actions that can be easily faked.
-*   **Avoiding Biased Group Dynamics:** Munger notes that people tend to overvalue and favor those who are similar to themselves. This bias can lead to poor hiring decisions and the formation of dysfunctional groups within organizations.
-*   **The Power of Combined Biases:** Munger stresses that these psychological tendencies become significantly more powerful and are more likely to result in flawed judgments when they combine.
+Other large public pension funds in North America include the California State Teachers Retirement System, the New York State Common Retirement Fund, and the Virginia Retirement System.
 
-Search Query: Duan Yongping investment philosophy explanation of "Benfen" and portfolio concentration
-Search Answer: Based on the provided information, here is the investment philosophy of Duan Yongping:
+Search Query: largest state-owned enterprises (SOEs) with international investment portfolios ranked by assets
+Search Answer: Wealthy governments often invest through state-owned enterprises (SOEs), and while a comprehensive ranked list of the largest SOEs by assets is not available, several key examples and statistics highlight this trend [https://www.imf.org/-/media/files/publications/fiscal-monitor/2020/april/english/ch3.pdf].
 
-Duan Yongping's core investment philosophy is encapsulated in the principle of "Benfen," which translates to "Do the right thing, do it right" [https://gotochina.guide/bbk-electronics-duan-yongping-the-unseen-empire-behind-oppo-vivo-and-jt-express/]. This approach emphasizes long-term value over short-term profits. A practical example of "Benfen" is when his company, BBK, refused to use lower-quality components to cut costs, a practice common among competitors. This decision helped BBK earn a reputation for reliability [https://gotochina.guide/bbk-electronics-duan-yongping-the-unseen-empire-behind-oppo-vivo-and-jt-express/].
+China ranks first in the world for the value of assets held by its state enterprises [https://rooseveltinstitute.org/publications/the-role-of-state-ownership/]. Some of the largest non-financial SOEs globally include China National Petroleum, Volkswagen AG, Saudi Arabian Oil Company, and the Russian firms Gazprom and Rosneft [https://www.imf.org/-/media/files/publications/fiscal-monitor/2020/april/english/ch3.pdf].
 
-The "Benfen" doctrine includes four main tenets:
-*   Isolating oneself from external pressures and temptations.
-*   Demanding accountability from oneself rather than others.
-*   Fostering fair cooperation.
-*   Maintaining standards that exceed contractual obligations [https://pandayoo.com/post/oppos-journey-from-chinese-startup-to-global-smartphone-powerhouse/].
+Globally, SOEs are significant players in capital markets:
+*   As of 2023, there were 2,037 companies with at least 25% public sector ownership, which accounted for nearly 12% of the world's total market capitalization [https://www.facebook.com/theOECD/posts/state-owned-enterprises-soes-are-key-players-in-global-capital-markets-but-their/984772843695157/].
+*   As of 2010, 204 of the 2,000 largest listed companies in the world were SOEs [https://www.openownership.org/en/blog/state-owned-enterprises-a-new-frontier/].
 
-Search Query: Duan Yongping investment philosophy on simple understandable business models
-Search Answer: Based on the provided information, the following is a summary of Duan Yongping's investment philosophy. The candidate answers did not contain information regarding Warren Buffett or Charlie Munger.
+The prevalence of state ownership in listed companies varies by region. For instance, 47% of listed companies in China have significant public ownership, compared to 16% in Latin America and just 2% in OECD countries [https://www.facebook.com/theOECD/posts/state-owned-enterprises-soes-are-key-players-in-global-capital-markets-but-their/984772843695157/].
 
-### Duan Yongping's Investment Philosophy
+Search Query: origin, stated mandate, and governance structure of Norway's Government Pension Fund Global
+Search Answer: Norway's Government Pension Fund Global (GPFG), also known as the Oil Fund, was established in 1990 under the Government Pension Fund Act to invest the surplus revenues from the country's petroleum sector. The fund's overarching mandate is to support the costs of public pensions.
 
-Duan Yongping's investment philosophy centers on investing in companies with simple, understandable business models. He advises that one must study a company, comprehend its business, and project its future cash flows, while avoiding investments in companies one does not understand [https://www.reddit.com/r/Entrepreneurs/comments/1ovo7dq/chineseamerican_entrepreneur_and_investor/, https://longbridge.com/en/news/265497053].
+The Government Pension Fund of Norway is comprised of two distinct sovereign wealth funds:
+*   The Government Pension Fund Global (GPFG), which is managed by Norges Bank Investment Management.
+*   The Government Pension Fund Norway.
 
-Key tenets of his philosophy include:
-*   **Grasp the Simple Essence**: The highest form of investment wisdom comes from a deep understanding of a business's fundamentals rather than from complex financial models [https://www.the-momentum.net/p/duan-yongping-value-investing-through].
-*   **Think Like an Operator**: An investor should think like a company's founder, focusing on long-term factors such as product competitiveness, user sentiment, talent, and cultural resilience, rather than on short-term earnings [https://www.the-momentum.net/p/duan-yongping-value-investing-through].
-*   **Margin of Safety Through Understanding**: A true "margin of safety" is achieved when an investor understands a company better than the market does. This superior understanding makes short-term volatility irrelevant, appearing as either noise or an opportunity [https://www.bitget.com/news/detail/12560605067301].
-*   **The "Not-To-Do List"**: A critical practice is to create a "not-to-do list," which involves avoiding what you don't understand, what is too complicated, and companies or teams with integrity issues. Duan believes the key to his success has been making fewer mistakes [https://www.bitget.com/news/detail/12560605067301].
-*   **Integrity and Long-Term Stability**: He chooses to invest in companies with excellent business models and a strong culture of integrity. His philosophy is guided by Peter Drucker's principle of "Doing the right thing and doing things right." He warns against pursuing quick success through risky strategies that could compromise a company's long-term stability [https://tianpan.co/blog/2025-02-15-duan-yongping-three-core-business-ideas, https://www.reddit.com/r/Entrepreneurs/comments/1ovo7dq/chineseamerican_entrepreneur_and_investor/].
+Considered one of the world's largest and most transparent sovereign wealth funds, the GPFG operates under a governance framework that is subject to review by the government. This framework includes ethical guidelines overseen by The Ethical Council of the Government Pension Fund of Norway, which can exclude companies for breaching these guidelines.
 
-Search Query: comparison of Buffett Munger and Duan Yongping on market efficiency, risk, and macroeconomic forecasting
-Search Answer: The investment philosophies of Duan Yongping, Warren Buffett, and Charlie Munger are deeply interconnected, with Buffett and Munger developing a foundational approach that Duan Yongping has successfully adopted and applied. At their core, all three are value investors who view buying a stock as buying a piece of a business, emphasizing a long-term perspective and a deep understanding of the companies they invest in.
+Search Query: profile of China Investment Corporation (CIC) including its origin, stated mandate, governance structure, and current AUM
+Search Answer: The China Investment Corporation (CIC) is a state-owned sovereign wealth fund (SWF) that was founded in September 2007 ["https://www.privateequityinternational.com/institution-profiles/china-investment-corporation-cic.html", "https://www.top1000funds.com/asset_owner/china-investment-corporation-cic/", "https://www.weforum.org/organizations/china-investment-corporation-cic/"]. Described as China's largest and flagship sovereign wealth fund since 2008, the CIC was established to manage and diversify the country's foreign exchange holdings while seeking maximum returns ["https://globalswf.com/fund/CIC", "https://www.privateequityinternational.com/institution-profiles/china-investment-corporation-cic.html", "https://www.top1000funds.com/asset_owner/china-investment-corporation-cic/", "https://www.weforum.org/organizations/china-investment-corporation-cic/"].
 
-### Warren Buffett and Charlie Munger: The Architects of Quality-Focused Value Investing
+The CIC's mandate is to make overseas investments as well as domestic equity investments in financial institutions. It carries this out through its three subsidiaries, which include CIC International Co. ["http://www.china-inv.cn/chinainven/About_CIC/Who_We_Are.shtml"]. The CIC has $1,567 billion in assets under management (AUM) ["https://globalswf.com/fund/CIC"].
 
-Warren Buffett and Charlie Munger's partnership transformed modern value investing. Their philosophy evolved from the purely quantitative "cigar butt" approach of their mentor, Benjamin Graham, to a more qualitative focus on business excellence.
+Search Query: profile of Japan's Government Pension Investment Fund (GPIF) detailing its origin, mandate, governance, and AUM
+Search Answer: Japan's Government Pension Investment Fund (GPIF) is an independent administrative institution that the Japanese government established in 2006. It is the world's largest pension fund, with $1.72 trillion in assets under management (AUM) as of July 2025.
 
-*   **Evolution from "Cigar Butts" to "Wonderful Companies":** Initially, Buffett followed Graham's method of buying mediocre companies at extremely cheap prices ("fair companies at a great price"). Charlie Munger was instrumental in shifting this perspective, convincing Buffett that it is "far better to buy a wonderful company at a fair price than a fair company at a wonderful price."
+The GPIF's mandate is to manage and invest the reserve funds from government pension plans. It contributes to the financial stability of these plans by remitting its profits and is tasked with supplementing Japan's pension payments for the next 100 years. The fund's governance includes President Kazuto Uchida and a Board of Governors chaired by Hirohide Yamaguchi.
 
-*   **Core Investment Tenets:** Their approach centers on four key principles for selecting a business:
-    1.  **It must be a business they can understand (Circle of Competence).** They only invest in industries and companies whose operations and economics they can comprehend.
-    2.  **It must have favorable long-term prospects.** This means seeking companies with a durable competitive advantage, or what they famously call a "moat" (e.g., a strong brand, network effects, or low-cost production).
-    3.  **It must be operated by able and trustworthy management.** They look for leadership that is both skilled and has integrity.
-    4.  **It must be available at an attractive price.** This involves calculating the business's intrinsic value and buying it at a significant discount—the "margin of safety"—to protect against errors in judgment and unforeseen market issues.
+Search Query: profile of People's Bank of China (PBOC) focusing on its mandate, governance, and role in managing the world's largest foreign exchange reserves
+Search Answer: The People's Bank of China (PBoC) is the central bank of the People's Republic of China. Its mandate includes implementing monetary policy, regulating financial institutions, maintaining the country's financial stability and economic growth, supervising the financial industry, and influencing interest rates and inflation. The PBoC is also responsible for drafting laws and regulations for its financial functions.
 
-*   **Munger’s Unique Contributions:** Munger enhanced their framework with concepts from other disciplines:
-    *   **Latticework of Mental Models:** He advocates using models from psychology, physics, biology, and other fields to analyze problems from multiple angles and avoid the "man with a hammer" syndrome, where every problem looks like a nail.
-    *   **Inversion:** Munger often advises to "Invert, always invert," meaning to tackle a problem backward. Instead of asking how to succeed, ask what would guarantee failure and then avoid it.
-    *   **Psychological Biases:** He has a deep understanding of how cognitive biases lead to irrational decision-making in markets and emphasizes the importance of emotional control and discipline.
+In its role managing the world's largest foreign exchange reserves, the PBoC, along with its subsidiary the State Administration of Foreign Exchange (SAFE), serves as China's reserves management authority.
 
-### Duan Yongping: The Master Practitioner and Entrepreneur
+Search Query: profile of Saudi Arabia's Public Investment Fund (PIF) detailing origin, mandate, governance structure, and AUM
+Search Answer: Saudi Arabia's Public Investment Fund (PIF) is a sovereign wealth fund that was established in 1971 and is based in Riyadh [https://pitchbook.com/profiles/limited-partner/52314-76, https://www.swfinstitute.org/profile/598cdaa60124e9fd2d05bc3b, https://globalswf.com/fund/PIF, https://www.top1000funds.com/asset_owner/public-investment-fund-pif/]. It is considered one of the world's largest sovereign wealth funds, with assets under management (AUM) of $1.151 trillion and an ambition to grow to $2 trillion, which would make it the largest in the world [https://globalswf.com/fund/PIF, https://www.top1000funds.com/asset_owner/public-investment-fund-pif/].
 
-Duan Yongping, often called the "Chinese Warren Buffett," is a devoted disciple of Buffett and Munger's philosophy, which he famously studied after winning a charity lunch with Buffett. His approach is a direct application of their principles, enhanced by his own deep experience as a highly successful entrepreneur.
+**Mandate and Investment Focus**
+The PIF's mandate is to invest funds on behalf of the government of Saudi Arabia [https://pitchbook.com/profiles/limited-partner/52314-76, https://www.top1000funds.com/asset_owner/public-investment-fund-pif/]. The fund focuses on sustainable investments and participates in initiatives aimed at long-term economic growth and navigating the transition to clean energy [https://pitchbook.com/profiles/limited-partner/52314-76, https://www.top1000funds.com/asset_owner/public-investment-fund-pif/]. The PIF is also involved with the One Planet Sovereign Wealth Fund Working Group, which works to help large investors integrate climate-change analysis into their decision-making processes [https://www.top1000funds.com/asset_owner/public-investment-fund-pif/].
 
-*   **Adherence to the Buffett-Munger Philosophy:** Duan’s core principles are nearly identical to his mentors':
-    *   **Focus on Great Businesses:** He invests in great companies with strong fundamentals and durable moats.
-    *   **Circle of Competence:** He restricts his investments to businesses he thoroughly understands, particularly in the tech and consumer sectors.
-    *   **Long-Term Horizon:** He is a long-term holder who ignores short-term market fluctuations.
-    *   **Concentrated Portfolio:** He prefers making a few large, high-conviction bets rather than broad diversification. His major successful investments in companies like Apple and Moutai exemplify this.
+**Governance**
+Since 2015, the fund has been controlled by Crown Prince Mohammed bin Salman, the de facto ruler of Saudi Arabia [https://www.top1000funds.com/asset_owner/public-investment-fund-pif/, https://en.wikipedia.org/wiki/Public_Investment_Fund]. The PIF's close control by the Saudi government, combined with a perceived lack of transparency, has generated controversy around some of its foreign investments [https://en.wikipedia.org/wiki/Public_Investment_Fund].
 
-*   **The Entrepreneurial Edge:** What distinguishes Duan is his background as the founder of Subor and BBK Electronics (the parent company of Oppo, Vivo, and OnePlus). This hands-on experience gives him profound operational insight into what truly makes a business successful, allowing him to apply the Buffett-Munger philosophy from a business-first perspective. He is a testament to the universal applicability of their principles, successfully translating them to the Chinese market and the global technology industry.
+Search Query: profile of Bank of Japan focusing on mandate, governance, and role in managing foreign exchange reserves
+Search Answer: The Bank of Japan's (BOJ) mandate includes setting monetary policy and controlling currency, and it has been known to intervene directly in currency markets [https://www.octafx.com/markets/news/view/1185675/, https://onestepbeyond.co.jp/blogs/the-role-of-the-bank-of-japan-how-monetary-policy-impacts-businesses/].
 
-In summary, Buffett and Munger are the architects of a philosophy centered on buying high-quality businesses with a margin of safety for the long term, with Munger adding a multidisciplinary, psychological layer. Duan Yongping is a master practitioner who demonstrates the power and universality of this philosophy, enriching it with his own deep entrepreneurial acumen.
+In 2024, the BOJ made a significant shift in its monetary policy, ending a seven-year period of negative short-term interest rates. The bank raised its policy-rate target to a range of 0–0.10 percent and replaced the cap on the 10-year Japanese Government Bond (JGB) yield with a more flexible band [https://onestepbeyond.co.jp/blogs/the-role-of-the-bank-of-japan-how-monetary-policy-impacts-businesses/].
 
-Search Query: comparison of Warren Buffett, Charlie Munger, and Duan Yongping's criteria for a 'good business' and their views on portfolio concentration
-Search Answer: Based on the provided information, here are the investment philosophies of Warren Buffett and Charlie Munger:
+As of the end of April 2025, Japan's total foreign exchange reserve assets stood at $1,298,249 million, according to the Ministry of Finance [https://www.mof.go.jp/english/policy/international_policy/reference/official_reserve_assets/e0704.html].
 
-Warren Buffett and Charlie Munger share complementary investment philosophies centered on viewing the purchase of a stock as buying a part of an actual business, which should be evaluated as if one were acquiring the entire company [https://www.investopedia.com/buffett-and-munger-identify-winning-stocks-11873636, financialexpress.com/market/warren-buffett-vs-charlie-munger-key-differences-similarities-between-two-investing-giants-3119693/, ceomagazine.co.kr/news/articleView.html?idxno=34057].
+The BOJ is also responsible for issuing currency and released a new series of banknotes on July 3, 2024 [https://www.boj.or.jp/en/about/activities/act/ar2025.htm, https://www.boj.or.jp/en/about/activities/act/data/ar2025.pdf]. For more detailed information on its governance, organization, business operations, and financial accounts, the BOJ publishes an *Annual Review* [https://www.boj.or.jp/en/about/activities/act/ar2025.htm].
 
-Munger had a significant influence on Buffett, guiding him away from a "cigar butt" style of investing—which involves buying mediocre companies at very cheap prices—toward a focus on acquiring quality businesses [https://www.financialexpress.com/market/warren-buffett-vs-charlie-munger-key-differences-similarities-between-two-investing-giants-3119693/].
+Search Query: asset allocation breakdown (equities, fixed income, real estate, alternatives) for Norway Government Pension Fund Global and Japan Government Pension Investment Fund
+Search Answer: Based on the available information for two of the world's largest government funds, investment strategies vary, and complete asset allocation breakdowns are not fully detailed.
 
-Their shared criteria for a "good business" include companies with:
-*   Strong brands
-*   A loyal customer base
-*   Sustainable competitive advantages
+For **Japan's Government Pension Investment Fund (GPIF)**, alternative investments currently represent 1.6% of its total assets. The fund has a maximum cap of 5% for this particular asset class. While the GPIF establishes target weights for its assets as part of a policy asset mix, a specific breakdown of its full portfolio is not provided in the source documents [https://www.japantimes.co.jp/business/2025/09/17/companies/government-pension-investment-fund-alternative-asset-funds/, https://www.gpif.go.jp/en/topics/Adoption_of_New_Policy_Portfolio_details_2_en.pdf].
 
-This approach emphasizes a long-term perspective over short-term gains [https://www.financialexpress.com/market/warren-buffett-vs-charlie-munger-key-differences-similarities-between-two-investing-giants-3119693/]. At the core of Munger's philosophy is the belief in investing only in businesses that can be rationally understood and meticulously evaluated [https://www.financialexpress.com/market/warren-buffett-vs-charlie-munger-key-differences-similarities-between-two-investing-giants-3119693/].
+For **Norway's Government Pension Fund Global**, the portfolio holds investments in asset classes that include equities, bonds, unlisted real estate, and unlisted renewable energy infrastructure. However, the specific percentage breakdown of the fund's allocation across these assets is not available in the provided reports [https://www.nbim.no/contentassets/4929094bc7f0436c8d311e10557f8b83/gpfg-half-year-report-2025.pdf].
 
-The provided information does not contain details on the investment philosophy of Duan Yongping.
+Search Query: strategic asset allocation percentages for Norway Government Pension Fund Global by asset class (equity, fixed income, real estate)
+Search Answer: The strategic benchmark index for the Norway Government Pension Fund Global is set at 70% equities and 30% fixed income [https://www.nbim.no/en/investments/benchmark-index/, https://www.europeanpensions.net/ep/NBIM-publishes-strategy-plan-for-2023-2025.php]. According to its 2023–2025 strategy plan, the fund also has a target to hold between 3% and 7% of its assets in a real estate portfolio [https://www.swfinstitute.org/news/95051/norways-sovereign-wealth-fund-reveals-its-2023-2025-strategy-plan].
 
-Search Query: Warren Buffett Charlie Munger Duan Yongping valuation methods discounted cash flow owner earnings
-Search Answer: Duan Yongping, Warren Buffett, and Charlie Munger all follow value investment principles with the shared goal of owning good businesses [https://flowingrivercapital.com/].
+Search Query: Japan Government Pension Investment Fund (GPIF) target portfolio allocation percentages for domestic bonds, foreign bonds, domestic equities, foreign equities, and alternative assets
+Search Answer: Japan's Government Pension Investment Fund (GPIF) has a target portfolio with an equal, 25% split across four main asset classes: domestic bonds, foreign bonds, domestic equities, and foreign equities. This portfolio composition is set to be maintained for the five-year mid-term plan beginning in fiscal year 2025.
 
-A key aspect of Warren Buffett's approach is his use of discounted cash flow (DCF) analysis to estimate a company's intrinsic value [https://www.granitefirm.com/blog/us/category/investing-guru/buffett/page/4/]. However, he uses this method not to obtain a precise figure, but as a tool to evaluate a company's risk and resilience [https://envisionmy.substack.com/p/value-investing-30-finding-tenfold?utm_source=substack&utm_medium=email&utm_content=share&action=share, https://www.granitefirm.com/blog/us/category/investing-guru/buffett/page/4/].
+As of the first quarter of fiscal year 2025, the fund's actual asset allocation was:
+*   Domestic bonds: 26.13%
+*   Foreign bonds: 25.22%
+*   Domestic equities: 24.37%
+*   Foreign equities: 24.28%
 
-Search Query: investment checklists and decision-making frameworks of Buffett, Munger, and Duan Yongping
-Search Answer: Based on the information provided, here are the investment philosophies of Duan Yongping and Warren Buffett:
+In addition to these core assets, the GPIF also invests in alternative assets. While a specific target allocation percentage for this category is not stated, the fund has allocated ¥50 billion to domestic alternatives, focusing on infrastructure and real estate.
 
-Duan Yongping's investment philosophy is rooted in value investing, which he believes is "completely the same" as Warren Buffett's. The core principles of this shared philosophy are:
-*   **Buying stocks is buying companies:** The first step is to view a stock purchase as acquiring a piece of a business, not just a ticker symbol.
-*   **Value is discounted future cash flow:** The intrinsic value of a company is determined by the total cash it can generate for its owners over its lifetime, discounted to its present value [https://news.futunn.com/en/post/58710159/weekend-reading-duan-yongping-s-three-major-investment-principles-do].
+Search Query: asset allocation breakdown for China Investment Corporation (CIC) and Saudi Public Investment Fund (PIF) by asset class
+Search Answer: As of the end of 2023, the China Investment Corporation (CIC) allocated 48.5% of its overseas investment portfolio to alternative assets. These assets include hedge funds, private equity, private credit, real estate, infrastructure, and commodities. Publicly traded stocks constituted 34.7% of the portfolio [https://www.yicaiglobal.com/news/cics-annualized-net-return-on-overseas-investments-over-past-decade-beats-expectations].
 
-A key aspect of Duan's framework is to invest only in what he can personally understand. He believes this is crucial for being able to determine a company's value and to identify when its stock price is cheap. This approach requires a long-term perspective, prioritizing elements like corporate culture over short-term operational performance. For example, Duan invested heavily in General Electric after tracking its corporate culture for many years, rather than focusing on its immediate operational status [https://news.futunn.com/en/post/58710159/weekend-reading-duan-yongping-s-three-major-investment-principles-do].
+The provided search results did not contain information on the asset allocation for the Saudi Public Investment Fund (PIF).
 
-Search Query: Duan Yongping's strategy on portfolio concentration versus diversification
-Search Answer: Based on the information provided, here is a summary of Duan Yongping's investment philosophy:
+Search Query: Saudi Public Investment Fund (PIF) asset allocation strategy and breakdown by percentage across asset classes 2024
+Search Answer: While a specific asset allocation strategy or percentage breakdown across different asset classes for the Saudi Public Investment Fund (PIF) in 2024 is not available, some key financial details have been reported [https://www.thenationalnews.com/business/economy/2025/08/13/saudi-wealth-fund-pifs-assets-under-management-up-19-in-2024-to-913bn/, https://www.linkedin.com/posts/thearabtoday_thearabtoday-tat-billion-activity-7363850121131823105-lnW-, https://www.facebook.com/cnbcinternational/posts/saudi-arabias-public-investment-fund-pif-saw-its-assets-under-management-grow-19/1134482028539642/, https://gccbusinesswatch.com/news/saudi-arabias-pif-posts-19-growth-in-assets-driving-economic-diversification-and-global-recognition/, https://www.pif.gov.sa/en/news-and-insights/press-releases/2025/pif-continued-to-drive-the-economic-transformation-of-saudi-arabia-while-shaping-global-economies-in-2024/].
 
-Duan Yongping's investment strategy favors portfolio concentration over diversification, managing risk through the quality of the companies he invests in rather than spreading capital widely across many stocks [https://blog.valuesense.io/duan-yongping-h-h-international-investment-portfolio-q22025-top-holdings-recent-changes/, https://www.gainify.io/blog/duan-yongping-portfolio]. His portfolio is characterized by "extreme concentration" and "massive, focused allocation" to a small number of established companies, making it a case study in high-conviction investing [https://www.40billion.com/post/868274, https://www.gainify.io/blog/duan-yongping-portfolio].
+In 2024, the PIF's assets under management grew by 19% to reach a total of $913 billion [https://www.thenationalnews.com/business/economy/2025/08/13/saudi-wealth-fund-pifs-assets-under-management-up-19-in-2024-to-913bn/, https://www.linkedin.com/posts/thearabtoday_thearabtoday-tat-billion-activity-7363850121131823105-lnW-, https://www.facebook.com/cnbcinternational/posts/saudi-arabias-public-investment-fund-pif-saw-its-assets-under-management-grow-19/1134482028539642/, https://gccbusinesswatch.com/news/saudi-arabias-pif-posts-19-growth-in-assets-driving-economic-diversification-and-global-recognition/]. The fund achieved an annual average total portfolio return of 7.2% and deployed $56.8 billion in capital across its priority sectors during the same year [https://www.pif.gov.sa/en/news-and-insights/press-releases/2025/pif-continued-to-drive-the-economic-transformation-of-saudi-arabia-while-shaping-global-economies-in-2024/, https://www.thenationalnews.com/business/economy/2025/08/13/saudi-wealth-fund-pifs-assets-under-management-up-19-in-2024-to-913bn/].
 
-Yongping is comfortable holding as few as 8–12 stocks, a stark contrast to institutional investors who might hold hundreds of positions [https://www.gainify.io/blog/duan-yongping-portfolio]. As of the second quarter of 2025, his $11.53 billion portfolio was spread across just 10 stocks [https://www.gainify.io/blog/duan-yongping-portfolio, https://finance.yahoo.com/news/duan-yongpings-strategic-moves-closer-152421569.html]. This concentrated approach is exemplified by the composition of his holdings, with his top investment, Apple, representing 60% of his portfolio. His other major holdings include Berkshire Hathaway at nearly 14% and PDD Holdings at 7.6% [https://www.tikr.com/blog/duan-yongpings-stock-portfolio-the-billionaires-top-5-recent-buys].
+Search Query: investment instruments and typical asset classes in international portfolios of state-owned enterprises
+Search Answer: I am unable to provide an answer to your research query. The instructions require me to synthesize a response from a provided list of candidate answers. However, the list of answers was empty. Therefore, I have no information to combine and present.
 
-Search Query: Warren Buffett See's Candies investment thesis economic moat and pricing power
-Search Answer: Based on the provided information, the investment philosophies of Warren Buffett and Charlie Munger are centered on acquiring great businesses with long-term competitive advantages at a reasonable price. Their approach is guided by four main criteria:
-*   **An understandable business**: They invest in companies whose operations and industry they can comprehend.
-*   **Favorable long-term economics**: The business should have a durable competitive advantage, or an "economic moat," that protects its returns.
-*   **Able and trustworthy management**: The company must be run by competent and honest leaders.
-*   **A sensible price**: The acquisition price must be reasonable.
+Search Query: Santiago Principles for Sovereign Wealth Funds governance and transparency
+Search Answer: The Santiago Principles, formally known as "Sovereign Wealth Funds: Generally Accepted Principles and Practices (GAPP)," are a set of 24 voluntary guidelines that establish best practices for the operations of Sovereign Wealth Funds (SWFs) [https://en.wikipedia.org/wiki/Santiago_Principles, https://www.ifswf.org/santiago-principles-landing/santiago-principles].
 
-A key element of their philosophy is the concept of an "enduring moat." This competitive advantage, as seen in their investment in See's Candies, is often built around a strong brand and customer service. Such a moat provides a company with significant pricing power, which in turn allows it to maintain high margins and generate high returns on invested capital.
+Introduced in 2008, these principles are considered the globally accepted standards for SWF governance, transparency, accountability, risk management, and prudent investment practices [https://www.ifswf.org/santiago-principles, https://www.linkedin.com/pulse/guardians-wealth-how-santiago-principles-shape-fund-vke0f, https://www.ifswf.org/santiago-principles-landing/santiago-principles]. They were drafted by the International Working Group of Sovereign Wealth Funds (IWG-SWF) in collaboration with the International Monetary Fund (IMF) [https://en.wikipedia.org/wiki/Santiago_Principles].
 
-Additionally, they believe a truly great business is one that can grow without needing to reinvest a large portion of its earnings. This quality makes a company more valuable than one that requires substantial and continuous capital infusions to expand.
+The objectives of the principles are:
+*   To help maintain a stable global financial system.
+*   To ensure SWFs comply with regulatory and disclosure requirements in the countries where they invest.
+*   To confirm that SWF investments are based on economic and financial risk and return considerations [https://www.ifswf.org/santiago-principles-landing/santiago-principles].
 
-Search Query: Warren Buffett investment thesis for Coca-Cola in 1988
-Search Answer: While the provided information does not offer a complete investment philosophy for Duan Yongping, Warren Buffett, and Charlie Munger, it does provide a detailed example of Warren Buffett's investment approach through his 1988 purchase of Coca-Cola stock.
+By adhering to these standards, SWFs can be defined as benign pools of capital, similar to conventional institutional investors, rather than as instruments of state policy. This perception helps contribute to the efficiency of global financial markets and reduce protectionist pressures [https://digitalcommons.law.seattleu.edu/cgi/viewcontent.cgi?article=2215&context=sulr, https://www.ifswf.org/santiago-principles-landing/santiago-principles].
 
-In the summer of 1988, Warren Buffett began buying shares in The Coca-Cola Company, paying 15 times the company's trailing earnings. In the years prior to this investment, Coca-Cola's free cash flows had been growing at an annual average of 21%.
+Search Query: case studies of major international acquisitions by state-owned enterprises in infrastructure, technology, or natural resources sectors
+Search Answer: Case studies and notable transactions involving state-owned enterprises and large institutional investors highlight investment activity in the natural resources and infrastructure sectors.
 
-Over time, Buffett invested a total of $1.3 billion to acquire 400 million split-adjusted shares at an average cost of approximately $3.20 to $3.25 per share. The investment proved to be one of Buffett's most successful. By the end of 1994, the stake was valued at $5.2 billion and accounted for about 34% of Berkshire’s common stock portfolio. By the end of 1998, the investment's value had increased by more than 10 times its original cost basis.
+*   **Natural Resources**: In the oil and gas sector, a consortium named Renaissance acquired the Shell Petroleum Development Company of Nigeria (SPDC) [https://www.pwc.com/gx/en/services/deals/corporate-finance/value-case-studies/nigerias-oil-and-gas-sector-gets-fueled-up-by-renaissance.html, https://www.pwc.com/gx/en/services/deals/trends/energy-utilities-resources.html].
+*   **Infrastructure (Green Energy)**: Several state-owned companies have Initial Public Offerings (IPOs) planned for their green energy arms, including ONGC Green, NHPC Renewable Energy, and SJVN [https://www.azbpartners.com/bank/energy-infrastructure-ma-2025-trends-developments/].
+*   **Infrastructure (Technology)**: In what was the largest data center transaction to date, BlackRock's Global Infrastructure Partners acquired Aligned Data Centres for USD 40 billion [https://transactions.freshfields.com/post/102ly5g/inside-infrastructure-reflecting-on-2025].
+*   **Infrastructure (Airports)**: The Ontario Teachers’ Pension Plan sold its stakes in several European airports. Its holdings in the Birmingham, Bristol, and London City airports were sold to Macquarie Asset Management; its stake in Brussels airport was sold to the Flemish investment company PMV; and its stake in Copenhagen’s airport was sold to the Danish pension fund ATP [https://transactions.freshfields.com/post/102ly5g/inside-infrastructure-reflecting-on-2025].
 
-Search Query: Warren Buffett Charlie Munger investment thesis for Apple Inc.
-Search Answer: Based on the provided information, here are the investment philosophies of Warren Buffett and Charlie Munger, primarily illustrated through their investment in Apple Inc. The provided answers do not contain information on Duan Yongping.
+Search Query: governance structures and oversight mechanisms for central banks contrasting political independence and accountability
+Search Answer: The governance of central banks often involves a tension described as the "independence-versus-accountability conundrum" [https://www.researchgate.net/publication/345467199_The_European_Central_Bank's_intricate_independence_versus_accountability_conundrum_in_the_post-crisis_governance_framework]. The main discrepancies between the independence levels of central banks emerge in relation to their political independence and accountability [https://www2.gwu.edu/~ibi/minerva/Fall2002/Fausto.Ribeiro.pdf].
 
-**Shared Philosophy of Warren Buffett and Charlie Munger**
-The core investment philosophy of both Warren Buffett and Charlie Munger is to seek out profitable businesses that are undervalued [https://www.advisorperspectives.com/commentaries/2013/04/01/buffett-s-advice-for-apple-inc]. Their highly successful investment in Apple serves as a key example of this approach.
+Typically, accountability for monetary policy is more developed than for a central bank's other financial functions. To achieve this, central banks often rely on explicit quantitative targets or monitoring ranges for variables like inflation, exchange rates, or monetary aggregates [https://www.bis.org/publ/othp04_7.pdf]. A significant challenge for accountability is the long time lag for monetary policy actions to impact macroeconomic outcomes, which is typically around two years for inflation [https://www.bis.org/publ/othp04_7.pdf]. The topics of central bank reforms, governance, and oversight are subjects of analysis for both economists and policymakers [https://www.amazon.com/Central-Bank-Governance-Oversight-Reform/dp/0817919244].
 
-**Warren Buffett's Philosophy**
-Warren Buffett's investment thesis is rooted in understanding the business, not necessarily its technology. Despite being a self-described Luddite, Buffett's interest in Apple was based on its position as a consumer products company that is "beloved by its customers" [https://www.cnbc.com/2024/05/03/apple-is-buffetts-biggest-stock-but-moat-thesis-faces-questions.html]. He has praised Apple as being "a better business than any we own" and commended its CEO, Tim Cook, as one of the "best managers in the world" [https://www.cnbc.com/2024/05/03/apple-is-buffetts-biggest-stock-but-moat-thesis-faces-questions.html]. Although Buffett championed the investment, Berkshire Hathaway's initial stake was reportedly purchased by his lieutenants, Todd Combs or Ted Weschler [https://allocatorsasia.substack.com/p/buffett-apple].
+Search Query: criticisms of sovereign wealth funds and state-owned enterprises investments in foreign countries 'state capitalism' national security concerns
+Search Answer: Investments by sovereign wealth funds (SWFs) and state-owned enterprises face growing scrutiny due to concerns about their underlying investment strategies and national security [https://www.heritage.org/trade/report/sovereign-wealth-funds-and-us-national-security, https://www.wakeforestlawreview.com/wp-content/uploads/2025/11/52WakeForestLRev837.pdf]. A primary criticism is the risk that foreign investors could gain access to sensitive sectors in other countries, such as the potential for Chinese investors to access sensitive U.S. sectors [https://www.iiss.org/online-analysis/online-analysis/2025/09/americas-quiet-turn-towards-state-capitalism/].
 
-**Charlie Munger's Philosophy**
-Charlie Munger believed that investors needed to own dominant technology companies like Apple to avoid being left behind by the market [https://markets.businessinsider.com/news/stocks/charlie-munger-big-tech-magnificent-stocks-buffett-berkshire-investing-apple-2023-11]. He saw Apple as a "logical candidate" for investment because it was a quality business and its stock was trading cheaply at the time of the initial purchase [https://markets.businessinsider.com/news/stocks/charlie-munger-big-tech-magnificent-stocks-buffett-berkshire-investing-apple-2023-11]. Munger also advocated for using long-term technical analysis, suggesting a strategy of buying quality stocks when they are at their 200-week moving average [https://finance.yahoo.com/news/apple-retreats-rare-long-term-144300902.html].
+These concerns have led to governments blocking foreign acquisitions. For example, Australia blocked bids for the energy infrastructure company Ausgrid, stating the deal would be "contrary to the national interest" [https://www.wakeforestlawreview.com/wp-content/uploads/2025/11/52WakeForestLRev837.pdf]. As a result, proposed acquisitions by SWFs, particularly those for majority stakes, may be viewed with "even greater caution" by national security screening authorities [https://www.wakeforestlawreview.com/wp-content/uploads/2025/11/52WakeForestLRev837.pdf].
 
-This combined philosophy led to a highly successful investment. Berkshire's stake in Apple, which initially cost $31 billion, grew to account for over 40% of its public portfolio [https://www.cnbc.com/2024/05/03/apple-is-buffetts-biggest-stock-but-moat-thesis-faces-questions.html, https://allocatorsasia.substack.com/p/buffett-apple].
+In response, some governments are adding preemptive provisions to trade agreements to protect their investment review decisions from being challenged. For instance, the Comprehensive Economic and Trade Agreement (CETA) between Canada and the EU explicitly excludes such investment review decisions from dispute settlements [https://www.wakeforestlawreview.com/wp-content/uploads/2025/11/52WakeForestLRev837.pdf].
 
-Search Query: Duan Yongping investment thesis for Pinduoduo (PDD)
-Search Answer: Based on the information provided, here are the investment philosophies of Duan Yongping and Warren Buffett:
+Search Query: qualitative analysis of Saudi Public Investment Fund (PIF) investment strategy linked to Saudi Vision 2030 mega-projects and partnerships
+Search Answer: The investment strategy of Saudi Arabia's Public Investment Fund (PIF) is intrinsically linked to the goals of the Saudi Vision 2030 plan, serving as the primary engine for the nation's economic diversification away from oil [https://www.vision2030.gov.sa/en/explore/programs/public-investment-fund-program, https://www.pif.gov.sa/en/strategy-and-impact/the-program/]. Launched in 2017, the PIF Program acts as a roadmap for Vision 2030, aiming to grow the country's wealth by boosting non-oil GDP growth [https://www.pif.gov.sa/en/strategy-and-impact/the-program/, https://www.vision2030.gov.sa/en/explore/programs/public-investment-fund-program].
 
-**Duan Yongping**
+The fund's qualitative strategy focuses on several key pillars:
+*   **Developing Mega-Projects** The PIF is central to developing "giga-projects" that create new ecosystems, unlock new economic sectors, and build world-class urban communities [https://www.vision2030.gov.sa/media/mdppqvmv/v2030_pif_2025_en.pdf]. A prominent example is NEOM, a $500 billion project intended to position Saudi Arabia as a leader in global sustainability and economic development [https://papers.ssrn.com/sol3/Delivery.cfm/ba3505cc-ce69-486c-9e6f-05d43d355b8c-MECA.pdf?abstractid=4996907&mirid=1].
+*   **Unlocking New Sectors** The PIF actively works to unlock new sectors to pioneer new ways of living and diversify revenue sources [https://www.vision2030.gov.sa/en/explore/programs/public-investment-fund-program, https://www.vision2030.gov.sa/media/mdppqvmv/v2030_pif_2025_en.pdf].
+*   **Building Strategic Partnerships** A core component of the strategy is to build strategic economic partnerships with both local and international investors, with the goal of making the Kingdom the "investment partner of choice for global opportunities" [https://www.vision2030.gov.sa/en/explore/programs/public-investment-fund-program, https://www.vision2030.gov.sa/media/mdppqvmv/v2030_pif_2025_en.pdf].
+*   **Localizing Technology and Knowledge** Investments are geared towards localizing advanced technology and knowledge within Saudi Arabia [https://www.vision2030.gov.sa/en/explore/programs/public-investment-fund-program].
 
-Duan Yongping, an early investor in the Chinese e-commerce company Pinduoduo (PDD), has demonstrated a bullish view on the company through his actions. He has increased his holdings to as much as 8% of the company, with at least $900 million in shares held by his firm, H&H International Investment.
+These strategies support broader Vision 2030 objectives, including growing the PIF's assets, enhancing the quality of life for citizens, developing a tourism sector, and increasing home-ownership levels to 70% [https://www.vision2030.gov.sa/en/explore/programs/public-investment-fund-program, https://www.vision2030.gov.sa/media/mdppqvmv/v2030_pif_2025_en.pdf]. The fund's investments also contribute to specific themes of the vision, such as creating "A Vibrant Society" [https://learning-gate.com/index.php/2576-8484/article/view/7519].
 
-A notable aspect of his strategy is selling put options on PDD stock, rather than just buying shares directly. This approach allows him to be paid a premium for agreeing to buy the stock at a predetermined price if it falls. This tactic suggests he believes the stock has likely "bottomed out" but may not have substantial room to rise in the short term. Paradoxically, despite his significant investment, Yongping has reportedly stated that he "doesn't understand Pinduoduo."
+Search Query: governance models of public pension funds and state-owned enterprises focusing on political independence and public transparency
+Search Answer: Wealthy governments often invest through national public pension funds, which are subject to specific governance structures, transparency requirements, and political pressures [https://www.researchgate.net/publication/266224544_Assessing_the_Governance_and_Transparency_of_National_Public_Pension_Funds, https://openknowledge.worldbank.org/entities/publication/20d925f3-6d27-5d04-8216-e2df3ab111f3].
 
-**Warren Buffett**
+Key aspects of these investment strategies include:
+*   **Governance and Independence** Good governance structures are considered crucial to deter the misuse of fund assets and to safeguard the funds' independence from political pressures [https://www.researchgate.net/publication/266224544_Assessing_the_Governance_and_Transparency_of_National_Public_Pension_Funds, https://openknowledge.worldbank.org/entities/publication/20d925f3-6d27-5d04-8216-e2df3ab111f3].
+*   **Transparency** To promote public understanding and open disclosure, organizations like the National Conference on Public Employee Retirement Systems (NCPERS) award a Certificate of Excellence for Public Pension Reporting and Transparency to qualifying funds [https://www.ncpers.org/public-retirement-systems-study].
+*   **Politicization and ESG Investing** A significant area of debate involves the politicization of pension funds, particularly concerning Environmental, Social, and Governance (ESG) criteria. Some critics argue that incorporating ESG factors conflicts with the fiduciary responsibilities of fund managers. This viewpoint has led to legislative action; in 2023, 14 states passed laws designed to discourage the inclusion of ESG considerations in pension investment decisions [https://www.pensionpolitics.com/wp-content/uploads/2025/03/2502318_CTUP_PensionPolitics.pdf].
+*   **Influence on Corporate Governance** In contrast, others view public pension funds as democratic channels for expressing societal preferences and influencing corporate governance [https://corpgov.law.harvard.edu/2025/06/02/the-singular-role-of-public-pension-funds-in-corporate-governance/].
 
-The provided information indicates that Warren Buffett employs a similar strategy to Duan Yongping by selling put options. This allows an investor to be paid a premium with the obligation to buy a stock at an agreed-upon price if it drops.
+Search Query: geopolitical implications of large-scale foreign ownership of U.S. Treasury securities by central banks
+Search Answer: The geopolitical status of the United States as a financial hegemon is closely linked to the international demand for its Treasury securities [https://www.linkedin.com/pulse/us-treasury-securities-geopolitical-instrument-united-jakob-iejye]. In October, foreign residents made net purchases of $38.9 billion in long-term U.S. securities [https://home.treasury.gov/system/files/136/Press-notice-TIC-for-Dec-2025.pdf].
 
-**Charlie Munger**
+However, there has been a notable shift in the composition of foreign ownership of these securities. Between 2013 and July 2025, holdings by foreign central banks and governments remained stable at approximately $4 trillion. In contrast, foreign private holdings from banks and investors surged by 240% to $5.24 trillion during the same period. This increased their share of total foreign ownership from 29% to 57% [https://www.voronoiapp.com/debt/-Foreign-Owned-US-Treasuries-Shift-from-Central-Banks-to-Private-Investors-6855].
 
-There is no information about Charlie Munger's investment philosophy in the provided text.
+Search Query: OECD Guidelines on Corporate Governance of State-Owned Enterprises principles and application
+Search Answer: The world's wealthiest governments invest, in part, by managing state-owned enterprises (SOEs). The OECD Guidelines on Corporate Governance of State-Owned Enterprises are designed to assist governments in improving the management of these companies [https://www.oecd.org/en/topics/policy-issues/corporate-governance.html, https://www.ecgi.global/sites/default/files/codes/documents/oecd_soe_guidelines_may2014_en.pdf].
 
-Search Query: Duan Yongping investment thesis for Kweichow Moutai
-Search Answer: Based on the provided information, here is the investment philosophy of Duan Yongping, as exemplified by his investment in Kweichow Moutai:
+These guidelines help governments exercise their ownership functions by:
+*   Establishing a clear and consistent ownership policy [https://www.ecgi.global/sites/default/files/codes/documents/oecd_soe_guidelines_may2014_en.pdf].
+*   Setting broad objectives for SOEs [https://www.ecgi.global/sites/default/files/codes/documents/oecd_soe_guidelines_may2014_en.pdf].
+*   Creating a structured board nomination process [https://www.ecgi.global/sites/default/files/codes/documents/oecd_soe_guidelines_may2014_en.pdf].
+*   Effectively exercising their ownership rights [https://www.ecgi.global/sites/default/files/codes/documents/oecd_soe_guidelines_may2014_en.pdf].
+*   Integrating sustainability and responsible business conduct into their policies and practices. To this end, SOEs are encouraged to report on stakeholder issues to ensure transparency and cooperation [https://www.oecd.org/en/topics/sub-issues/corporate-governance-of-state-owned-enterprises.html, https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/oecd-guidelines-on-corporate-governance-of-state-owned-enterprises-2024_68fa05cd/18a24f43-en.pdf].
 
-Duan Yongping, often called the "Chinese Buffett," subscribes to a long-term, value-investing approach. His philosophy is to buy good companies and hold them, embodying the principle that "buying stocks is buying companies." His investment in Kweichow Moutai, which is his main holding in mainland China's A-shares, is a classic example of this strategy. He has held the stock for over 12 years, generating returns of more than 10 times from an initial investment made at a price-to-earnings (PE) ratio of 8 to 10 times.
+The principles of the guidelines are organized into seven main chapters:
+*   **Chapter I:** Rationales for state ownership [https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/oecd-guidelines-on-corporate-governance-of-state-owned-enterprises-2024_68fa05cd/18a24f43-en.pdf].
+*   **Chapter II:** The state’s role as an owner [https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/oecd-guidelines-on-corporate-governance-of-state-owned-enterprises-2024_68fa05cd/18a24f43-en.pdf, https://tusiad.org/en/reports/item/3610-oecd-guidelines-on-corporate-governance-of-state-owned-enterprises].
+*   **Chapter III:** State-owned enterprises in the marketplace [https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/oecd-guidelines-on-corporate-governance-of-state-owned-enterprises-2024_68fa05cd/18a24f43-en.pdf].
+*   **Chapter IV:** Equitable treatment of shareholders and other investors [https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/oecd-guidelines-on-corporate-governance-of-state-owned-enterprises-2024_68fa05cd/18a24f43-en.pdf].
+*   **Chapter V:** Disclosure, transparency, and accountability [https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/oecd-guidelines-on-corporate-governance-of-state-owned-enterprises-2024_68fa05cd/18a24f43-en.pdf].
+*   **Chapter VI:** The composition and responsibilities of the boards of state-owned enterprises [https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/oecd-guidelines-on-corporate-governance-of-state-owned-enterprises-2024_68fa05cd/18a24f43-en.pdf].
+*   **Chapter VII:** State-owned enterprises and sustainability [https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/oecd-guidelines-on-corporate-governance-of-state-owned-enterprises-2024_68fa05cd/18a24f43-en.pdf].
 
-Key aspects of his investment philosophy include:
-*   **Long-Term Value**: He believes in buying and holding for the long term. With Moutai, he has stated that the stock will likely, at a minimum, keep pace with inflation over a ten or twenty-year period, with a high probability of outperforming the broader market.
-*   **Simplicity and Predictability**: Yongping prefers businesses that are easy to understand. He noted that Moutai has "relatively fewer variables and should be easier to compute" compared to other companies.
-*   **Strong Brand**: He places a high value on brand strength, agreeing with the sentiment that "Maotai is Maotai's best endorsement."
-*   **Contrarian Stance**: He is not swayed by market sentiment. During a recent price decline for Moutai, he publicly questioned the market's anxiety, posting on social media, "What are people afraid of in Kweichow Moutai? It's kind of interesting!"
-*   **Corporate Culture**: A crucial factor in his analysis is the sustainability of a company's culture. In the case of Moutai, he has questioned whether it has a corporate culture that can sustain it over the long term.
-
-Search Query: Warren Buffett on Dexter Shoe investment mistake and lessons learned
-Search Answer: Based on the provided information, here are insights into Warren Buffett's investment philosophy, as illustrated by what he considers his greatest investment mistake:
-
-Warren Buffett has repeatedly identified the 1993 acquisition of Dexter Shoe Company as his "most gruesome mistake" and worst investment deal. Berkshire Hathaway purchased the Maine-based shoemaker for approximately $433 million, paid for with 25,203 shares of Berkshire stock. At the time, Buffett was optimistic, calling Dexter "one of the best-managed companies Charlie and I have seen in our business lifetimes."
-
-However, soon after the purchase, the shoemaker's business collapsed due to pressure from inexpensive foreign imports, and the company eventually became worthless. By 2001, losses at Dexter were a major factor in Berkshire's shoe division losing $46 million. Buffett has called the deal a "monumentally stupid decision" and a "financial disaster" that "deserves a spot in the Guinness Book of World Records."
-
-The error was significantly compounded by the decision to use undervalued Berkshire Hathaway stock for the purchase instead of cash. As Berkshire's shares soared in value over the subsequent years, the opportunity cost of the deal became immense.
-
-From this mistake, Buffett highlights the violation of two of his core investment principles:
-1.  **A business must have a sustainable competitive advantage.** Dexter Shoe's competitive advantage proved to be vulnerable to foreign competition, a fatal flaw that Buffett failed to foresee.
-2.  **Avoid paying for acquisitions with undervalued company stock.** Using Berkshire's appreciating stock magnified the financial disaster, turning a $433 million loss into a multi-billion-dollar mistake in terms of opportunity cost.
-
-Search Query: Charlie Munger's initial reluctance to invest in BYD and influence of Li Lu
-Search Answer: Based on the provided information, the investment philosophies of the named individuals are not detailed. However, the texts provide an anecdote about an investment made by Charlie Munger and Warren Buffett that was introduced to them by investor Li Lu [1, 2].
-
-Li Lu brought the Chinese electric car and battery manufacturer, BYD, to the attention of Munger and Buffett. Munger was initially skeptical of the company and opposed the investment, later referring to it as "the investment he tried to stop" [3].
-
-Despite Munger's initial reluctance, Li Lu successfully convinced him of the company's potential, which led to a significant and successful investment for Berkshire Hathaway [1, 4]. Munger was so impressed with Li Lu that he had previously invested his own money with him and had also introduced him to Buffett [1]. Li Lu's first investment in BYD was in 2002 [5].
-
-[1] https://quartr.com/insights/investment-strategy/li-lu-the-man-who-impressed-charlie-munger
-[2] https://medium.com/@davidsehyeonbaek/buffetts-byd-exit-and-the-closing-of-a-17-year-bet-7e48c6edde9e
-[3] https://www.youtube.com/watch?v=PbgqkAQ41mM
-[4] https://acquirersmultiple.com/2017/11/li-lu-investing-is-about-intellectual-honesty-know-what-you-dont-know/
-[5] https://finance.yahoo.com/news/charlie-munger-handed-over-family-190221478.html
-
-Search Query: Duan Yongping investment thesis for Apple Inc.
-Search Answer: Based on the provided information, the investment philosophy of Duan Yongping is centered on long-term, value-driven, and high-conviction investing in a concentrated portfolio of 8 to 12 stocks. A core concept of his approach is to favor long-term stability over quick success, leading him to invest in companies that possess excellent business models and cultures of integrity.
-
-His investment in Apple Inc. serves as a prime example of this philosophy. Duan's bullish outlook on Apple is rooted in a specific projection that the company's profit could reach 40-50 yuan per share within two to three years of his assessment. This confidence was further demonstrated by a strategy that showed his belief in Apple's stock value at the $195 level.
-
-Search Query: Duan Yongping public reflections on failed investments or mistakes
-Search Answer: Based on the provided information, Duan Yongping's investment philosophy for long-term success is centered on "making fewer mistakes." He follows the principle of not "doubling down on a wrong path." If he becomes dissatisfied with a company, his rule is to sell the investment and move on.
-
-An example of his approach was his decision to invest heavily in General Electric (GE). He did so because he had tracked its corporate culture for many years and believed it was a "great company."
-
-Search Query: How Duan Yongping discovered and adapted Warren Buffett and Charlie Munger's investment philosophy
-Search Answer: Duan Yongping's investment philosophy is heavily influenced by Warren Buffett and Charlie Munger. He learned from their public statements and writings, such as Buffett's quotes and Charlie Munger's speeches documented in "Poor Charlie's Almanack" [https://en.zhihu.com/article/713188083].
-
-A key principle Yongping adapted is to prioritize avoiding mistakes, or "landmines," rather than acting on a fear of missing out (FOMO) [https://www.binance.com/en/square/post/18603728666178]. In addition to studying their work, Duan also had a personal introduction to Charlie Munger from Warren Buffett at the 2022 Berkshire Hathaway shareholder meeting [https://www.gurufocus.com/news/2645848/buffetts-investment-in-apple-inspired-by-business-model-comparison?mobile=true].
-
-Search Query: criticisms of Buffett-Munger investment style scale and relevance in modern markets
-Search Answer: Critics of the Warren Buffett and Charlie Munger investment style argue that the sheer size of Berkshire Hathaway's portfolio makes it increasingly challenging to find investment opportunities that are large enough to significantly impact the company's returns. Some have also questioned whether their investment style is obsolete in the modern age.
-
-Despite their highly successful partnership, Buffett and Munger have disagreed on certain investment topics, including investing in China, the value of index funds, and their investment in Wells Fargo & Co.
-
-Search Query: arguments for the continued relevance of value investing in modern technology-driven markets
-Search Answer: Value investing principles can be applied to technology companies that exhibit consistent earnings, strong economic moats, and efficient capital management [https://www.levelheadedinvesting.com/p/tech-driven-value-how-technology-companies-fit-in-today-investment-strategy]. In modern, technology-driven markets where indices like the S&P 500 have increased exposure to growth companies, value investing can act as an effective diversifier for a portfolio [https://www.jennison.com/content/dam/jennison/us/en/active/documents/white-papers/The-Value-Opportunity-Value-Investing-in-Todays-Environment.pdf]. A notable risk to this approach, however, is the possibility that the market may not recognize a security's intrinsic value for a prolonged period [https://www.troweprice.com/institutional/at/en/insights/articles/2025/q3/beyond-big-tech-why-value-stocks-deserve-a-closer-look.html].
+Additionally, a key principle involves maintaining an efficient legal and regulatory framework for SOEs [https://tusiad.org/en/reports/item/3610-oecd-guidelines-on-corporate-governance-of-state-owned-enterprises]. Networks like the OECD-Asia SOE Network work to promote these guidelines to advance regional corporate governance reform [https://www.oecd.org/en/topics/sub-issues/corporate-governance-of-state-owned-enterprises.html].
 
