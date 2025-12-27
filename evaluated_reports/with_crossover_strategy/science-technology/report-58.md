@@ -1,0 +1,204 @@
+# Exploring Horizontal Gene Transfer (HGT) in Plants and animals (ie Non-Microbial Systems)
+You could examine instances of horizontal gene transfer in eukaryotes—particularly plants and animals—and evaluate the evolutionary significance of these transfers. Its very rare and therefore must have a really interesting reason behind this adaptation!
+Especially as this horizontal gene transfer has been well -studied in microbial systems, but not in plants and animals (this is a relatively new discovery).  Understanding  how commonly genes move between eukaryotic species and whether these transfers confer benefits would be really interesting to find out
+
+# Deep Research Report: Horizontal Gene Transfer in Eukaryotes
+
+**An Analysis of Mechanisms, Impact, and Evolutionary Significance in Plants and Animals**
+
+---
+
+### Executive Summary
+
+Horizontal Gene Transfer (HGT), the movement of genetic material between organisms other than by traditional parent-to-offspring inheritance, has long been recognized as a primary driver of evolution in prokaryotes. However, it was historically considered a rare or non-existent phenomenon in complex multicellular eukaryotes like plants and animals. This report synthesizes current research demonstrating that HGT in non-microbial systems, while less frequent than in bacteria, is a significant and potent source of evolutionary innovation.
+
+Key findings indicate that genes are transferred between eukaryotic species through various vectors, including viruses, transposable elements, parasites, and physical phenomena like grafting. Documented cases reveal that these transfers can confer substantial adaptive advantages, such as disease resistance in wheat (from fungi), carotenoid synthesis in aphids (from fungi), and freeze tolerance in fish (from other fish).
+
+The detection of HGT is a complex bioinformatic challenge, requiring researchers to rigorously distinguish true transfer events from confounding factors like contamination, differential gene loss, and phylogenetic artifacts. Despite these hurdles, a growing body of evidence is shifting the scientific consensus. The debate is moving from *if* HGT occurs in eukaryotes to *how much* it occurs and its overall impact. Research now suggests HGT is a key mechanism for rapid adaptation, providing novel functions that can take millions of years to fully integrate into the host's regulatory networks, ultimately reshaping our understanding of the Tree of Life.
+
+---
+
+### 1. Foundational Concepts: HGT in Eukaryotes vs. Prokaryotes
+
+Horizontal Gene Transfer is a well-established and frequent evolutionary mechanism in prokaryotes, where it is a primary driver of adaptation, such as the spread of antibiotic resistance. In contrast, HGT has historically been considered far less common in eukaryotes, particularly in animals [https://www.the-scientist.com/horizontal-gene-transfer-happens-more-often-than-anyone-thought-70118]. Until the early 2000s, the transfer of DNA between complex eukaryotic genomes was thought to be improbable, if not impossible. This perspective was supported by limited available evidence and the understanding that gene transfer between multicellular organisms would be inherently more difficult than in microbial systems [https://www.nature.com/articles/ncomms2148, https://texasgateway.org/resource/203-perspectives-on-the-phylogenetic-tree].
+
+The concept of HGT in eukaryotes also challenges traditional evolutionary models, which depict evolution as a branching tree of life based on vertical inheritance. HGT introduces web-like connections that can blur species boundaries and complicate the reconstruction of evolutionary histories [https://nyaspubs.onlinelibrary.wiley.com/doi/full/10.1111/nyas.14471]. However, with increasing genomic data, HGT events in eukaryotes are being reported with greater frequency, though the precise mechanisms often remain obscure.
+
+---
+
+### 2. Mechanisms and Vectors of HGT in Non-Microbial Systems
+
+While the exact pathways are not always fully understood, research has identified several key biological and physical vectors that facilitate HGT in plants and animals.
+
+*   **Viruses and Transposable Elements:** Viral infections can serve as a conduit for HGT. In multicellular eukaryotes, the most documented instances of HGT involve the movement of transposable elements (transposons), with over 200 cases recorded. The introduction of these mobile genetic elements is now considered a major force for genomic variation and biological innovation in eukaryotes.
+*   **Parasites and Endosymbionts:** Intracellular organisms are potent agents of HGT. The parasitic bacterium *Wolbachia* is a notable example, considered an ideal donor because it is inherited maternally through the host's egg cytoplasm. Gene sequences from *Wolbachia* have been found integrated into the genomes of their arthropod hosts, demonstrating that these transfers have likely occurred many times and contributed to host genome evolution [https://www.cell.com/molecular-plant/fulltext/S1674-2052(22)00049-1].
+*   **Grafting and Hybridization:** In plants, HGT can occur via grafting, where tissues from two distinct plants fuse. This process allows for the movement of genomic DNA between species that may be sexually incompatible [https://www.pnas.org/doi/10.1073/pnas.1114076109]. This transfer can be remarkably extensive, with evidence showing that all three of a plant's genomes (nuclear, mitochondrial, and chloroplast) can move across the graft junction. In some cases, entire nuclear genomes are transferred [https://www.science.org/doi/10.1126/sciadv.abd8215]. A well-documented example is "chloroplast capture," where the chloroplast genome from one plant species is transferred to another, such as from cultivated tobacco to tree tobacco [https://www.pnas.org/doi/10.1073/pnas.1114076109].
+*   **Phagocytosis:** One proposed model for HGT involves phagocytosis, where a host organism (like a protist) consumes another organism as food. During digestion, some of the foreign DNA from the consumed organism can survive and become incorporated into the host's genome [https://onlinelibrary.wiley.com/doi/pdf/10.1002%2Fbies.201300007, https://www.pnas.org/doi/10.1073/pnas.1533212100]. For multicellular eukaryotes, it is suggested that unicellular and early developmental stages are the most likely points of entry for this foreign material [https://pmc.ncbi.nlm.nih.gov/articles/PMC4033532/].
+
+---
+
+### 3. Documented Cases and Functional Impact
+
+Specific, well-validated cases of HGT in plants and animals underscore the significant adaptive advantages these transfers can provide.
+
+#### 3.1 HGT in Plants
+
+In the plant kingdom, HGT has been shown to confer novel traits related to stress resistance, metabolic functions, and defense.
+*   **Disease Resistance:** The *Fhb7* gene, transferred from fungi, provides strong resistance to Fusarium Head Blight (FHB), a devastating crop disease. This discovery has been leveraged to develop FHB-resistant wheat varieties [https://onlinelibrary.wiley.com/doi/full/10.1002/pei3.70087].
+*   **Pathogen Defense:** The plant's basic secretory protein (*BSP*) gene family, crucial for pathogen resistance and other stress responses, was acquired from bacteria early in the evolution of land plants [https://www.cell.com/molecular-plant/fulltext/S1674-2052(22)00049-1].
+*   **Plant-to-Plant Transfers:** A gene was documented to have been transferred from the parasitic plant *Striga* to its host, sorghum [https://pmc.ncbi.nlm.nih.gov/articles/PMC12448838/]. Furthermore, there is widespread evidence of mitochondrial genes being horizontally transferred among diverse species of flowering plants [https://pmc.ncbi.nlm.nih.gov/articles/PMC8401529/].
+
+#### 3.2 HGT in Animals
+
+While historically thought to be rare in metazoans, functional HGT events have been confirmed in diverse animal groups including nematodes, arthropods, and vertebrates.
+*   **Metabolic Innovation:** Aphids acquired the ability to synthesize their own carotenoids—a vital metabolic capability—by obtaining the necessary genes from fungi, likely through consumption.
+*   **Adaptation to Extreme Environments:** In a landmark case of vertebrate-to-vertebrate HGT, the rainbow smelt acquired an antifreeze protein gene from the herring approximately 20 million years ago. This transfer allows the smelt to survive in icy waters. Further analysis suggests the herring may have originally acquired this gene via HGT itself.
+*   **Broad Adaptive Functions:** Across eukaryotes, HGT has provided genes for a range of functions, including the degradation of plant carbohydrates, biosynthesis of cofactors and vitamins, metabolism of amino acids, and protection from other organisms [http://mccutcheonlab.org/s/17_husnik_nrm.pdf].
+
+---
+
+### 4. Methodologies and Challenges in HGT Detection
+
+Identifying true HGT events in eukaryotic genomes is a significant bioinformatic challenge, requiring stringent criteria to rule out alternative explanations.
+
+#### 4.1 Detection Methods
+
+Researchers employ several computational techniques to identify putative HGT events:
+*   **Phylogenetic Analysis:** This is considered a reliable statistical method for confirming HGT. It involves constructing an evolutionary tree for a specific gene and comparing it to the accepted evolutionary tree of the species involved. A strong incongruence between the gene tree and the species tree is a hallmark of HGT ["https://www.biorxiv.org/content/10.1101/2025.11.05.686818v1.full.pdf"].
+*   **Codon Usage Bias:** This method analyzes the frequency of different codons (three-nucleotide DNA sequences) used to encode amino acids. A gene transferred from a distant organism may retain the codon usage pattern of its donor, making it stand out from the host's native genes. However, this method is known to generate a high number of false positives and negatives ["https://pmc.ncbi.nlm.nih.gov/articles/PMC4462595/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC11811736/"].
+
+#### 4.2 Key Challenges
+
+Confirming HGT requires distinguishing it from several confounding factors:
+*   **Contamination:** This is the most common problem, where DNA from bacteria, fungi, parasites, or lab reagents is accidentally sequenced along with the host genome. Many early reports of HGT in eukaryotes, including in the human genome draft, were later retracted as contamination events [1, 3, 7].
+*   **Differential Gene Loss:** A gene may have been present in a common ancestor and subsequently lost in several descendant lineages. The remaining lineages that retain the gene can create a "patchy" distribution that mimics HGT [1, 2, 3, 7].
+*   **Phylogenetic Artifacts and Convergent Evolution:** Errors in the models used to build evolutionary trees or the independent evolution of similar gene sequences in unrelated lineages can both create false signals of HGT [1, 2, 3, 4, 6].
+
+---
+
+### 5. Evolutionary Significance and Future Outlook
+
+#### 5.1 A Driver of Innovation, Not a Mere Curiosity
+
+The scientific consensus is shifting to view HGT as a major driver of innovation in eukaryotic evolution. Rather than a collection of rare exceptions, HGT is a mechanism that provides "unprecedented adaptive potential" by introducing entirely new functions into a genome. It allows for the rapid acquisition of beneficial traits, contributing to the formation of "larger, fitter genomes than could be achieved by purely vertical inheritance."
+
+#### 5.2 Quantifying Prevalence
+
+The central question in the field is no longer *if* HGT occurs in eukaryotes, but *how much* it occurs [https://www.nature.com/articles/s41576-023-00688-5]. The increasing availability of high-quality genome data is enabling large-scale systematic studies to quantify HGT events across different taxonomic groups. For example, one study identified 745 HGT regions in 10 model organisms, with over 90% of sequenced eukaryotes showing some involvement [https://www.biorxiv.org/content/10.1101/2022.07.26.501571v3.full-text]. However, data on whether specific lineages act as "HGT hotspots" was unavailable in the provided research, with such hotspots currently identified only in bacteria.
+
+#### 5.3 Gaps and Future Research
+
+Key areas of ongoing and future research include:
+*   **Long-Term Integration:** The integration of a horizontally transferred gene into a host's complex regulatory network is a long-term process, estimated to span 8 to 22 million years. Understanding how these foreign genes become essential components of stable networks is a critical area of study [https://academic.oup.com/mbe/article/25/3/559/1060663].
+*   **Improved Detection:** A primary focus for the future is the development of more accurate HGT detection methods. This has spurred a recent surge in new computational and AI-based approaches designed to better identify true transfer events from genomic data [https://academic.oup.com/nargab/article/7/1/lqaf005/8008560].
+
+### Conclusion
+
+The study of Horizontal Gene Transfer in plants and animals has fundamentally altered our understanding of eukaryotic evolution. Once dismissed as a microbial-centric phenomenon, HGT is now recognized as a potent, albeit relatively infrequent, source of genetic novelty and rapid adaptation in complex multicellular life. From conferring disease resistance in crops to enabling survival in extreme environments, the functional impact of these transfers is undeniable. While significant challenges remain in accurately detecting and quantifying HGT events, ongoing advancements in genomics and bioinformatics are poised to reveal the full extent to which the Tree of Life is interconnected by this fascinating evolutionary mechanism.
+
+---
+
+### References
+
+*   [1] https://www.the-scientist.com/horizontal-gene-transfer-happens-more-often-than-anyone-thought-70118
+*   [2] https://texasgateway.org/resource/203-perspectives-on-the-phylogenetic-tree
+*   [3] https://www.nature.com/articles/ncomms2148
+*   [4] https://nyaspubs.onlinelibrary.wiley.com/doi/full/10.1111/nyas.14471
+*   [5] https://academic.oup.com/plcell/article/37/9/koaf195/8238793
+*   [6] https://pmc.ncbi.nlm.nih.gov/articles/PMC12451028/
+*   [7] https://www.pnas.org/doi/10.1073/pnas.1114076109
+*   [8] https://www.science.org/doi/10.1126/sciadv.abd8215
+*   [9] http://journals.ashs.org/view/journals/hortsci/50/4/article-p520.xml
+*   [10] https://pubmed.ncbi.nlm.nih.gov/38263430/
+*   [11] https://www.researchgate.net/publication/381694108_Horizontal_gene_transfer_in_eukaryotes_A_biological_phenomenon_with_unknown_molecular_mechanisms_but_accumulating_DNA_evidence
+*   [12] https://www.pnas.org/doi/10.1073/pnas.1533212100
+*   [13] https://onlinelibrary.wiley.com/doi/pdf/10.1002%2Fbies.201300007
+*   [14] https://pmc.ncbi.nlm.nih.gov/articles/PMC4033532/
+*   [15] https://onlinelibrary.wiley.com/doi/full/10.1002/pei3.70087
+*   [16] https://www.cell.com/molecular-plant/fulltext/S1674-2052(22)00049-1
+*   [17] https://pmc.ncbi.nlm.nih.gov/articles/PMC8401529/
+*   [18] https://pmc.ncbi.nlm.nih.gov/articles/PMC12448838/
+*   [19] https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2013.2450
+*   [20] https://pmc.ncbi.nlm.nih.gov/articles/PMC3896011/
+*   [21] http://mccutcheonlab.org/s/17_husnik_nrm.pdf
+*   [22] https://www.researchgate.net/publication/26678515_Prediction_of_horizontal_gene_transfers_in_eukaryotes_Approaches_and_challenges
+*   [23] https://www.biorxiv.org/content/10.1101/2025.11.05.686818v1.full.pdf
+*   [24] https://pmc.ncbi.nlm.nih.gov/articles/PMC4462595/
+*   [25] https://pmc.ncbi.nlm.nih.gov/articles/PMC11811736/
+*   [26] https://www.cell.com/trends/genetics/pdf/S0168-9525(20)30206-7.pdf
+*   [27] https://academic.oup.com/mbe/article/42/5/msaf107/8133933
+*   [28] https://www.nature.com/articles/s41576-023-00688-5
+*   [29] https://academic.oup.com/mbe/article/25/3/559/1060663
+*   [30] https://www.researchgate.net/publication/5691632_Integration_of_Horizontally_Transferred_Genes_into_Regulatory_Interaction_Networks_Takes_Many_Million_Years
+*   [31] https://www.researchgate.net/publication/344474793_Horizontal_Gene_Transfer_in_Eukaryotes_Not_if_but_How_Much
+*   [32] https://www.biorxiv.org/content/10.1101/2022.07.26.501571v3.full-text
+*   [33] https://academic.oup.com/nargab/article/7/1/lqaf005/8008560
+
+## Citations 
+- https://www.researchgate.net/publication/316254456_Horizontal_gene_transfer_is_less_frequent_in_eukaryotes_than_prokaryotes_but_can_be_important_retrospective_on_DOI_101002bies201300095
+- https://www.sciencedirect.com/science/article/pii/S0923250815001308
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3673617/
+- https://www.biorxiv.org/content/10.1101/2022.07.26.501571v2.full-text
+- https://www.cell.com/trends/genetics/fulltext/S0168-9525(20)30206-7?dgcid=raven_jbs_aip_email
+- https://texasgateway.org/resource/203-perspectives-phylogenetic-tree
+- https://nyaspubs.onlinelibrary.wiley.com/doi/full/10.1111/nyas.14471
+- https://www.the-scientist.com/horizontal-gene-transfer-happens-more-often-than-anyone-thought-70118
+- https://www.nature.com/articles/ncomms2148
+- https://www3.botany.ubc.ca/keeling/PDF/24HGT.pdf
+- https://www.biorxiv.org/content/10.1101/2022.07.26.501571v1.full-text
+- https://academic.oup.com/mbe/article/39/1/msab303/6400257
+- https://www.sciencedirect.com/science/article/abs/pii/S0169534710001230
+- https://link.springer.com/article/10.1186/s12862-022-01995-x
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3068243/
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12451028/
+- https://www.science.org/doi/10.1126/sciadv.abd8215
+- https://academic.oup.com/plcell/article/37/9/koaf195/8238793
+- http://journals.ashs.org/view/journals/hortsci/50/4/article-p520.xml
+- https://www.pnas.org/doi/10.1073/pnas.1114076109
+- https://www.pnas.org/doi/10.1073/pnas.1533212100
+- https://onlinelibrary.wiley.com/doi/pdf/10.1002%2Fbies.201300007
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC4033532/
+- https://pubmed.ncbi.nlm.nih.gov/38263430/
+- https://www.researchgate.net/publication/381694108_Horizontal_gene_transfer_in_eukaryotes_A_biological_phenomenon_with_unknown_molecular_mechanisms_but_accumulating_DNA_evidence
+- https://www.researchgate.net/publication/383471864_Horizontal_Gene_Transfer_in_Plant_Evolution
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12448838/
+- https://onlinelibrary.wiley.com/doi/full/10.1002/pei3.70087
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8401529/
+- https://www.cell.com/molecular-plant/fulltext/S1674-2052(22)00049-1
+- https://www.cbc.ca/news/science/fish-horizontal-gene-transfer-1.5972546
+- https://pubmed.ncbi.nlm.nih.gov/33714557/
+- https://www.science.org/doi/10.1126/sciadv.adp8738
+- https://www.ncbi.nlm.nih.gov/search/research-news/16556/
+- https://bio.libretexts.org/Workbench/Bio_1130%3A_Remixed/06%3A_Phylogenetic_Trees/6.05%3A_Perspectives_on_the_Phylogenetic_Tree/6.5B%3A_Horizontal_Gene_Transfer
+- https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2013.2450
+- https://pubmed.ncbi.nlm.nih.gov/39960859/
+- https://academic.oup.com/gbe/article/17/2/evaf028/8019638
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3896011/
+- http://mccutcheonlab.org/s/17_husnik_nrm.pdf
+- https://www.researchgate.net/publication/26678515_Prediction_of_horizontal_gene_transfers_in_eukaryotes_Approaches_and_challenges
+- https://www.biorxiv.org/content/10.1101/2025.11.05.686818v1.full.pdf
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC4462595/
+- https://refubium.fu-berlin.de/bitstream/handle/fub188/46871/lqaf005.pdf?sequence=1&isAllowed=y
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11811736/
+- https://cordis.europa.eu/project/id/101209745
+- https://www.applykite.com/positions/the-impact-of-horizontal-gene-transfer-on-the-evolution-of-eukaryotes-0098ec2400
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3879968/
+- https://www.researchgate.net/publication/258824709_Horizontal_Gene_Transfer_is_a_Significant_Driver_of_Gene_Innovation_in_Dinoflagellates
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3043529/
+- https://academic.oup.com/mbe/article/42/5/msaf107/8133933
+- https://www.cell.com/trends/genetics/pdf/S0168-9525(20)30206-7.pdf
+- https://ouci.dntb.gov.ua/en/works/7Bon2Np4/
+- https://pubmed.ncbi.nlm.nih.gov/38263430/
+- https://www.nature.com/articles/s41576-023-00688-5
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC5635113/
+- https://www.nature.com/articles/s41467-017-00808-w
+- https://academic.oup.com/mbe/article/25/3/559/1060663
+- https://www.researchgate.net/publication/5691632_Integration_of_Horizontally_Transferred_Genes_into_Regulatory_Interaction_Networks_Takes_Many_Million_Years
+- https://pubmed.ncbi.nlm.nih.gov/18158322/
+- https://discovery.researcher.life/article/integration-of-horizontally-transferred-genes-into-regulatory-interaction-networks-takes-many-million-years/639afcfe00d034c799acf1d997ef25dc
+- https://link.springer.com/article/10.1186/s13059-018-1526-x
+- https://pubmed.ncbi.nlm.nih.gov/33012528/
+- https://academic.oup.com/nargab/article/7/1/lqaf005/8008560
+- https://www.researchgate.net/publication/344474793_Horizontal_Gene_Transfer_in_Eukaryotes_Not_if_but_How_Much
+- https://www.science.org/doi/10.1126/sciadv.adp8738
+- https://www.biorxiv.org/content/10.1101/2022.07.26.501571v3.full-text

@@ -100,12 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {
-    "id": 77,
-    "topic": "Health",
-    "language": "en",
-    "prompt": "What is the role of need for closure on misinformation acceptance?",
-}
+research_task = {"id": 60, "prompt": "How to conduct comprehensive and accurate situational awareness of space targets in the cislunar space, and support the effectiveness of short-term cislunar space tracking and monitoring tasks?"}
 
 
 research_topic = research_task["prompt"]
