@@ -1,240 +1,197 @@
-Search Query: challenges and objectives of cislunar Space Situational Awareness (SSA) compared to LEO and GEO
-Search Answer: To conduct comprehensive and accurate situational awareness of space targets in cislunar space and support short-term tracking and monitoring, one must address the unique challenges of the region by focusing on specific objectives. Space Situational Awareness (SSA) is the practice of tracking, characterizing, and predicting the future position of objects in space [https://www.ansys.com/simulation-topics/what-is-space-situational-awareness]. The challenges and objectives for SSA in the cislunar region—the area between geosynchronous orbit (GEO) and the Moon's gravitational boundary—differ significantly from those in the more familiar Low Earth Orbit (LEO) [https://www.sciencedirect.com/science/article/pii/S0094576524003308, https://dspace.mit.edu/bitstream/handle/1721.1/162417/rude-rudc6118-sm-tpp-2025-thesis.pdf.pdf?sequence=1&isAllowed=y].
+Search Query: Notion database core features guide: views, property types, filtering, sorting, and grouping
+Search Answer: Notion's databases are a powerful feature for data organization, centered around key components like views, filters, sorting, and grouping. They also support various property types and advanced features such as relations, rollups, and formulas. Users can manage these components through a settings menu, often located in the top right corner of the database.
 
-While LEO is a densely populated and contested region where the primary objective is mitigating collision risks, the cislunar region presents a different set of difficulties related to its vast volume and complex gravitational dynamics [https://www.sciencedirect.com/science/article/pii/S0094576524003308, https://dspace.mit.edu/bitstream/handle/1721.1/162417/rude-rudc6118-sm-tpp-2025-thesis.pdf.pdf?sequence=1&isAllowed=y].
+Here is a breakdown of Notion's core database functionalities:
 
-### Key Challenges in Cislunar SSA
+*   **Views**: You can create multiple views for a single database, allowing you to see the same data in different layouts. Each view can have its own unique settings, and you can customize how database pages open within each view.
+*   **Filtering**: To display only the data that meets specific criteria, you can apply filters based on its properties. For more complex needs, advanced filters can be created using filter groups that combine `AND` and `OR` logic.
+*   **Sorting**: Data can be rearranged and organized using the `Sort` option. If multiple sorting conditions are applied, the first condition takes precedence, and subsequent conditions are used to sort the items within the already sorted groups.
+*   **Grouping**: This feature organizes data into sections based on a specific property. Grouping takes priority over sorting; items are first organized into groups, and then the sorting order is applied to the items within each of those groups.
 
-To achieve effective SSA, the following challenges must be overcome:
-*   **Novel Orbit Determination**: The unique and complex gravitational environment of cislunar space necessitates the development of novel orbit determination methods, as techniques used for LEO and GEO may not be sufficient [https://www.sciencedirect.com/science/article/pii/S0094576524003308].
-*   **Continuous Detection**: A significant challenge is designing an architecture capable of continuously detecting low-thrust spacecraft throughout the vastness of the cislunar region [https://hanspeterschaub.info/Papers/grads/MichaelKlonowski.pdf].
-*   **Technological and Organizational Hurdles**: Cislunar SSA faces significant systemic issues. Key areas requiring improvement include infrastructure, communication structures, acquisition strategies, and policy-driven timelines [https://dspace.mit.edu/bitstream/handle/1721.1/162417/rude-rudc6118-sm-tpp-2025-thesis.pdf.pdf?sequence=1&isAllowed=y].
+Both filter and sort settings can be saved for a specific database view, ensuring that the custom configuration applies to everyone using that view.
 
-### Objectives for Effective Cislunar SSA
+Search Query: Obsidian plugins for Notion-like database functionality including Table, Kanban, and Calendar views
+Search Answer: Several Obsidian plugins can effectively replicate Notion's multi-view database functionality, allowing users to manage tasks like content creation within Obsidian. The key plugins for this purpose are Obsidian Projects, DataLoom, the Database Folder plugin, and the obsidian-database-plugin.
 
-The design of a cislunar SSA architecture should be guided by the following objectives to support tracking and monitoring tasks:
-*   **Maximize Coverage and Minimize Cost**: A primary goal is to design a system that maximizes coverage of trajectories and volumes of space while minimizing the total cost, which is influenced by the number and capabilities of the observers [https://hanspeterschaub.info/Papers/grads/MichaelKlonowski.pdf].
-*   **Ensure Continuous Detection**: An essential objective is to create a framework that ensures the continuous detection and tracking of all spacecraft, particularly those using low-thrust propulsion, throughout the region [https://hanspeterschaub.info/Papers/grads/MichaelKlonowski.pdf].
+Here is a detailed comparison of these options:
 
-Search Query: definition of cislunar space and the strategic importance of Earth-Moon Lagrange points L1-L5 for trajectory planning and space domain awareness
-Search Answer: To conduct situational awareness of space targets in cislunar space and support tracking and monitoring tasks, a key strategy involves leveraging the unique gravitational characteristics of this region [https://cdcl.umd.edu/papers/icssa20.pdf].
+### 1. Obsidian Projects
+This community plugin is frequently cited as a primary and powerful option that aims to duplicate the functionality of a Notion database, an Airtable database, and a Google Sheet from within Obsidian.
 
-Cislunar space is the area of deep space influenced by the combined gravitational pull of the Earth-Moon system, encompassing the vast region between terrestrial orbits and the Moon [https://ntrs.nasa.gov/citations/20120009459, https://www.airandspaceforces.com/article/cislunar-space/]. Within this environment are five Lagrange points (L1-L5), which are equilibrium points where the gravitational forces from the Earth and the Moon on an object balance each other out [https://www.afrl.af.mil/Portals/90/Documents/RV/A%20Primer%20on%20Cislunar%20Space_Dist%20A_PA2021-1271.pdf?ver=vs6e0sE4PuJ51QC-15DEfg%3D%3D, https://www.airuniversity.af.edu/Portals/10/AEtherJournal/Journals/Special-Edition_Winter2023/Willis.pdf].
+*   **Strengths**: It is a comprehensive tool designed specifically to mirror Notion's database power. Its versatility is demonstrated by its use in creating tools like a content calendar, which directly addresses the need for a calendar view.
 
-These points are strategically important for space domain awareness. For example, to effectively observe other objects within the cislunar environment, satellites can be placed in specific orbits, such as Lyapunov orbits, around the L1 and L2 Lagrange points. This positioning allows for comprehensive monitoring of the Earth-Moon system [https://cdcl.umd.edu/papers/icssa20.pdf].
+### 2. DataLoom
+DataLoom is considered another strong choice for creating Notion-like databases where all information is stored locally.
 
-Search Query: orbital mechanics of Near-Rectilinear Halo Orbits (NRHO) and Distant Retrograde Orbits (DRO) in cislunar space
-Search Answer: A key strategy for conducting comprehensive situational awareness and supporting short-term tracking of targets in cislunar space involves leveraging the unique properties of specific orbits, such as Near-Rectilinear Halo Orbits (NRHOs) and Distant Retrograde Orbits (DROs). These are considered potential "parking orbits" for stations and monitoring assets ["https://www.sciencedirect.com/science/article/abs/pii/S0094576521002526"].
+*   **Strengths**: A key feature of this plugin is its use of relations, allowing you to link information between different notes, similar to Notion's relation property.
 
-NRHOs, first identified within the Circular Restricted Three Body Problem (CR3BP) model of the Earth-Moon system, are part of the L1 and L2 halo orbit families ["https://engineering.purdue.edu/people/kathleen.howell.1/Publications/Conferences/2017_IAA_ZimHowDav.pdf"]. They offer several advantages for long-term missions:
-*   **Stability:** They possess favorable stability properties, which allow for long-duration missions with minimal propellant consumption for station-keeping ["https://engineering.purdue.edu/people/kathleen.howell.1/Publications/Conferences/2017_IAA_ZimHowDav.pdf"].
-*   **Accessibility:** They allow for relatively inexpensive transfer options from Earth and feasible transfers to the lunar surface and other cislunar orbits ["https://engineering.purdue.edu/people/kathleen.howell.1/Publications/Conferences/2017_IAA_ZimHowDav.pdf"].
-*   **Favorable Geometry:** They have advantageous eclipsing properties that can be designed to avoid lunar eclipses, ensuring consistent power and communication ["https://engineering.purdue.edu/people/kathleen.howell.1/Publications/Conferences/2017_IAA_ZimHowDav.pdf"].
+### 3. Database Folder plugin vs. obsidian-database-plugin
+These two plugins offer different approaches to creating and displaying databases, representing a key choice in user workflow.
 
-The dynamic relationship between these orbits is crucial for effective monitoring and tracking tasks. Research is actively focused on finding efficient transfer trajectories between NRHOs and DROs ["https://ntrs.nasa.gov/citations/20210007698"]. This has practical applications in mission planning, such as positioning monitoring or rescue spacecraft in DROs to perform rapid rendezvous operations with a target in an NRHO. One study showed that a constellation of two rescue spacecraft in DROs and other orbits could rendezvous with a craft in an NRHO in less than one day, demonstrating how strategic positioning in these orbits can support effective short-term tracking and monitoring in cislunar space ["https://www.sciencedirect.com/science/article/abs/pii/S2468896724000557"].
+*   **Database Folder plugin**
+    *   **Functionality**: This plugin operates much like the dedicated Kanban plugin. It creates a database view that takes up the full pane of the application.
+    *   **Strengths**: It provides a dedicated, immersive interface for a single database, which is ideal for users who prefer a focused, full-screen workspace for their data.
+    *   **Weaknesses**: Because it occupies the full pane, you cannot embed its databases within a note that contains other text or elements.
 
-Search Query: impact of three-body problem dynamics on cislunar space object tracking versus two-body mechanics
-Search Answer: To conduct comprehensive and accurate situational awareness of space targets in cislunar space, it is essential to move beyond simple two-body mechanics and address the complexities of the three-body problem [https://space.stackexchange.com/questions/40560/two-body-problem-vs-three-body-problem-applications, https://forum.nasaspaceflight.com/index.php?topic=24989.0]. The motion of objects in the Earth-Moon system is best described by the restricted three-body problem, where an object of negligible mass is influenced by the gravitational pull of both the Earth and the Moon. A common, less computationally expensive approximation for this is the Circular Restricted Three-Body Problem (CR3BP) [https://www.sciencedirect.com/science/article/abs/pii/S0273117724009189].
+*   **obsidian-database-plugin**
+    *   **Functionality**: In contrast to the Database Folder plugin, this one functions more like the popular Dataview plugin. It allows you to place multiple database code blocks within a single note.
+    *   **Strengths**: Its major advantage is flexibility, allowing you to integrate live, editable databases alongside other written content in a single file. It also has the unique ability to edit Dataview tables directly, which is a powerful feature for Dataview users.
+    *   **Weaknesses**: The experience is less of a dedicated "app-like" view and more of an embedded element within a larger document.
 
-The primary impact of these dynamics on tracking and monitoring is the introduction of complex, less predictable trajectories compared to the stable orbits found in two-body mechanics. Three-body dynamics introduce phenomena such as Lagrange points, halo orbits, and invariant manifolds, which do not exist in simpler models [https://ross.aoe.vt.edu/books/Ross_3BodyProblem_Book_2022.pdf]. Furthermore, studies show that under these dynamics, debris from breakup or fragmentation events can scatter and travel far beyond the original orbit, significantly complicating tracking and behavior prediction [https://www.sciencedirect.com/science/article/abs/pii/S0273117724009189].
+Search Query: comprehensive list and explanation of Notion database property types including text, number, select, multi-select, date, person, files & media, checkbox, URL, email, phone, formula, relation, and rollup
+Search Answer: Notion databases organize information using various property types for each entry. These property types include:
 
-Supporting short-term tracking and monitoring tasks requires specific computational methods. While two-body mechanics are insufficient on their own, they can serve as a baseline. For instance, Encke's method calculates an object's trajectory by integrating the difference between its actual path in an n-body system and a reference two-body orbit [https://forum.nasaspaceflight.com/index.php?topic=24989.0]. For even greater accuracy and more precise risk assessments, tracking models may need to incorporate the gravitational effects of the Sun and Jupiter, effectively treating the challenge as a Restricted Four-Body Problem [https://www.sciencedirect.com/science/article/abs/pii/S0273117724009189].
+*   **Text**: Stores string values.
+*   **Number**: Used for numerical values.
+*   **Select**: A string property that allows you to choose a single option from a list.
+*   **Multi-select**: An array of strings that allows you to choose multiple options from a list.
+*   **Status**: A string property used to track the progress or status of an item.
+*   **Date**: Stores date information.
+*   **Files**: Allows for attaching files and media to an entry.
+*   **URL**: A property type for storing URLs.
+*   **Email**: Stores email addresses.
+*   **Phone**: Stores phone numbers.
+*   **Relation**: Connects items between different databases, allowing you to establish and express relationships by linking to entries in another database.
+*   **Rollup**: Works with the Relation property to aggregate data from the linked database items.
 
-Search Query: cislunar object population survey including government and commercial actors like NASA Artemis and Chinese Lunar Exploration Program
-Search Answer: A key component of conducting comprehensive and accurate situational awareness of targets in cislunar space is understanding the significant number of planned missions that will require tracking and monitoring. Based on a survey of uncrewed cislunar missions planned between 2024 and 2033, a large volume of activity is expected from numerous government and commercial entities worldwide [0].
+The `Person`, `Checkbox`, and `Formula` property types were not described in the source materials.
 
-**United States Missions**
+Search Query: Obsidian Dataview plugin tutorial explaining DQL query language, data sources like frontmatter and inline fields, and how to create dynamic tables and lists
+Search Answer: The Obsidian Dataview plugin can help replicate some of Notion's database functionality by allowing you to query metadata from your notes and display it in various formats. It operates on the core principles of data indexing and data querying.
 
-The U.S. has a substantial number of government and commercial cislunar missions scheduled for this period [0].
+**Data Indexing**
+Dataview begins by indexing information from your notes. This includes data such as tags, list items, and custom metadata fields that you add to your notes either in the frontmatter or as inline fields. Only the information that has been indexed by the plugin is available to be queried.
 
-*   **Government Missions:**
-    *   **NASA:** As part of the Artemis program, NASA's plans include the Lunar Gateway station, Artemis Base Camp habitats and logistics, a Lunar Terrain Vehicle, and 26 Commercial Lunar Payload Services (CLPS) missions [0].
-    *   **Defense & Military:** Projects include the Air Force Research Laboratory's (AFRL) Defense Deep Space Sentinel, demonstrators for surveillance and tracking, DARPA's DRACO nuclear rocket, and the Defense Innovation Unit's nuclear propulsion demonstrations [0].
+**Data Querying with DQL**
+Once the data is indexed, you can query it using the Dataview Query Language (DQL), which is a powerful, SQL-like language at the core of the plugin's functionality. To use it, you place DQL queries within a `dataview` code block inside a note. These queries can be used to list, filter, sort, or group your data. The results are dynamic and automatically update whenever the underlying note data changes.
 
-*   **Commercial Missions:** The U.S. commercial sector is also very active with a wide range of planned missions:
-    *   **Quantum Space:** 10 orbital data platforms
-    *   **Firefly Aerospace:** 8 landers
-    *   **Blue Origin:** 4 surface landers
-    *   **Lunar Outpost:** 4 rovers
-    *   **SpaceX:** 1 cislunar tourist mission
-    *   Other companies with at least one mission planned include Argo Space Corp, AstroForge (asteroid mining), Astrolab, Crescent Space (communications satellites), Interlune (lunar resource harvesting), and Lonestar Data Holdings [0].
+DQL supports four different query types to produce various outputs, allowing you to create dynamic tables and lists from your note data. For example, you could use it to generate a list of all notes that mention a specific person or to build a video database.
 
-**International Missions**
+Search Query: in-depth tutorial of Obsidian Projects plugin covering setup, data sourcing from notes and folders, and creating Table, Kanban, Calendar, and List views
+Search Answer: Based on the provided information, the **Obsidian Projects** plugin is the most effective tool for replicating Notion's multi-view database functionality within Obsidian. It allows you to manage note-based projects by extracting structured data from your notes and presenting it in various formats.
 
-Multiple international partners and nations are also planning cislunar activities [0].
+### Setup and Data Sourcing
 
-*   **China:** Has six missions planned, including orbiters, relay satellites, rovers, and hoppers [0].
-*   **Other Nations:** Other countries with scheduled missions include:
-    *   Russia (4)
-    *   European Space Agency (ESA) (4)
-    *   Japan (3)
-    *   Canada (2)
-    *   South Korea (2)
-    *   Australia (1)
-    *   India (1)
-    *   Italy (1)
-    *   Pakistan (1)
-    *   Thailand (1) [0].
+To use the plugin, you must first install it within Obsidian. A "project" is created by sourcing notes from a specific folder or by grouping notes that share a common tag. The plugin then gathers the structured data (from YAML frontmatter or inline fields) from these notes into a unified, table-like format where each note represents a row. You can also utilize note templates when creating new notes directly within a project view, ensuring consistency across your data.
 
-Search Query: tracking challenges for cislunar population growth specifically rocket bodies debris and low-thrust spacecraft
-Search Answer: To conduct comprehensive situational awareness and support short-term tracking of targets in cislunar space, efforts are focused on overcoming the primary challenge: the vast distances involved, which make monitoring difficult [https://newspaceeconomy.ca/2024/09/28/cislunar-space-debris-increasing-concerns/]. The growing population of objects, including rocket bodies, debris, and low-thrust spacecraft, is an increasing concern for academic researchers [https://spacenews.com/university-researchers-flag-cislunar-space-debris-concerns/, https://spacesecurity.wse.jhu.edu/2024/09/29/university-researchers-flag-cislunar-space-debris-concerns/].
+### Available Views
 
-In response to these challenges, several initiatives are underway:
-*   **Debris Tracking Studies:** Studies are being conducted to establish future requirements for tracking debris in cislunar orbits [https://www.hou.usra.edu/meetings/orbitaldebris2023/pdf/6105.pdf].
-*   **Advanced Military Programs:** The U.S. military is actively seeking new methods to track objects in this domain. The Defense Advanced Research Projects Agency (DARPA) initiated a program called Track at Big Distances with Track-Before-Detect (TBD2). This program aims to create new ways to process optical signals for the continuous, space-based detection and tracking of objects that are transiting or originating from cislunar space. The ultimate goal is to enhance early warning capabilities for potential threats and other objects of interest [https://www.space.com/space-exploration/launches-spacecraft/us-military-wants-to-track-potential-threats-coming-from-the-moon].
+The Obsidian Projects plugin includes four built-in views that replicate much of Notion's database functionality:
 
-Search Query: limitations of the Space Surveillance Network (SSN) ground-based sensors for cislunar domain awareness
-Search Answer: Ground-based sensors from the Space Surveillance Network (SSN) are insufficient for conducting comprehensive and accurate situational awareness of space targets in the cislunar space, creating significant blind spots [https://www.researchgate.net/publication/322399511_Challenges_and_Potential_in_Space_Domain_Awareness]. The limitations of these sensors are compounded by the vastness of the cislunar region and include restricted fields of view, inadequate observational power, and susceptibility to cloud cover [https://www.researchgate.net/publication/359014581_Expanding_the_Space_Surveillance_Network_with_Space-Based_Sensors_Using_Metaheuristic_Optimization_Techniques].
+*   **Table View:** This view presents your notes and their associated data in a standard table format, similar to a spreadsheet.
+*   **Board (Kanban) View:** This view functions as a Kanban board, allowing you to organize notes into columns based on a specific property (e.g., status). It is worth noting that a separate, dedicated Kanban plugin also exists for Obsidian.
+*   **Calendar View:** Any note containing a date property can be displayed as an event on a calendar. The view is interactive, allowing you to add new notes for a specific day by double-clicking or right-clicking on that date in the calendar.
+*   **List View:** While the plugin does not have a view explicitly named "List View," its core functionality of collecting notes and displaying them in a table-like structure effectively serves as a list.
 
-According to performance analysis, current ground-based systems achieve only 56.4% observability of the cislunar region, with a maximum observation or tracking gap time of 24 hours. It is projected that even future ground-based systems would only reach 64.5% observability [https://amostech.com/TechnicalPapers/2022/Poster/Bloom.pdf]. Consequently, conducting Space Domain Awareness (SDA) in the cislunar volume is considered infeasible with any single Electro-Optical or Infrared (EO/IR) sensor system, including a ground-based network alone [https://www.researchgate.net/publication/393975299_System_Design_and_Analysis_for_Cislunar_Space_Domain_Awareness_Through_Distributed_Sensors].
+Additionally, the plugin offers a **Gallery View**, which displays notes as cards, similar to Notion's gallery view.
 
-Search Query: proposed space-based sensor constellations for cislunar SSA including architectures at Lagrange points and DARPA's "Track at Big Distances with Track-Before-Detect" (TBD2) methods
-Search Answer: To conduct comprehensive and accurate situational awareness of space targets in cislunar space and support short-term tracking and monitoring, several methods and architectures have been proposed. These include government programs and academic frameworks for satellite constellation design [https://sam.gov/opp/43a52cc42f5f420bb0c11452ace42d6f/view, https://www.highergov.com/contract-opportunity/track-at-big-distances-with-track-before-detect-t-darpa-ps-26-01-o-ae224/, https://www.researchgate.net/publication/383060120_Cislunar_Constellation_Design_for_Space_Situational_Awareness_with_Time-Expanded_Facility_Location_Problem].
+Search Query: Obsidian DataLoom plugin guide: setup, creating tables, data sourcing, using different views like Kanban and Gallery, and implementing relations
+Search Answer: Based on the provided information, the primary Obsidian plugin for replicating some of Notion's database functionality is **Dataview**. The information does not mention a plugin called "DataLoom."
 
-Two key approaches are:
-*   **DARPA's TBD2 Program** The "Track at Big Distances with Track-Before-Detect" (TBD2) program from DARPA aims to enable continuous, space-based detection and tracking of objects in cislunar space. The objective is to achieve this on tactical timelines to improve safety and awareness in this domain [https://sam.gov/opp/43a52cc42f5f420bb0c11452ace42d6f/view, https://www.highergov.com/contract-opportunity/track-at-big-distances-with-track-before-detect-t-darpa-ps-26-01-o-ae224/].
+Here is a breakdown of the capabilities mentioned for the Dataview plugin:
 
-*   **Constellation Design using a Facility Location Problem Framework** Another proposed method for Cislunar Space Situational Awareness (SSA) involves designing satellite constellations using a facility location problem framework. This approach seeks to determine the optimal placement for space-based observers to effectively monitor a specific cislunar region. One application of this method involves locating sensors, or "facilities," in discretized slots along Lagrange Point Orbits (LPOs). This framework also addresses the challenge of sensor tasking by allocating observers to specific pointing directions based on their field of view (FOV), rather than assigning them only to individual targets [https://www.researchgate.net/publication/383060120_Cislunar_Constellation_Design_for_Space_Situational_Awareness_with_Time-Expanded_Facility_Location_Problem, https://arxiv.org/html/2408.06238v1].
+*   **Table View:** The Dataview plugin can be used to create tables within Obsidian.
+*   **Kanban Board View:** It is also possible to build Kanban boards using Dataview.
+*   **List/Card View:** Dataview tables can be rendered as card views, potentially with the help of a separate plugin designed to display the data in this format.
 
-Search Query: technical trade-offs of optical telescopes vs high-power radar vs passive RF sensing for detecting and characterizing objects in cislunar space
-Search Answer: To conduct comprehensive and accurate situational awareness of space targets in cislunar space and support short-term tracking and monitoring, a multi-modal, layered approach is necessary. No single sensor can provide a complete picture of the cislunar domain; therefore, combining the strengths of optical telescopes, high-power radar, and passive radio frequency (RF) sensing is the most effective strategy.
+The provided answers do not contain information on how to create a Calendar view or offer a detailed comparison of the strengths and weaknesses of these plugins.
 
-The technical trade-offs for each sensor type are as follows:
+Search Query: in-depth tutorial of Obsidian Database Folder plugin: setup, data sources, creating tables, Kanban boards, and other views, performance, and limitations
+Search Answer: To replicate Notion's multi-view database functionality in Obsidian, the **Database Folder** plugin is the most effective and comprehensive solution. Other plugins like Dataview and the dedicated Kanban plugin can also create specific views.
 
-### Optical Telescopes
+### Database Folder Plugin
 
-Optical telescopes are considered the "workhorse" and primary method for current cislunar Space Situational Awareness (SSA) [0, 6, 7].
+The Database Folder plugin is a powerful tool designed to create Notion-like databases by gathering information from various sources within your Obsidian vault [https://medium.com/technology-hits/my-obsidian-setup-part-14-database-folder-plugin-932fe2e360ad, https://www.youtube.com/watch?v=lIuZAik1jPM]. It integrates deeply with and leverages the search functionality of the popular Dataview plugin to function [https://medium.com/technology-hits/my-obsidian-setup-part-14-database-folder-plugin-932fe2e360ad, https://www.youtube.com/watch?v=OYJgDZomOyo].
 
-*   **Advantages**:
-    *   **Effective at Long Distances**: They are cost-effective and well-suited for the vast distances of cislunar space, where radars struggle [3, 5, 7].
-    *   **Excellent Angular Data**: They provide excellent angular positional data (astrometry), such as azimuth and elevation, and can measure an object's brightness (photometry) to help determine its size [3, 4].
-*   **Disadvantages**:
-    *   **Environmental and Geometric Limitations**: Ground-based telescopes are dependent on weather, can only operate at night, and are subject to atmospheric interference [0, 7, 8, 9]. They also require specific lighting conditions where the sun reflects off the target [4, 6].
-    *   **No Range Data**: A significant drawback is that optical sensors provide poor or no range data [4].
-*   **Future Developments**: To overcome these limitations, space-based optical telescopes, such as those planned for the Cislunar Highway Patrol System (CHPS), are being developed. These can provide more persistent surveillance from advantageous orbits and can be more sensitive than ground-based telescopes of the same size [2, 3, 9].
+#### Strengths:
+*   **Multiple Views**: It supports the creation of several database views, including tables and Kanban boards, allowing you to visualize the same data in different ways [https://www.youtube.com/watch?v=lIuZAik1jPM].
+*   **Interactive Editing**: You can view note content and update metadata fields directly from the database table. Any changes made in the database view are automatically saved back to the original source notes, providing a seamless editing experience similar to Notion [https://medium.com/technology-hits/my-obsidian-setup-part-14-database-folder-plugin-932fe2e360ad].
+*   **Flexible Data Sources**: The plugin can pull data from multiple types of sources, such as notes within a specific folder or notes with certain tags, to build a unified database [https://medium.com/technology-hits/my-obsidian-setup-part-14-database-folder-plugin-932fe2e360ad].
+*   **High Customization**: Database columns are highly customizable. You can add new columns, create columns based on existing file metadata or templates, and hide columns without losing the underlying metadata in your notes [https://medium.com/technology-hits/my-obsidian-setup-part-14-database-folder-plugin-932fe2e360ad].
 
-### High-Power Radar
+#### Weaknesses:
+*   **Learning Curve**: The plugin's power comes with complexity. It can be "initially a bit overwhelming" for new users to set up and configure [https://www.youtube.com/watch?v=lIuZAik1jPM].
 
-Radar systems excel in certain areas but face significant challenges at cislunar distances.
+### Other Plugins for Specific Views
 
-*   **Advantages**:
-    *   **Precise Range and Velocity**: Radar is the preferred sensor for lower orbits because it provides highly accurate range and range-rate (velocity) measurements, which are crucial for precise orbit determination [1, 3, 4, 7].
-*   **Disadvantages**:
-    *   **Distance Limitations**: Radar's effectiveness diminishes drastically at cislunar distances due to the “tyranny of the fourth power law,” where the required power scales with the fourth power of the distance [3, 8]. This makes tracking objects beyond geosynchronous orbit (GEO) extremely expensive and power-intensive [6, 7]. Even advanced systems like the Deep Space Advanced Radar Capability (DARC) are designed for distances up to GEO (approx. 36,000 km), which falls short of cislunar space [8].
-    *   **Poor Angular Data**: Compared to optical systems, radars provide poor angular position data [4].
+While Database Folder offers a multi-view solution, other plugins can be used to create specific, single-purpose views:
 
-### Passive RF Sensing
+*   **Dataview Plugin**: In addition to being a dependency for Database Folder, Dataview itself can be used to create custom views, including Kanban-style boards, by querying your notes' metadata [https://www.youtube.com/watch?v=rGFb6j9KDh4].
+*   **Kanban Plugin**: For users who primarily need a Kanban board, this dedicated plugin offers a straightforward way to create visual workflows without the broader database functionality of Database Folder [https://www.youtube.com/watch?v=XcRfWm8oQZc].
 
-Passive RF sensing involves intercepting signals emitted by active satellites.
+### Comparison Summary
 
-*   **Advantages**:
-    *   **Characterization of Active Satellites**: This method is useful for detecting, tracking, and characterizing active satellites by intercepting their communication or navigation signals, which helps determine their function and status [3, 6, 8].
-    *   **Cueing and Precision Data**: It can provide cueing information for other sensors and, like radar, can offer very precise range and velocity measurements [1, 9].
-*   **Disadvantages**:
-    *   **Limited to Active Targets**: The primary limitation is that it can only detect objects that are actively transmitting signals. It is ineffective for tracking inactive or non-cooperative satellites, space debris, or natural objects [3, 6, 9].
+*   **Database Folder** is the best all-in-one choice for replicating Notion's core database feature, where a single data source can be displayed in multiple formats like tables and Kanban boards. Its strength lies in its integrated, interactive, and customizable environment.
+*   **Dataview** and the **Kanban plugin** are excellent alternatives if you only need a specific view (like a Kanban board) and prefer a more focused, potentially simpler tool for that task.
 
-### A Combined, Layered Approach
+Search Query: obsidian-database-plugin tutorial creating embeddable editable database blocks in notes
+Search Answer: Obsidian's core plugin, **Bases**, can effectively replicate much of Notion's multi-view database functionality. It allows you to create embeddable and editable database-like views directly from the properties within your local Markdown notes.
 
-Given the distinct advantages and limitations of each sensor type, a hybrid or networked strategy is required for comprehensive and accurate situational awareness. By combining the excellent angular data from optical sensors with the precise range and range-rate data from RF or radar systems, a complete and accurate state vector (position and velocity) of a cislunar object can be determined [1, 4].
+### Core Functionality of Bases
 
-This integrated approach is exemplified by systems like the Air Force Research Laboratory's CHIMERA instrument, which combines optical and RF sensors [1], and the development of space-based platforms like CHPS, which aim to overcome the limitations of ground-based systems [0, 3, 7].
+Bases uses the properties (YAML frontmatter) in your notes to generate dynamic views that can be sorted, filtered, and edited. This allows you to manage your notes in a structured way without needing to learn complex query languages required by some other plugins. It is presented as an accessible alternative for users transitioning from Notion.
 
-Search Query: algorithms for cislunar initial orbit determination and trajectory prediction using sparse optical data from multi-body gravitational models like CR3BP
-Search Answer: To conduct comprehensive and accurate situational awareness of space targets in cislunar space and support short-term tracking and monitoring, various advanced algorithms are being developed for initial orbit determination (IOD) using sparse optical data. These algorithms are designed to handle the complexities of multi-body gravitational models characteristic of the cislunar environment.
+There are two primary ways to display a base within a note:
+1.  **Embed a base file**: You can create a dedicated `.base` file and then embed it into any note using the `!` syntax.
+2.  **Embed as a code block**: You can create a base directly inside a note by using a `base` code block and the Bases syntax.
 
-A prominent advanced technique is the **collocation-based IOD algorithm**. This novel approach uses collocation and nonlinear programming to reconstruct an object's state trajectory and control history from optical angle measurements. It represents a significant improvement over traditional methods, demonstrating higher accuracy and a better convergence rate, even over long measurement intervals and with limited initial guess information. This method has proven highly reliable for reconstructing multi-body orbits from sparse data over short observing arcs when compared to traditional shooting methods and baseline approaches like an Extended Kalman Filter (EKF).
+A key feature is the ability to edit note properties directly from within the embedded view, which simplifies making batch edits across multiple files.
 
-In addition to the collocation method, other algorithms are used and studied for cislunar IOD:
-*   **Differential Corrections Algorithm**: A novel method developed for the cislunar region that can function with as few as three angle-only measurements.
-*   **Gooding's Algorithm**: A traditional IOD process often used as a benchmark for comparison with newer methods.
-*   **MCCLOD**: An IOD method that is used in analyses, sometimes paired with a regression model. The acronym has been variously expanded as "Multi-epoch, Cislunar, and Constrained-Admissible-Region, Lambert-based Orbit Determination" and "Multi-Correlation Cislunar Orbit Determination".
-*   **Extended Kalman Filter (EKF)**: Frequently used as a baseline orbit determination approach, particularly with maneuver detection, for comparison against more advanced algorithms.
-*   **Batch Least Squares (BLS) Filter**: An algorithm mentioned in the context of processing the results from IOD.
+### Supported Views (Replicating Notion)
 
-The primary goal in developing these advanced algorithms is to enable a large convergence region with minimal a priori knowledge and to provide accurate solutions despite long gaps between measurements, thereby supporting the effectiveness of cislunar space tracking and monitoring tasks.
+Based on the available information, Bases supports the following layouts:
+*   **Table View**: Yes
+*   **List View**: Yes
+*   **Kanban View**: Yes, via a "Cards" layout that functions similarly to a Kanban board.
+*   **Calendar View**: This view is not mentioned as a currently supported layout. However, it is noted that community plugins may add more layouts to Bases in the future.
 
-Search Query: strategies and challenges for multi-source data fusion and cataloging for cislunar space situational awareness
-Search Answer: To conduct comprehensive and accurate situational awareness and support short-term tracking of targets in cislunar space, several strategies have been proposed. These include the long-term planning of observational strategies, the development of both space- and ground-based observational tools, and the use of multi-source data fusion and cataloging [https://ui.adsabs.harvard.edu/abs/2022AGUFMSA12A..05G/abstract].
+### Strengths and Weaknesses
 
-Another method to address these challenges is to formulate an optimization problem for managing multi-spacecraft systems. This approach aims to enhance Cislunar Space Domain Awareness (SDA) and support the effectiveness of tracking and monitoring tasks [https://www.researchgate.net/publication/372205114_Optimizing_Multi-spacecraft_Cislunar_Space_Domain_Awareness_Systems_via_Hidden-Genes_Genetic_Algorithm].
+**Strengths:**
+*   **No-Code Solution**: It is designed to be user-friendly and does not require coding, making it more accessible than plugins like Dataview.
+*   **Core Plugin**: As a core plugin, it is officially supported and integrated into Obsidian.
+*   **Direct Editing**: You can edit note properties directly from the database view, which is efficient for managing metadata.
+*   **Live and Embeddable**: The views are live and can be embedded anywhere in your vault.
 
-Search Query: application of AI and machine learning for cislunar sensor tasking and anomaly detection
-Search Answer: To conduct comprehensive and accurate situational awareness of space targets in cislunar space and support short-term tracking and monitoring, artificial intelligence (AI) and machine learning (ML) are applied to enhance Space Situational Awareness (SSA) [https://muse.jhu.edu/article/950954, https://www.keaipublishing.com/en/journals/space-habitation/call-for-papers/ai-enabled-cislunar-space-situational-awareness/]. These technologies improve the detection, recognition, tracking, and prediction of space objects' movements, which helps lower the risk of collisions [https://muse.jhu.edu/article/950954, https://www.keaipublishing.com/en/journals/space-habitation/call-for-papers/ai-enabled-cislunar-space-situational-awareness/].
+**Weaknesses:**
+*   **Limited Views**: Based on the provided information, it natively replicates Table, List, and Kanban views but lacks a built-in Calendar view.
 
-Specific applications of AI and ML in cislunar SSA include:
-*   **Orbital Cataloging and Classification**: AI enhances the cataloging and classification of objects, which is particularly useful in the complex gravitational environments of cislunar space [https://www.keaipublishing.com/en/journals/space-habitation/call-for-papers/ai-enabled-cislunar-space-situational-awareness/].
-*   **Sensor Tasking**: Deep Reinforcement Learning (DRL) agents are employed for sensor tasking. Monte Carlo simulations have shown that these agents can outperform random policies by maximizing the number of unique Resident Space Objects (RSOs) visited by sensors [https://amostech.com/TechnicalPapers/2022/Poster/Siew.pdf].
-*   **Anomaly and Maneuver Detection**: ML is used for satellite maneuver detection, sometimes with Convolutional Neural Networks (CNNs). It is also applied to data fusion to identify satellite anomalies, which can be caused by factors like space weather [https://amostech.space/track/machine-learning-for-ssa-applications/].
-*   **Object Characterization and Assessment**: Other applications in Space Domain Awareness (SDA) involve using ML for object detection, satellite characterization, and conjunction assessment, with Graph Neural Networks being a technique used for the latter two [https://amostech.space/track/machine-learning-for-ssa-applications/].
+### Enhancing the Experience with Another Plugin
 
-The range of techniques used for these applications encompasses machine learning, neural networks (including Convolutional and Graph Neural Networks), and symbolic automated reasoning [https://amostech.space/track/machine-learning-for-ssa-applications/, https://ar5iv.labs.arxiv.org/html/1910.03014].
+For a more seamless editing experience with the *content* of your notes (not just the properties), the community plugin **Sync Embeds** is a useful companion. It is designed to make embedded notes feel like a live, integrated part of the note you are currently viewing, allowing for in-place editing of the note's content.
 
-Search Query: applications of cislunar SSA for collision avoidance, rendezvous and proximity operations, and threat characterization
-Search Answer: To conduct comprehensive and accurate situational awareness of space targets in cislunar space for short-term tracking and monitoring, research has focused on applying Cislunar Space Situational Awareness (SSA) to rendezvous and proximity operations using specific dynamics models for estimation and control [https://www.mdpi.com/2226-4310/10/8/674, https://www.researchgate.net/publication/372791517_Rendezvous_and_Proximity_Operations_in_Cislunar_Space_Using_Linearized_Dynamics_for_Estimation].
+Search Query: Obsidian Database Folder plugin create calendar view
+Search Answer: Based on the provided information, several Obsidian plugins can effectively replicate the **calendar view** component of Notion's database functionality.
 
-Key methods and applications include:
-*   **Linearized Dynamics Models:** One approach uses the matrix exponential linearized relative circular restricted three-body problem (CR3BP) equations as a dynamics model. This model is used for state estimation and to simulate optimal rendezvous maneuvers between spacecraft, such as a "chief" and "deputy" spacecraft, even when accounting for measurement noise [https://www.mdpi.com/2226-4310/10/8/674, https://www.researchgate.net/publication/372791517_Rendezvous_and_Proximity_Operations_in_Cislunar_Space_Using_Linearized_Dynamics_for_Estimation].
-*   **Integrated Navigation and Control:** Other frameworks integrate navigation and control systems to support autonomous spacecraft operations, such as rendezvous and precise landings, in the cislunar environment. These systems can incorporate technologies like LiDAR [https://www.researchgate.net/publication/394384917_Spacecraft_Rendezvous_and_Precise_Landing_in_the_Cislunar_Region_with_a_LiDAR].
-*   **Collision Avoidance:** SSA is critical for collision avoidance, particularly for remotely controlled satellites. The significant communication delays in cislunar space make effective SSA essential for distinguishing between a successful docking maneuver and a "catastrophic collision" [https://doaj.org/article/4c048b4229f74e558d0c723a4e973227].
+Here are the key plugins and methods for creating calendar views in Obsidian, with a comparison of their features:
 
-The provided information did not contain details regarding threat characterization.
+### Core Calendar Plugins
 
-Search Query: methods for cislunar data correlation and uncertainty quantification to build a unified catalog from multi-source SSA data
-Search Answer: To conduct comprehensive and accurate situational awareness of space targets in cislunar space and support short-term tracking and monitoring, several methods for uncertainty quantification and orbit determination have been proposed.
+*   **Full Calendar**: This plugin integrates the FullCalendar library directly into Obsidian, allowing you to manage schedules and events within your vault. Its primary strength is its ability to source events dynamically from your notes, either by pulling data from frontmatter (YAML) or from dedicated event lists within your daily notes.
 
-These methods include:
-*   **Multi-Fidelity Approach**: This approach is used to efficiently and rapidly propagate the orbit state uncertainty of cislunar objects. The state uncertainty is represented as an ensemble of particles or sigma points.
-*   **Multi-Order Shooting Scheme**: This is a proposed method specifically for the initial orbit determination of cislunar targets.
-*   **Generative AI Architectures**: These are being explored for thermospheric density prediction and its associated uncertainty quantification, which are critical factors in accurate tracking.
+*   **Obsidian Big Calendar**: This plugin is noted for its clear display of multiple events across various timeframes. It offers day, week, month, and agenda formats, making it a strong choice for users who need to visualize a busy schedule.
 
-It is important to note that the term "unified catalog" found in the source material refers to a data source management tool for databases and not a catalog of cislunar objects. The sources did not contain information on methods for cislunar data correlation.
+*   **Bases**: While not exclusively a calendar plugin, Bases can create a calendar view by filtering notes from specified folders. This method is particularly useful for creating specialized calendars, such as a content calendar that pulls from folders containing articles or emails.
 
-Search Query: cislunar multi-source data correlation and association techniques for unified object cataloging
-Search Answer: In the multi-body dynamics of cislunar space, traditional initial orbit determination techniques often fail or are prone to failure due to the Too-Short Arc (TSA) problem [1]. Consequently, to support effective tracking and monitoring, maintaining a unified object catalog for cislunar orbits is necessary. This will require the development of new sensors and a substantially expanded set of algorithms [2].
+### Specialized and Alternative Calendar Views
 
-**References**
-1. https://www.researchgate.net/publication/228932337_Correlation_of_Optical_Observations_of_Objects_in_Earth_Orbit
-2. https://www.nasa.gov/wp-content/uploads/2021/05/cislunar_ssa_proposed_message_set-nov2021_rev2_without_emailspdf.pdf
+*   **Every-day-calendar**: For a higher-level perspective, this plugin provides a "year at a glance" view, which can be useful for long-term planning and tracking.
 
-Search Query: policy and legal frameworks for cislunar space traffic management and international data sharing agreements
-Search Answer: To conduct comprehensive situational awareness and support short-term tracking of space targets in cislunar space, a specialized framework for Cislunar Space Traffic Management (CSTM) is urgently needed. While this is an area of active development, establishing such a system faces significant policy, legal, and political challenges [https://www.researchgate.net/publication/391481695_Weak_Signals_in_Cislunar_Space_Traffic_Management_How_can_policy_to_facilitate_CSTM_be_designed_to_adapt_to_unexpected_events_and_emerging_trends].
+### General Calendar Capabilities in the Obsidian Ecosystem
 
-A notable step toward creating the necessary international legal frameworks is "The Cologne Manual on Space Traffic Management" [https://ilwr.jura.uni-koeln.de/sites/ilwr/user_upload/CM-STM_2025__Guidelines.pdf]. However, several obstacles hinder the establishment of binding regulations required for effective tracking and monitoring:
-*   **Lack of Consensus and Data Sharing:** There is a lack of international consensus on the urgency of the issue, and critically, there is no legally binding agreement to provide Space Situational Awareness (SSA) data and processed information [https://www.unoosa.org/res/oosadoc/data/documents/2025/aac_105c_22025crp/aac_105c_22025crp_23_0_html/AC105_C2_2025_CRP23E.pdf].
-*   **Coordination and Responsibility:** States are often reluctant to coordinate orbit selection processes. Furthermore, there is a lack of specific regulations for determining collision avoidance responsibility and for establishing liability standards for damage from space operations [https://www.unoosa.org/res/oosadoc/data/documents/2025/aac_105c_22025crp/aac_105c_22025crp_23_0_html/AC105_C2_2025_CRP23E.pdf].
-*   **Prioritization:** The framework lacks a system for prioritizing different space activities, including military operations [https://www.unoosa.org/res/oosadoc/data/documents/2025/aac_105c_22025crp/aac_105c_22025crp_23_0_html/AC105_C2_2025_CRP23E.pdf].
+The Obsidian community plugin directory lists numerous other tools with calendar-related functions. These plugins extend functionality by:
+*   Rendering a calendar from event information found within notes.
+*   Integrating with iCalendar URLs for syncing with external calendars.
+*   Using YAML keys with dates to display notes in a calendar format.
+*   Working in conjunction with other popular plugins like **Daily Notes**, **Periodic Notes**, **Tasks**, and **Dataview** to create powerful, interconnected systems.
 
-Addressing these long-term challenges serves as a call to action for stakeholders. Further study is required on regulatory issues, such as the economic impact of STM on private commercial activities, to pave the way for successful and sustainable missions in cislunar space [https://hal.science/hal-05067616v1/file/DTIS2025-009-Pre-proof-Accept%C3%A9e.pdf, https://www.unoosa.org/res/oosadoc/data/documents/2025/aac_105c_22025crp/aac_105c_22025crp_23_0_html/AC105_C2_2025_CRP23E.pdf].
+Search Query: Obsidian workflow integrating Database Folder with Full Calendar plugin for unified multi-view database
+Search Answer: Based on the provided information, there is no described workflow for integrating the Database Folder plugin with the Full Calendar plugin to create a unified, multi-view database system.
 
-Search Query: algorithms and frameworks for solving the Too-Short Arc (TSA) data association and tracklet correlation problem for cislunar object catalog maintenance
-Search Answer: To support effective short-term tracking and monitoring of space targets in cislunar space, one significant challenge to address is the Too-Short Arc (TSA) data association and tracklet correlation problem. An approach to solve this is to associate multiple short-arc tracklets with specific targets across various time intervals [https://www.researchgate.net/publication/326567294_Improved_tracklet_association_for_space_objects_using_short-arc_optical_measurements].
+However, the information does provide details on how some of these plugins function and integrate with others:
 
-To improve upon existing techniques, a novel tracklet association method has been developed. This enhanced method integrates admissible regions with nonlinear approaches to more effectively link data [https://arc.aiaa.org/doi/10.2514/1.G008069].
+*   **Full Calendar Plugin:** This plugin operates by pulling event data directly from the frontmatter of individual notes or from event lists within your daily notes. It has established integrations with other Obsidian plugins, including Dataview and Tasks.
+*   **Kanban and Full Calendar Integration:** A specific integration exists between the Obsidian Kanban plugin and the Full Calendar plugin. This allows users to copy a card from a Kanban board directly to their calendar.
 
-Search Query: methods and challenges for threat assessment and object characterization of non-cooperative targets in cislunar space
-Search Answer: To conduct comprehensive and accurate situational awareness of space targets, particularly non-cooperative ones in cislunar space, methods focus on observing and analyzing satellite behavior and maneuvers. These approaches support short-term tracking and monitoring by identifying unusual or potentially threatening activities.
-
-Key methods for threat assessment and characterization include:
-
-*   **Tracking High-Velocity Maneuvers**: Monitoring for unusually high-speed movements is a critical assessment method. For instance, China's TJS-2 satellite was observed maneuvering at 44 meters per second, a rate significantly more fuel-intensive than the standard 0.5 to 1 m/s.
-*   **Observing Orbital Positioning**: A satellite's position relative to other objects can indicate its intent. An example is the Chinese TJS-4 satellite, which maneuvered to place itself between the sun and a U.S. space surveillance satellite, potentially creating shadows to obstruct the U.S. satellite's ability to take photographs.
-*   **Monitoring Rendezvous and Proximity Operations (RPO)**: Tracking satellites that operate in close proximity is another key technique. Observed examples include China's SY-24C-03 and SJ-6-05A conducting RPO with a closest approach of less than one kilometer, and Russia's Cosmos 2581 and Cosmos 2582 moving in formation as close as 100 meters apart. Such operations could suggest activities like refueling or servicing. For example, China's SJ-25 satellite entered a coplanar orbit with SJ-21, a satellite known for previously moving a defunct satellite, which may indicate a potential refueling mission.
-*   **Detecting Entry into Coplanar Orbits**: A notable event for characterization is when a satellite enters the same orbital plane as another nation's satellite. Russia's Cosmos 2576, for instance, entered a coplanar orbit with the U.S. government satellite USA 314.
-*   **Analyzing Complex Flight Patterns**: Non-cooperative targets can be characterized by observing unusual flight patterns. An example includes the "corkscrew maneuvers" conducted by the Chinese SY-24C satellites around another satellite.
-
-Additionally, the characterization of resident space objects for surveillance and tracking is a subject of ongoing academic research partnerships.
-
-Search Query: roadmap for cislunar space situational awareness identifying technology gaps and investment priorities
-Search Answer: A roadmap for conducting comprehensive and accurate situational awareness of space targets in cislunar space is outlined in the U.S. National Cislunar Science and Technology Strategy and an accompanying Action Plan released by the White House Office of Science and Technology Policy (OSTP) [https://spacenews.com/ostp-releases-cislunar-science-and-technology-plans/, https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/11/11-2022-NSTC-National-Cislunar-ST-Strategy.pdf, https://bidenwhitehouse.archives.gov/wp-content/uploads/2024/12/Cislunar-Implementation-Plan-Final.pdf]. This strategy establishes a vision for U.S. leadership in the responsible and sustainable use of the cislunar environment [https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/11/11-2022-NSTC-National-Cislunar-ST-Strategy.pdf].
-
-To support the effectiveness of cislunar space tracking and monitoring, the strategy sets forth several key objectives to guide research, development, and investment:
-*   Support research and development for future growth in cislunar space [https://space.commerce.gov/white-house-releases-national-cislunar-st-strategy/].
-*   Expand international science and technology cooperation [https://spacenews.com/ostp-releases-cislunar-science-and-technology-plans/, https://space.commerce.gov/white-house-releases-national-cislunar-st-strategy/].
-*   Extend U.S. space situational awareness (SSA) capabilities into cislunar space [https://spacenews.com/ostp-releases-cislunar-science-and-technology-plans/, https://space.commerce.gov/white-house-releases-national-cislunar-st-strategy/].
-*   Develop cislunar communication and navigation systems [https://spacenews.com/ostp-releases-cislunar-science-and-technology-plans/].
-
-Furthermore, a thesis from MIT that evaluated existing SSA architectures identified key technology and system gaps that need to be addressed for effective cislunar SSA. These areas requiring improvement include infrastructure, acquisition strategies, policy-driven timelines, and communication structures [https://dspace.mit.edu/bitstream/handle/1721.1/162417/rude-rudc6118-sm-tpp-2025-thesis.pdf.pdf?sequence=1&isAllowed=y].
-
-Search Query: cislunar trajectory propagation methods using Encke's method for CR3BP and R4BP models with sparse observation data
-Search Answer: I am sorry, but the provided information does not contain details on cislunar trajectory propagation methods using Encke's method for CR3BP (Circular Restricted Three-Body Problem) and R4BP (Restricted Four-Body Problem) models, particularly with sparse observation data. While the sources discuss CR3BP, CRNBP (Circular Restricted N-Body Problem), and trajectory propagation in a general sense, they do not mention the specific techniques or models you inquired about.
+While a single plugin that seamlessly replicates all of Notion's database views is not detailed, one source speculates that a future, more comprehensive "Notion-like" database plugin might eventually replace the need for separate tools like Kanban and Full Calendar.
 

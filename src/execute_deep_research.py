@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 60, "prompt": "How to conduct comprehensive and accurate situational awareness of space targets in the cislunar space, and support the effectiveness of short-term cislunar space tracking and monitoring tasks?"}
+research_task = {"id": 66, "topic": "Software Development", "language": "en", "prompt": "Which Obsidian plugins can effectively replicate Notion's multi-view database functionality (including Table, Kanban, Calendar, and List views)? Please provide a detailed comparison of the strengths and weaknesses of these plugins."}
 
 
 research_topic = research_task["prompt"]
