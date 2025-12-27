@@ -100,7 +100,12 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 76, "topic": "Health", "language": "en", "prompt": "The significance of the gut microbiota in maintaining normal intestinal function has emerged as a prominent focus in contemporary research, revealing both beneficial and detrimental impacts on the equilibrium of gut health. Disruption of microbial homeostasis can precipitate intestinal inflammation and has been implicated in the pathogenesis of colorectal cancer. Conversely, probiotics have demonstrated the capacity to mitigate inflammation and retard the progression of colorectal cancer. Within this domain, key questions arise: What are the predominant types of gut probiotics? What precisely constitutes prebiotics and their mechanistic role? Which pathogenic bacteria warrant concern, and what toxic metabolites do they produce? How might these findings inform and optimize our daily dietary choices?"}
+research_task = {
+    "id": 77,
+    "topic": "Health",
+    "language": "en",
+    "prompt": "What is the role of need for closure on misinformation acceptance?",
+}
 
 
 research_topic = research_task["prompt"]
