@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 57, 
-    "prompt": "Summarize the global investments, key initiatives, and outputs related to Artificial Intelligence (AI) by major international consulting firms (e.g., Big Four, Accenture, MBB, IBM, Capgemini). Cover aspects such as AI-driven products/services, client case studies, application scenarios, strategic directions, and talent development programs.",
+    "id": 61, 
+    "prompt": "Research on the price dynamics of chub mackerel in major aquatic markets of Pacific Rim countries, and its interannual variations in weight/length. Combined with oceanographic theory, these research findings can further establish direct correlations between high-quality marine biological resources, aquatic markets, fishery economics, and the marine environment.",
     "article": report_content,
 }
 

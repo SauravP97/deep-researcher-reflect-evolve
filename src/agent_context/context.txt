@@ -1,258 +1,281 @@
-Search Query: How consulting firms like McKinsey, BCG, Deloitte, and Accenture define "Artificial Intelligence" and its sub-fields (Generative AI, ML) for enterprise clients
-Search Answer: Based on the provided information, the search results do not contain the necessary details to fulfill the user's query. The available content primarily consists of a list of titles for reports, articles, and podcasts from consulting firms like McKinsey, BCG, Deloitte, and Accenture.
+Search Query: major Pacific Rim countries by chub mackerel (Scomber japonicus) commercial catch volume
+Search Answer: Pacific Rim countries with significant commercial catch volumes of chub mackerel (*Scomber japonicus*) include China, Mexico, and the United States. The species is widely distributed throughout the coastal waters of the Pacific Ocean in both the northern and southern hemispheres [https://www.fishsource.org/stock_page/759].
 
-These titles touch upon topics such as AI applications, trends, and governance, but they do not include the specific content required to summarize global investments, key initiatives, AI-driven products, client case studies, or talent development programs. Furthermore, the results do not provide definitions of "Artificial Intelligence" or its sub-fields as used by these firms for their enterprise clients.
+China's catch comes from its purse seine and trawl fisheries, with statistics available from 2014 to 2022 [https://www.npfc.int/system/files/2023-12/NPFC-2023-SC08-WP15%28Rev%201%29%20Chub%20Mackerel%20Species%20Summary_0.pdf]. Mexico's landings are sourced from commercial purse seine fleets operating off Baja California, specifically near Ensenada and in Magdalena Bay. The United States also has reported chub mackerel landings [https://repository.library.noaa.gov/view/noaa/52093/noaa_52093_DS1.pdf]. While these countries are noted for their commercial fisheries, the available information does not provide a ranking by catch volume.
 
-Search Query: ("Deloitte" OR "PwC" OR "EY" OR "KPMG" OR "McKinsey" OR "Bain" OR "BCG" OR "Accenture" OR "IBM Consulting") AND ("Artificial Intelligence" OR "Generative AI") AND ("thought leadership" OR "white paper" OR "point of view" OR "service offerings")
-Search Answer: Major international consulting firms are actively shaping the discourse and strategy around Artificial Intelligence (AI) through significant thought leadership, strategic advisory services, and talent development initiatives. Their outputs focus on the opportunities, challenges, and governance required for successful AI implementation, particularly with the rise of generative AI.
+Search Query: major chub mackerel Scomber japonicus landing ports and fish markets in China Mexico United States
+Search Answer: Major landing sites and markets for chub mackerel (*Scomber japonicus*) in Pacific Rim countries include:
 
-Here is a summary of their key initiatives, strategic directions, and outputs:
+*   **Mexico** In Mexico, major landings of chub mackerel are from commercial purse seine fleets operating off Baja California, specifically near Ensenada and in Magdalena Bay [https://repository.library.noaa.gov/view/noaa/52093/noaa_52093_DS1.pdf].
 
-**IBM**
-Through its Institute for Business Value, IBM has released a comprehensive suite of reports on AI strategy. Their research provides guidance on:
-*   **Strategic Direction:** Advising CEOs on navigating the challenges and opportunities of the generative AI era.
-*   **Application Scenarios:** Exploring AI's role in government and its impact on the future of work and human resources, aiming to reimagine human potential.
-*   **Client Focus:** Helping clients move beyond a simple use-case mindset to scale AI effectively and achieve tangible business value.
-*   **Governance:** Emphasizing the need for strong AI governance to build trust, ensure compliance, and drive results.
+*   **United States** In the United States, chub mackerel are most abundant south of Point Conception, California. While landings are noted in the country, specific landing ports are not identified in the provided information [https://www.pcouncil.org/background-coastal-pelagic-species/, https://repository.library.noaa.gov/view/noaa/52093/noaa_52093_DS1.pdf].
 
-**McKinsey & Company**
-McKinsey's research highlights the practical challenges of AI adoption and identifies key technology trends.
-*   **Strategic Direction:** The 2025 "State of AI" report finds that while AI use is widespread, very few companies have successfully scaled it in a safe and reliable manner.
-*   **Key Initiatives:** The firm identifies a critical barrier to scaled adoption: a lack of necessary "guardrails" and governance, making trust a crucial factor.
-*   **Outputs:** Generative AI is a prominent topic in their "Technology Trends Outlook," which informs clients on emerging technological shifts.
+*   **China** While specific landing ports or major fish markets are not named, China has wholesale markets, factories, and suppliers of frozen Pacific chub mackerel [https://www.caharborfood.com/pacific-mackerel/land-frozen-pacific-mackerel-400-600.html].
 
-**KPMG**
-KPMG's focus is on the crucial role of corporate governance and board-level oversight in the age of AI.
-*   **Strategic Direction:** The firm's Board Leadership Center is researching the challenges and opportunities for corporate directors as generative AI moves from employee experimentation to widespread enterprise adoption.
-*   **Client Services:** KPMG emphasizes a multi-disciplinary approach combined with deep industry knowledge to assist clients in navigating the complexities of AI governance.
+Search Query: major commercial landing ports and wholesale markets for chub mackerel (Scomber japonicus) in China
+Search Answer: Major commercial landing and loading ports for chub mackerel (*Scomber japonicus*) in China include Ningbo, Xiamen, and Shantou [https://www.goldsupplier.com/provide/p169804589.html, https://yorso.com/catalog/fish/mackerel/scomber-japonicus-pacific-chub-mackerel]. Shenjiamen Fishing Port in Zhoushan City, Zhejiang Province, is also noted as one of the largest fishing ports in the world [https://www.youtube.com/watch?v=5g_JhxFUfps]. Furthermore, chub mackerel is available on a wholesale basis from numerous certified seafood manufacturers in China [https://www.made-in-china.com/products-search/hot-china-products/Scomber_Japonicus.html, https://www.healseafoods.com/product/Pacific-Mackerel-6].
 
-**EY (Ernst & Young)**
-EY is concentrating on talent development and guiding clients toward responsible AI innovation.
-*   **Talent Development:** The firm is actively building "future-ready AI talent" and developing services, particularly within its Assurance practice, to help clients innovate responsibly.
-*   **Strategic Direction:** An EY survey indicates a positive outlook, suggesting that AI-driven productivity gains are fueling reinvestment within companies rather than leading to workforce reductions.
-*   **Outputs & Frameworks:** EY utilizes frameworks like "Futures Reimagined" to help leaders navigate major trends and publishes studies such as the "Decoding the Digital Home 2025 Study" to provide industry-specific insights.
+Search Query: commercial landing ports and wholesale markets for chub mackerel Scomber japonicus in California
+Search Answer: In California, Pacific chub mackerel (*Scomber japonicus*) are landed by commercial purse-seine vessels operating along the U.S. Pacific coast. The fishery primarily exists in the waters from Baja California to Southern California.
 
-Search Query: ("Deloitte" OR "PwC" OR "EY" OR "KPMG" OR "McKinsey" OR "Bain" OR "BCG" OR "Accenture" OR "IBM Consulting" OR "Capgemini") AND ("Artificial Intelligence" OR "Generative AI") AND (investment OR funding OR commitment OR acquisition OR launch OR "strategic partnership" OR "innovation lab" OR "AI practice")
-Search Answer: Based on market analysis from major consulting firms like Deloitte and KPMG, Artificial Intelligence (AI) is a top investment priority and a critical strategic direction for their clients across various industries.
+Key commercial landing ports and market areas in California include:
 
-**Strategic Direction and Investment**
+*   **San Diego**: A significant area for commercial fishing, the Port of San Diego contains facilities such as Tuna Harbor Pier, Fish Harbor Pier, and Tuna Boat Pier. It is also home to the Tuna Harbor Dockside Market, a weekly wholesale fish market.
+*   **Santa Barbara Area**: This is another documented port with commercial landings of chub mackerel.
+*   **Ventura Harbor**: A premier landing port in the region for commercial seafood.
 
-There is growing confidence in the value and return on AI investments. A KPMG report on the Asia Pacific region found that 75% of CEOs in the area consider AI integration a key trend for their organization's prosperity. Furthermore, 87% of these leaders expect to see a return on their AI investments within three years. Similarly, Deloitte identifies AI as a "competitive imperative" in the investment management sector, a trend that is compelling firms to re-evaluate their data and cloud strategies. In this sector, the AI agenda is often driven by IT, data, and analytics teams.
+Search Query: impact of ENSO PDO sea surface temperature and upwelling on pelagic fish stock dynamics
+Search Answer: The El Niño-Southern Oscillation (ENSO) impacts pelagic fish stocks by altering marine environments and ocean conditions [https://www.researchgate.net/publication/280587989_The_impact_of_El_Nino_events_on_the_pelagic_food_chain_in_the_northern_California_Current, https://pmc.ncbi.nlm.nih.gov/articles/PMC10376808/]. Strong El Niño events, in particular, are associated with warming sea surface temperatures (SSTs) and reduced upwelling along the equatorial and eastern Pacific. For example, the strong events in 1982–1983 and 1997–1998 led to declines in upwelling-favorable winds in the Northern California Current [https://ir.library.oregonstate.edu/downloads/6395w891m].
 
-**Application Scenarios and Client Initiatives**
+More broadly, ENSO events affect sea levels, primary productivity, and ocean circulation, which can create cascading effects throughout the pelagic food chain [https://pmc.ncbi.nlm.nih.gov/articles/PMC10376808/, https://www.researchgate.net/publication/280587989_The_impact_of_El_Nino_events_on_the_pelagic_food_chain_in_the_northern_California_Current]. In the South China Sea, for instance, ENSO influences sea levels, surface temperatures, ocean circulation, and the primary productivity that underpins the marine food web [https://pmc.ncbi.nlm.nih.gov/articles/PMC10376808/].
 
-Consulting firms have reported on the rapid adoption and specific use cases of AI, particularly Generative AI (GenAI), in complex business processes like Mergers & Acquisitions (M&A).
+Furthermore, ENSO can have indirect consequences for fisheries through its impact on tropical cyclones, storms, and floods, which can cause damage to infrastructure and affect safety at sea [https://hal.science/hal-03411921/document]. The effects of ENSO on marine capture fisheries are assessed on both global and regional scales, with specific analyses for major fishing areas in the Pacific and Atlantic Oceans [https://openknowledge.fao.org/server/api/core/bitstreams/e6c87962-c4f7-443c-b9e3-57d94e7c0470/content].
 
-*   **Client Adoption in M&A:** A Deloitte survey revealed that 86% of surveyed organizations have integrated GenAI into their M&A processes, with 65% having done so in the past year alone.
-*   **Key Application Areas:** GenAI is being applied throughout the M&A lifecycle. The most common uses are in the early stages, with 40% of adopters applying it to strategy and market assessment and 35% using it for target screening and due diligence.
-*   **Implementation Strategies:** The approach to implementation varies. For instance, 31% of private equity adopters are developing their own organization-wide GenAI platforms, while others choose to partner with technology providers to customize existing tools.
+Search Query: fishery economics definitions of "landings" "catch per unit effort (CPUE)" "price elasticity" and "ex-vessel price"
+Search Answer: Based on the provided information, the following definitions of key fishery economic terms are available. The materials do not contain specific research on the price dynamics of chub mackerel in Pacific Rim countries.
 
-Search Query: ("Deloitte CortexAI" OR "PwC ChatPwC" OR "McKinsey QuantumBlack" OR "IBM watsonx" OR "Accenture AI Navigator" OR "KPMG Trusted AI") OR (("Bain" OR "BCG" OR "EY" OR "Capgemini") AND ("proprietary AI platform" OR "AI product suite" OR "named AI solution"))
-Search Answer: Major international consulting firms are making multi-billion dollar global investments in Artificial Intelligence (AI) to develop proprietary platforms, form strategic partnerships, and upskill their workforces. These initiatives aim to integrate AI into their service offerings and provide clients with advanced, data-driven solutions.
+*   **Catch per unit effort (CPUE)**: The provided sources offer two distinct definitions for this term.
+    *   One definition describes it as the number of fish caught for a given amount of fishing effort.
+    *   Another definition refers to a value calculated by multiplying the volume of the retained catch by the ex-vessel price per unit.
+    *   One study also notes that a measure of CPUE can be constructed using the characteristics of the fishing vessel and firm.
 
-Here is a summary of the global investments, key initiatives, and outputs related to AI by these firms:
+*   **Ex-vessel price**: This is the price that fishermen or dealers receive for fish when it is sold. For example, a January 2025 report on Gulf of America Individual Fishing Quota (IFQ) pricing indicated that the average ex-vessel price for Red Grouper was $6.61.
 
-### **Accenture**
-*   **Global Investments & Strategic Direction:** Accenture is investing $3 billion over three years into its Data & AI practice. Its strategy focuses on a "responsible-by-design" approach to help clients scale their AI initiatives effectively.
-*   **AI-Driven Products & Services:** The firm developed the **AI Navigator for Enterprise**, a platform designed to help clients experiment with and adopt generative AI responsibly in a secure, sandbox environment.
-*   **Talent Development:** Accenture aims to double its AI talent from 40,000 to 80,000 professionals through a combination of hiring, acquisitions, and comprehensive training programs.
+The provided search results do not contain definitions for the terms "landings" or "price elasticity."
 
-### **The Big Four (PwC, EY, Deloitte, KPMG)**
+Search Query: fisheries economics definition of "landings" AND "price elasticity"
+Search Answer: In fisheries economics, price elasticity (ep) is a concept used to address the issue of non-constant prices for landings [https://pressbooks.bccampus.ca/ewemodel/chapter/price-elasticity/]. The quantity of landings can influence the price elasticity function; for example, anchovy landings from a specific seiner fleet can be a primary driver [https://pressbooks.bccampus.ca/ewemodel/chapter/tutorial-price-elasticity/]. Price elasticity is also analyzed in relation to fish harvest rates and annual landings [https://pmc.ncbi.nlm.nih.gov/articles/PMC5699034/]. Another related concept is cross-price elasticity, which can be unitary or elastic [https://www.jstor.org/stable/42629099].
 
-**PwC (PricewaterhouseCoopers)**
-*   **Global Investments:** PwC has committed to a $1 billion investment over three years in the U.S. to expand its generative AI capabilities and a separate £1bn global investment over three years.
-*   **AI-Driven Products & Services:** The firm is developing **ChatPwC**, a proprietary generative AI platform leveraging technology from OpenAI for its internal use.
-*   **Talent Development & Partnerships:** PwC is upskilling approximately 66,000 of its U.S. professionals and its UK staff on AI concepts and tools. The firm has a strategic collaboration with Microsoft and OpenAI.
+The provided information does not contain a formal definition for the term "landings," but it is used in various contexts, such as "landings patterns" [https://www.jstor.org/stable/42629099], "annual landings" [https://pmc.ncbi.nlm.nih.gov/articles/PMC5699034/], and the ratio between small landings and total landings [https://repository.library.noaa.gov/view/noaa/47873/noaa_47873_DS1.pdf].
 
-**EY (Ernst & Young)**
-*   **Global Investments:** EY is investing $1.4 billion in AI and technology to enhance its capabilities.
-*   **AI-Driven Products & Services:** The firm launched **EY.ai**, a unifying platform that combines human expertise with AI. This platform is built on EY's technology backbone, EY Fabric, and includes its proprietary large language model (LLM), **EY.ai LLM**.
-*   **Talent Development:** EY has launched the **EY.ai EYQ** learning and development program to enhance the AI skills of its personnel. Its strategy includes forming alliances with companies like Microsoft.
+Search Query: FAO fisheries glossary definition of "landings"
+Search Answer: According to the Food and Agriculture Organization (FAO) of the United Nations, "landings" refers to the portion of a fish catch that is physically brought to shore at a designated landing site ["https://www.fao.org/4/a0231e/A0231E09.htm", "https://www.fao.org/4/x8923e/X8923E03.htm", "https://sanctuaries.noaa.gov/education/voicesofthebay/glossary.html"]. The weight of what is brought to land is also referred to as landings ["https://www.fao.org/4/a0231e/A0231E09.htm"].
 
-**Deloitte**
-*   **AI-Driven Products & Services:** Deloitte operates **CortexAI**, a platform that provides a suite of AI services, accelerators, and managed services covering data preparation, MLOps, and model development. The firm has also established a global Generative AI practice to build industry-specific solutions for sectors like life sciences, consumer, and financial services, using its own LLMs.
-*   **Talent Development:** Through its **Deloitte AI Academy™**, the firm is training over 120,000 professionals to build AI proficiency for both its internal teams and its clients.
+This term is distinct from the total "catch," which also includes fish that are discarded at sea ["https://www.fao.org/4/a0231e/A0231E09.htm"]. Fisheries management can involve limiting landings through methods such as total allowable catch (TAC) and quotas ["https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781444316315.gloss"].
 
-**KPMG**
-*   **Global Investments:** KPMG plans to invest $2 billion over the next five years in AI and cloud services as part of an expanded alliance with Microsoft.
-*   **Key Initiatives:** The firm emphasizes responsible AI through its **Trusted AI** framework. This methodology provides clients with a strategic approach to design, deploy, and govern AI solutions responsibly, covering dimensions like fairness, transparency, and security.
-*   **Partnerships:** The expanded alliance with Microsoft will embed Azure OpenAI Service across KPMG's core business areas.
+Search Query: fisheries economics textbook glossary definition "price elasticity"
+Search Answer: Price elasticity of demand is defined as the percentage change in the quantity demanded divided by the percentage change in price [https://studylib.net/doc/8039933/chapter-4-%E2%80%93-elasticity---mba-program-resources]. It can also be described as the percentage change in quantity demanded that is caused by a one percent change in the price [https://verso.uidaho.edu/view/pdfCoverPage?instCode=01ALLIANCE_UID&filePid=13341557380001851&download=true], or the response of sales to a 1% reduction or increase in its price [https://www.sciencedirect.com/topics/economics-econometrics-and-finance/price-elasticity].
 
-### **MBB (McKinsey, BCG, Bain)**
+In a fisheries context, this could represent the percentage change in the quantity of fishing trips demanded resulting from a 1% change in the price per trip [https://verso.uidaho.edu/view/pdfCoverPage?instCode=01ALLIANCE_UID&filePid=13341557380001851&download=true]. Price elasticity of demand is the inverse of price flexibility [https://ageconsearch.umn.edu/record/232953/files/us-fisheries-interior-22.pdf]. This type of elasticity is typically high, with one source stating an average of -1.8 [https://www.sciencedirect.com/topics/economics-econometrics-and-finance/price-elasticity].
 
-**McKinsey & Company**
-*   **AI-Driven Products & Services:** McKinsey's AI arm, **QuantumBlack** (acquired in 2015), combines data science, design, and engineering to implement AI solutions. To enhance these capabilities, McKinsey also acquired AI startup Iguazio.
-*   **Internal Tools:** For its consultants, McKinsey developed **Lilli**, a proprietary generative AI tool that provides access to the firm's extensive internal knowledge base.
+Search Query: "Scomber japonicus" biological profile habitat diet life cycle
+Search Answer: The chub mackerel, *Scomber japonicus*, is a pelagic species that inhabits the warm and temperate coastal waters of the Pacific, Atlantic, and Indian Oceans. It is a significant species in commercial and artisanal fisheries worldwide. The genus name *Scomber* is derived from the Greek word for mackerel or tunny, while the specific name *japonicus* refers to Japan, its type locality.
 
-**Boston Consulting Group (BCG)**
-*   **AI-Driven Products & Services:** BCG delivers AI and digital transformation consulting through **BCG X**, its tech build and design unit focused on helping clients become "AI-first" companies.
-*   **Partnerships:** BCG collaborates with companies like Salesforce and Intel Foundry to offer AI solutions to clients.
+**Biological Profile & Life Cycle:**
+*S. japonicus* has a low to moderate vulnerability to fishing, with a score of 31 out of 100. Its Bayesian length-weight parameters are a=0.00741 and b=3.05 (in cm total length). The life cycle and biology of the species are subjects of detailed study, with research often focusing on its early life history. This includes examinations of larval distribution, morphology, ecology, growth, and feeding habits. The northern Satsunan area in southern Japan, for example, serves as a known spawning and nursery ground.
 
-**Bain & Company**
-*   **Partnerships:** Bain has formed a global services alliance with OpenAI to embed tools like GPT-4 and DALL-E 2 into its internal processes and client-facing digital marketing and operational services.
+**Diet:**
+The feeding habits of chub mackerel larvae have been studied in areas such as the northern Satsunan region. Their prey has been identified to include Ostracoda, Calanoida, Oithonidae, Harpacticoida, Oncaeidae, and Appendicularia.
 
-### **Other Major Firms**
+Search Query: NOAA fisheries database historical landings price weight length data "Scomber japonicus" California
+Search Answer: Historical data on the price, weight, and length of chub mackerel (*Scomber japonicus*), also known as Pacific mackerel, is available for regions in the Pacific Rim, particularly California and Baja California.
 
-**IBM**
-*   **AI-Driven Products & Services:** IBM developed **watsonx**, an enterprise-ready AI and data platform designed for businesses to build, deploy, and manage AI models. It consists of three main components: **watsonx.ai** (an AI development studio), **watsonx.data** (a fit-for-purpose data store), and **watsonx.governance** (a toolkit for responsible AI workflows).
-*   **Global Investments:** IBM has launched a $500 million venture fund to support startups building enterprise AI technology using its watsonx platform.
+**Price Data:**
+*   Historical price data for Pacific mackerel in California, covering the years 1931–2005, is available through the NOAA repository. This data has been used to estimate ecosystem service value ["https://repository.library.noaa.gov/view/noaa/67708/noaa_67708_DS1.pdf"].
 
-**Capgemini**
-*   **Global Investments:** Capgemini announced a €2 billion ($2.2 billion) investment in AI over three years, viewing it as a core accelerator for its clients.
-*   **Key Initiatives:** The company launched a **Generative AI for Enterprise** service offering and a dedicated **Generative AI Lab** to support client adoption and exploration.
-*   **Talent Development:** Capgemini plans to double its Data & AI teams to 60,000 people within three years and train a significant portion of its workforce in generative AI.
+**Weight and Length Data:**
+*   Length and weight data for this species have been collected for biological analysis, including maturation and growth studies, with some records available from before 1928. These datasets sometimes include the collection of otoliths for ageing purposes ["https://repository.library.noaa.gov/view/noaa/39216/noaa_39216_DS1.pdf", "https://repository.library.noaa.gov/view/noaa/38950/noaa_38950_DS1.pdf"].
 
-Search Query: ("Deloitte CortexAI" OR "McKinsey QuantumBlack" OR "IBM watsonx" OR "PwC ChatPwC" OR "EY.ai") AND (capabilities OR features OR "use cases" OR "industry solutions" OR "technology stack" OR architecture OR datasheet)
-Search Answer: Major international consulting and technology firms are making significant investments in Artificial Intelligence (AI) to enhance their service offerings, drive internal efficiencies, and deliver transformative solutions for clients. These initiatives encompass the development of proprietary AI platforms, large-scale talent development programs, and strategic partnerships with leading technology providers.
+**Landing Data and Other Sources:**
+*   Landing data from commercial purse seine fisheries for Pacific mackerel in Baja California is available from 1963 onwards ["https://www.pcouncil.org/documents/2007/06/2007-pacific-mackerel-stock-assessment-review-panel-and-ssc-reports.pdf/"].
+*   Additionally, the California Department of Fish and Game holds data related to *Scomber japonicus* ["https://marinespecies.wildlife.ca.gov/market-squid/management/"].
 
-### EY
-EY launched **EY.ai**, a unifying platform that combines human expertise with AI, backed by a **$1.4 billion investment**. The platform's strategic goal is to help clients confidently and responsibly adopt AI to transform their businesses.
+Search Query: China Bureau of Fisheries "Scomber japonicus" historical catch statistics landings data
+Search Answer: Based on the provided information, specific historical catch statistics for chub mackerel (*Scomber japonicus*) from the China Bureau of Fisheries are not available.
 
-*   **Products and Services:** A key component is **EY.ai EYQ**, a secure, proprietary large language model (LLM). The platform integrates technologies from a broad ecosystem of partners, including Microsoft (providing access to Azure OpenAI services like GPT-3 and GPT-4), IBM, Dell, SAP, ServiceNow, Thomson Reuters, and UiPath.
-*   **Talent Development:** EY is upskilling its global workforce of over 400,000 people through programs like the **EY AI Academy**.
+However, sources indicate that *Scomber japonicus*, along with *Engraulis japonicus* and *Clupea pallasii*, accounts for approximately 50% of the total fish catches in China's coastal waters. A July 2017 stock assessment report lists the percentage of landings for chub mackerel from China as "NA" (Not Available) and places it in management category D.
 
-### PwC
-PwC has invested **$1 billion in generative AI** in the US and developed **ChatPwC**, a proprietary generative AI tool for its employees.
+For statistical data, one paper cites the "China statistical year-book 2019" from the National Bureau of Statistics of China, but no specific figures are provided in the available text.
 
-*   **Products and Services:** ChatPwC is an internal tool available to 100,000 employees in the US, UK, and Japan. It was created in collaboration with Microsoft and OpenAI, utilizing GPT-4 through Microsoft's Azure OpenAI Service in a private cloud environment to ensure data privacy.
-*   **Application Scenarios:** The tool is used for internal tasks such as research, generating proposals, writing reports, drafting documents, creating software code, and analyzing business documents.
-*   **Talent Development:** PwC is training 65,000 of its US staff on AI tools and skills.
+Search Query: CONAPESCA historical data "Scomber japonicus" landings weight length Baja California 1990-2020
+Search Answer: Based on the provided information, the specific historical data from CONAPESCA regarding the landings, weight, and length of *Scomber japonicus* (Pacific mackerel) in Baja California between 1990 and 2020 is not available in the search results.
 
-### McKinsey & Company
-McKinsey's AI arm, **QuantumBlack**, which was acquired in 2015, now includes over 2,000 AI experts globally. The firm's approach is centered on "hybrid intelligence," which pairs AI technology with human expertise.
+The sources do mention Pacific mackerel, but in the context of U.S. fishery management assessments for the 2023-2025 fishing years. Additionally, the materials discuss population trends of other species, such as the northern anchovy, rather than providing the requested historical dataset for chub mackerel.
 
-*   **Products and Services:** QuantumBlack has developed **Lilli**, a proprietary generative AI platform for its consultants. Lilli functions as a knowledge management tool, searching over 100,000 internal documents to provide insights and identify experts. The firm also offers products like "QuantumBlack Forecast" and "CustomerOne" and has contributed to open-source with tools like **Kedro** (for data science pipelines) and **CausalNex** (for causal inference). To enhance its MLOps capabilities, McKinsey acquired the platform **Iguazio**.
-*   **Client Case Studies:** QuantumBlack serves industries like finance, healthcare, and manufacturing, with applications including optimizing manufacturing processes, improving airline operations, and personalizing retail marketing.
+Search Query: FAO fisheries database historical capture production statistics "Scomber japonicus" Mexico 1990-2020
+Search Answer: Based on the provided information, the search results do not contain the specific historical capture production statistics for chub mackerel (*Scomber japonicus*) in Mexico for the period between 1990 and 2020.
 
-### Deloitte
-Deloitte offers **CortexAI**, a managed, cloud-based platform for analytics and AI solutions designed to accelerate the development and deployment of AI.
+Although the results confirm that the FAO fisheries database contains capture statistics for *Scomber japonicus*, and one document even lists production numbers for the species, the specific data for Mexico within the requested timeframe is not available in the provided snippets. The document with production numbers, for example, does not specify the country or the years.
 
-*   **Products and Services:** CortexAI is a modular, subscription-based service supporting the full AI lifecycle, from data management to model monitoring. It emphasizes "Trustworthy AI™" and offers flexible deployment options (cloud, on-premises, or hybrid). It features a library of pre-built solutions like **CognitiveFinance™** (financial processes), **CognitiveControl™** (risk management), and a specialized version, **CortexAI for Government**.
-*   **Application Scenarios:** Common use cases include creating hyper-personalized customer experiences, optimizing supply chains, and identifying fraud.
-*   **Strategic Partnerships:** The platform integrates technologies from partners like Google Cloud, AWS, Salesforce, and NVIDIA, with whom Deloitte is collaborating to build new generative AI solutions.
+Search Query: "China Fishery Statistical Yearbook" "Scomber japonicus" OR "chub mackerel" catch volume price data 1990-2020
+Search Answer: Based on data primarily from the "China Fishery Statistical Yearbook," the price and catch dynamics of chub mackerel (*Scomber japonicus*) in China, a major Pacific Rim country, have been documented over various periods.
 
-### IBM
-IBM's enterprise-ready AI and data platform is **watsonx**, which is built on an open hybrid cloud architecture using technologies like Red Hat OpenShift. It consists of three main components:
+### Catch Volume
 
-*   **watsonx.ai:** An enterprise studio for building, training, tuning, and deploying both traditional machine learning and generative AI foundation models. It provides access to models from IBM and open-source communities like Hugging Face.
-*   **watsonx.data:** A fit-for-purpose data store built on an open lakehouse architecture, enabling access to data across various on-premises and cloud environments.
-*   **watsonx.governance:** A toolkit to enable responsible, transparent, explainable, and fair AI workflows.
-*   **Application Scenarios:** Enterprise use cases include workflow automation with **watsonx Orchestrate**, developing conversational AI with **watsonx Assistant**, and mitigating business risks.
+China's chub mackerel catch volume has shown significant fluctuation over the past few decades.
 
-Search Query: ("McKinsey QuantumBlack" OR "IBM watsonx" OR "Deloitte CortexAI" OR "EY.ai" OR "Accenture AI Navigator") AND ("client case study" OR "client success story" OR "business impact" OR "ROI" OR "quantified results")
-Search Answer: According to an EY AI Pulse Survey of 500 US senior business leaders, a significant majority (97%) of organizations investing in Artificial Intelligence (AI) report a positive return on investment (ROI). However, a McKinsey report offers a more nuanced perspective, noting that few companies have fully scaled their generative AI initiatives to realize their full, long-term ROI. This suggests that while initial investments are yielding benefits, achieving widespread, long-term impact remains a key challenge.
+*   **Historical Peak:** The catch peaked in 1999 at over 1.6 million tonnes, with one source specifying a high of 1.95 million tonnes.
+*   **Catch from 1998–2018:** During this period, the average annual production was 583,400 tonnes. A later peak was observed in 2016 with 838,500 tonnes.
+*   **Catch from 2003–2014:** The total catch over these years was 7,723,212 tonnes, reaching a peak of 902,492 tonnes in 2013. Specifically in the East China Sea, the catch by Chinese vessels peaked at 554,000 tons in 2013.
+*   **Catch from 2011–2020:** The average annual output was approximately 630,000 tons.
 
-In response to these market dynamics, major consulting firms are launching key initiatives and products:
+**Recent Annual Catch Data:**
+There are some discrepancies in reported figures for recent years:
+*   **2018:** 784,000 tonnes
+*   **2019:** Reported as both 765,992 tonnes and 642,836 tonnes by different sources.
+*   **2020:** Reported as both 615,502 tonnes and 533,968 tonnes.
 
-*   **IBM**: The company's watsonx platform is a central part of its strategy. It is designed to help organizations securely operationalize AI and move from pilot projects to full-scale production, enabling them to deliver measurable business impact.
-*   **EY**: The firm is focused on talent development and client services. Specifically, EY and its Assurance service line are developing AI talent and creating services to assist clients in implementing responsible AI innovation.
+Provincial catch data is also available for the years 1997-2013.
 
-In essence, while the sentiment around AI investment is highly positive, major consulting firms are strategically positioning themselves to help clients navigate the complexities of scaling AI, particularly generative AI, to achieve sustainable, long-term value.
+### Price Dynamics
 
-Search Query: ("IBM watsonx" OR "Deloitte CortexAI" OR "McKinsey QuantumBlack" OR "EY.ai" OR "Accenture" OR "BCG X") AND ("client engagement" OR "case study" OR "success story") AND (implementation OR application OR results) AND ("financial services" OR "healthcare" OR "manufacturing" OR "supply chain" OR "retail")
-Search Answer: Major international consulting firms are making significant investments in Artificial Intelligence (AI), developing specialized platforms and services to drive transformation across various industries. Their key initiatives and outputs are often showcased through client case studies that highlight tangible results and strategic direction.
+Price data is available for specific periods, distinguishing between ex-vessel and wholesale prices.
 
-Here is a summary of AI-related activities by several major firms:
+*   **Ex-vessel Price (1998–2018):** The price paid to fishermen fluctuated during this time, hitting a low of 2,360 CNY/t in 2003 and a peak of 3,853 CNY/t in 2011.
+*   **Wholesale Price (2015):** The wholesale price of chub mackerel in major Chinese aquatic product markets was recorded at 11.2 yuan/kg (or 11,200 CNY/t) in 2015.
 
-*   **Accenture**: The company offers a comprehensive suite of AI services tailored for industries including financial services, healthcare, retail, and manufacturing. A notable case study involves their work with Best Buy, where Accenture used generative AI to help humanize the customer experience.
+The provided information did not contain catch data for the 1990–1997 period, price data for 2019–2020, or data regarding interannual variations in the weight and length of chub mackerel. Furthermore, it does not establish direct correlations with oceanographic conditions.
 
-*   **EY**: EY has launched EY.ai, a unifying platform that combines human expertise with AI to provide clients with insights and services. The firm has also developed an internal enterprise generative AI solution, EY.ai EYQ. EY's strategic focus includes helping clients build confidence in AI by establishing and accelerating AI governance, navigating global compliance like the EU AI Act, and augmenting human potential. Their case studies feature work helping a global firm with AI governance and documenting their own internal AI-driven transformation.
+Search Query: academic literature historical "Scomber japonicus" catch landings data Baja California
+Search Answer: Based on the provided information, research on chub mackerel (*Scomber japonicus*, also known as Pacific mackerel or by the synonym *Pneumatophorus diego*) focuses on fishery data primarily from the California and Baja California regions.
 
-*   **IBM**: A key player in the AI space, IBM provides solutions across sectors such as healthcare, customer service, supply chain management, financial services, retail, and manufacturing. A prominent case study highlights how Vodafone utilized IBM's watsonx.ai platform to successfully accelerate its conversational journey testing.
+Historical data includes catch landings for the species in both California and Baja California. Academic literature contains tables with annual landings data, with some entries noting amounts as low as "Less than one ton." In addition to commercial catch data, information on recreational landings in California has also been collected.
 
-*   **McKinsey & Company**: While not a direct case study from the firm, a notable application scenario involves a Fortune 500 manufacturing company. This company implemented a strategic AI automation initiative that resulted in a 300% ROI within eight months and $2.3 million in annual savings. The case study reported that the transformation roadmap used for this implementation outperformed prior recommendations from McKinsey.
+Furthermore, a range of academic and management documents provide insights into the species' population dynamics. This includes:
+*   Catch-only and full stock assessments.
+*   Revised historical estimates of the species' spawning biomass.
+*   Synopses of its biological data.
 
-Search Query: ("Deloitte AI Academy" OR "EY.ai EYQ" OR "Capgemini AI University") OR (("Accenture" OR "PwC" OR "KPMG" OR "McKinsey") AND ("AI talent development" OR "AI upskilling program")) AND (curriculum OR certification OR "learning paths" OR "strategic goals")
-Search Answer: Major consulting firms have launched dedicated AI-focused talent development programs to enhance capabilities for both their internal workforce and their clients.
+Search Query: FAO FishStatJ database "Scomber japonicus" capture production statistics China 1990-2020
+Search Answer: Based on the information provided, the specific capture production statistics for chub mackerel (*Scomber japonicus*) in China from 1990 to 2020 are not available in the search results. While the results indicate that the FAO database (specifically the FAO FishStatJ database) holds capture statistics for this species, the actual data was not provided.
 
-### **Deloitte**
-Deloitte has established the Deloitte AI Academy™ to bridge the talent gap between technical AI skills and business knowledge. The program provides hands-on, experiential courses that cover artificial intelligence (AI), Generative AI (GenAI), and agentic AI. All training is vetted through Deloitte’s Enterprise Trust framework.
+Search Query: "Scomber japonicus" stock assessment "Baja California" historical catch and biological data
+Search Answer: Stock assessments and biological data are available for the Pacific mackerel (*Scomber japonicus*) population that extends from Baja California, Mexico, to southern California. These assessments utilize historical catch data, including catch values from Mexico's Baja California region.
 
-The curriculum is designed for various professionals, from business managers to developers, and includes:
-*   Instructor-led training
-*   Self-paced modules
-*   Industry use cases
-*   A hands-on capstone project
+Additionally, synopses of biological data for the species have been published. This research indicates that the stock is abundant in areas that include Baja California Sur, with specific spawning locations identified in places such as Abreojos, Baja California.
 
-Initially used to train its own workforce, Deloitte now offers the academy's content as a customizable service to help client organizations meet their strategic goals.
+Search Query: academic study "Scomber japonicus" fishery "Baja California" historical catch and biological data
+Search Answer: Academic and governmental reports provide historical catch and biological data for the chub mackerel, also known as Pacific mackerel (*Scomber japonicus*), fishery in the Baja California region. This species is commercially significant throughout the Pacific.
 
-### **EY**
-EY India launched its AI Academy to support industry-wide talent development in GenAI, a move made after the firm upskilled 44,000 of its own employees. The strategic goal of the academy is to address the critical need for investment in people and manage the workforce transformation driven by GenAI, which is projected to impact millions of jobs.
+Key sources for this information include:
+*   A **"Synopsis of the biological data on the Pacific mackerel, Scomber japonicus"** from NOAA, which contains catch values from Baja California, Mexico.
+*   The Food and Agriculture Organization's (FAO) **"SYNOPSIS OF BIOLOGICAL DATA ON THE CHUB MACKEREL (Scomber japonicus Houttuyn, 1782),"** which details the species' importance to commercial fisheries and confirms the existence of a Pacific stock.
+*   A 2023 NOAA Technical Memorandum, **"A SUMMARY REPORT OF LIFE HISTORY INFORMATION ON PACIFIC MACKEREL (SCOMBER JAPONICUS) FOR THE 2023 BENCHMARK STOCK ASSESSMENT,"** which summarizes life history information for stock assessment purposes and references the species' presence in Baja California.
 
-The academy now offers its expertise to enterprises, providing tailored programs and sector-specific use cases to help clients build their AI capabilities. Key sectors served include Telecom, Infrastructure, Banking, IT/ITeS, and FMCG.
+Additionally, historical data confirms that *Scomber japonicus* were caught off the coast of Baja California by Californian fleets.
 
-Search Query: ("Deloitte" OR "PwC" OR "EY" OR "KPMG" OR "McKinsey" OR "Bain" OR "BCG" OR "Accenture" OR "IBM Consulting" OR "Capgemini") AND ("responsible AI" OR "AI ethics" OR "AI governance" OR "AI risk management" OR "trusted AI") AND (framework OR methodology OR "service offering" OR principles OR guidelines)
-Search Answer: Major international consulting firms have developed various frameworks, service offerings, and principles for responsible and trustworthy AI to help clients manage risks and build trust.
+Search Query: INAPESCA "Scomber japonicus" OR "macarela" historical catch and biological data report Baja California
+Search Answer: Based on research from Mexico's National Institute of Fisheries and Aquaculture (INAPESCA) and other scientific reports, the following provides an overview of the fishery dynamics and biological variations of chub mackerel (*Scomber japonicus*), known locally as "macarela," in the Pacific waters of Mexico.
 
-*   **PwC** defines Responsible AI as the practices and processes that ensure AI is used responsibly, builds trust, and aligns with business objectives. The firm's 2025 survey indicates a strategic shift from focusing on foundational governance and compliance to using responsible practices to enable growth, innovation, and quality at scale.
+### Fishery Dynamics and Catch Volumes
 
-*   **EY**'s 2025 Responsible AI Pulse survey found that companies with more advanced responsible AI measures achieve better business outcomes. The survey also revealed a significant gap between executives' confidence in their AI systems and the actual governance controls they have in place.
+The chub mackerel fishery off the coast of the Baja California peninsula is characterized as intermittent and sporadic. Catch volumes have shown significant fluctuation over the decades.
 
-*   **KPMG** offers AI services that combine industry experience with a methodology to help clients implement trusted AI from strategy through operations. The firm identifies inadequate governance models and a lack of skilled people as key challenges. A survey by the firm found that business leaders believe education and training (95%) are most effective for ensuring the ethical use of Generative AI, followed by regular audits and human oversight (91%).
+*   **Historical Catches:** The historical maximum catch in the Pacific occurred in 1981 with 230,000 tons. Other notable peaks in landings were recorded in 1987, 1996, and 1997.
+*   **21st Century Fluctuations:** In more recent years, catches have varied widely. For example, a low of 13,016 tons was recorded in 2005, followed by a peak of 64,183 tons in 2011. Subsequent annual catches were 36,589 tons (2012), 22,333 tons (2013), 17,468 tons (2014), 23,028 tons (2015), and 48,469 tons (2016). Reflecting the fishery's sporadic nature, the catch for the 2017-2018 season was only 1,180 tons.
+*   **Recent Proportions:** As part of the broader small pelagics fishery off the west coast of the Baja California Peninsula, chub mackerel constituted 13% of the total 208,007 tons caught in 2018, and 4% of the 299,618 tons caught in 2021.
 
-*   **McKinsey** utilizes the "McKinsey AI Trust Maturity Model," a framework for responsible AI that assesses four dimensions: strategy, risk management, data and technology, and operating models. By addressing aspects like data governance, explainability, fairness, privacy, and security, the model helps organizations mitigate risks, build trust, and ensure accountability. The firm's research suggests that organizations are still in the process of fully integrating these practices.
+The main fishing areas are along the west coast of the Baja California peninsula and in the Gulf of California, with key fleets based in Ensenada, Baja California, and Puerto Adolfo López Mateos, Baja California Sur. The primary fishing season generally runs from spring to autumn, with peaks occurring between April and November.
 
-*   **Deloitte** focuses on "Trustworthy AI" governance, approaching it by applying traditional business principles of risk analysis and risk management to artificial intelligence.
+### Interannual and Regional Variations in Weight and Length
 
-Search Query: ("Accenture" OR "PwC" OR "McKinsey" OR "BCG" OR "Capgemini") AND ("AI strategy" OR "AI investment rationale") AND ("business drivers" OR "operational efficiency" OR "new revenue streams") AND ("core technology partnerships" OR "alliance ecosystem" OR "Microsoft Azure" OR "AWS" OR "Google Cloud" OR "NVIDIA")
-Search Answer: Major international consulting firms, including PwC, McKinsey & Company, Accenture, BCG, and IBM Consulting, are recognized as top AI consulting firms. They are integrating AI into their core strategies to drive business growth, enhance operational efficiency, and create new revenue streams for clients.
+Biological data collected from various regions and seasons reveal significant variations in the size of caught mackerel.
 
-Here's a summary of their global investments, key initiatives, and strategic directions:
+*   **Length:**
+    *   **Observed Range:** Across multiple studies, the length of captured mackerel typically ranges from 120 mm to 360 mm.
+    *   **Averages and Modes:** Different reports indicate varying average sizes, suggesting interannual or regional differences. Averages have been reported between 275 mm and 285 mm, with another study noting a modal size of 250 mm. In the 2017-2018 season, the average length was smaller, at 210 mm.
+    *   **Maximum Size:** While the species is commonly found up to 30 cm (300 mm) and can reach a maximum length of 50-60 cm globally, the maximum recorded length in the Mexican fishery is 420 mm.
+    *   **Maturity:** The species typically reaches sexual maturity at a length of 250 mm.
 
-*   **PwC:** PwC positions AI as a fundamental business strategy driver and an "acceleration force" that redefines industries. The firm emphasizes using AI-driven insights to help businesses proactively navigate market shifts, improve operational efficiency, and uncover new revenue streams. A key application area for their AI-driven transformation is in financial planning and analytics.
+*   **Weight:**
+    *   **General Averages:** The average weight is reported to be around 300 grams, with a maximum recorded weight of 1,100 grams.
+    *   **Regional Variations:** Specific studies show a strong correlation between location, fish length, and weight. In Bahía Magdalena, where smaller individuals were sampled (122-266 mm), weights ranged from 15 to 191 grams. In the Gulf of California, where larger fish were caught (130-360 mm), weights ranged from 30 to 650 grams.
 
-*   **Accenture:** Accenture's strategy involves combining business strategy with advanced technology through strategic investments in generative AI and proprietary digital platforms. A notable output is SynOps, a modular, cloud-native platform with AI/GenAI-enabled accelerators, particularly highlighted for its use in the life sciences industry. The company focuses on data-led business transformation strategies and leverages key technology partnerships with Microsoft, AWS, Google Cloud, Nvidia, and Palantir.
+### Reproductive Biology and Fishery Management
 
-*   **Boston Consulting Group (BCG):** BCG focuses on helping organizations integrate human and technological capabilities to maximize value, productivity, and innovation from AI. Through its in-house design-and-build unit, BCG X, the firm provides a library of AI-backed products and develops custom, industrial-grade platforms. An example of their AI-driven products is "Supply Chain AI by BCG X," which offers a holistic approach to transforming company supply chains from strategy to execution.
+Reproductive cycles also vary by region, a key factor for fishery management.
+*   **Spawning Seasons:** Off the Pacific coast of the peninsula, the primary reproductive period occurs from April to August, peaking in June and July. In contrast, spawning in the Gulf of California occurs from November to April (peaking in February-March), and in Bahía Magdalena, it occurs primarily in summer and autumn.
+*   **Management:** This biological data, collected through programs like the National Program for the Collection of Information from the Fisheries Sector (PRONARIP), informs management actions such as the implementation of temporary fishing bans to protect the species during key reproductive periods. The fishery is officially diagnosed as being at its maximum sustainable yield.
 
-*   **McKinsey & Company and IBM Consulting:** Both firms are also identified as leading AI consulting firms, focusing on integrating AI as a core driver for business transformation for their clients.
+Search Query: academic research "Scomber japonicus" historical biological data length weight China fishery
+Search Answer: Academic research on chub mackerel (*Scomber japonicus*), a significant pelagic fish in commercial fisheries worldwide that inhabits temperate coastal waters of the Pacific, Atlantic, and Indian Oceans, includes studies and data collection on its biological characteristics in Chinese fisheries.
 
-Search Query: ("Accenture" OR "Deloitte" OR "EY" OR "PwC" OR "McKinsey" OR "BCG" OR "IBM" OR "Capgemini") AND ("case study" OR "client success" OR "customer story") AND ("Generative AI implementation" OR "AI-powered solution" OR "AI transformation") AND ("business outcomes" OR "value delivered" OR "results achieved")
-Search Answer: Major international consulting firms are significantly investing in Artificial Intelligence (AI) through the development of proprietary products, client services, strategic partnerships, and talent development programs.
+In China, research efforts have involved stock assessments of the species in the central East China Sea, which were conducted using length data. To support fisheries management, several data collection programs are in place:
+*   **Official catch statistics** from purse seine and trawl fisheries were recorded from 2014 to 2022.
+*   **Biological data**, including size composition based on length, has been collected through port sampling from 2016 to 2022.
+*   **Aging samples** were also collected between 2016 and 2022 to develop age-length keys.
 
-### Accenture
-Accenture is recognized by industry analysts like IDC and Everest Group as a leader in life sciences digital services, largely due to its strategic investments in generative AI and proprietary digital platforms.
+Additionally, a specific regional study focused on the offshore waters of southern Zhejiang, where chub mackerel is considered a dominant economic species, has analyzed fork length data collected since 2016.
 
-*   **AI-Driven Products and Services:** The firm offers a modular, cloud-native platform called SynOps, which features AI and Generative AI-enabled accelerators, particularly in areas like pharmacovigilance. For deploying AI at scale, Accenture utilizes its proprietary AI Refinery and Oracle AI Studio.
-*   **Client Case Studies and Application Scenarios:** At Oracle AI World 2025, Accenture showcased several client collaborations. These include working with the NFL on innovations for an "era of intelligent football," using Agentic AI to enhance security for T-Mobile's multi-cloud architecture while balancing risk and value, and partnering with Syneos Health on an Oracle Cloud ERP solution.
+Search Query: scientific study OR technical report "Scomber japonicus" port sampling biological data China 2016-2022 length-frequency
+Search Answer: I am sorry, but the provided search results do not contain any scientific studies or technical reports with port sampling biological data for chub mackerel (*Scomber japonicus*) in China between 2016 and 2022. Specifically, there is no information regarding length-frequency data. While the species is mentioned in the results, it is in different contexts, such as electronic monitoring and heavy metals, which do not fulfill the query.
 
-### Ernst & Young (EY)
-EY is focused on developing AI talent and services to guide clients in responsible innovation.
+Search Query: provincial fishery statistical reports China chub mackerel average weight length Zhejiang Fujian
+Search Answer: While provincial fishery statistical reports for the Zhejiang and Fujian provinces were not available in the provided research, data exists for the broader Chinese chub mackerel fishery in the North and Northwest Pacific Ocean.
 
-*   **Strategic Direction and Talent Development:** EY Assurance is working to build "future-ready AI talent and services." The firm has established specialized roles such as an AI Wealth Management Solutions Leader and a Global Consulting AI Leader to spearhead its efforts.
-*   **Key Initiatives:** At the Ai4 2025 conference, EY presented an immersive experience called "EY’s Four Futures of AI" to explore and project how AI will shape the business landscape by 2030.
+Research on interannual variations in the weight and length of chub mackerel reveals the following:
 
-### Capgemini
-Capgemini's strategic approach involves advising clients on AI sourcing and adoption strategies, as outlined in a report from Everest Group.
+*   **Annual Fork Length:** Data collected on the Chinese chub mackerel fishery in the North Pacific from 2016 to 2020 showed the following ranges for sampled fork lengths:
+    *   **2016:** 129–378 mm
+    *   **2017:** 130–345 mm
+    *   **2018:** 178–388 mm
+    *   **2019:** 154–358 mm
+    *   **2020:** 110–400 mm ["https://uat.npfc.eightyoptions.com.au/system/files/2021-06/NPFC-2021-TWG%20CMSA04-WP18%20Review%20of%20chub%20mackerel%20fishery%20in%20China.pdf"]
 
-*   **Client Advisory:** The firm guides enterprises on the best path for integrating AI, outlining three primary approaches:
-    1.  **Build:** Developing AI capabilities in-house.
-    2.  **Buy:** Purchasing existing AI applications.
-    3.  **Partner:** Collaborating with external service providers, a strategy recommended for companies with limited expertise that require customized generative AI solutions.
+*   **Specific Study Data:** A separate analysis of 2,686 specimens in the Northwest Pacific found fork lengths ranging from 40 to 294 mm and body weights from 0.8 to 311.8 g ["https://www.researchgate.net/publication/358772181_Growth_Heterogeneity_of_Chub_Mackerel_Scomber_japonicus_in_the_Northwest_Pacific_Ocean"].
 
-### Other Firms
-*   **PwC** has published "AI Business Predictions" for 2025, contributing to industry thought leadership.
-*   **McKinsey** operates a dedicated AI division named QuantumBlack.
+*   **Recent Trends:** According to 2024 reports, the weight-at-age for chub mackerel in 2022 was observed to be larger than in previous years. The primary catch was composed of individuals between the ages of 1+ and 3+ ["https://www.npfc.int/system/files/2024-07/NPFC-2024-TWG%20CMSA09-IP03%20Review%20of%20chub%20mackerel%20fishery%20in%20China%282023%29.pdf", "https://www.npfc.int/system/files/2024-01/NPFC-2024-TWG%20CMSA08-IP04%20Review%20of%20chub%20mackerel%20fishery%20in%20China%20in%202023.pdf"].
 
-Search Query: ("Accenture" OR "PwC" OR "KPMG" OR "McKinsey" OR "BCG" OR "IBM Consulting" OR "Capgemini") AND ("AI university" OR "AI academy" OR "AI skills program" OR "AI upskilling initiative") AND (scale OR curriculum OR goals OR "number of employees trained")
-Search Answer: I am sorry, but the provided information does not contain any details regarding AI talent development, upskilling initiatives, or training programs at major international consulting firms. The available search results are unrelated to the query.
+Search Query: North Pacific Fisheries Commission NPFC publications database "Scomber japonicus" "China" port sampling biological data length weight 2016-2022
+Search Answer: Based on research submitted to the North Pacific Fisheries Commission (NPFC), extensive biological data on Chub Mackerel (*Scomber japonicus*) has been collected in China, providing insight into interannual variations in the species' weight and length. The following information synthesizes findings from port sampling between 2016 and 2022. The provided data focuses on biological metrics and does not contain information on price dynamics in aquatic markets or direct correlations with oceanographic theory.
 
-Search Query: ("Accenture" OR "Capgemini") AND ("AI upskilling program" OR "AI training initiative" OR "AI skilling goals") AND (curriculum OR scale OR "number of employees trained" OR "learning pathways")
-Search Answer: Based on the provided information, major consulting firms are engaged in talent development initiatives related to Artificial Intelligence:
+### Biological Data Collection Program
 
-*   **Accenture**: The company's CEO, Julie Sweet, has reported on a general AI training initiative. Separately, Accenture has launched an "AI Training Initiative for Officers." However, one source reports that the company paused a large-scale training plan and exited its plans to teach 30,000 staff on the AI model Anthropic Claude.
+From 2016 through 2022, China conducted a port sampling program for Chub Mackerel at two major landing ports: Zhoushan in Zhejiang province and Shidao in Shandong province. The goal of the program was to sample approximately 200 fish per month from each port. Data collected for each fish included fork length, body weight, sex, and maturity stage. Samples were collected from commercial fishing vessels, including China's distant-water fleets landing at the Zhoushan national distant-water fishing port.
 
-*   **Capgemini**: The firm has an "AI upskilling program for software engineering."
+### Interannual Variations in Weight and Length
 
-Search Query: ("Accenture" "AI talent" upskilling program details) OR ("Capgemini" "Data & AI teams" "training program" curriculum)
-Search Answer: Accenture is actively upskilling its employees in Artificial Intelligence (AI) through a structured, persona-based curriculum, as detailed by its Asia Pacific Data & AI Lead, Vivek Luthra. The training program is designed to help employees collaborate effectively with AI agents. This internal initiative has yielded tangible results, with one unit reporting a 25% improvement in its external brand value following the upskilling effort.
+The number of fish sampled annually and their biological measurements show variation across the years. According to some NPFC reports, the total number of fish sampled was: 2,168 in 2016; 2,042 in 2017; 2,059 in 2018; 1,481 in 2019; 1,225 in 2020; and 1,385 in 2022.
 
-In addition to its internal focus, Accenture extends its AI talent development capabilities to its clients. The company has partnered with S&P Global to launch a large-scale AI training program for 35,000 S&P employees, with the goal of advancing and revolutionizing financial data analysis.
+Specific data on fork length and body weight ranges from distant-water fleets sampled at Zhoushan port reveals the following year-over-year variations:
 
-Search Query: ("PwC" OR "KPMG" OR "Capgemini" OR "McKinsey" OR "BCG") AND ("AI upskilling" OR "digital academy" OR "generative AI training" OR "future skills program") AND (launch OR announcement OR curriculum OR scale OR goals)
-Search Answer: Based on the information provided, major international consulting firms are focused on AI talent development through various initiatives and upskilling programs.
+*   **2016**: 500 individuals were measured, with fork lengths from 17.6 cm to 41.2 cm and body weights from 60.0 g to 825.0 g.
+*   **2017**: 1,500 individuals were measured, with fork lengths from 18.2 cm to 42.1 cm and body weights from 71.0 g to 887.0 g.
+*   **2018**: 1,500 individuals were measured, with fork lengths from 18.0 cm to 43.1 cm and body weights from 68.0 g to 957.0 g.
+*   **2019**: 1,500 individuals were measured, with fork lengths from 18.2 cm to 43.5 cm and body weights from 69.0 g to 988.0 g.
+*   **2020**: 1,500 individuals were measured, with fork lengths from 18.8 cm to 44.2 cm and body weights from 76.0 g to 1011.0 g.
+*   **2021**: 1,500 individuals were measured, with fork lengths from 19.1 cm to 45.6 cm and body weights from 82.0 g to 1102.0 g.
+*   **2022**: 1,500 individuals were measured, with fork lengths from 18.5 cm to 46.1 cm and body weights from 78.0 g to 1162.0 g.
 
-Key initiatives include:
-*   **PwC**: The firm runs a "Virtual Digital Academy" to enhance skills in automation and analytics. Additionally, PwC provides AI upskilling sessions specifically aimed at faculty.
-*   **Boston Consulting Group (BCG)**: Senior leaders from BCG have led sessions on "AI Upskilling at Scale" at events such as the ASU+GSV Summit. These presentations share playbooks and strategies from influential organizations on how to build AI capabilities effectively.
+### Key Findings and Length-Weight Relationship
+
+Across the entire sampling period, the dominant fork length of Chub Mackerel was generally between 230 and 360 mm. The relationship between fork length (L) and body weight (W) was consistently calculated in several NPFC working papers, demonstrating a stable allometric growth pattern. The formulas derived from different datasets are as follows:
+
+*   **2016 (2,168 samples)**: W = 1.05E-05 * L^2.9272
+*   **2016-2018 (6,269 samples)**: W = 1.07E-05 * L^2.9234
+*   **2016-2019 (7,750 samples)**: W = 1E-05 * L^2.9284
+*   **2016-2020 (8,975 samples)**: W = 1E-05 * L^2.923
+
+Search Query: fisheries science "condition factor" (K) formula "Scomber japonicus" fish health
+Search Answer: Based on the provided research, the specific formula for the condition factor (K) of chub mackerel (*Scomber japonicus*) is not available. However, various studies have calculated and analyzed this metric, often referring to the relative condition factor as "Kn."
+
+Key findings regarding the physical variations of chub mackerel include:
+*   **Condition Factor Range:** One study found that the relative condition factor (Kn) for male *Scomber japonicus* ranged from 0.51 to 1.1.
+*   **Influencing Factors:** Research indicates that the condition factor is positively associated with the age of the fish. It is also impacted by population density. Conversely, the sex of the fish was not found to affect the condition factor.
+*   **Growth Rate Formula:** One paper provides the formula for annual growth rates in length (GL) as GL = LA+1 – LA, where LA represents the fish's length at a given age.
+
+Search Query: Fulton's condition factor (K) and relative condition factor (Kn) formula calculation fisheries science
+Search Answer: In fisheries science, condition factors are used to assess the well-being of a fish. One common measure is Fulton's condition factor, also referred to as the coefficient of condition factor (K or kc). It is calculated using the formula `kc = 100*W/L3`, where W represents the total weight of the fish and L is its total length [https://www.sciencedirect.com/science/article/pii/S1687428523000018]. An alternative version of this formula is expressed as `K = [g wet mass/mm TL3] × 106` [https://www.mdpi.com/2410-3888/10/10/521].
+
+Another metric is the relative condition factor (Kn), developed by Le Cren in 1951. It is calculated with the formula `Kn = W/W′` [https://www.researchgate.net/figure/Condition-factor-K-and-relative-condition-factor-Kn-for-the-two-fish-species-of_fig4_315088109, https://education.fisheries.org/wp-content/uploads/fisheriesTechniquesVisuals/Chap_15.pdf]. In this equation, W is the weight of an individual fish, and W′ represents the length-specific mean weight of a fish within the population being studied [https://www.mtcfru.org/wp-content/uploads/2023/01/Eckelbecker_et_al_2022.pdf]. The value for W′ is derived from the length-weight relationship formula `W' = a * L^b` [https://education.fisheries.org/wp-content/uploads/fisheriesTechniquesVisuals/Chap_15.pdf, https://www.mtcfru.org/wp-content/uploads/2023/01/Eckelbecker_et_al_2022.pdf].
+
+Search Query: academic study "Scomber japonicus" condition factor interannual OR temporal variation
+Search Answer: Academic research has examined the price dynamics and biological variations of chub mackerel (*Scomber japonicus*) in relation to environmental factors, providing insights into the connections between marine resources, aquatic markets, and the marine environment.
+
+Studies have investigated the interannual variations in the species' biological characteristics, including changes in body condition, cohort-specific growth, and length-at-age. Key factors influencing these variations have been identified as density-dependence and sea surface temperature. For example, one study specifically analyzed the effects of these two factors on the interannual variation in length-at-age for chub mackerel in the Kuroshio-Oyashio area from 1970 to 1997.
+
+Further research connects these biological and environmental changes to fishery economics. Studies have explored the impact of climatic variations on mackerel quality, which has been observed in auction settings. Related research has also examined the year-to-year abundances of chub mackerel larvae, linking environmental conditions to the species' reproductive success and population dynamics.
+
+Search Query: time series analysis chub mackerel price dynamics China aquatic markets 1998-2020 seasonality trends
+Search Answer: Based on the provided information, there is no data available regarding the price dynamics, seasonality, or trends of chub mackerel in Chinese aquatic markets for the period between 1998 and 2020.
+
+The available research focuses on the biological and ecological aspects of the species rather than its market economics. The topics covered in the source materials include stock abundance, population dynamics, and seasonal variations in catch per unit effort (CPUE), sometimes in relation to environmental factors. However, the search results do not contain any information on market prices.
+
+Search Query: time series analysis of "Scomber japonicus" ex-vessel price AND landings volume California 1931-2005
+Search Answer: Data for *Scomber japonicus*, also known as Pacific mackerel, is available for the period of 1931–2005 [https://repository.library.noaa.gov/view/noaa/67708/noaa_67708_DS1.pdf]. However, the provided search result does not contain a time series analysis of the ex-vessel price or landings volume.
+
+Search Query: academic study using "China Fishery Statistical Yearbook" data for "Scomber japonicus" price analysis and market trends
+Search Answer: While the "China Fishery Statistical Yearbook" is a data source used in academic studies concerning chub mackerel (*Scomber japonicus*), the available research does not contain specific analyses of its price dynamics or market trends [https://www.researchgate.net/publication/366942483_Evaluation_of_Biological_Reference_Points_of_Two_Important_Fishery_Resources_in_the_East_China_Sea, https://www.researchgate.net/publication/388235229_The_assessment_of_carrying_capacity_of_marine_fishery_resources_in_China, https://link.springer.com/article/10.1007/s44307-024-00043-7].
+
+Instead, the studies that cite the yearbook focus on biological aspects such as growth characteristics, reproductive stock, biological reference points, the carrying capacity of marine fishery resources, and genetic research [https://www.researchgate.net/publication/366942483_Evaluation_of_Biological_Reference_Points_of_Two_Important_Fishery_Resources_in_the_East_China_Sea, https://www.researchgate.net/publication/388235229_The_assessment_of_carrying_capacity_of_marine_fishery_resources_in_China, https://link.springer.com/article/10.1007/s44307-024-00043-7]. One study did source data from the yearbook to analyze historical fishery output value, but it does not specify an analysis of *Scomber japonicus* [https://papers.ssrn.com/sol3/Delivery.cfm/cd51a230-73b7-4600-a3dc-2403f49b4663-MECA.pdf?abstractid=5652724&mirid=1].
 

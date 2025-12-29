@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 57, "prompt": "Summarize the global investments, key initiatives, and outputs related to Artificial Intelligence (AI) by major international consulting firms (e.g., Big Four, Accenture, MBB, IBM, Capgemini). Cover aspects such as AI-driven products/services, client case studies, application scenarios, strategic directions, and talent development programs."}
+research_task = {"id": 61, "topic": "Science & Technology", "language": "en", "prompt": "Research on the price dynamics of chub mackerel in major aquatic markets of Pacific Rim countries, and its interannual variations in weight/length. Combined with oceanographic theory, these research findings can further establish direct correlations between high-quality marine biological resources, aquatic markets, fishery economics, and the marine environment."}
 
 
 research_topic = research_task["prompt"]
