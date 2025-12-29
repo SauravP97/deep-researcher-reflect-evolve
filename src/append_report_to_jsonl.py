@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 64, 
-    "prompt": "Regarding the attitude control problem for UAVs, most open-source flight controllers currently implement cascaded PID control algorithms. However, a single set of PID controller parameters typically performs well only under specific flight conditions. In practical applications, UAVs operate across diverse flight states. What methods can be employed to enhance the actual control performance of PID algorithms, and how should PID parameters be optimally selected?",
+    "id": 65, 
+    "prompt": "As an agricultural engineering researcher focusing on 3D reconstruction and phenotypic analysis of crop grains, please develop a design report utilizing modern control theory, alongside other relevant theoretical methods and models, for the tasks of modeling, analysis, and design pertinent to my research area.",
     "article": report_content,
 }
 

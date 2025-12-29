@@ -1,258 +1,387 @@
-Search Query: quadcopter cascaded PID attitude control architecture inner loop rate control outer loop angle control
-Search Answer: Based on the provided information, the standard approach to UAV attitude control involves a cascaded PID architecture, which is generally easier to stabilize compared to a single-loop controller. This system is typically divided into two interconnected loops: an outer loop for angle control and an inner loop for angular rate control.
+Search Query: foundational review of modern control theory applications in computer vision for process automation and robustness
+Search Answer: Based on the available information, which is limited for a comprehensive foundational review, a 2023 review explores the applications of intelligent control theory. This theory is highlighted for its role and function in the optimization of equipment, operations, and controls.
 
-The structure and function of this cascaded system are as follows:
+Search Query: state-space modeling for 3D computer vision and image-based reconstruction processes
+Search Answer: Based on the provided information, here is a design report outline summarizing relevant methods for 3D reconstruction, while also noting the limitations of the source material concerning the application of modern control theory.
 
-*   **Outer Loop (Angle Control):** This loop is responsible for managing the UAV's attitude (e.g., roll, pitch, yaw angles). It typically uses a Proportional-Derivative (PD) controller. When there is an error between the desired attitude and the actual attitude, the outer loop generates a command for the desired angular rate.
-*   **Inner Loop (Rate Control):** This loop receives the angular rate command from the outer loop and works to achieve it. It usually employs a full Proportional-Integral-Derivative (PID) controller to manage the angular velocity. The entire cascaded structure is sometimes referred to as a P-PID controller.
+**Design Report: 3D Reconstruction and Phenotypic Analysis of Crop Grains**
 
-**Key Principles for Performance and Stability:**
+**1. Introduction to 3D Reconstruction Methodologies**
 
-*   **Interaction and Integration:** This architecture leverages the UAV's natural dynamics, where there is an inherent integration between angular rate and attitude. An attitude error in the outer loop creates a rate command, and the integrator in the inner loop's PID controller works to eliminate any steady-state attitude offset. This is why an integrator is not strictly necessary in the outer angle control loop.
-*   **Loop Speed:** For the system to be stable and effective, the inner rate control loop must operate at a higher frequency than the outer angle loop. This allows for tight tracking of the rate commands and ensures overall system stability.
-*   **Broader Application:** This cascaded attitude control is often a component of a larger control system for a 6-DOF (Degrees of Freedom) UAV. Such a system might use multiple PID controllers (e.g., six in total) to stabilize both the vehicle's altitude and its angular position.
+Several modern methods are available for 3D reconstruction, which can be applied to the analysis of crop grains. These techniques primarily leverage computer vision and image processing.
 
-Search Query: quadcopter mathematical model limitations of fixed PID gains under varying mass aerodynamic effects and wind disturbances
-Search Answer: To enhance the control performance of Proportional-Integral-Derivative (PID) algorithms for Unmanned Aerial Vehicles (UAVs) operating in diverse flight states, several advanced methods can be employed beyond using a single set of fixed parameters [https://www.researchgate.net/publication/334775957_Optimizing_PID_controller_gains_to_model_the_performance_of_a_quadcopter, https://www.mdpi.com/2673-4591/87/1/93].
+*   **Image-Based Modeling (IBM):** A passive system for 3D reconstruction that encompasses both depth-map and volume-based methods. This approach is foundational for creating 3D models from 2D images.
+*   **Multi-View Diffusion Models:** This advanced technique generates 3D models by using multi-view diffusion to create a series of images from different perspectives. These images are then processed by a multi-view reconstructor which maps the image tokens to 3D Gaussians, forming the final 3D representation.
+*   **Specialized Frameworks:**
+    *   **ExploreGS:** A framework designed for drone-based 3D scene reconstruction, which could be adapted for large-scale field analysis of crops.
+    *   **SAM 3D Objects:** A tool capable of generating 3D models from a single image or an object selected within an image, offering a potential method for rapid, individual grain analysis.
 
-The foundational approach to PID control involves modeling the quadcopter's dynamics, often using Newton's equations, to provide a basis for tuning the controller gains [https://www.researchgate.net/publication/334775957_Optimizing_PID_controller_gains_to_model_the_performance_of_a_quadcopter, https://www.mdpi.com/2673-4591/87/1/93]. However, fixed-gain PID controllers face challenges with external disturbances such as wind turbulence [https://www.sciencedirect.com/science/article/pii/S2772671124004169, https://www.researchgate.net/publication/360410400_Aerodynamic_Modelling_and_Wind_Disturbance_Rejection_of_Multirotor_Unmanned_Aerial_Vehicles]. To overcome these limitations, the following methods are proposed:
+**2. Application of Modern Control Theory (State-Space Modeling)**
 
-*   **Optimized Adaptive PID Controllers:** This approach adjusts the PID parameters in real-time to adapt to changing flight conditions, making it effective for complex tasks such as trajectory tracking [https://www.scribd.com/document/706250461/30].
-*   **Robust Control Methods:** These methods are specifically designed to handle uncertainties and external disturbances, offering a way to counter factors like wind and improve overall system stability [https://www.researchgate.net/publication/360410400_Aerodynamic_Modelling_and_Wind_Disturbance_Rejection_of_Multirotor_Unmanned_Aerial_Vehicles].
-*   **Cascade Model Predictive Control (MPC):** As a more advanced alternative, cascade MPC has demonstrated superior performance compared to conventional PID controllers. It excels in providing better stability and disturbance rejection, particularly in challenging and turbulent windy conditions [https://www.sciencedirect.com/science/article/pii/S2772671124004169].
+While the aforementioned 3D reconstruction techniques are powerful, the provided search results do not contain specific information or examples of applying state-space modeling or other modern control theories directly to these 3D computer vision or image-based reconstruction processes. Therefore, the integration of control theory would represent a novel extension of these existing frameworks.
 
-Search Query: PID gain scheduling for UAV attitude control implementation with lookup tables scheduling variables (airspeed, throttle) advantages and disadvantages
-Search Answer: To enhance the control performance of PID algorithms for UAVs operating across diverse flight states, Gain-Scheduling PID (GS-PID) control is an effective method. This approach addresses the limitation of a single set of PID parameters by adjusting them based on the UAV's current operating conditions.
+Search Query: survey of 3D imaging modalities for small object scanning including multi-view stereo, structured light, and laser triangulation comparing resolution, speed, and cost
+Search Answer: Based on your query, here is a design report section focusing on the selection of a 3D imaging modality for the reconstruction and phenotypic analysis of crop grains. This section synthesizes information on relevant theoretical methods and models for data acquisition.
 
-**How Gain-Scheduling PID Works**
+***
 
-The core idea of GS-PID is to have multiple sets of PID parameters, with each set tuned for a specific flight condition. The system then selects the optimal set of gains in real-time. This is often implemented using a lookup table or a scheduler block that retrieves PID gains from an array. The selection is based on breakpoint data corresponding to the system's current state, which can be defined by variables such as airspeed or throttle [https://www.mathworks.com/help/slcontrol/ug/pidgainscheduler.html].
+### **Design Report: 3D Reconstruction and Phenotypic Analysis of Crop Grains**
 
-**Implementation for UAVs**
+#### **1.0 System Modeling and Design: Data Acquisition Modality Selection**
 
-GS-PID is particularly well-suited for the complex, multivariable, and nonlinear nature of systems like quad-rotor UAVs [https://www.researchgate.net/publication/326490598_Gain_Scheduling_Based_PID_Control_Approaches_for_Path_Tracking_and_Fault_Tolerant_Control_of_a_Quad-rotor_UAV]. For attitude control, it is common to implement multiple gain-scheduled PID controllers in a cascaded structure, allowing for precise management of each control element [https://www.researchgate.net/publication/317040874_Gain_Scheduled_Attitude_Control_of_Fixed-Wing_UAV_With_Automatic_Controller_Tuning].
+The foundational component of any 3D reconstruction system for grain phenotyping is the data acquisition sensor. The choice of imaging modality directly impacts the accuracy, resolution, speed, and cost of the entire analysis pipeline. Several 3D imaging modalities are suitable for scanning small objects like crop grains, including structured light, laser triangulation, and multi-view stereo (also known as stereo vision or photogrammetry) [https://www.researchgate.net/publication/391519768_Advancements_and_Challenges_in_3D_Scanning_A_Comprehensive_Review_of_Engineering_Applications, https://www.ml6.eu/en/blog/optical-3d-acquisition-methods-a-comprehensive-guide-part-2].
 
-**Advantages and Optimal Selection**
+A comparative analysis of these methods is presented below to inform the design choice.
 
-By dynamically adjusting PID parameters, this method allows the controller to maintain high performance across different flight states, which is a significant improvement over a fixed-gain controller. The primary advantages highlighted by research include:
+#### **1.1 Comparison of 3D Imaging Modalities**
 
-*   **Improved Path Tracking:** The adaptability of the controller leads to more accurate flight path following.
-*   **Enhanced Fault-Tolerant Control:** The system can better handle unexpected changes or partial system failures.
+**Multi-View Stereo (Stereo Vision)**
+*   **Methodology**: As a form of photogrammetry, this is a versatile and cost-effective 3D acquisition method [https://www.researchgate.net/publication/391519768_Advancements_and_Challenges_in_3D_Scanning_A_Comprehensive_Review_of_Engineering_Applications, https://www.ml6.eu/en/blog/optical-3d-acquisition-methods-a-comprehensive-guide-part-2]. It is particularly well-suited for applications that require real-time depth information.
+*   **Performance**: Stereo vision typically provides higher accuracy and resolution compared to other methods like Time of Flight (ToF). However, its accuracy may be lower than that of structured light systems [https://www.ml6.eu/en/blog/optical-3d-acquisition-methods-a-comprehensive-guide-part-2].
 
-Optimal selection of PID parameters involves designing and tuning different sets of gains for various operating points (e.g., low speed, high speed, hover) and then storing them in the lookup table. The controller then interpolates between these points to ensure smooth transitions as the UAV's state changes. While the provided sources detail the benefits, they do not specify any disadvantages of this method [https://www.ijmerr.com/uploadfile/2018/0709/20180709111619835.pdf].
+**Structured Light**
+*   **Methodology**: This technique captures a 2D image of a deformed light pattern projected onto an object. This captured image is then used to generate a detailed 3D point cloud or depth map that represents the object's surface structure [https://www.ml6.eu/en/blog/optical-3d-acquisition-methods-a-comprehensive-guide-part-2].
+*   **Performance**: Structured light systems are known for providing higher accuracy and resolution compared to methods like ToF sensors, making them suitable for capturing fine details on grain surfaces [https://www.ml6.eu/en/blog/optical-3d-acquisition-methods-a-comprehensive-guide-part-2].
 
-Search Query: Fuzzy Logic PID controller architecture for UAV attitude control detailing fuzzification rule base and defuzzification for Kp Ki Kd tuning
-Search Answer: To enhance the control performance of PID algorithms for UAVs operating under diverse flight conditions, a fuzzy logic algorithm can be integrated with a standard PID controller to create a self-tuning system [https://www.researchgate.net/publication/387657973_Self-Tuning_PID_Controller_for_Quadcopter_using_Fuzzy_Logic]. This approach addresses the limitation of a single set of PID parameters, which typically perform well only under specific flight conditions.
+**Laser Triangulation**
+*   **Methodology**: This technique is considered the optimal solution for high-speed scanning, especially when the target objects are in motion, such as on a conveyor line for high-throughput phenotyping [https://www.automate.org/vision/tech-papers/structured-light-vs-laser-triangulation-for-3d-scanning-and-inspection]. A related method, LiDAR, generates a 3D point cloud using the timing and intensity information from each laser pulse [https://www.ml6.eu/en/blog/optical-3d-acquisition-methods-a-comprehensive-guide-part-2].
+*   **Performance**: Its primary advantage is speed, making it the optimal choice for dynamic scanning environments [https://www.automate.org/vision/tech-papers/structured-light-vs-laser-triangulation-for-3d-scanning-and-inspection].
 
-The core of this method is an adaptable fuzzy control mechanism that uses a fuzzy PID rule base to continuously adjust the controller gains (e.g., Kp, Ki, Kd) for manipulating the UAV's mechanical actuators [https://www.researchgate.net/figure/Fuzzy-PID-rule-base-for-K-df-gain_tbl4_363776496, https://www.researchgate.net/publication/220312345_Fuzzy_PID_controller_Design_performance_evaluation_and_stability_analysis]. This allows the controller to adapt its performance to changing flight states.
+#### **1.2 Summary and Recommendation**
 
-Several architectural approaches for implementing this have been proposed:
-*   **Decoupling Control:** One design utilizes a decoupling fuzzy controller to effectively separate the control of the UAV's position from its orientation, simplifying the control problem [https://www.semanticscholar.org/paper/fe28504483b86768926d08d340241fbc4fa62f72].
-*   **Modular Systems:** More comprehensive systems can be designed with multiple fuzzy logic modules to manage both flight control and autonomous navigation tasks [https://www.researchgate.net/publication/234025186_Fuzzy_Logic_Based_Approach_to_Design_of_Flight_Control_and_Navigation_Tasks_for_Autonomous_Unmanned_Aerial_Vehicles].
+The selection of the optimal modality depends on the specific research priorities:
 
-Regarding the optimal selection of PID parameters, this fuzzy logic approach enables dynamic, real-time tuning rather than a single optimal selection. However, the provided information does not detail the specific architecture, fuzzification, rule base design, or defuzzification processes required for implementing the tuning of Kp, Ki, and Kd gains.
+*   **For High-Throughput Analysis:** **Laser triangulation** is the optimal choice for scanning grains in motion (e.g., on a conveyor belt) due to its superior speed [https://www.automate.org/vision/tech-papers/structured-light-vs-laser-triangulation-for-3d-scanning-and-inspection].
+*   **For High-Fidelity Models:** **Structured light** is recommended when the highest accuracy and resolution are required to capture minute surface details, though this may come at the cost of scanning speed.
+*   **For Cost-Effective & Real-Time Applications:** **Stereo vision** presents a versatile and economical option, providing a good balance of performance, especially when real-time processing is a consideration [https://www.ml6.eu/en/blog/optical-3d-acquisition-methods-a-comprehensive-guide-part-2].
 
-Search Query: Neural Network PID tuning for UAV attitude control architectures for online gain optimization
-Search Answer: To enhance the control performance of PID algorithms for UAVs across diverse flight states, neural networks can be employed for online, adaptive PID gain tuning. Several architectures have been proposed for this purpose.
+Search Query: algorithms to compute grain morphometric phenotypes (volume, surface area, sphericity, dimensions) from 3D point cloud and mesh data
+Search Answer: For the modeling, analysis, and design of a system for 3D reconstruction and phenotypic analysis of crop grains, the following framework can be implemented.
 
-One approach utilizes a single-layer neural network, which may contain around 10 hidden neurons. This network uses the proportional, integral, and derivative errors as inputs to adjust the PID gains for the UAV's pitch/roll (y) and yaw (ψ) states.
+The process begins with 3D reconstruction, where a technique such as Structure-from-Motion (SfM) is employed to generate a 3D point cloud from images of the grains [https://www.mdpi.com/2077-0472/14/3/391]. Once the point cloud is created, analysis can proceed. To isolate individual grains from a larger sample, a watershed algorithm is used for 3D point cloud segmentation [https://esurf.copernicus.org/articles/10/1211/2022/]. For determining the shape of individual grains, G3Point, a semi-automatic and non-destructive method, can be utilized [https://ui.adsabs.harvard.edu/abs/2025EGUGA..2715463L/abstract].
 
-A more complex integrated framework involves using an Improved Sparrow Search Algorithm (ISSA) to optimize the weights of a Backpropagation Neural Network (BPNN). The optimized BPNN then enables adaptive PID tuning. When this ISSA-BP-PID system is combined with a Linear Extended State Observer (LESO) to compensate for disturbances, it has been shown to improve the Root Mean Square Error (RMSE) by 33.4% under uncertain flight conditions, thereby enhancing robustness.
+From the processed point cloud data, algorithms can then calculate crucial morphometric phenotypes, including length, width, thickness, surface area, and volume [https://www.researchgate.net/publication/354674020_Cereal_Grain_3D_Point_Cloud_Analysis_Method_For_Shape_Extraction_And_FilledUnfilled_Grain_Identification_Based_On_Structured_Light_Imaging, https://pubmed.ncbi.nlm.nih.gov/35210561/].
 
-Other related research in this area includes comparing the performance of a direct inverse control artificial neural network (DIC-ANN) with that of a traditional PID controller.
+To validate the design, the accuracy of the 3D reconstruction can be assessed by computing the Hausdorff distance between the original point cloud data and the resulting 3D mesh model [https://www.mdpi.com/2077-0472/14/3/391].
 
-However, a critical perspective suggests that while using a neural network as an online tuner is feasible, the performance improvement may be small. Consequently, the added implementation complexity might not be justified in all applications.
+Search Query: state-space model formulation for active vision systems in robotic 3D object scanning and analysis
+Search Answer: For the 3D reconstruction and phenotypic analysis of crop grains, a design report can be structured around an active vision system using a robotic platform. This approach integrates modern control theory for modeling, analysis, and design.
 
-Search Query: offline PID tuning for UAV attitude control using Genetic Algorithm or Particle Swarm Optimization cost function simulation
-Search Answer: To enhance the control performance of PID algorithms for UAVs across diverse flight states, various offline tuning methods can be employed to find optimal controller parameters. These methods often utilize simulation models of the UAV, for instance in Simulink, to test and refine the parameters before practical application.
+One method involves using an explicitly defined state-space model that incorporates both the state of the robot and the locations of the grains being scanned [https://pmc.ncbi.nlm.nih.gov/articles/PMC7973267/]. The objective of such an active vision system is to enable a robotic platform to track the grains and accurately reconstruct their poses in a virtual 3D space [https://rovislab.com/papers/Gigi_RAAD_2011.pdf].
 
-The primary approaches for optimizing PID parameters include:
-*   **Meta-heuristic Algorithms**: Techniques such as Genetic Algorithms (GA), Particle Swarm Optimization (PSO), and the Cuckoo Search Algorithm (CSA) are commonly used to search for optimal controller gain parameters. These algorithms are effective at navigating complex problem spaces to find robust solutions.
-*   **Hybrid Algorithms**: Some approaches combine multiple methods to leverage their respective strengths, such as a hybrid of Particle Swarm Optimization with a Memory-based Gravitational Search Algorithm.
-*   **Intelligent Controllers**: Neural networks, like a Levenberg-Marquardt feedforward neural network, can be used to create intelligent PID controllers that adapt more effectively.
+A more modern approach, which can be used as an alternative or in conjunction, is a visual servoing-based active vision framework that does not require prior knowledge of the grain's geometry. This method couples Next-Best-View (NBV) planning with visual servo control. It employs a dual-task visual control law that uses a segmented point cloud and a probabilistic occupancy map as inputs to continuously determine the desired camera velocity. This control law directs the camera to simultaneously achieve two objectives:
+1.  Maintain its position relative to the grain, keeping it centered in the field of view.
+2.  Explore the grain's surface to maximize an NBV objective, ensuring comprehensive data acquisition for real-time 3D reconstruction [https://hal.science/hal-05397812v1/file/2025_ral_misimi.pdf].
 
-The process of selecting optimal parameters is guided by a cost or fitness function that the chosen algorithm aims to minimize. The central goal is to find controller gains that stabilize the UAV's attitude (roll, pitch, yaw) and thrust, especially under disturbances like wind gusts or physical defects.
+These techniques are situated within a broader context of significant advancements in active vision for robotic applications over the last 15 years, as detailed in several surveys on the topic [https://journals.sagepub.com/doi/10.1177/0278364911410755, https://www.researchgate.net/publication/220122397_Active_Vision_in_Robotic_Systems_A_Survey_of_Recent_Developments].
 
-A well-defined fitness function is crucial for achieving desired performance. This function often combines several key metrics, such as:
-*   Minimizing the error in the UAV's attitude rate.
-*   Integrating the weighted absolute error time with other critical performance indicators like overshoot, rise time, and settling time.
+Search Query: observability and controllability analysis of state-space models for active vision systems in 3D reconstruction
+Search Answer: **Design Report: Modeling, Analysis, and Design for 3D Reconstruction and Phenotypic Analysis of Crop Grains**
 
-Search Query: UAV fuzzy PID tuning process membership functions for error and delta-error IF-THEN rule base examples defuzzification methods Center of Gravity
-Search Answer: To enhance the performance of PID control algorithms for UAVs operating across diverse flight states, fuzzy PID tuning can be employed. This method adapts the controller's parameters to varying conditions, addressing the limitations of a single set of PID parameters.
+**1. Modeling with State-Space Representations**
 
-The fuzzy PID tuning process involves the following steps:
-1.  **Fuzzification**: Membership functions are established for controller inputs, such as error and the rate of change of error (delta-error) [https://www.researchgate.net/figure/Membership-functions-of-the-error-for-the-fuzzy-PID-controller_fig4_276509370, https://www.researchgate.net/figure/Fuzzy-membership-function-for-error_fig4_388313885].
-2.  **Fuzzy Inference**: The fuzzified inputs are processed through a predefined IF-THEN rule base [https://www.researchgate.net/figure/Membership-functions-of-the-error-for-the-fuzzy-PID-controller_fig4_276509370, https://www.researchgate.net/figure/Fuzzy-membership-function-for-error_fig4_388313885].
-3.  **Defuzzification**: This final step converts the fuzzy output from the inference stage back into a crisp, specific signal that the controller can use to make adjustments [https://www.researchgate.net/figure/Membership-functions-of-the-error-for-the-fuzzy-PID-controller_fig4_276509370].
+For the task of 3D reconstruction, state-space models are a pertinent approach from modern control theory. A specific application can be seen in the use of visual state space models (VMamba) within Depth-Visual-Inertial (DVI) Mapping Systems, which have been effectively used for robust indoor 3D reconstruction. This demonstrates a viable modeling framework for capturing the system's dynamics.
 
-Several defuzzification methods can be used to determine the final controller output. Common methods include:
-*   Center of Gravity (COG) / Centroid of Area (COA) [https://www.youtube.com/watch?v=etFR1xwvd7w, https://www.youtube.com/watch?v=XwafDor2g6A]
-*   Center of Sums Method (COS) [https://www.youtube.com/watch?v=etFR1xwvd7w]
-*   Max Membership Principle [https://www.youtube.com/watch?v=XwafDor2g6A]
-*   Weighted Average Method [https://www.youtube.com/watch?v=XwafDor2g6A]
-*   Mean Max [https://www.youtube.com/watch?v=XwafDor2g6A]
+**2. System Analysis and Design Principles**
 
-Among these, the Center of Gravity (COG) method is a frequently used technique [https://www.researchgate.net/figure/Membership-functions-of-the-error-for-the-fuzzy-PID-controller_fig4_276509370, https://www.youtube.com/watch?v=etFR1xwvd7w]. The formula for calculating the defuzzified value (x*) using COG differs for discrete and continuous membership functions [https://cse.iitkgp.ac.in/~dsamanta/courses/archive/sca/Archives/Chapter%205%20Defuzzification%20Methods.pdf]:
-*   **For discrete membership functions**: x* = ∑(xᵢ * μ(xᵢ)) / ∑μ(xᵢ), where xᵢ is the sample element and μ(xᵢ) is its membership function.
-*   **For continuous membership functions**: x* = ∫(x * μₐ(x) dx) / ∫μₐ(x) dx.
+In the analysis and design of such control systems, the canonical form of a state-space model is a significant and fundamental concept. This representation is crucial for various aspects of control theory, including network analysis and control.
 
-Search Query: UAV attitude control using Sliding Mode Control (SMC) hybrid PID-SMC structure robustness against disturbances
-Search Answer: To enhance the control performance of UAVs beyond what a single set of PID parameters can offer across diverse flight states, hybrid control strategies are employed to improve robustness against disturbances. A prominent approach involves combining Sliding Mode Control (SMC) with other advanced algorithms.
+**3. Observability and Controllability Considerations**
 
-Several proposed hybrid methods include:
-*   **Fusion with Active Disturbance Rejection Control (ADRC):** One method fuses ADRC with Super-Twisting Sliding Mode Control (ST-SMC). This combination has demonstrated superior performance in dynamic response, disturbance rejection, and steady-state tracking error when compared to traditional PID and standalone ADRC controllers [https://www.mdpi.com/2076-3417/15/9/5124]. A similar strategy integrates linear active disturbance rejection control (LADRC) with SMC for the attitude control of small fixed-wing UAVs [https://www.researchgate.net/publication/382213105_Attitude_Control_of_Small_Fixed-Wing_UAV_Based_on_Sliding_Mode_and_Linear_Active_Disturbance_Rejection_Control].
+A critical component of system analysis involves assessing observability and controllability. However, specific details regarding the observability and controllability analysis of state-space models for active vision systems, which would be essential for designing the 3D reconstruction process, are not detailed in the provided materials.
 
-The concept of using SMC in hybrid systems for robust attitude control extends to other applications, such as spacecraft, where it has been combined with productive networks (PN) [https://ui.adsabs.harvard.edu/abs/1997IJSyS..28..435C/abstract].
+Search Query: derivation of system dynamics and control law for dual-task visual servoing in active 3D reconstruction
+Search Answer: Based on the provided information, here is a design report utilizing modern control theory for 3D reconstruction and phenotypic analysis of crop grains.
 
-Direct comparisons indicate that SMC, particularly when used with disturbance observers, shows distinct advantages over PID controllers that lack such observers, highlighting its enhanced ability to handle external disturbances [https://repository.library.northeastern.edu/files/neu:bz617b344/fulltext.pdf]. These advanced control structures offer a robust alternative to overcome the limitations of single-parameter PID controllers in varied flight conditions.
+### **Design Report: A Modern Control Theory Framework for 3D Grain Reconstruction**
 
-Search Query: "Model Predictive Control" UAV attitude control benefits "computational complexity" comparison PID SMC
-Search Answer: While single-set PID controllers are simple to implement, their performance is often limited to specific flight conditions. To enhance control performance across the diverse flight states encountered by UAVs, more advanced control strategies such as Model Predictive Control (MPC) and Sliding Mode Control (SMC) can be employed, both of which demonstrate superior performance compared to PID.
+This report outlines a design approach for the modeling, analysis, and control of a system for 3D reconstruction and phenotypic analysis of crop grains, incorporating modern control theory, specifically through visual servoing techniques.
 
-**Model Predictive Control (MPC)**
+#### **1. System Modeling**
 
-MPC offers significant advantages for UAV attitude control, including better trajectory tracking, less overshoot, faster settling times, and increased robustness against external disturbances [1, 2, 3, 5, 6, 7, 8, 10]. A key benefit of MPC is its ability to handle constraints on system states and inputs, making it particularly effective for optimizing performance during aggressive maneuvers [1, 8].
+The initial step involves modeling the system dynamics. A classical and effective method for modeling the 3D scanning setup is to calibrate the camera and a structured light projector to deduce the rigid motion matrix between the two devices. This establishes the geometric relationship essential for accurate 3D reconstruction.
 
-However, the primary drawback of MPC is its high computational cost and complexity, which stems from its reliance on online optimization [1, 2, 4, 6, 7, 8, 9]. This computational burden is greater than that of both PID and SMC controllers and presents a major challenge for real-time implementation on the embedded systems with limited processing power found in most small UAVs, often requiring more powerful hardware [1, 2, 5, 6, 7, 8, 10]. To mitigate this issue, research into variants like Explicit MPC (EMPC) aims to provide performance superior to PID and SMC but with lower computational complexity [7].
+#### **2. Control System Design and Analysis**
 
-**Sliding Mode Control (SMC)**
+For the control law design, a dual-task visual servoing framework is proposed to manage both the scanning (reconstruction) and handling (positioning) of the grain samples. This approach leverages different visual servoing strategies, including two-dimensional, three-dimensional, and optimized hybrid methods, to overcome the limitations of classical approaches.
 
-SMC is another alternative that demonstrates better performance than PID controllers. It can provide a faster response, less overshoot, and superior robustness in rejecting external disturbances [4, 8, 10]. While sources confirm that MPC is computationally more demanding than SMC, they do not provide a detailed comparison of SMC's computational complexity relative to MPC [5, 6, 8, 10].
+A specific and robust control framework for this application involves a multi-robot setup:
 
-Search Query: PX4 ArduPilot Autotune PID tuning algorithm implementation and comparison
-Search Answer: To enhance the control performance of PID algorithms for UAVs operating across diverse flight states, open-source flight controllers like PX4 and ArduPilot have implemented automatic tuning (autotune) features for selecting optimal parameters.
+*   **Task 1: Object Tracking and Scanning (Eye-in-Hand Configuration):** One robotic manipulator, equipped with an eye-in-hand camera, would be responsible for tracking and scanning the grain. The control system for this robot would utilize an **eye-in-hand visual servoing controller**. To incorporate modern safety and constraint-handling techniques, **Control Barrier Functions (CBFs)** can be integrated into the control law. The CBF ensures that critical constraints are met, such as keeping the grain or its fiducial markers visible within the camera's field of view at all times, preventing loss of tracking during the reconstruction process.
 
-### PX4 Autotune
+*   **Task 2: Precise Placement (Eye-to-Hand Configuration):** A second robot with an eye-to-hand camera configuration can be used for the precise pick-and-place of individual grains. This is crucial for ensuring stability and correct positioning of the sample before and after scanning.
 
-The PX4 autopilot firmware includes an automatic tuning feature for multicopter, fixed-wing, and VTOL vehicles. This system utilizes the OCTUNE algorithm to tune its PID control loops [https://www.mdpi.com/1424-8220/22/23/9240, https://docs.px4.io/v1.14/en/config/autotune]. The tuning process varies by vehicle type:
-*   **For fixed-wing aircraft**, new tuning gains are applied and tested while the vehicle is in the air. The system includes a safety feature that automatically reverts to the previous parameters if the new controllers are unstable.
-*   **For multicopters**, the vehicle must land after the tuning flight. The new parameters are applied after the vehicle is disarmed, and the pilot must then take off again to test the new tuning [https://docs.px4.io/v1.14/en/config/autotune].
+#### **3. Addressing System Challenges**
 
-### ArduPilot Autotune
+A critical aspect of the design is ensuring robustness to real-world conditions. The control system must be designed to handle measurement disturbances, such as the potential for **target occlusion**. This is a common issue in 3D visual servoing for mobile robots and is equally relevant in the context of manipulating small, potentially irregularly shaped objects like crop grains.
 
-ArduPilot (APM:Copter) also features a well-known autotune function. Community discussions have considered porting this function to PX4, but the process was deemed very difficult [https://discuss.px4.io/t/how-to-autotune-the-pid-params/3395]. Some users have characterized the ArduPilot tuning as potentially "a bit 'rough' for many frames" [https://github.com/PX4/Firmware/issues/8472]. The ArduPilot autotune algorithm was originally implemented in MATLAB and simulated with PID and PD controllers [https://engrxiv.org/preprint/download/4462/7760/6405].
+While these documents outline a robust framework combining different visual servoing techniques and modern control methods like CBFs, they do not provide a specific, detailed derivation of the system dynamics or control laws for the dual-task of active 3D reconstruction. However, they offer a strong conceptual basis for developing such a system.
 
-### Alternative Methods
+Search Query: mathematical analysis of observability and controllability for image-based visual servoing systems
+Search Answer: For a design report on 3D reconstruction and phenotypic analysis of crop grains, modern control theory can be applied through the framework of image-based visual servoing. This is a control technique where data from a vision sensor, such as a camera, serves as the input to a control loop [https://open.clemson.edu/context/all_theses/article/4446/viewcontent/Allen_clemson_0050M_16045.pdf].
 
-In addition to in-flight autotuning, the PX4 development community has discussed an alternative approach for optimizing PID parameters. This method involves using data from flight logs to design improved controllers offline [https://github.com/PX4/Firmware/issues/8472]. This approach avoids some of the challenges of real-time tuning and allows for more detailed analysis. Another suggestion has been to implement an incremental tuning process that occurs over a longer flight time, which might yield better results than a more aggressive, short-term tuning session [https://github.com/PX4/Firmware/issues/8472].
+The modeling, analysis, and design of such a system involve the following principles:
 
-Search Query: comparative analysis of UAV adaptive PID control methods "computational cost" "implementation complexity" "model reliance" "robustness"
-Search Answer: To enhance the control performance of PID algorithms for Unmanned Aerial Vehicles (UAVs) across diverse flight states, several advanced methods can be employed. These approaches move beyond a single, fixed set of PID parameters by dynamically adapting the control strategy.
+*   **System Modeling and Control Law:** In the classic image-based visual servoing framework, control is achieved by directly computing error signals from image feature parameters [https://journals.sagepub.com/doi/10.1177/0278364908096706]. The controlled output is the vector of these features within the image plane. The error signal, which drives the control law, is also defined within this task space [http://www.diag.uniroma1.it/deluca/rob2_en/17_VisualServoing.pdf].
 
-Based on the provided information, here are methods to improve PID performance and optimize parameter selection:
+*   **Controllability and Observability Analysis:** The analysis of the system can be approached through the fundamental concepts of controllability and observability.
+    *   **Controllability** pertains to the ability to drive the system to a desired state. In this context, the controlled output is the vector of features in the image plane, and the error defined in this space drives the control law [http://www.diag.uniroma1.it/deluca/rob2_en/17_VisualServoing.pdf].
+    *   **Observability** relates to the ability to determine the internal state of the system from its external outputs. For visual servoing, one approach interprets feature depth (Z) as an unmeasurable state. This depth must be "observed" and made available to the control system to execute the servoing task [https://www.researchgate.net/publication/220121980_Feature_Depth_Observation_for_Image-based_Visual_Servoing_Theory_and_Experiments].
 
-*   **Intelligent PID:** This is a general category of methods developed to offer better robustness for control systems compared to traditional PID controllers.
+*   **Design Framework:** The mathematical analysis and design for these systems often employ rigorous methods from nonlinear control theory, which provides the tools to handle the complex dynamics inherent in visual servoing tasks [https://commons.erau.edu/cgi/viewcontent.cgi?article=1017&context=edt].
 
-*   **Fuzzy Logic Control (FLC):** This method improves adaptability and robustness by using human-like reasoning to adjust control parameters. It is a proven technique in related fields like autonomous underwater vehicles (AUVs).
+Search Query: nonlinear observability and controllability analysis for visual servoing systems using Lie derivatives and the image Jacobian matrix
+Search Answer: For nonlinear systems, such as those encountered in visual servoing for 3D reconstruction, a differential geometry approach utilizing Lie derivatives is employed for observability and controllability analysis [https://www.mdpi.com/2227-7390/8/11/1876]. This methodology involves constructing an observability matrix for the nonlinear system based on these Lie derivatives [https://www.researchgate.net/publication/338805605_Nonlinear_Observability_Analysis, https://math.stackexchange.com/questions/4459003/observability-of-non-linear-system-using-lie-derivative].
 
-*   **Reinforcement Learning (RL):** RL enables a system to autonomously learn optimal control policies through interaction with its environment. This enhances tracking precision and decision-making capabilities, especially under uncertain or changing conditions. One specific type of RL is the Deep Deterministic Policy Gradient (DDPG), for which computational cost has been analyzed.
+The observability matrix is defined as the Jacobian of the observability map, and its rows are composed of the gradients of the Lie derivatives [https://www.roebenack.de/observability]. Performing this analysis is a critical preliminary step in the design process, informing the development of components like an Extended Kalman Filter (EKF) and aiding in the determination of optimal sensor layout [https://math.stackexchange.com/questions/4459003/observability-of-non-linear-system-using-lie-derivative]. To facilitate this complex computation, efficient methods, such as those using automatic differentiation, have been developed to compute both the Lie derivatives and the observability matrix [https://www.researchgate.net/publication/318039789_An_efficient_method_to_compute_Lie_derivatives_and_the_observability_matrix_for_nonlinear_systems].
 
-*   **Hybrid Approaches:** These methods combine the strengths of different techniques to improve resilience against uncertainties and faults. Examples include:
-    *   **Adaptive Neuro-Fuzzy Inference Systems (ANFIS):** This approach merges the reliability of model-based systems with the adaptability of data-driven methods.
-    *   **Physics-Informed Reinforcement Learning (PI-RL):** Similar to ANFIS, this technique integrates physical models with reinforcement learning to enhance performance.
+Search Query: design of visual servoing controller integrating Next-Best-View planning with Control Barrier Functions for field-of-view safety constraints
+Search Answer: Visual Servoing (VS) is a control method that utilizes vision as a perception tool to compute robot control inputs from visual feedback in real-time [https://ieeexplore.ieee.org/iel8/3516/4785241/11173962.pdf]. A significant challenge in this area is managing view constraints, such as the camera's limited field-of-view (FOV), particularly when tracking dynamic targets [https://www.mdpi.com/2218-6581/14/12/190, https://discovery.ucl.ac.uk/10209946/1/ICARM25_0172_FI.pdf].
 
-**Considerations for Selecting a Method:**
+To address this, modern control theory offers powerful tools. Control Barrier Functions (CBFs) have emerged as an effective method for enforcing safety constraints and certifying the safety of feedback controllers [https://mit-realm.github.io/nerf-cbf/, https://ras.papercept.net/conferences/conferences/IROS25/program/IROS25_ContentListWeb_1.html]. For the specific task of managing FOV limitations in image-based visual servoing, a novel control method that incorporates dual constraints can be implemented to ensure the target remains within the camera's view [https://www.mdpi.com/2218-6581/14/12/190].
 
-*   **Robustness and Adaptability:** Methods like FLC, RL, and hybrid approaches (ANFIS, PI-RL) are specifically designed to improve these characteristics.
-*   **Computational Cost:** This is a critical factor for real-time implementation. Comparative analyses have been conducted for some methods, such as the DDPG reinforcement learning algorithm.
-*   **Model Reliance:** Reinforcement Learning allows the system to learn directly from environmental interactions, while hybrid approaches like ANFIS and PI-RL effectively merge model-based reliability with data-driven adaptability.
+Search Query: application of Kalman Filters or Particle Filters for real-time estimation of object geometric features in active vision 3D reconstruction
+Search Answer: For the tasks of modeling, analysis, and design in 3D reconstruction and phenotypic analysis of crop grains, methods from modern control theory can be applied to object tracking, which is essential for assembling a complete 3D model from multiple images.
 
-It is important to note that the provided documents do not contain information regarding the implementation complexity of these methods.
+**State Estimation for 3D Object Tracking**
 
-Search Query: Adaptive Neuro-Fuzzy Inference System (ANFIS) for UAV attitude control implementation and robustness analysis
-Search Answer: To enhance the control performance of PID algorithms for UAVs across diverse flight states, the Adaptive Neuro-Fuzzy Inference System (ANFIS) can be employed. ANFIS can be implemented in several ways to achieve optimal attitude control and improve robustness:
+Key techniques for vision-based tracking include Kalman filters and particle filters. These methods are adept at estimating the state of a dynamic system based on a series of measurements that may be noisy and incomplete.
 
-*   **Direct or Hybrid Control:** ANFIS can be used directly to manage the UAV's autopilot systems for optimal attitude control. Alternatively, it can be implemented in a hybrid system, working in conjunction with a traditional PID controller to adapt to varying flight conditions [https://www.researchgate.net/publication/285588789_Optimal_attitude_control_of_a_quadrotor_UAV_using_Adaptive_Neuro-Fuzzy_Inference_System_ANFIS, https://www.mi-research.net/en/article/doi/10.1007/s11633-020-1251-2, https://www.researchgate.net/publication/270723449_UAV_Controller_Based_on_Adaptive_Neuro-Fuzzy_Inference_System_and_PID].
+*   **Kalman Filters:** The Kalman filter is a powerful tool for 3D object tracking [1]. In vision tracking applications, it is particularly useful for managing challenges such as minor or small occlusions [2]. For real-time phenotypic analysis, a tracking system can be implemented by combining the Kalman filter with feature matching techniques. One such system pairs it with Multi-scale Block Local Binary Patterns (MB-LBP) to create a real-time visual object tracking system [3].
 
-*   **System Identification and Optimization:** ANFIS can serve as a flight dynamics identifier. In this configuration, it learns the UAV's behavior, and a genetic algorithm (GA) can then be used to optimize the control parameters for the system [https://www.semanticscholar.org/paper/Adaptive-genetic-neuro-fuzzy-attitude-control-for-a-Oliveira-Rosa/5180f14654e3d98aa632a3c9a54da27110c573f6].
-
-*   **Robustness Enhancement:** To improve performance in the presence of external disturbances, ANFIS can be combined with Sliding Mode Control (SMC). This integration enhances the robustness of the quadcopter's trajectory tracking capabilities [https://library.acadlore.com/JISC/2023/2/1/JISC_02.01_04.pdf].
-
-Search Query: application of Physics-Informed Reinforcement Learning (PI-RL) for robust UAV attitude control
-Search Answer: To enhance the control performance of PID algorithms for UAVs across diverse flight states, research in intelligent flight control systems has focused on reinforcement learning (RL) and deep reinforcement learning (DRL) as a solution to the limitations of traditional PID control [https://arxiv.org/abs/1804.04154, https://cs-web.bu.edu/faculty/richwest/papers/tcps2019.pdf, https://www.researchgate.net/publication/324492570_Reinforcement_Learning_for_UAV_Attitude_Control].
-
-Studies have investigated several state-of-the-art RL algorithms for attitude control, such as Deep Deterministic Gradient Policy (DDGP), Trust Region Policy Optimization (TRPO), and Proximal Policy Optimization (PPO) [https://arxiv.org/abs/1804.04154]. This approach allows a DRL controller to learn directly from the UAV's nonlinear dynamics, effectively managing the complex attitude control problem. This method has led to the development of smart flight controllers using neural networks trained with RL for both simulated and real-time applications [https://www.semanticscholar.org/paper/Reinforcement-Learning-for-UAV-Attitude-Control-Koch-Mancuso/b223b7d1dc76be5591bc261e9550ae4d168b6222].
-
-A key benefit is that a DRL controller can generalize well to unseen disturbances like wind and turbulence, and the learning process can be highly efficient, potentially requiring as little as three minutes of flight data [https://www.semanticscholar.org/paper/Reinforcement-Learning-for-UAV-Attitude-Control-Koch-Mancuso/b223b7d1dc76be5591bc261e9550ae4d168b6222].
-
-Search Query: UAV attitude control using Active Disturbance Rejection Control (ADRC) principles Extended State Observer (ESO)
-Search Answer: To enhance the control performance of PID algorithms for UAVs operating in diverse flight states, one approach is Active Disturbance Rejection Control (ADRC), which is applied to attitude tracking control for multirotor UAVs [1, 2, 3].
-
-An ADRC system is composed of three main components [2]:
-*   **Tracking Differentiator (TD):** Arranges the transition process.
-*   **Extended State Observer (ESO):** Estimates the system states and the "total disturbance," which includes both internal dynamics and external disturbances.
-*   **Attitude Feedback Controller (AFC):** A nonlinear state error feedback control law that uses the estimations from the ESO to actively compensate for disturbances.
-
-Some strategies propose variations within this framework, such as using a cascade extended state observer [3]. In testing, ADRC controllers have demonstrated the ability to quickly overcome random disturbances and maintain steady-state accuracy in UAV attitude control [4]. Furthermore, optimized versions of ADRC have been developed for specialized applications, like controlling the attitude of a tethered UAV during fruit picking [5].
+*   **Particle Filters:** As an alternative, particle filtering offers another robust approach. This method can be combined with other techniques, such as geometric active contours, for effective object tracking, providing flexibility for different dynamic models or noise characteristics [4].
 
 ---
 **References**
-[1] https://www.mdpi.com/2076-3417/11/13/5960
-[2] https://www.researchgate.net/publication/287744283_Active_disturbance_rejection_control_of_attitude_for_spacecraft
-[3] https://www.researchgate.net/publication/341381778_Active_disturbance_rejection_control_strategy_for_airborne_radar_stabilization_platform_based_on_cascade_extended_state_observer
-[4] https://www.researching.cn/articles/OJ2fd62d7f09bd3944
-[5] https://www.sciencedirect.com/science/article/pii/S0307904X2400341X
 
-Search Query: UAV PID tuning using neural network to model inverse dynamics for gain adaptation
-Search Answer: To enhance the performance of PID controllers for Unmanned Aerial Vehicles (UAVs) across diverse flight states, one effective method is to use neural networks for the adaptive tuning of PID gains. This approach allows the controller to perform optimally under various dynamic conditions.
+[1] https://medium.com/@boukamchahamdi/how-to-create-a-kalman-filter-for-3d-object-tracking-c-6977fe5e1e91
 
-Several strategies involving neural networks have been developed:
-*   **Direct Inverse Control (DIC-ANN)**: An artificial neural network can be used for direct inverse control, and its performance can be compared against traditional PID control to demonstrate its effectiveness [https://onlinelibrary.wiley.com/doi/10.1155/2018/3823201].
-*   **Single-Layer Neural Network Tuning**: A specific implementation can utilize a single-layer neural network, for example, one with 10 hidden neurons, to adjust the PID gains for specific states like the lateral (y) and yaw (ψ) movements of the UAV [https://pmc.ncbi.nlm.nih.gov/articles/PMC12396714].
-*   **Hybrid Neural Network and Fuzzy Logic Control**: A more advanced hybrid strategy combines a neural network PID (NNPID) with a fuzzy logic PID (FPID) into a single controller (NNPID+FPID). This method is designed to overcome the limitations of using either controller individually, leading to more stable and precise trajectory tracking. Within this hybrid system, the components are specialized for different tasks: the NNPID controller excels at managing lateral dynamics and heading control, whereas the FPID controller is more effective for longitudinal, altitude, pitch, and roll dynamics [https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0331036].
+[2] https://www.researchgate.net/publication/246598201_Kalman_Filter_for_vision_tracking
 
-Search Query: end-to-end UAV attitude control with deep reinforcement learning bypassing PID structure
-Search Answer: To address the limitations of traditional cascaded PID control in unmanned aerial vehicles (UAVs), which often perform well only under specific flight conditions, researchers are exploring deep reinforcement learning (DRL) as an alternative. DRL can serve as an end-to-end controller, bypassing the conventional PID structure entirely.
+[3] https://www.researchgate.net/publication/269723326_A_real-time_visual_object_tracking_system_based_on_Kalman_filter_and_MB-LBP_feature_matching
 
-Research in this area has shown promising applications:
-*   A DRL-based end-to-end control method has been proposed for dynamic UAV target tracking [https://pmc.ncbi.nlm.nih.gov/articles/PMC9680462/].
-*   DRL controllers have been successfully implemented to manage nonlinear attitude control and achieve stabilization in fixed-wing UAVs [https://www.researchgate.net/publication/347432613_Deep_Reinforcement_Learning_Attitude_Control_of_Fixed-Wing_UAVs].
-*   Reinforcement learning (RL) methods are also being investigated for the low-level control of fixed-wing UAVs [https://folk.ntnu.no/torarnj/eeb_ICUAS_Paper.pdf].
-*   Further development is focused on creating frameworks to learn these attitude controllers with an emphasis on data efficiency for practical application in real-world UAVs [https://arxiv.org/pdf/2111.04153].
+[4] https://pmc.ncbi.nlm.nih.gov/articles/PMC3663080/
 
-Search Query: PX4 ArduPilot offline PID tuning using flight log data for system identification
-Search Answer: To enhance the control performance of PID algorithms across diverse flight states and to optimally select PID parameters, a common advanced method is offline tuning based on system identification. This approach uses actual flight data to create an accurate mathematical model of the UAV's flight behavior, which can then be used for more precise tuning. Both ArduPilot and PX4 support this methodology.
+Search Query: MATLAB/Simulink tutorial for simulating a visual servoing system for high-throughput 3D object inspection or sorting
+Search Answer: For your research in 3D reconstruction and phenotypic analysis of crop grains, a design report can be developed by integrating modeling, analysis, and control theory using MATLAB and Simulink as the primary environment. This framework centers on a visual servoing system for automated 3D object inspection, analysis, and sorting.
 
-### ArduPilot: System Identification Feature
-For ArduPilot, there is a "System Identification" feature designed for advanced users to characterize a vehicle's response in the frequency domain.
+### **1. System-Level Modeling and Simulation**
 
-*   **Process:** This feature works by injecting stimulus signals into the system while in flight and measuring the vehicle's response, which is then recorded in the data flash log. This flight data can be used for mathematical analysis to generate precise models of the vehicle's dynamics.
-*   **Implementation:** The implementation of this feature differs depending on the vehicle type. For copters, it is a distinct flight mode. For QuadPlanes, it runs on top of other flight modes (such as qstabilize, qhover, or qloiter) and is activated by an auxiliary switch.
-*   **Availability:** It is important to note that this feature is typically not compiled into the stable firmware by default and may require a special build.
+The foundational step is to create a complete simulation of the physical system. A conveyor and robotic sorting system model serves as an excellent testbed for developing and validating algorithms before hardware implementation. A complete model and simulation designed in MATLAB/Simulink for such a system is available and can be adapted for crop grain analysis. This provides a virtual environment to test the entire workflow, from imaging to sorting.
 
-### PX4: Offline Tuning with Python Scripts
-For PX4, offline PID tuning is commonly accomplished using Python scripts that perform system identification by analyzing flight log data (.ulog files).
+### **2. Visual System for Inspection and Phenotypic Analysis**
 
-*   **Process:** Scripts are available that can process PX4 logs to tune specific control loops. For example, one such script is designed to tune the attitude rate loops based on flight data from a .ulog file [https://github.com/mzahana/px4_pid_tuner].
-*   **Log Analysis:** In addition to automated scripts, the PX4 documentation provides comprehensive guides on how to manually analyze flight logs to review the tracking performance of the controllers, which is a crucial step in the tuning process [https://docs.px4.io/main/en/log/flight_review].
+The core of phenotypic analysis is the visual inspection component, which can be developed using advanced computer vision and deep learning techniques.
 
-Search Query: novel sensor fusion techniques for UAV attitude control state estimation using deep learning
-Search Answer: To enhance the actual control performance of PID algorithms for UAVs across diverse flight states, improvements can be made by focusing on the quality of the state information fed into the controller. Novel sensor fusion techniques using deep learning offer a way to achieve more accurate and robust attitude estimation, which is critical for the PID controller's effectiveness.
+*   **Automated Visual Inspection:** MATLAB's Computer Vision Toolbox™ offers an Automated Visual Inspection Library. This can be used to develop deep learning-based systems to detect and localize anomalies or specific phenotypic traits on crop grains.
+*   **Deep Learning Workflow:** For implementing this, specific apps within MATLAB are highly useful. The **'Registration Estimator'** app can be used to register and align misaligned images of grains, ensuring consistent analysis. Following this, the **'Deep Network Designer'** app allows for building, visualizing, and training custom deep learning networks. For instance, an object detection model like YOLOX can be trained to find small anomalies or features characteristic of specific phenotypes.
 
-Several deep learning-based methods for improving sensor fusion in UAV attitude control include:
+### **3. Control System Design using Visual Feedback**
 
-*   **Deep Learning Neural Networks (DLNN):** In this approach, a DLNN is trained for state estimation. The network uses the estimated attitude states as inputs and the real attitude states of the multirotor as the target outputs, effectively learning to correct estimation errors.
-*   **Long-Short Term Memory (LSTM) Networks:** An LSTM network can be employed for attitude estimation by utilizing an incremental learning approach, which allows the model to adapt over time.
-*   **Fault-Tolerant Data Fusion:** Deep learning can be used to develop fault-tolerant data fusion systems. These systems are designed to detect and compensate for sensor faults, ensuring the controller receives reliable data even when a sensor is malfunctioning.
-*   **Hybrid Fusion Methods:** To improve precision, a hybrid attitude fusion method can be used. This technique incorporates an error model based on the Inertial Measurement Unit (IMU) output relative to the attitude angles, leading to a more accurate final estimation.
+Modern control theory can be applied through a vision-based control (visual servoing) approach, where the robotic manipulator's actions are guided by real-time visual data.
 
-By providing the PID controller with a more precise and reliable measurement of the UAV's attitude, these advanced sensor fusion techniques enhance the overall performance of the control system, making it more robust across various operating conditions. These methods are considered essential for modern UAV navigation and positioning systems.
+*   **Vision-Based Control Implementation:** The Machine Vision Toolbox (MVTB) is a critical resource, providing a wide array of functions specifically designed for developing vision-based control systems. This toolbox facilitates the integration of image data into the control loop of the robotic system.
+*   **Feedback Control Systems:** The overall control architecture can be designed and simulated as either an open- or closed-loop feedback control system. MathWorks provides numerous tutorials that cover the fundamental principles and practical steps for designing and simulating these control algorithms for robotics applications.
 
-Search Query: UAV attitude control hybrid "Sliding Mode Control" "Active Disturbance Rejection Control" (SMC-ADRC) architecture and benefits
-Search Answer: To enhance the control performance of Unmanned Aerial Vehicles (UAVs) across diverse flight states, a hybrid control architecture can be employed that combines Active Disturbance Rejection Control (ADRC) with Sliding Mode Control (SMC) [https://www.mdpi.com/2076-3417/15/9/5124, https://www.mdpi.com/2504-446X/8/7/318, https://www.researchgate.net/publication/391456123_Research_on_the_Stability_of_UAV_Attitude_Under_Hybrid_Control_Integrating_Active_Disturbance_Rejection_Control_and_Super-Twisting_Sliding_Mode_Control]. This approach addresses challenges inherent in UAV systems, such as nonlinearity, complex coupling, model uncertainty, and external disturbances from factors like random airflow, in order to achieve stable flight [https://www.mdpi.com/2076-3417/15/9/5124, https://www.mdpi.com/2504-446X/8/7/318].
+### **4. 3D Manipulation and Visualization**
 
-Specific implementations of this hybrid architecture include:
-*   Fusing ADRC with Super-Twisting Sliding Mode Control (ST-SMC) [https://www.researchgate.net/publication/391456123_Research_on_the_Stability_of_UAV_Attitude_Under_Hybrid_Control_Integrating_Active_Disturbance_Rejection_Control_and_Super-Twisting_Sliding_Mode_Control, https://www.mdpi.com/2076-3417/15/9/5124].
-*   Integrating Linear Active Disturbance Rejection Control (LADRC) with SMC [https://www.mdpi.com/2504-446X/8/7/318].
+To address the 3D reconstruction and manipulation aspects of your research, the physical interaction between the robotic system and the crop grains must be modeled and visualized. A Simulink example demonstrates how to configure a model for a 3D shape tracing manipulator. This can be adapted to model the task of picking, reorienting, or tracing the surface of a grain for full 3D reconstruction. The performance of this manipulator can be visualized in a virtual 3D environment using Simulink 3D Animation, providing crucial insights into the system's dynamic performance and accuracy.
 
-In the LADRC-SMC model, a Linear Extended State Observer (LESO) is used to estimate external disturbances and model uncertainties. The LESO provides values for the UAV's attitude angle, angular velocity, and total disturbance [https://www.mdpi.com/2504-446X/8/7/318].
+**References and Resources:**
 
-Simulations have demonstrated that this combined approach offers significant advantages. The ADRC-ST-SMC hybrid algorithm, for example, has been shown to outperform traditional PID and standalone ADRC controllers by providing a better dynamic response, enhanced disturbance rejection performance, and reduced steady-state tracking error [https://www.mdpi.com/2076-3417/15/9/5124].
+*   **Complete System Simulation:** [https://wiredwhite.com/matlab-simulink-conveyor-robotic-sorting-simulation/](https://wiredwhite.com/matlab-simulink-conveyor-robotic-sorting-simulation/)
+*   **Automated Visual Inspection:** [https://www.mathworks.com/discovery/visual-inspection.html](https://www.mathworks.com/discovery/visual-inspection.html)
+*   **Machine Vision Toolbox (MVTB):** [https://sir.upc.edu/projects/ris_tutorials/advanced/tutorialT4/tutorialT4.html](https://sir.upc.edu/projects/ris_tutorials/advanced/tutorialT4/tutorialT4.html)
+*   **3D Manipulator Simulation:** [https://www.mathworks.com/help/simulink/slref/shape-tracing-manipulator-with-simulink-3d-animation.html](https://www.mathworks.com/help/simulink/slref/shape-tracing-manipulator-with-simulink-3d-animation.html)
+*   **General Robotics and Control Tutorials:** [https://www.mathworks.com/academia/students/tutorials-videos.html](https://www.mathworks.com/academia/students/tutorials-videos.html)
 
-Search Query: Physics-Informed Reinforcement Learning (PI-RL) for UAV attitude control integrating dynamics model into reward function or policy
-Search Answer: To enhance the control performance of PID algorithms for Unmanned Aerial Vehicle (UAV) attitude control across diverse flight states, research indicates that reinforcement learning (RL) and deep reinforcement learning (DRL) are modern alternatives that address the limitations of traditional PID controllers.
+Search Query: derivation of state-space model for visual servoing incorporating image Jacobian for nonlinear observability analysis using Lie derivatives
+Search Answer: Based on the provided information, while the search results mention relevant concepts such as Image-Based Visual Servoing (IBVS) and the image Jacobian, they do not contain the specific theoretical details necessary to construct the requested design report.
 
-State-of-the-art RL algorithms, such as Deep Deterministic Gradient Policy (DDGP), Trust Region Policy Optimization (TRPO), and Proximal Policy Optimization (PPO), are used to train intelligent flight control systems. Using a DRL approach, a neural network can be trained with a reward function to control the UAV, learning directly from the vehicle's original nonlinear dynamics. This method has been shown to generalize well to unseen disturbances, like wind and turbulence, after being trained on as little as three minutes of flight data. The training can be performed in both simulations and real-time applications.
+The sources discuss applications of visual servoing in contexts like controlling a 3-DOF robot and a visual servoing approach for space manipulators capturing satellite docking rings [https://www.researchgate.net/publication/251919514_Image_Base_Visual_Servoing_Estimation_of_the_image_Jacobian_by_using_lines_in_a_stereo_vision_system, https://www.sciencedirect.com/science/article/pii/S1000936124001961]. However, they lack the in-depth mathematical and theoretical framework required for your research.
 
-However, the provided information does not contain specifics on Physics-Informed Reinforcement Learning (PI-RL) or detail the methodology for explicitly integrating a UAV's dynamics model into the reward function or policy.
+Specifically, the provided materials do not offer information on the following key components requested for the design report:
+*   The derivation of a state-space model for a visual servoing system.
+*   Nonlinear observability analysis using Lie derivatives.
+
+Search Query: state-space model formulation for image-based visual servoing using the image Jacobian interaction matrix
+Search Answer: For the tasks of modeling, analysis, and design related to the 3D reconstruction and phenotypic analysis of crop grains, a control system based on image-based visual servoing (IBVS) is highly applicable. The core of a traditional IBVS control scheme is the image Jacobian, also known as the interaction or feature Jacobian matrix, which relates changes in image features to the robot's motion [https://www.sciencedirect.com/science/article/abs/pii/S0736584510000645]. A primary challenge in visual servoing is the estimation of this feature Jacobian matrix and its pseudoinverse, particularly in uncalibrated environments [https://www.sciencedirect.com/science/article/abs/pii/S0736584510000645].
+
+Modern control theory offers several methods to address this challenge. These include the development of on-line estimation algorithms that compute the Jacobian based on the robot's previous movements [https://www.researchgate.net/publication/221472673_Image_Based_Visual_Servoing_A_New_Method_for_the_Estimation_of_the_Image_Jacobian_in_Dynamic_Environments], the use of advanced filtering schemes such as Kalman-neural-networks [https://www.sciencedirect.com/science/article/abs/pii/S0736584510000645], and the application of reinforcement learning frameworks to adaptively adjust the image Jacobian matrix in real-time [https://www.sciencedirect.com/science/article/abs/pii/S0952197625017804].
+
+An alternative and more recent approach is to formulate a state-space model through state representation learning. This method constructs a compact state representation of the robot's configuration directly from images and learns the system's transition dynamics from collected execution traces. The learned model is then used to compute control velocities to move the robot to a desired goal state, which is also identified by its image. A significant advantage of this technique is its ability to function effectively even with an uncalibrated camera [https://www.merl.com/publications/docs/TR2025-094.pdf].
+
+Search Query: survey of State Representation Learning methods for vision-based robotic control and dynamics modeling
+Search Answer: State Representation Learning (SRL) is a method used for vision-based robotic control, and surveys on the topic often categorize these methods within a model-free online setting where agents learn state information [https://www.researchgate.net/publication/392941690_A_Survey_of_State_Representation_Learning_for_Deep_Reinforcement_Learning, https://arxiv.org/abs/2506.17518, https://arxiv.org/html/2506.17518v1].
+
+One specific approach for visual servo-control uses images from an uncalibrated camera to build compact state representations of a robot's configuration. In this method, the system learns transition dynamics from collected execution traces to compute the control velocities needed to reach a desired goal state, which is also identified by an image [https://www.merl.com/publications/docs/TR2025-094.pdf].
+
+A common model design for this type of task features two primary components: state representation and state prediction. For the state representation component, some models utilize a spatially aware approach [https://www.mdpi.com/2075-1702/13/3/231].
+
+Search Query: classical system identification techniques for estimating image Jacobian in visual servoing from input-output data
+Search Answer: In the context of designing a system for 3D reconstruction and phenotypic analysis of crop grains, the control system for automated image acquisition is a critical component. A key technique for this is visual servoing, where the estimation of the image Jacobian from input-output data is essential.
+
+Several classical system identification techniques are used for this purpose. A popular approach is to use previously collected sample data of robot positions and sensor signal values to approximate a solution ["https://www.wseas.us/e-library/conferences/2008/uk/ISPRA/ispra-06.pdf"]. Specific estimation methods evaluated for their effectiveness in visual servoing include Recursive Least Squares (RLS), FUNDMAT (which utilizes the fundamental matrix), and ANLTC, which are often compared against the Analytic Jacobian method ["https://www.academia.edu/28777782/Image_based_visual_servoing_Estimated_image_Jacobian_by_using_fundamental_matrix_VS_analytic_Jacobian", "https://www.researchgate.net/publication/50991888_Image_Based_Visual_Servoing_Estimated_Image_Jacobian_by_Using_Fundamental_Matrix_VS_Analytic_Jacobian"].
+
+These techniques are frequently applied in Image-Based Visual Servoing (IBVS) systems. Further research addresses more advanced scenarios, such as the robust estimation of the visual-motor Jacobian for uncalibrated IBVS systems ["https://www.researchgate.net/publication/224156371_Robust_Jacobian_Estimation_for_Uncalibrated_Visual_Servoing"]. For systems employing stereo vision, another scheme involves estimating the image Jacobian by using lines as features ["https://www.researchgate.net/publication/251919514_Image_Base_Visual_Servoing_Estimation_of_the_image_Jacobian_by_using_lines_in_a_stereo_vision_system"].
+
+Search Query: PhD thesis or dissertation review on active vision for 3D reconstruction integrating state-space modeling, visual servoing control, and simulation-based validation
+Search Answer: ### **Design Report: An Active Vision Framework for 3D Reconstruction and Phenotypic Analysis of Crop Grains**
+
+This report outlines a system design for the 3D reconstruction and phenotypic analysis of crop grains, incorporating principles from modern control theory. The proposed approach is based on a visual servoing-based active vision framework, which allows for real-time, high-fidelity modeling without prior knowledge of the object's geometry.
+
+#### **1. Core Methodology: Visual Servoing-Based Active Vision**
+
+The foundation of this design is a visual servoing-based active vision framework. This approach is particularly suited for agricultural applications due to its ability to operate in real-time and adapt to the geometric variability inherent in biological samples like crop grains. It functions as a closed-loop system, enabling continuous 3D reconstruction and intelligent view planning.
+
+#### **2. System Modeling and Design**
+
+**2.1 System Configuration:**
+The system will be implemented in an "eye-in-hand" configuration, where a 3D camera is mounted on a robotic manipulator. This setup provides the necessary mobility to actively view the crop grain from multiple perspectives to build a complete model.
+
+**2.2 Control System Architecture:**
+A dual-task, closed-loop visual control law will govern the system's behavior. This control law utilizes real-time visual feedback to guide the robotic manipulator.
+
+*   **Inputs:** The control law will use data from a segmented point cloud of the target grain and a probabilistic occupancy map, which is continuously updated to represent the reconstructed model.
+*   **Dual-Task Control Law:** The controller is designed to perform two tasks simultaneously:
+    1.  **Object Tracking:** The primary task is to maintain the camera's focus on the crop grain, ensuring it remains centered in the field of view.
+    2.  **Exploration & Reconstruction:** The secondary task is to actively explore the grain's surface by maximizing a Next-Best-View (NBV) objective. The system will continuously calculate and move the camera to the optimal next viewpoint to reveal unmapped areas, thereby ensuring a comprehensive 3D reconstruction.
+
+This dual-task approach allows the system to build the 3D model efficiently while keeping the object of interest in view, a critical function for robust operation.
+
+#### **3. Theoretical Foundation and Relevant Research**
+
+The proposed design is supported by foundational research in active vision and robotic control. Key works that inform this framework include:
+
+*   A 2025 PhD thesis from Aarhus University by L. Li titled, **"Active 3D Vision for Robotic Manufacturing Enhancement."**
+*   A Master's thesis from Carnegie Mellon University titled, **“Controlled Active Vision,”** supervised by Professor Pradeep K. Khosla.
+
+These theses and related research papers describe the successful implementation of visual servoing frameworks for 3D reconstruction, providing a strong theoretical and practical basis for the application in agricultural phenotyping.
+
+Search Query: derivation of kinematic model for image-based visual servoing relating camera velocity to image feature dynamics via the image Jacobian
+Search Answer: The kinematic model for image-based visual servoing is fundamental for designing kinematic controllers. This model establishes a relationship between the camera's velocity and the dynamics of features within an image through a concept known as the image Jacobian or interaction matrix [3, 4, https://robotacademy.net.au/lesson/the-image-jacobian/, https://www.youtube.com/watch?v=XDE6oxEJn3c].
+
+The Jacobian matrix, which can be for instance a two-by-six matrix, relates the camera's spatial velocity, including its translational components, to the velocity of the image features [3, 4, https://robotacademy.net.au/lesson/the-image-jacobian/]. This model is crucial for designing the kinematic controllers that guide the imaging system [5, https://inria.hal.science/inria-00436722v1/document].
+
+Various methods exist for the derivation and implementation of the image Jacobian. These include innovative algorithms for its on-line estimation in dynamic environments based on previous movements [1, https://www.researchgate.net/publication/221472673_Image_Based_Visual_Servoing_A_New_Method_for_the_Estimation_of_the_Image_Jacobian_in_Dynamic_Environments]. Additionally, specific derivations have been developed for different imaging technologies, such as the light field image Jacobian for use in light field-based visual servoing [2, https://ui.adsabs.harvard.edu/abs/2017IRAL....2..912T/abstract].
+
+Search Query: formal state-space representation for active 3D reconstruction modeling the evolution of object geometry estimates as system state
+Search Answer: Based on the provided information, a formal state-space representation for active 3D reconstruction, which models the evolution of object geometry estimates as the system state, could not be found.
+
+The search results do mention state-space models, but in different contexts such as for actuator systems and multivariate time series forecasting ["https://css.paperplaza.net/conferences/conferences/ACC25/program/ACC25_ContentListWeb_3.html", "https://ecai2025.org/accepted-papers/"].
+
+Separately, the documents discuss the evolution of 3D reconstruction techniques. They note a shift from traditional methods like Structure from Motion (SfM), which use explicit geometric modeling, to newer methods with implicit depth representation, such as Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3DGS) ["https://www.mdpi.com/1424-8220/25/18/5748"]. There is also a recognized need for robust online methods capable of reconstructing dynamic 3D scenes in real-time ["https://openreview.net/pdf/47e4f7aed1fadec7617b0314d78968366b8e661d.pdf"].
+
+However, the provided results do not connect the concepts of state-space modeling and 3D reconstruction to provide the specific formal model requested.
+
+Search Query: modeling information gain dynamics for next-best-view 3D reconstruction
+Search Answer: To address the tasks of modeling, analysis, and design for 3D reconstruction and phenotypic analysis of crop grains, a key area to model is the information gain dynamics for next-best-view (NBV) 3D reconstruction. This involves selecting the optimal subsequent viewpoints for a camera, often mounted on a mobile robot, to efficiently build a volumetric model of an object [https://dl.acm.org/doi/10.1109/ICRA.2016.7487527, https://www.researchgate.net/publication/303719117_An_Information_Gain_Formulation_for_Active_Volumetric_3D_Reconstruction].
+
+One approach is to utilize a utility function to evaluate and select viewpoints. This function bases its decision on the potential information gain, along with other factors such as the distance to the next viewpoint and the density of the existing model [https://www.mdpi.com/2072-4292/11/20/2440]. Within this framework, entropy is a crucial metric used to quantify the information gain within the volumetric map. The effectiveness of this process is evaluated by tracking metrics such as surface coverage and entropy reduction throughout the reconstruction steps [https://rpg.ifi.uzh.ch/docs/ICRA16_Isler.pdf].
+
+For implementation, various algorithms can be employed to solve the NBV problem, including specific methods like cluster-based path planning [https://hal.science/hal-03086499/file/HaMoMoMaMo_IROS20.pdf].
+
+Search Query: probabilistic models of 3D object reconstruction for active vision and next-best-view planning
+Search Answer: For the 3D reconstruction and phenotypic analysis of crop grains, this design report outlines a system based on active vision and control theory principles. The core of this system is an active 3D reconstruction framework designed to efficiently and accurately model each grain.
+
+This framework operates in a continuous cycle that involves inferring an optimal viewpoint, moving a sensor to capture new data from that view, and integrating this data to update and refine the 3D model of the grain. A critical component of this automated process is the strategic planning of a set of sensor locations, or "views," to ensure a complete and high-fidelity reconstruction with minimal acquisitions.
+
+The primary control problem within this framework is the determination of the "Next-Best-View" (NBV). The NBV is the next sensor position that is predicted to yield the most valuable information for completing the 3D model. Several theoretical methods and models can be employed for this task:
+
+*   **Probabilistic and Volumetric Methods**: A foundational approach for NBV selection is a probabilistic, volumetric method that operates on a partial model of the unknown 3D object. This technique uses a volumetric representation, often employing voxels, to model the grain. By analyzing the current state of the voxel grid (e.g., distinguishing between known empty, known occupied, and unknown space), the algorithm can probabilistically determine the view that will resolve the most uncertainty and reveal the largest unknown portion of the object's surface.
+
+*   **Predictive Shape Completion Methods**: To enhance realism and efficiency, more advanced methods like Pred-NBV can be implemented. This approach leverages an enhanced 3D prediction model, potentially trained on a large dataset of object shapes (such as the ShapeNet dataset), to predict the complete geometry of the grain from a limited number of initial scans. This predicted shape then guides the NBV selection process, focusing the sensor on areas where the initial model and the predicted model have the highest discrepancy, thereby refining the reconstruction more intelligently.
+
+Search Query: derivation of error dynamics for image-based visual servoing control using the image Jacobian
+Search Answer: In the context of 3D reconstruction and phenotypic analysis of crop grains, a control system based on Image-Based Visual Servo (IBVS) can be designed. The primary objective of an IBVS control system is to minimize an error, `e(t)`, defined within the image plane [https://dellaert.github.io/21S-8803MM/Readings/L7%20Visual%20Servo%20Control.pdf]. This error is expressed by the equation `e(t) = s(t) - s*`, where `s(t)` represents a set of current image measurements (such as the coordinates of interest points or parameters of image segments), and `s*` represents the desired or target measurements. The fundamental aim of the control scheme is to drive this error `e(t)` to zero [https://dellaert.github.io/21S-8803MM/Readings/L7%20Visual%20Servo%20Control.pdf].
+
+The control process utilizes a full-rank Image Jacobian matrix (Jimg), also known as an interaction matrix, which establishes the connection between the camera's velocity and the corresponding changes in the image features [https://mediatum.ub.tum.de/doc/1344440/18465862505.pdf, https://open.clemson.edu/context/all_theses/article/4446/viewcontent/Allen_clemson_0050M_16045.pdf]. Specifically, the error dynamics relate the time derivative of the error, `ė(t)`, to the camera's velocity, `ξ`, through this Jacobian matrix. Based on this relationship, a control law is designed to generate the necessary camera velocities to minimize the defined error, ultimately driving `e(t)` to zero [https://dellaert.github.io/21S-8803MM/Readings/L7%20Visual%20Servo%20Control.pdf, https://www.tandfonline.com/doi/full/10.1080/15599610802303579].
+
+Search Query: state-space representation of image-based visual servoing error dynamics for exponential decay control law design
+Search Answer: A proposed control system for automated image acquisition utilizes image-based visual servoing. The primary objective of this vision-based control scheme is to minimize an error, `e(t)`, which is defined as the difference between a set of current image measurements, `s(t)`, and a desired set of measurements, `s*`. This relationship is represented by the equation: `e(t) = s(t) - s*`.
+
+For more granular control, the image measurements `s(t)` can be expressed as a function of specific measured features, `m(t)` (such as the coordinates of points of interest), and other parameters, `a`. This provides a more detailed error definition: `e(t) = s(m(t), a) - s*`.
+
+The control strategy to minimize this error involves creating compact state representations of the robot's configuration from the captured images. These representations, combined with transition dynamics learned from execution traces, are used to compute the control velocities required to guide the robot. This process directs the robot to a desired goal state, which is identified by its corresponding target image, `s*`.
+
+Search Query: quadratic programming formulation for integrating visual servoing controllers with control barrier functions for field-of-view safety guarantees
+Search Answer: Control Barrier Function (CBF) based quadratic programs (QPs) are an established and effective method for enforcing safety in critical systems, particularly those with potentially conflicting control objectives and safety constraints [https://repository.lboro.ac.uk/articles/journal_contribution/CBF-based_hierarchical_quadratic_programs_with_guaranteed_feasibility_for_safety-critical_systems/30830948, https://ui.adsabs.harvard.edu/abs/2016arXiv160906408A/abstract]. This approach is formulated as a Control Barrier Function Quadratic Programming Framework (CBF-QP) to address the coupling between these objectives and constraints, ensuring safe and efficient operations [https://arxiv.org/abs/2502.08129].
+
+In the context of vision-based control, which is central to your research in 3D reconstruction, CBFs can be used to enforce safety constraints without requiring a complete environmental map [https://www.researchgate.net/publication/372131019_Enforcing_safety_for_vision-based_controllers_via_Control_Barrier_Functions_and_Neural_Radiance_Fields]. A practical strategy involves integrating this methodology with image-based visual servoing (IBVS) to manage operational tasks. This creates a comprehensive control strategy for systems, such as mobile manipulators, to perform their functions while maintaining safety [https://www.sciencedirect.com/science/article/pii/S0921889024001970].
+
+Search Query: system dynamics equation ẋ=f(x,u) for image-based visual servoing using image Jacobian
+Search Answer: Based on the information provided, here is a design report utilizing modern control theory for the 3D reconstruction and phenotypic analysis of crop grains.
+
+***
+
+### **Design Report: Application of Modern Control Theory for 3D Reconstruction and Phenotypic Analysis of Crop Grains**
+
+**1. Introduction and System Overview**
+
+This report outlines a design framework for the automated 3D reconstruction and phenotypic analysis of crop grains, leveraging principles from modern control theory. The core task involves controlling a camera's position and orientation relative to a grain sample to acquire the necessary images for reconstruction. For this purpose, **Image-Based Visual Servoing (IBVS)** is identified as a highly relevant and effective control method.
+
+IBVS is a control strategy where a robot manipulates a camera to ensure that the features observed in the camera's image converge to a desired state. The control action is determined directly from the dynamics of feature points within the image plane.
+
+**2. System Modeling and Analysis**
+
+The proposed system can be modeled as a **Multiple Input Multiple Output (MIMO)** system. In this context, the inputs are the velocity commands sent to the robotic system holding the camera, and the outputs are the positions of key feature points on the grain as captured in the 2D image plane.
+
+A central component in the IBVS control loop is the **Image Jacobian matrix (Jimg)**. This matrix establishes the linear relationship between the camera's velocity and the corresponding velocity of the feature points in the image. For effective control, a full-rank Image Jacobian matrix is utilized.
+
+An innovative aspect of this approach is the potential to use an algorithm for the **online estimation of the Image Jacobian**. This allows the system to adapt to dynamic environments or variations in the system's parameters without needing a precise, pre-calibrated model, which is highly advantageous for agricultural applications where grain size, shape, and orientation may vary.
+
+**3. System Dynamics and Control Law**
+
+While the foundational principles of IBVS are well-established, the specific system dynamics equation in the state-space form `ẋ = f(x, u)` is not explicitly available in the provided reference materials. However, the control law is based on the dynamics of the image points. The relationship is governed by the Image Jacobian, which connects the change in image features to the camera's motion, forming the basis for designing the controller that drives the image error to zero.
+
+Search Query: derivation of nonlinear state-space model ẋ=f(x,u) for image-based visual servoing where state vector x represents image features and dynamics f(x,u) are defined by the image Jacobian
+Search Answer: In the application of modern control theory to image-based visual servoing for 3D reconstruction, a central challenge is the accurate estimation of the Jacobian matrix and the design of the corresponding control law algorithm [https://arxiv.org/pdf/2211.11178].
+
+To address this, one effective method is an algorithm for the on-line estimation of the image Jacobian. This approach utilizes previous movements to dynamically update the estimation, making it suitable for dynamic environments [https://www.researchgate.net/publication/221472673_Image_Based_Visual_Servoing_A_New_Method_for_the_Estimation_of_the_Image_Jacobian_in_Dynamic_Environments].
+
+It is important to note, however, that while the importance of the image Jacobian is highlighted, a specific derivation for a nonlinear state-space model, such as `ẋ=f(x,u)`, for image-based visual servoing is not provided in the source materials. The primary focus remains on methods for estimating the Jacobian rather than detailing the complete formulation of the state-space dynamics [https://www.researchgate.net/publication/221472673_Image_Based_Visual_Servoing_A_New_Method_for_the_Estimation_of_the_Image_Jacobian_in_Dynamic_Environments, https://arxiv.org/pdf/2211.11178].
+
+Search Query: mathematical derivation of image Jacobian matrix for point features in visual servoing
+Search Answer: In the design of an automated system for the 3D reconstruction and phenotypic analysis of crop grains, modern control theory provides a robust framework for precise data acquisition, particularly when using robotic manipulators and vision systems. A key approach in this domain is visual servoing, where the control of the robot is based on visual feedback.
+
+Central to the modeling and analysis of such a system is the **image Jacobian matrix**, also known as the interaction matrix or feature Jacobian (Js). This matrix is crucial as it mathematically relates the motion of a rigid body (e.g., a camera mounted on a robot arm) to the corresponding changes in image features (e.g., key points on a crop grain) [https://limbs.lcsr.jhu.edu/wp-content/uploads/2013/05/Cowangeometric2005.pdf, https://inria.hal.science/hal-00920414v1/document]. The feature Jacobian matrix can be denoted as Js ∈ Rk×n, where n is the number of robot joints [https://inria.hal.science/hal-00920414v1/document].
+
+A significant challenge in the design and implementation of visual servoing systems is obtaining this matrix and its pseudoinverse, especially in uncalibrated setups where the exact camera and system parameters are unknown [https://www.sciencedirect.com/science/article/abs/pii/S0736584510000645]. To overcome the difficulty of direct mathematical derivation, various theoretical models and methods have been developed for robustly estimating the feature Jacobian. These advanced estimation techniques are critical for creating an adaptive and reliable control system. Notable methods include:
+*   Extreme Learning Machines (ELM)
+*   Fuzzy Logic (FL)
+*   Kalman-neural-network filtering schemes
+
+By employing these estimation methods, it is possible to design a high-performance control system for the precise positioning of sensors relative to the grain samples, ensuring high-quality data for subsequent 3D reconstruction and phenotypic analysis [https://www.sciencedirect.com/science/article/abs/pii/S0736584510000645, http://culturetechlab.culture.upatras.gr/sites/default/files/downloads/rcim_10.pdf, http://vigir.missouri.edu/~gdesouza/Research/Conference_CDs/IEEE_ICRA_2010/data/papers/1516.pdf].
+
+Search Query: derivation of image feature velocity equation ṡ = J(s, z)v_c for visual servoing
+Search Answer: In the application of visual servoing for robotic control, a core theoretical model establishes the relationship between the velocity of visual features in an image and the velocity of the camera. This relationship is expressed by the equation ṡ = J(s, z)v_c, often written as ṡ(t) = LsVc.
+
+The components of this equation are defined as follows:
+*   **ṡ** represents the time derivative or velocity of **s**, which is a vector of the values of the visual features being tracked.
+*   **v_c** is a vector, typically 6x1, that denotes the camera's velocity.
+*   **J** or **Ls** is a matrix known as the Image Jacobian or the interaction matrix. This matrix maps the camera's velocity to the resulting velocity of the features in the image, describing how the visual feature vector **s** is modified when the camera moves with a velocity **v**. The role of the Image Jacobian is analogous to that of a classical robot Jacobian.
+
+This equation is fundamental to a real-time, closed-loop control scheme designed to manipulate a robot's motion. The control system works by calculating the error between the current visual features and the desired visual features. Based on this error, a control output, typically the robot's velocity, is continuously updated to minimize the error and reduce it to zero. This process involves inverting the image Jacobian to derive the necessary camera velocity required to produce the desired change in visual features.
+
+Search Query: analytical derivation of interaction matrix (image Jacobian) for a 3D point feature in image-based visual servoing
+Search Answer: For the task of 3D reconstruction and phenotypic analysis of crop grains, a design report incorporating modern control theory can be structured around a visual servoing framework. This approach uses visual feedback to control a camera or sensor system for automated and precise data acquisition.
+
+**Modeling and Analysis: The Analytical Jacobian**
+
+A core component of a visual servoing control system is the image Jacobian, which relates the velocity of the camera to the motion of features in the image. The image Jacobian is composed of an interaction matrix. The analytical derivation of this matrix for a generic point feature—a common feature type for identifying points on a grain's surface—can be accomplished using Green formulas [http://www.diag.uniroma1.it/deluca/rob2_en/17_VisualServoing.pdf]. In this control scheme, 3D features such as points and planes on the crop grain can be used to guide the sensor-equipped robot's end-effector to desired positions for comprehensive scanning [https://arxiv.org/html/2405.18830v1].
+
+**Design Challenges and Alternative Approaches**
+
+A significant challenge with implementing a purely analytical model is that the interaction matrix depends on spatial information, particularly the depth of the visual features from the camera, which is often unknown or difficult to measure accurately in a dynamic setting [https://arxiv.org/pdf/2210.10549]. This dependency makes the direct use of the analytic Jacobian impractical for many applications.
+
+To overcome this limitation, the system design can incorporate methods for Jacobian approximation and estimation. Several alternatives to the analytic Jacobian are available:
+*   **Online Estimation Methods:** The Jacobian can be estimated online using various algorithms. These are often compared to the analytic Jacobian and include methods such as FUNDMAT (based on the fundamental matrix), RLS (Recursive Least Squares), and ANLTC [https://www.academia.edu/28777782/Image_based_visual_servoing_Estimated_image_Jacobian_by_using_fundamental_matrix_VS_analytic_Jacobian].
+*   **Learning-Based Methods:** For uncalibrated systems, local estimation of the Jacobian can be achieved through training [http://culturetechlab.culture.upatras.gr/sites/default/files/downloads/rcim_10.pdf]. This approach can adapt to the specific sensor and hardware configuration without requiring precise prior calibration.
+
+In summary, while the analytical derivation of the image Jacobian provides a strong theoretical foundation for modeling the system, a practical design for 3D grain phenotyping will likely rely on Jacobian estimation techniques to create a robust and adaptive control system capable of handling uncertainties in the physical environment.
+
+Search Query: derivation of nonlinear state-space dynamics for visual servoing with state vector including image features and feature depth
+Search Answer: Based on the provided information, it is not possible to develop the requested design report. The search results are insufficient and do not contain the necessary details to describe the derivation of nonlinear state-space dynamics for visual servoing.
+
+The available information consists only of titles of research papers, without the abstracts, methodologies, or body of work required to answer the query. Furthermore, the content that is present is not relevant to the user's research area.
 
