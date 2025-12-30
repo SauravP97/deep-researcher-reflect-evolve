@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 70, "prompt": "Trace the evolution from Java Servlets to the Spring Boot framework. Explain the problems each iteration aimed to solve, and detail the core functionalities of the Spring framework along with essential knowledge required for developers working with it."}
+research_task = {"id": 78, "prompt": "Parkinson's disease has a profound impact on patients. What are the potential health warning signs associated with different stages of the disease? As family members, which specific signs should alert us to intervene or seek medical advice regarding the patient's condition? Furthermore, for patients who have undergone Deep Brain Stimulation (DBS) surgery, what daily life adjustments and support strategies can be implemented to improve their comfort and overall well-being?"}
 
 
 

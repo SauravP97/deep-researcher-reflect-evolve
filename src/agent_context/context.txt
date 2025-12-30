@@ -1,324 +1,185 @@
-Search Query: Java Servlets architecture and lifecycle vs Common Gateway Interface (CGI)
-Search Answer: Common Gateway Interface (CGI) and Java Servlets are two technologies used to generate dynamic web content, with Servlets representing a significant architectural evolution over CGI.
+Search Query: pathophysiology of Parkinson's disease dopamine role and primary motor vs non-motor symptoms overview
+Search Answer: The pathophysiology of Parkinson's disease (PD) is characterized by the progressive loss of dopaminergic (dopamine-producing) neurons, specifically in the substantia nigra pars compacta region of the brain. This loss leads to a resulting decrease in dopamine content [https://link.springer.com/article/10.1186/s40035-023-00378-6, https://www.explorationpub.com/Journals/ent/Article/100436]. In addition to neuron death, the presence of eosinophilic inclusions is another pathological hallmark of the disease [https://www.explorationpub.com/Journals/ent/Article/100436].
 
-Before the advent of Servlets, CGI was the standard method for a web server to pass a user's request to an external application or script. CGI is a language-independent standard where for each request received, the server starts an entirely new external process to handle it.
+This dopamine deficiency is the primary cause of the cardinal motor symptoms associated with PD, which include tremor, rigidity, and bradykinesia (slowness of movement) [https://journals.lww.com/neur/fulltext/2025/11000/non_motor_symptoms_in_parkinson_s_disease_and.17.aspx]. However, while crucial, dopamine deficiency alone does not fully explain all aspects of the disease. For instance, it may not be the sole factor in PD-related tremors, and it doesn't fully account for the non-motor symptoms, which involve other systems and pathophysiological mechanisms [https://journals.lww.com/neur/fulltext/2025/11000/non_motor_symptoms_in_parkinson_s_disease_and.17.aspx, https://www.sciencedirect.com/science/article/pii/S0022510X22000582].
 
-To address the inefficiencies of the CGI model, Java Servlets were introduced. A Java Servlet is a Java class specifically designed to extend the capabilities of a server operating within a request-response model. The fundamental difference lies in their architecture:
+Consequently, the disease presents with both motor and non-motor symptoms [https://pmc.ncbi.nlm.nih.gov/articles/PMC11791392/, https://journals.lww.com/neur/fulltext/2025/11000/non_motor_symptoms_in_parkinson_s_disease_and.17.aspx]. To study these manifestations, animal models are often used in preclinical research to replicate the various symptoms of PD [https://pmc.ncbi.nlm.nih.gov/articles/PMC11791392/].
 
-*   **CGI:** Is process-based. It creates a new, separate process for every incoming request, which is resource-intensive.
-*   **Java Servlets:** Are thread-based. Instead of launching a new process, a servlet handles each request by creating a new, lightweight thread.
+Search Query: Parkinson's disease clinical staging systems Hoehn and Yahr scale and Unified Parkinson's Disease Rating Scale (UPDRS) explained
+Search Answer: The two most common clinical staging and rating systems for Parkinson's disease are the Hoehn and Yahr scale and the Unified Parkinson's Disease Rating Scale (UPDRS) [https://parkinsonsdisease.net/diagnosis/rating-scales-staging, https://parkinsonsnewstoday.com/parkinsons-stages/].
 
-This thread-based approach allows Servlets to operate at the server level, enabling them to share data among each other. Consequently, Servlets are considered more secure and efficient for data sharing compared to the process-per-request model of CGI.
+### Hoehn and Yahr Scale
+This scale is primarily used to stage the functional disability associated with Parkinson's. While a modified version of the original scale exists, the Movement Disorder Society's Task Force has recommended against its use due to a lack of clinimetric testing. The society also noted that the broad categories of the original scale do not adequately allow for the detection of effective interventions [https://www.physio-pedia.com/Hoehn_and_Yahr_Scale].
 
-Search Query: JavaServer Pages (JSP) role as a view technology and the problems of scriptlet abuse in early Java EE
-Search Answer: JavaServer Pages (JSP) is a server-side technology within Java Enterprise Edition (Java EE) used to create dynamic web content, such as HTML or XML documents, by embedding Java code within HTML pages. Its primary role is to function as a display, view, or presentation technology focused on the user interface (UI).
+### Unified Parkinson's Disease Rating Scale (UPDRS)
+The UPDRS and its modified version, the Movement Disorders Society (MDS) Modified Unified Parkinson’s Disease Rating Scale (MDS-UPDRS), are comprehensive tools designed to measure the severity and progression of the disease. The International Parkinson and Movement Disorder Society recommends the MDS-UPDRS for rating Parkinson's [https://www.apta.org/patient-care/evidence-based-practice-resources/test-measures/unified-parkinsons-disease-rating-scale-updrs-movement-disorders-society-mds-modified-unified-parkinsons-disease-rating-scale-mds-updrs].
 
-JSP was intended to provide a cleaner separation of concerns by allowing developers to mix Java and HTML using special tags. These embedded snippets of Java code are known as "scriptlets." However, a significant problem arose from the misuse of this feature, a practice known as "scriptlet abuse." This occurred when developers wrote extensive business logic directly into the JSP files, which were meant only for display logic. This practice contradicted JSP's intended purpose, blurring the separation of concerns by mixing business logic with the presentation code.
+The MDS-UPDRS can classify an individual's condition based on dominant symptoms, such as tremor predominant, postural instability and gait disorder predominant, or a mixed presentation. The scale includes several components:
+*   **Motor Exam:** Measures the extent of key motor symptoms like bradykinesia (slowness of movement), rigidity, and tremor.
+*   **Non-motor Symptoms and Activities of Daily Living (ADLs):** The scale also evaluates the impact of non-motor symptoms and the patient's ability to perform daily activities [https://www.apta.org/patient-care/evidence-based-practice-resources/test-measures/unified-parkinsons-disease-rating-scale-updrs-movement-disorders-society-mds-modified-unified-parkinsons-disease-rating-scale-mds-updrs].
 
-Search Query: Detailed explanation of Java Servlet lifecycle methods (init, service, destroy) and the request-response model with HttpServletRequest and HttpServletResponse
-Search Answer: A Java Servlet's lifecycle is managed by the servlet container and consists of three essential methods: `init()`, `service()`, and `destroy()` [https://www.quora.com/What-does-the-Java-Servlet-Container-state]. The lifecycle dictates how the servlet is created, handles requests, and is eventually taken out of service.
+Search Query: early-stage Parkinson's disease symptoms micrographia anosmia REM sleep behavior disorder constipation
+Search Answer: Based on the information provided, here are the potential health warning signs for Parkinson's disease and the indicators for family members to seek medical advice.
 
-1.  **`init()`**: This method is called by the container only once after creating a servlet instance. Its purpose is to initialize the servlet before it can handle any client requests. Once the `init()` method completes, the single servlet instance is ready to process all subsequent requests [https://stackoverflow.com/questions/3894088/what-is-the-lifecycle-of-a-httpservlet].
+### Early Warning Signs of Parkinson's Disease
 
-2.  **`service()`**: This is the primary method that performs the actual task of handling client requests [https://www.youtube.com/watch?v=RJYxr7ThD00, https://www.upgrad.com/blog/servlet-life-cycle-in-java/]. The request-response model works as follows: for every new HTTP request from a client, the servlet container creates new `HttpServletRequest` and `HttpServletResponse` objects [https://stackoverflow.com/questions/3894088/what-is-the-lifecycle-of-a-httpservlet]. It then calls the servlet's `service(HttpServletRequest request, HttpServletResponse response)` method, passing these objects as arguments to be processed [https://www.upgrad.com/blog/servlet-life-cycle-in-java/, https://stackoverflow.com/questions/3894088/what-is-the-lifecycle-of-a-httpservlet]. A single servlet instance can handle multiple requests concurrently, with its `service()` method being called by multiple threads [https://stackoverflow.com/questions/3894088/what-is-the-lifecycle-of-a-httpservlet].
+Parkinson's disease often begins with non-motor symptoms that can appear years before the classic motor signs emerge. These early, or prodromal, symptoms serve as important warning signs.
 
-3.  **`destroy()`**: This method is executed only once at the end of the servlet's lifecycle, signifying its termination [https://medium.com/@niitwork0921/understanding-servlet-life-cycle-in-java-eba0e73ca379]. After the `destroy()` method is invoked, the container will not route any more requests to that specific servlet instance [https://stackoverflow.com/questions/3894088/what-is-the-lifecycle-of-a-httpservlet].
+**Non-Motor Symptoms:**
+*   **Loss or reduced sense of smell**: Known as anosmia or hyposmia, this is a common early indicator.
+*   **REM sleep behavior disorder**: This specific sleep disturbance is frequently noted as an early symptom. Other sleep issues, like restless legs syndrome, can also occur.
+*   **Constipation**: This is another common non-motor symptom that can precede a diagnosis.
+*   **Micrographia**: A noticeable change in handwriting where it becomes progressively smaller.
+*   **Unexplained mood changes**: The onset of anxiety, apathy, or depression without a clear cause can be an early sign, sometimes appearing several years before motor symptoms.
 
-Search Query: How Apache Struts 1 architecture addressed the problems of tight coupling and testability in the Java Servlet and JSP model
-Search Answer: I am sorry, but the provided search results do not contain specific information about how the Apache Struts 1 architecture addressed the problems of tight coupling and testability inherent in the Java Servlet and JSP model. The available text only offers a high-level description of the Struts framework.
+**Motor Symptoms:**
+While non-motor symptoms often appear first, the classic motor symptoms include tremors, rigidity, and slowness of movement (bradykinesia).
 
-Search Query: Apache Struts 1 request processing flow detailing the roles of ActionServlet, Action classes, ActionForms, and struts-config.xml
-Search Answer: In the Apache Struts 1 framework, the request processing flow centers around the `ActionServlet`, which acts as the central controller. This servlet is responsible for initializing the framework by parsing the `struts-config.xml` configuration file [https://www.scribd.com/document/344954456/Struts-1-doc, https://coderanch.com/t/56109/frameworks/understand-ActionServlet, https://www.zzrose.com/tech/pmr_sweSimpleStruts1xExample.html].
+### When Family Members Should Seek Medical Advice
 
-When a request is received, the `ActionServlet` handles runtime events based on the rules defined in the configuration and then delegates the request to a `RequestProcessor` [https://www.scribd.com/document/344954456/Struts-1-doc, https://stackoverflow.com/questions/5808585/basic-flow-of-struts].
+As a family member, you should be alerted to seek medical advice if you notice a combination of the early warning signs mentioned above. While these symptoms can occur for various reasons, their concurrent appearance is a significant indicator. The presence of multiple symptoms, particularly the combination of **REM sleep behavior disorder, loss of smell, and constipation**, should prompt a medical evaluation to investigate the possibility of Parkinson's disease.
 
-Key components in a Struts 1 application include `Action` classes, `ActionForms` (also known as Form beans), `web.xml`, `struts-config.xml`, and JSP files [https://www.zzrose.com/tech/pmr_sweSimpleStruts1xExample.html]. `ActionForms` are Java model classes used to store data submitted from forms [https://struts.apache.org/getting-started/processing-forms].
+*There is no information in the provided answers regarding daily life adjustments and support strategies for patients who have undergone Deep Brain Stimulation (DBS) surgery.*
 
-Search Query: code examples illustrating how mixing business logic in Servlets and JSPs leads to tight coupling and poor testability
-Search Answer: While the provided information does not contain specific code examples, it defines the concepts that explain how mixing business logic in Servlets and JSPs leads to tight coupling and poor testability.
+Search Query: mid-stage Parkinson's symptoms postural instability bilateral involvement increased fall risk cognitive slowing fatigue
+Search Answer: In the mid-stages of Parkinson's disease, a key health warning sign for patients and their families is the onset of postural instability, which involves significant trouble with body balance [https://mdsearchlight.com/neurology/postural-instability/, https://www.researchgate.net/publication/297894069_Postural_instability_and_falls_in_Parkinson's_disease]. This instability is a primary contributor to an increased risk of falls [https://pmc.ncbi.nlm.nih.gov/articles/PMC3606768/].
 
-Tight coupling occurs when different parts of an application's code are overly interdependent. More specifically, a piece of code is considered tightly coupled if it depends on the concrete implementation of another piece, rather than on an abstraction.
+As family members, specific signs that should alert you to seek further medical advice regarding the patient's condition include:
+*   **Frequent falls or a history of falls:** This is a major indicator of disease progression.
+*   **Freezing of gait:** A temporary inability to move the feet, which can increase the risk of falling.
+*   **Leg muscle weakness:** This further compounds balance and mobility issues.
+*   **Slow movement:** A general slowness in physical actions.
+*   **Cognitive impairment or slowing:** Difficulties with thinking, concentration, and memory.
+*   **General mobility issues:** An overall decline in the ability to move around independently.
 
-When business logic (e.g., database calls, calculations) is embedded directly within a Servlet or a JSP page, the presentation layer becomes directly dependent on the specific implementation of that logic. This creates several significant problems:
+These symptoms are particularly prominent in patients with the postural instability and gait disturbance/difficulty (PIGD) form of Parkinson's disease, who are more likely to experience frequent falls and cognitive problems [https://e3diagnostics.com/blog/postural-instability]. Parkinson's is a neurodegenerative condition caused by the loss of dopamine, and the emergence of these signs indicates a need to re-evaluate the patient's care plan [https://www.researchgate.net/publication/297894069_Postural_instability_and_falls_in_Parkinson's_disease].
 
-*   **Difficult Maintenance**: Changes in one class can cascade, requiring modifications in other dependent classes. This makes the codebase cumbersome to update. For instance, if business logic written inside a JSP needs to be changed, the JSP file itself must be modified, mixing presentation and logic concerns.
-*   **Poor Reusability**: The business logic cannot be easily reused in other parts of the application because it is entangled with presentation code, such as HTML and the Servlet API.
-*   **Reduced Testability**: Tight coupling makes code difficult to test in isolation. To test business logic that is embedded in a Servlet, a developer might need to simulate an entire HTTP request-response cycle, which makes unit testing complex and inefficient.
+Search Query: symptoms of advanced Parkinson's disease including severe dysphagia, psychosis, dementia, and need for mobility aids
+Search Answer: Based on the information provided, the health warning signs associated with advanced or end-stage Parkinson's disease can be divided into motor and non-motor symptoms.
 
-Search Query: Mapping Apache Struts 1 components (ActionServlet, Action, ActionForm, JSP) to MVC (Model, View, Controller) roles
-Search Answer: Based on the Model-View-Controller (MVC) design pattern, the open-source Apache Struts 1 framework was developed for creating Java web applications. Its components map to the MVC roles as follows:
+**Motor Symptoms:**
+*   **Mobility:** Patients often experience extremely slow movements and very limited mobility, frequently requiring mobility aids.
+*   **Gait and Balance:** Significant problems with gait and balance are common, which can lead to an increased risk of falls.
 
-*   **Controller**: The controller role is shared by two primary components: the `ActionServlet` and `Action` classes. The `ActionServlet` serves as the central front controller. It is configured in the `web.xml` file to manage and route all incoming requests. Using the `struts-config.xml` file, the `ActionServlet` maps a specific request URL to an appropriate `Action` class. The `Action` class then processes the user's action, executes any necessary business logic, and returns a result that determines which view should be displayed next.
+**Non-Motor Symptoms:**
+*   **Swallowing Difficulties:** Severe dysphagia (difficulty swallowing) is a major concern. This can be due to the progression of the disease or associated dementia and increases the risk of aspiration pneumonia.
+*   **Cognitive and Psychiatric Issues:** Severe cognitive and psychiatric problems are characteristic of this stage, including dementia (sometimes referred to as Parkinson's disease dementia or PDD) and psychosis.
+*   **Gastrointestinal and Bladder Problems:** Other common signs include slowed gastric emptying, severe constipation, and bladder dysfunction.
 
-*   **Model**: The model is primarily represented by the `ActionForm` bean. This component is responsible for capturing, holding, and validating user input submitted from web forms. The data from the form fields is populated into the `ActionForm` and then passed to the `Action` class. The business logic that the `Action` class calls to interact with the application's data and state is also considered part of the model layer.
+Search Query: Parkinson's disease caregiver guide red flags for immediate medical consultation recurrent falls aspiration pneumonia medication side effects dyskinesia psychosis mental status changes
+Search Answer: For family members of individuals with Parkinson's disease, certain health warning signs should prompt medical consultation. Psychosis and depression are considered part of the illness itself and are significant red flags [srinivasaiims.com].
 
-*   **View**: JavaServer Pages (JSP) are used to represent the view. After an `Action` class processes a request, its `execute` method returns a result. Struts uses this result to select and forward the request to the appropriate JSP page, which is then rendered and sent back to the user's browser.
+As the disease progresses, other signs become apparent across different stages:
 
-Search Query: Complexity and problems of Enterprise JavaBeans (EJB) 2.x architecture leading to rise of lightweight frameworks
-Search Answer: The architecture of Enterprise JavaBeans (EJB) was characterized by its complexity, which also extended to the process of deploying EAR and WAR files [https://www.infoq.com/news/2025/03/day-two-java-one-2025/]. This was part of a broader "legacy complexity" issue within the Java EE platform, on which many large enterprises had built their mission-critical applications. This complexity was a significant issue for these enterprises, making migration a risky endeavor [https://itidoltechnologies.com/blog/java-2025-trends-shaping-enterprise-application-development/].
+*   **Mid-Stage:** In the mid-stage of Parkinson's, common symptoms that may not always be formally diagnosed include fatigue, mood changes, insomnia, and depression [https://www.pfizer.com/news/articles/caregiver_s_guide_for_parkinson_s_disease].
+*   **Advanced Stage:** In the advanced stages of the disease, verbal communication can become very difficult [https://www.webmd.com/parkinsons-disease/parkinsons-caregivers].
 
-Search Query: EJB 2.x development pain points: required Home/Remote interfaces, complex ejb-jar.xml deployment descriptors, and difficulty in unit testing
-Search Answer: Developing with Enterprise JavaBeans (EJB) 2.x presented several challenges, often referred to as "pain points." A major issue was the complex XML configuration required. Developers had to create detailed and extensive `ejb-jar.xml` deployment descriptors, which were mandatory for the container to recognize the EJB code [http://letssharejavaexperience.blogspot.com/2012/12/ejb-2x-vs-ejb-30-vs-ejb-31.html, https://medium.com/javarevisited/jakarta-ee-12-the-death-of-enterprise-javabeans-4132a0ab6a9d]. This process was sometimes called the "XML Configuration Nightmare," where a descriptor for a single simple bean could be as long as 200 lines [https://medium.com/javarevisited/jakarta-ee-12-the-death-of-enterprise-javabeans-4132a0ab6a9d].
+Family members should also be highly aware of issues related to medication timing. Delayed medications can lead to difficulties with movement, which can result in falls and problems with eating [https://www.parkinson.org/sites/default/files/documents/care-summary-health-prof-2025.pdf].
 
-Another difficulty was the requirement for developers to create home and remote interfaces for their beans [https://www.infoworld.com/article/2163165/accelerate-ejb-2-0-development-with-ejbgen.html]. Furthermore, unit testing EJB 2.x components and their remote interfaces was known to be significantly difficult [https://stackoverflow.com/questions/5337779/unit-testing-ejb-2-x].
+Search Query: Deep Brain Stimulation (DBS) for Parkinson's disease mechanism of action patient selection criteria and target motor symptoms
+Search Answer: For patients with advanced Parkinson's disease (PD), Deep Brain Stimulation (DBS) is considered a safe and effective treatment for improving motor symptoms [https://www.ncbi.nlm.nih.gov/books/NBK536714/, https://pubmed.ncbi.nlm.nih.gov/16676911/].
 
-Search Query: How the MVC pattern in Apache Struts 1 using Action classes and JSPs improved testability and reduced coupling compared to the Servlet/JSP model
-Search Answer: Apache Struts 1 improved upon the Servlet/JSP model by extending the Java Servlet API to encourage developers to adopt a Model-View-Controller (MVC) architecture. The MVC pattern separates an application into three main components: the model, the view, and the controller. This separation of concerns inherently reduces coupling between business logic, presentation (JSPs), and request handling (Action classes), which in turn makes the individual components easier to test in isolation.
+To optimize clinical outcomes and ensure the success of the procedure, careful patient selection is critical [https://www.semanticscholar.org/paper/Patient-Selection-Criteria-for-Deep-Brain-for-Dahdah-O%27Suilleabhain/f0efe62fdd9b146ba562446b1cae43ea7cdfba95, https://pubmed.ncbi.nlm.nih.gov/16676911/]. The primary criteria for selecting a patient for DBS include a diagnosis of idiopathic PD and the presence of disabling motor symptoms that are difficult to manage, such as motor fluctuations or dyskinesia [https://academic.oup.com/book/29505/chapter/247655233]. Additionally, some experts advocate for rethinking the selection process to incorporate a broad clinical and instrumental assessment of non-motor symptoms as well [https://www.mdpi.com/2077-0383/9/12/3931].
 
-Search Query: Rod Johnson's critique of EJB 2.x in "J2EE Development without EJB" and the introduction of Inversion of Control (IoC) and Dependency Injection (DI) as a solution
-Search Answer: Rod Johnson's book, *Expert One-on-One J2EE Development Without EJB*, served as a foundational critique of the complexities associated with the EJB 2.x model [https://www.everand.com/book/254392114/Beginning-Spring, https://www.quora.com/Is-the-Spring-Framework-less-or-more-difficult-than-the-problems-it-wants-to-solve-Isn%E2%80%99t-it-overcomplicated, https://www.quora.com/Why-do-you-think-people-like-the-Spring-Framework]. The Spring framework emerged from the concepts detailed in this book, introducing Inversion of Control (IoC) and Dependency Injection (DI) as a solution and alternative [https://www.quora.com/Is-the-Spring-Framework-less-or-more-difficult-than-the-problems-it-wants-to-solve-Isn%E2%80%99t-it-overcomplicated, https://www.quora.com/Why-do-you-think-people-like-the-Spring-Framework].
+Search Query: post-operative care after DBS surgery for Parkinson's including wound care initial device programming and medication adjustments
+Search Answer: Following Deep Brain Stimulation (DBS) surgery, a patient's care involves several stages of adjustments and support to improve their well-being. This post-operative period includes device programming, medication changes, and long-term monitoring.
 
-Dependency Injection is a central component of Spring's modular architecture and is a common method for implementing the principle of Inversion of Control [https://www.scribd.com/document/6569879/The-Complete-Spring-Tutorial, https://www.quora.com/What-is-Spring-Framework-and-its-architecture].
+### Adjustments and Support Strategies After DBS Surgery
 
-Search Query: How Spring's IoC container (ApplicationContext/BeanFactory) uses Dependency Injection to manage POJO components and solve EJB 2.x tight coupling and testing issues
-Search Answer: The Spring framework's Inversion of Control (IoC) container is a foundational component that manages the entire lifecycle of plain Java objects (POJOs), known as beans, from instantiation to destruction. At its most basic level, the IoC container is represented by the `BeanFactory`, which provides the core support for Dependency Injection (DI).
+**Initial Recovery and Programming**
+The post-operative process begins with follow-up appointments to assess the healing of the surgical site. The initial programming of the DBS device typically starts 2 to 4 weeks after the procedure, once initial healing has occurred. However, it may take several months of adjustments to optimize the system's effectiveness, and full recovery and adaptation can take up to one year.
 
-DI is a principle where an object's dependencies are supplied by an external source—in this case, the IoC container—rather than the object creating them itself. This process is crucial for promoting loose coupling between components and avoiding the tightly coupled architectures that were problematic in earlier frameworks like EJB 2.x. By discouraging tight coupling, Spring significantly simplifies unit testing. The resulting loose coupling makes it easier to substitute complex dependencies with mock objects, thereby making the testing process more straightforward and effective.
+Some patients may experience a temporary "honeymoon" or "microlesion" effect, where symptoms improve for days or weeks immediately after surgery before the device is activated. It is important to be aware that there is an especially high risk of falls in the weeks following the procedure.
 
-Search Query: comparison of Spring framework POJO-based model vs EJB 2.x heavyweight component model
-Search Answer: The Spring framework was developed as a direct alternative to the complex and heavyweight Enterprise JavaBeans (EJB) 2.x model, aiming to address what were considered its "broken parts." A fundamental difference between them is that EJB is a specification for building enterprise applications, whereas Spring is an implementation of a framework that provides similar capabilities.
+**Long-Term Management and Daily Life Adjustments**
+Ongoing care is crucial for managing the patient's condition and ensuring the DBS system functions optimally. Key areas of focus include:
 
-### The EJB 2.x Heavyweight Model
-The EJB 2.x model was considered "heavyweight" due to its high level of complexity and the tight coupling it enforced between application components and the EJB framework. To create a component like a message-driven bean, developers were required to implement specific interfaces, such as `javax.jms.MessageListener`, and use particular annotations, like `javax.ejb.MessageDriven`. This made the components difficult to test outside of an EJB container and burdened them with excessive boilerplate code.
+*   **Medication Adjustments**: While DBS can reduce the need for certain medications, most patients will still require their medication regimen to be adjusted after surgery.
+*   **Long-Term Monitoring**: Routine follow-up appointments are necessary to monitor the progression of symptoms, optimize the device's settings, and continue adjusting medications as needed.
+*   **Potential Physical Changes**: A 2014 study found that patients gained an average of 14 pounds by 12 months after their DBS surgery. Additionally, studies on post-operative complications have shown rates varying from 4.4% to 7.5% within the first 90 days.
+*   **Psychological Support**: Counseling and therapy can be beneficial for patients to help them navigate the emotional and psychological changes that may occur after DBS surgery.
 
-### The Spring Lightweight, POJO-Based Model
-In contrast, the Spring framework introduced a "lightweight" model centered on Plain Old Java Objects (POJOs). POJOs are simple Java classes that do not have restrictions, do not need to adhere to a specific framework, and do not follow an enforced convention or pattern. This POJO-based approach allows developers to write business logic in simple classes that are not tightly coupled to the Spring framework itself. The primary advantage is that it enables the development of enterprise applications where business logic is decoupled from the framework's infrastructure, making the code more flexible and significantly easier to test.
+Search Query: long-term management of DBS for Parkinson's including battery life monitoring, replacement surgery, programming optimization, and managing expectations for non-motor symptoms
+Search Answer: For patients with Parkinson's disease who have undergone Deep Brain Stimulation (DBS) surgery, long-term management is supported by ongoing technological advancements that can improve their well-being. DBS is a cornerstone treatment for Parkinson's that is not responsive to medication [https://www.sciencedirect.com/science/article/pii/S0929664625006588].
 
-Search Query: overview of key Spring Framework modules: Spring Core (IoC), Spring AOP (Aspect-Oriented Programming), Spring MVC, Spring Data Access/JDBC, and Spring Security
-Search Answer: The Spring Framework is designed to be modular, with its architecture organized into layers that handle different functionalities such as core container services, data access, web/microservices, and integration.
+Recent developments in DBS technology focus on both hardware and programming optimization to enhance patient comfort and treatment effectiveness:
 
-The main components and modules of the framework include:
+*   **Battery Life:** One key advancement is the development of longer-lived batteries, which are available in both standard and rechargeable versions. This reduces the frequency of battery replacement surgeries [https://karger.com/sfn/article/103/4/227/927268/Battery-Longevity-in-Deep-Brain-Stimulation-for].
+*   **Programming and Personalization:** Programming is evolving toward more individualized and data-driven approaches. Personalized, adaptive DBS (aDBS) has been shown to be a safe and effective method for controlling motor symptoms over the long term [https://www.medscape.com/viewarticle/long-term-efficacy-personalized-adaptive-dbs-parkinsons-2025a1000pn3]. Other innovations supporting personalized treatment include adaptive and closed-loop DBS systems, as well as the integration of machine learning to further tailor the therapy to the individual's needs [https://www.sciencedirect.com/science/article/pii/S0929664625006588].
 
-*   **Spring Core**: This is the fundamental module that serves as the foundation for the entire framework. The `spring-core` and `spring-beans` modules provide the basic parts of the framework, including the Inversion of Control (IoC) and Dependency Injection (DI) features.
-*   **Spring Context**: This module is an extension of Spring Core.
-*   **Spring AOP**: This module provides support for Aspect-Oriented Programming (AOP).
+Search Query: role of physical, occupational, and speech therapy for Parkinson's patients after Deep Brain Stimulation (DBS) to improve gait, balance, daily activities, and manage dysarthria
+Search Answer: For patients with Parkinson's disease who have undergone Deep Brain Stimulation (DBS) surgery, several support strategies and daily life adjustments can improve their well-being, primarily through rehabilitation therapies [https://www.parkinson.org/living-with-parkinsons/treatment/physical-occupational-speech-therapies]. These therapies, including physical, occupational, and speech therapy, are designed to help patients manage symptoms, maintain independence, and improve daily function [https://www.parkinson.org/living-with-parkinsons/treatment/physical-occupational-speech-therapies].
 
-Search Query: Explain the purpose of Spring Framework modules: Core container for IoC, AOP for cross-cutting concerns, MVC for web applications, Data Access for JDBC and transactions, and Spring Security for authentication
-Search Answer: The Spring Framework is composed of several core modules that facilitate the development of enterprise applications by serving distinct purposes.
+Key rehabilitation strategies for post-DBS patients include:
+*   **Physical Therapy (PT)**: For patients with subthalamic nucleus (STN) DBS, physical therapy is considered "potentially useful to maximize clinical improvement," although strong evidence from randomized controlled trials is lacking [https://link.springer.com/article/10.1186/s12984-025-01616-w]. Studies have evaluated the safety, feasibility, and effectiveness of PT for enhancing gait and balance in this patient group [https://pubmed.ncbi.nlm.nih.gov/40343851/]. PT also serves as an effective complement to pharmacological treatments for improving dopamine-resistant symptoms like postural stability and gait performance [https://pmc.ncbi.nlm.nih.gov/articles/PMC11469472/].
+*   **Speech Therapy**: Speech-language pathologists can assist patients with communication issues, such as dysarthria (slurred or slow speech) [https://www.parkinson.org/living-with-parkinsons/treatment/physical-occupational-speech-therapies].
+*   **Occupational Therapy**: Occupational therapists help patients continue to engage in the daily activities that are important to them [https://www.parkinson.org/living-with-parkinsons/treatment/physical-occupational-speech-therapies].
 
-### Core Functionalities of the Spring Framework
+Despite the established benefits of these therapies, only about 14% of individuals with Parkinson's disease utilize them as part of their treatment plan [https://www.parkinson.org/living-with-parkinsons/treatment/physical-occupational-speech-therapies].
 
-*   **Core Container**: This is the central and fundamental component of the framework. It provides the Inversion of Control (IoC) container, which manages the lifecycle and dependencies of objects, referred to as "beans." The container uses a design pattern known as Dependency Injection, where it automatically provides the required dependencies to a class instead of the class creating them itself.
+Search Query: psychosocial and daily living support for Parkinson's patients with DBS including mood changes counseling airport security and community groups
+Search Answer: Based on the provided information, here are the daily life adjustments and support strategies for Parkinson's patients who have undergone Deep Brain Stimulation (DBS) surgery to improve their comfort and well-being.
 
-*   **AOP (Aspect-Oriented Programming)**: The AOP module enables the separation of cross-cutting concerns—such as logging, security, and transactions—from the main business logic. This allows developers to modularize functionalities that span multiple parts of an application, such as implementing a unified logging interface.
+### Psychosocial and Mood Support
 
-*   **Data Access/Integration**: Spring is designed to integrate seamlessly with various data access technologies, including Hibernate, JPA (Java Persistence API), and JMS (Java Message Service). The `spring-data` module is specifically used for Object-Relational Mapping (ORM) functionalities with tools like Hibernate. AOP is also utilized to handle transactional management in this layer.
+After DBS surgery, patients may experience mood or behavioral changes, such as depression, anxiety, apathy, impulsivity, or shifts toward hypomania or euphoria. Managing these changes is a critical aspect of post-operative care.
 
-*   **Spring Security**: Security is handled as a cross-cutting concern within the framework, often implemented and managed through AOP principles.
+*   **Multidisciplinary Care:** A collaborative care team, including a movement disorder specialist and a neuropsychologist, is important for managing these potential side effects. The team can make adjustments to the DBS programming or medications to alleviate mood changes.
+*   **Counseling:** Psychological support, such as counseling or cognitive-behavioral therapy, is often recommended for both patients and their families to help them navigate these new challenges.
+*   **Community and Family Support:** Emotional support from family, friends, and organized community groups (both in-person and online) is highly beneficial. These groups provide a valuable space for patients and caregivers to share experiences, receive emotional backing, and find practical advice. The Parkinson's Foundation Helpline can assist in finding local resources.
 
-Search Query: Detailed explanation of Spring MVC architecture (DispatcherServlet, controllers, views) and how Spring's JDBC/Data Access module simplifies database interactions with templates and transaction management
-Search Answer: The Spring MVC framework is a request-driven web framework built on the Model-View-Controller (MVC) design pattern. This architecture helps separate an application's concerns, making it easier to manage and scale.
+### Daily Life and Device Management
 
-At the heart of Spring MVC is the `DispatcherServlet`, which acts as a central or "front controller." It intercepts all incoming HTTP requests, manages the entire request lifecycle, and is fully integrated with the Spring Inversion of Control (IoC) container, allowing it to leverage all other features of the Spring framework.
+Adjusting to life with a DBS device requires patience and learning new routines.
 
-The request handling process follows these steps:
+*   **Device Programming:** After surgery, the device requires several programming sessions with a specialist to find the optimal settings. Patients are often given a handheld remote or programmer to control the device, such as turning it on and off and checking the battery status. Regular follow-up appointments are necessary for ongoing adjustments.
+*   **Activity and Safety Precautions:** Patients should avoid activities involving sudden movements or contact sports that could displace the implanted pulse generator. It is also important to avoid strong magnetic or electrical fields and to consult the medical team before undergoing other medical procedures, such as an MRI.
+*   **Battery Replacement:** Patients should be aware that the device's battery will need to be surgically replaced every few years.
+*   **Additional Therapies:** Post-surgery, other therapies such as physical, occupational, and speech therapy may be recommended to maximize the benefits of DBS.
 
-1.  **Request Reception**: An HTTP request from a client is first received by the `DispatcherServlet`.
-2.  **Handler Mapping**: The `DispatcherServlet` consults a `HandlerMapping` to identify which controller is responsible for handling the request.
-3.  **Controller Invocation**: A `HandlerAdapter` then invokes the designated `Controller`.
-4.  **Request Processing**: The `Controller` handles the incoming request, processes user input, and interacts with the service layer to execute business logic. It then prepares a model, which is an object containing the application data.
-5.  **Model and View Return**: The `Controller` returns a `ModelAndView` object, which contains both the model data and the logical name of the view that will render the response.
-6.  **View Resolution**: The `DispatcherServlet` uses a `ViewResolver` to translate the logical view name into a specific view file. For instance, it might resolve the view name "home" to the file `/WEB-INF/views/home.jsp`.
-7.  **Response Rendering**: The selected `View` component uses the data from the model to render the final response (e.g., as HTML, JSON, or XML) and sends it back to the client.
+### Navigating Airport Security
 
-Search Query: Java servlet code example with direct request.getParameter(), manual session management, and direct object instantiation
-Search Answer: In the early stages of Java web development with Servlets, developers were responsible for manually handling low-level HTTP operations and state management. This involved direct interaction with the Servlet API for request handling, session management, and object instantiation.
+Traveling with a DBS device requires specific precautions to ensure both safety and a smooth journey through security.
 
-### Manual HTTP Request and Session Management
+*   **Identification:** Patients should always carry their DBS identification card and may also consider getting a letter from their doctor explaining the device.
+*   **Communication with Security:** It is essential to inform Transportation Security Administration (TSA) agents or other security personnel about the implant.
+*   **Screening Procedures:** The DBS implant can trigger walk-through metal detectors. Due to potential interference from their magnetic fields, patients should request a hand-wanding or a full-body pat-down instead. While full-body scanners are generally considered safe, patients can request an alternative inspection if they have concerns.
 
-With Java Servlets, developers directly retrieve parameters from an HTTP request using the `getParameter()` method on the `HttpServletRequest` object. This approach tightly couples the application logic to the raw request data [https://www.digitalocean.com/community/tutorials/java-session-management-servlet-httpsession-url-rewriting, https://medium.com/@meowmbaikar/servlet-session-management-and-redirection-0497c5e8b40a].
+Search Query: comparison of caregiver responsibilities and critical intervention events for late-stage Parkinson's patients managed with medication versus those with Deep Brain Stimulation
+Search Answer: Based on the information provided, the focus of the research is on the caregiver's experience rather than the specific health warning signs of Parkinson's disease (PD) or daily adjustments after Deep Brain Stimulation (DBS). Here is a combined summary of the findings on caregiver burden:
 
-```java
-String user = request.getParameter("user");
-String pwd = request.getParameter("pwd");
-```
+The level of burden for caregivers of individuals with Parkinson's disease is positively correlated with the patient's motor symptoms, overall disability, and difficulties with activities of daily living [https://encyclopedia.pub/entry/19474].
 
-Session management, which is crucial for tracking a user's state across multiple requests, is also handled manually. The process involves several steps:
-1.  **Creating or Retrieving a Session**: A session is obtained from the request using `request.getSession()`. This creates a new session if one does not already exist for the user [https://www.digitalocean.com/community/tutorials/java-session-management-servlet-httpsession-url-rewriting, https://medium.com/@meowmbaikar/servlet-session-management-and-redirection-0497c5e8b40a, http://web.cs.ucla.edu/classes/winter15/cs144/projects/java/session/, https://stackoverflow.com/questions/1835764/java-servlet-session-management-how-to-create-session-for-login].
-    ```java
-    HttpSession session = request.getSession();
-    ```
-2.  **Storing Data in the Session**: User-specific data is stored as attributes in the session object.
-    ```java
-    session.setAttribute("user", "Pankaj");
-    ```
-3.  **Managing Session Lifetime**: Developers can control the session's lifecycle, for instance, by setting its expiration time.
-    ```java
-    session.setMaxInactiveInterval(30*60); // expires in 30 minutes
-    ```
-4.  **Invalidating the Session**: The session can be explicitly destroyed using `session.invalidate()` [https://www.digitalocean.com/community/tutorials/java-session-management-servlet-httpsession-url-rewriting, https://stackoverflow.com/questions/1835764/java-servlet-session-management-how-to-create-session-for-login].
+For patients who undergo Deep Brain Stimulation (DBS), the impact on their caregivers is complex. Studies indicate that DBS treatment is not necessarily associated with a lower caregiver burden when compared to other treatments [https://pubmed.ncbi.nlm.nih.gov/27443241]. While DBS may improve the quality of life for the patient, it may not correspondingly reduce the burden on their caregiver [https://www.mdpi.com/2076-3425/12/2/238].
 
-### Direct Object Instantiation
+Caregivers play a crucial role in the DBS process, providing significant support during both the pre- and postoperative phases [https://journals.sagepub.com/doi/abs/10.3233/JPD-213093]. Several factors can contribute to the burden on caregivers of patients with DBS, including patient apathy and caregiver anxiety [https://pubmed.ncbi.nlm.nih.gov/27443241]. Research continues to explore the specific experiences and needs of this group of caregivers [https://www.mdsabstracts.org/abstract/caregiving-patients-with-parkinson-disease-treated-with-deep-brain-stimulation-a-systematic-review-and-meta-synthesis-of-qualitative-research/].
 
-In a servlet-based application, objects are instantiated directly within the code as needed. For example, creating a new `Cookie` or getting a `PrintWriter` to write to the response is done explicitly inside the servlet's methods [https://www.digitalocean.com/community/tutorials/java-session-management-servlet-httpsession-url-rewriting, https://medium.com/@meowmbaikar/servlet-session-management-and-redirection-0497c5e8b40a].
+However, the provided sources do not detail specific health warning signs at different stages of PD or offer a direct comparison of critical intervention events for caregivers of patients managed with medication versus those who have had DBS surgery.
 
-```java
-Cookie userName = new Cookie("user", user);
-response.addCookie(userName);
-```
+Search Query: guidelines for caregivers on when to seek emergency medical care for Parkinson's patients experiencing severe dyskinesia, hallucinations, sudden confusion, or choking
+Search Answer: Based on the provided information, there are no specific guidelines for caregivers on when to seek emergency medical care for a Parkinson's patient experiencing severe dyskinesia, hallucinations, sudden confusion, or choking.
 
-### Code Example of a Login Servlet
+However, the documents do highlight that people with Parkinson's disease are at a higher risk of hospitalization. Complications associated with advanced treatments, such as dyskinesias, are noted as a "major clinical challenge" with "potentially serious complications."
 
-The following code demonstrates these manual processes within a single `doPost` method:
+While the materials do not offer the specific emergency criteria requested, they do mention the availability of general resources, including a hospital safety guide for Parkinson's patients and a guide for caregivers on preparing for and responding calmly to a medical crisis.
 
-```java
-protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-    // 1. Direct parameter retrieval
-    String user = request.getParameter("user");
-    String pwd = request.getParameter("pwd");
+Search Query: acute complications of Parkinson's disease requiring urgent medical attention for caregivers to monitor
+Search Answer: Complications from Parkinson's disease can develop throughout the course of the disease, sometimes unexpectedly, and may require prompt or even urgent medical intervention [https://pmc.ncbi.nlm.nih.gov/articles/PMC7029239/]. These complications can impact more than just motor skills; they can also affect various other functions, including speech, the ability to swallow, mood, sleep patterns, and sexual function [https://www.medicalnewstoday.com/articles/323399].
 
-    if("admin".equals(user) && "password".equals(pwd)){
-        // 2. Manual session management
-        HttpSession session = request.getSession();
-        session.setAttribute("user", "Pankaj");
-        session.setMaxInactiveInterval(30*60);
+Search Query: clinical indicators for urgent care in Parkinson's patients experiencing severe dyskinesia, psychosis, dysphagia, or frequent falls
+Search Answer: Based on the provided information, here are some potential health warning signs in Parkinson's disease (PD) that should alert family members to seek medical advice, particularly as the disease progresses.
 
-        // 3. Direct object instantiation
-        Cookie userName = new Cookie("user", user);
-        response.addCookie(userName);
+### Warning Signs Requiring Intervention
 
-        response.sendRedirect("LoginSuccess.jsp");
-    }else{
-        RequestDispatcher rd = getServletContext().getRequestDispatcher("/login.html");
-        PrintWriter out= response.getWriter();
-        out.println("Either user name or password is wrong.");
-        rd.include(request, response);
-    }
-}
-```
+**1. Difficulty Swallowing (Dysphagia)**
+A very common symptom, dysphagia develops in over 80% of individuals with Parkinson's disease over the course of their illness. Family members should be alert to any signs of choking, coughing during meals, or changes in eating habits. For diagnosis and assessment, clinicians may use indicators such as lingual pressures or specialized questionnaires like DYMUS and Dysphapark [https://www.researchgate.net/publication/381514417_Clinical_Indicators_of_Dysphagia_in_Patients_with_Parkinson_Disease, https://pubmed.ncbi.nlm.nih.gov/26590572/, https://pmc.ncbi.nlm.nih.gov/articles/PMC10111039/].
 
-Search Query: How Struts 1 ActionForm beans automatically populate from HttpServletRequest parameters to avoid manual request.getParameter() calls
-Search Answer: In the Apache Struts 1 framework, `ActionForm` beans are used to automatically capture and represent data from an incoming `HttpServletRequest`. This mechanism's primary benefit is eliminating the need for developers to manually call `request.getParameter()` for each form field [0].
+**2. Severe Involuntary Movements (Dyskinesia)**
+Managing severe dyskinesia, particularly "diphasic dyskinesias" (involuntary, erratic movements), can be a significant clinical challenge. An urgent intervention for these episodes can be a 'rescue' subcutaneous injection of apomorphine. If a patient's dyskinesias do not respond to treatment modifications, other options like continuous dopaminergic treatments or deep-brain stimulation (DBS) may be considered by their medical team [https://pn.bmj.com/content/20/1/15].
 
-To enable this automatic data binding, a developer creates a Java class that extends `ActionForm` [3]. Within this class, variables are declared that correspond to the input field names in the HTML or JSP form, and each variable must have a public getter and setter method [3, 4]. When a user submits the form, the Struts framework intercepts the request and matches the request parameter names to the properties in the configured `ActionForm` bean. The framework then uses the bean's setter methods to automatically populate its properties with the submitted values [1, 3]. This fully populated `ActionForm` bean is then passed as an argument to the associated `Action` class's method, making the request data readily available before the main action logic is executed [0].
+**3. Sudden Immobility (Akinetic 'Off' State)**
+A particularly serious situation is when a patient deteriorates into an akinetic 'off' state, becoming severely immobile over a few days. This condition has been historically observed in individuals undergoing 'drug holidays' to manage medication complications and is a sign that requires immediate medical attention [https://pn.bmj.com/content/20/1/15].
 
-Search Query: How the Struts 1 Action class execute method signature decouples controller logic from the Servlet API (HttpServletRequest) for improved unit testing
-Search Answer: Based on the provided information, the premise that the Struts 1 `Action` class decouples controller logic from the Servlet API is incorrect. The `Action` class and its methods create a tight coupling to the Servlet API, which has implications for unit testing.
-
-In Struts 1.0, the `Action` class had a `perform()` method, which was later renamed to `execute()`. The signature for this method and its variants, such as those in `DispatchAction`, directly includes `HttpServletRequest` and `HttpServletResponse` as parameters. A common signature is `(mapping, form, request, response)`, where `request` and `response` are the core Servlet API objects.
-
-This direct dependency means the controller logic is tightly coupled to the Servlet API and the web container. Consequently, this design does not simplify unit testing. Instead, it makes testing more complex because developers need to mock the `HttpServletRequest` and `HttpServletResponse` objects to test the business logic within the action class, contradicting any premise that the signature improves testability.
-
-Search Query: Explain how Spring AOP uses dynamic proxies to implement cross-cutting concerns with code examples for logging and declarative transaction management
-Search Answer: Spring Aspect-Oriented Programming (AOP) modularizes and manages cross-cutting concerns such as logging, security, and transaction management [https://medium.com/@sharmapraveen91/mastering-spring-aop-the-ultimate-guide-for-2025-55a146c8204c, https://www.codeproject.com/articles/Dynamic-Proxy-in-Spring-A-Comprehensive-Guide-with, https://medium.com/@umeshcapg/avamastering-aop-in-spring-boot-sta-0b9aef096c45]. By separating these concerns from the core business logic, AOP enhances modularity and reduces code duplication [https://medium.com/@umeshcapg/avamastering-aop-in-spring-boot-sta-0b9aef096c45, https://www.codingshuttle.com/spring-proxy-and-internal-working-of-aop].
-
-This is achieved through a proxy-based implementation. When an aspect is applied, Spring creates an "AOP Proxy" object that wraps the target object to implement the aspect's behavior [https://medium.com/@sharmapraveen91/mastering-spring-aop-the-ultimate-guide-for-2025-55a146c8204c]. Spring AOP employs two types of dynamic proxies to accomplish this:
-
-1.  **JDK dynamic proxies**: This is the default and preferred method. Spring uses JDK dynamic proxies when the target class implements at least one interface [https://medium.com/@sharmapraveen91/mastering-spring-aop-the-ultimate-guide-for-2025-55a146c8204c, https://www.dineshonjava.com/understanding-aop-proxies-chapter-31/].
-2.  **CGLIB proxies**: If the target class does not implement any interfaces, Spring AOP will use CGLIB to create the proxy instead [https://medium.com/@sharmapraveen91/mastering-spring-aop-the-ultimate-guide-for-2025-55a146c8204c, https://www.dineshonjava.com/understanding-aop-proxies-chapter-31/].
-
-Search Query: How Spring MVC's use of POJO controllers with flexible method signatures (@RequestParam, @RequestBody) decouples business logic from the Servlet API, and why this improves unit testability compared to Struts 1's Action class.
-Search Answer: In Spring MVC, handler methods that are annotated with `@RequestMapping` are designed to have highly flexible signatures. This allows them to use Plain Old Java Objects (POJOs) as command or form objects for binding request parameters.
-
-However, the provided information is insufficient to answer the broader question about the evolution from Java Servlets to Spring Boot, how the use of POJOs decouples business logic from the Servlet API, or how this design improves testability.
-
-Search Query: Spring MVC controller code examples using @RequestParam @PathVariable @RequestBody to avoid direct dependency on HttpServletRequest
-Search Answer: In Spring MVC, developers can use annotations to bind parts of an HTTP request directly to method parameters in a controller. This approach avoids a direct dependency on the `HttpServletRequest` object, allowing the framework to handle data extraction and validation, which significantly simplifies controller logic. The primary annotations for this purpose are `@RequestParam`, `@PathVariable`, and `@RequestBody`.
-
-### @RequestParam
-This annotation is used to extract query parameters from the request URL. Query parameters are the key-value pairs that appear after a question mark (`?`) in a URL, such as `id` and `name` in `http://example.com/api/products?id=123&name=Laptop`.
-
-By default, parameters annotated with `@RequestParam` are required. However, you can make them optional by setting the `required` attribute to `false`.
-
-**Example:**
-```java
-@GetMapping("/products")
-public ResponseEntity getProductById(
-    @RequestParam Long id,
-    @RequestParam(required = false) String name) {
-    // Method logic to retrieve product details
-}
-```
-
-### @PathVariable
-This annotation extracts values from the URI path itself, which is useful for creating clean, RESTful URLs where parameters are part of the path (e.g., `/products/{id}`). `@PathVariable` automates the process of parsing the request URI to find and bind these values to method parameters. For instance, if a URL pattern is defined as `/users/{userId}`, this annotation can bind the value passed in that segment of the URL.
-
-### @RequestBody
-This annotation indicates that a method parameter should be bound to the body of the web request. It is commonly used with `POST`, `PUT`, and `PATCH` requests where the client sends data, often in JSON or XML format. Spring automatically deserializes the request body into a Java object, which removes the need for the developer to manually read from the request's input stream.
-
-Search Query: Compare unit testing a Struts 1 Action class versus a Spring MVC POJO Controller focusing on the dependency on HttpServletRequest and the need for mocking
-Search Answer: Unit testing is widely considered easier in Spring MVC than in Struts, a difference that stems from their core design philosophies regarding coupling, dependencies, and inheritance.
-
-Spring MVC is a loosely coupled framework where controllers are typically Plain Old Java Objects (POJOs). This design means the controllers do not have a direct dependency on the Servlet API. As a result, they can be instantiated and tested as standalone objects in isolation, without needing to mock the servlet environment or rely on a servlet container.
-
-In contrast, Struts is a tightly coupled framework. Its `Action` classes have an explicit dependency on the dispatcher servlet and other web-tier components, such as `HttpServletRequest` and `HttpServletResponse`. This tight coupling to the Servlet API necessitates the use of mock objects to conduct unit testing.
-
-Furthermore, the inheritance models of the two frameworks impact testability. Struts forces its `Action` and `Form` objects into a concrete inheritance structure. This design restricts flexibility and complicates testing. Spring MVC, on the other hand, is based on interfaces, a design that avoids forced concrete inheritance and facilitates a more straightforward testing process.
-
-Search Query: Direct comparison of method signatures: Struts 1 Action.execute(HttpServletRequest, HttpServletResponse) vs. Spring MVC @RequestMapping method with @RequestParam, explaining impact on unit testing and mocking
-Search Answer: I am sorry, but the provided search results do not contain the specific information needed to fulfill your request. The available information does not allow for a direct comparison of the method signatures of Struts 1 `Action.execute` and Spring MVC `@RequestMapping`, nor does it explain the impact of these differences on unit testing and mocking. While some sources discuss the possibility of using both frameworks together and offer a high-level preference for Spring MVC, they do not detail the specific technical differences required to trace the evolution from one to the other.
-
-Search Query: Detailed explanation of Spring bean lifecycle, scopes (singleton, prototype, request, session), and configuration examples using XML and annotations
-Search Answer: In the Spring framework, bean scopes are a fundamental concept that defines the lifecycle of a bean, including when an object is instantiated, its lifespan, and the number of instances created [https://www.geeksforgeeks.org/java/singleton-and-prototype-bean-scopes-in-java-spring/, https://codesignal.com/learn/courses/introduction-to-spring-boot-and-spring-core-with-kotlin/lessons/bean-scopes-and-lifecycle]. The lifecycle of a bean commences when the Spring container creates an instance at application startup, based on configurations such as `@Component` or `@Bean`. After its creation, Spring injects all the necessary dependencies into the bean [https://codesignal.com/learn/courses/introduction-to-spring-boot-and-spring-core-with-kotlin/lessons/bean-scopes-and-lifecycle].
-
-Spring offers several bean scopes to manage the object instances:
-*   **Singleton**: This is the default scope in Spring. It ensures that only one instance of the bean is created for the entire application context [https://codesignal.com/learn/courses/introduction-to-spring-boot-and-spring-core-with-kotlin/lessons/bean-scopes-and-lifecycle, https://devcookies.medium.com/the-scope-of-beans-in-spring-boot-a-comprehensive-guide-ca4de7c531f3].
-*   **Prototype**: A new instance of the bean is created every time it is requested from the Spring container [https://codesignal.com/learn/courses/introduction-to-spring-boot-and-spring-core-with-kotlin/lessons/bean-scopes-and-lifecycle, https://devcookies.medium.com/the-scope-of-beans-in-spring-boot-a-comprehensive-guide-ca4de7c531f3].
-*   **Session**: Specific to web applications, this scope creates a new bean instance for each user's HTTP session [https://devcookies.medium.com/the-scope-of-beans-in-spring-boot-a-comprehensive-guide-ca4de7c531f3].
-*   **Application**: This scope creates a single bean instance for the entire lifecycle of a web application [https://devcookies.medium.com/the-scope-of-beans-in-spring-boot-a-comprehensive-guide-ca4de7c531f3].
-*   **Request**: In a web application, this scope creates a new bean instance for each individual HTTP request [https://devcookies.medium.com/the-scope-of-beans-in-spring-boot-a-comprehensive-guide-ca4de7c531f3].
-
-Developers can configure a bean's scope using the `@Scope` annotation. If no scope is specified, the bean will default to singleton. For other scopes, the annotation is used with the desired scope name. For instance, to define an application-scoped bean, you would use `@Component @Scope("application")` [https://devcookies.medium.com/the-scope-of-beans-in-spring-boot-a-comprehensive-guide-ca4de7c531f3].
-
-Here is an example of defining an application-scoped bean and using it in a controller:
-
-```java
-@Component
-@Scope("application")
-public class ApplicationScopedBean {
-    private String appData = "Application-Wide Data";
-    public String getAppData() {
-        return appData;
-    }
-}
-```
-
-```java
-@RestController
-public class ApplicationScopeController {
-    @Autowired
-    private ApplicationScopedBean applicationScopedBean;
-
-    @GetMapping("/application-scope")
-    public String getApplicationScope() {
-        return "Application Scoped Data: " + applicationScopedBean.getAppData();
-    }
-}
-```
-[https://devcookies.medium.com/the-scope-of-beans-in-spring-boot-a-comprehensive-guide-ca4de7c531f3]
-
-Search Query: official Struts 1.3 Javadoc for org.apache.struts.action.Action class execute method signature
-Search Answer: Based on the provided information, the `org.apache.struts.action.Action` class is a central component in the Struts framework, functioning as an adapter between an incoming HTTP request and the business logic designed to process that request.
-
-The primary entry point for this logic within an `Action` class is the `execute` method. If the `Action` interface is not explicitly implemented, the framework can use reflection to find an `execute` method to invoke. Any exceptions thrown by this method can be managed by an `ExceptionHandler` defined in the Struts configuration file.
-
-While the role and exception handling of the `execute` method are described, its specific method signature is not available in the provided text.
-
-Search Query: Spring JdbcTemplate benefits over standard JDBC for reducing boilerplate code
-Search Answer: Spring's `JdbcTemplate` provides a higher level of abstraction over standard JDBC, which helps to reduce boilerplate code [https://www.linkedin.com/posts/dasa-shekar-8b228722b_java-day-activity-7374393784593395712-b7zR, https://medium.com/@viranthrocky/why-jdbctemplate-still-deserves-a-place-in-modern-applications-over-jpa-f0b8f899ddf6]. A key way it achieves this is by automatically handling resource management, such as opening and closing connections [https://www.linkedin.com/posts/dasa-shekar-8b228722b_java-day-activity-7374393784593395712-b7zR]. This simplifies development and makes it easier for developers to work with JDBC [https://stackoverflow.com/questions/38693768/what-is-the-benefit-of-using-jdbc-template, https://medium.com/@viranthrocky/why-jdbctemplate-still-deserves-a-place-in-modern-applications-over-jpa-f0b8f899ddf6].
-
-Search Query: Struts 1 Action class execute method signature example showing ActionMapping ActionForm HttpServletRequest HttpServletResponse parameters
-Search Answer: In a Struts 1 `Action` class, the signature for the `execute` method is: `public ActionForward execute(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response)` [https://stackoverflow.com/questions/24501341/struts-1-entry-actionform-inputs-from-any-action-class, https://javadoc.io/doc/org.apache.struts/struts-core/1.3.8/org/apache/struts/action/class-use/ActionMapping.html, https://www.oschina.net/uploads/doc/struts-1.3.9/org/apache/struts/action/class-use/ActionForm.html].
-
-This method accepts the following parameters:
-*   `ActionMapping`
-*   `ActionForm`
-*   `javax.servlet.http.HttpServletRequest`
-*   `javax.servlet.http.HttpServletResponse`
-
-The method processes the request and returns an `ActionForward` object to determine the next view [https://www.scribd.com/document/105974072/Struts-1, https://www.d.umn.edu/~tcolburn/cs4531/struts/api/org/apache/struts/action/class-use/ActionMapping.html].
-
-Search Query: Contrast testability of Struts 1 Action.execute(ActionMapping, ActionForm, HttpServletRequest, HttpServletResponse) versus a Spring MVC controller method using @RequestParam. Explain how POJO arguments remove the need to mock HttpServletRequest for unit testing.
-Search Answer: Based on the provided information, a complete answer tracing the evolution from Java Servlets to Spring Boot cannot be constructed. The available answers are insufficient and do not contain the necessary details about Spring MVC, Spring Boot, or the progression of these technologies.
-
-The only specific detail provided is regarding the Struts 1 framework, which is a step in this evolution. In a Struts 1 `Action` class, the `Action.execute` method has a direct dependency on the Servlet API, as it takes `HttpServletRequest` and `HttpServletResponse` as arguments.
-
-However, there is no information regarding Spring MVC, `@RequestParam`, POJO arguments, the testability of these frameworks, or how each iteration solved the problems of the previous one. Therefore, a comprehensive explanation as requested by the user cannot be provided.
-
-Search Query: How Spring's declarative transaction management with @Transactional annotation simplifies data consistency compared to manual transaction handling in JDBC
-Search Answer: Spring's declarative transaction management simplifies data consistency by abstracting away the manual, boilerplate code required in traditional JDBC transaction handling. By using the `@Transactional` annotation, it replaces manual transaction management with a declarative API. Instead of manually writing code to start, commit, or roll back JDBC transactions, a developer can simply annotate a class or method with `@Transactional` to define its transactional boundaries.
-
-Behind the scenes, Spring employs an aspect and creates a dynamic CGLib proxy for the class. This proxy intercepts calls to the annotated methods and automatically handles the transaction's lifecycle. It opens a database transaction before the method executes, commits it upon successful completion, and rolls it back in the case of an exception.
-
-This approach allows developers to declaratively specify transaction behavior, such as setting a transaction to read-only, without managing low-level connection states, which reduces boilerplate code and potential errors. The `@Transactional` annotation can be applied at the class level to set a default transaction behavior, which can then be overridden by applying the annotation to specific methods with different settings, providing granular control. Additionally, Spring is capable of managing nested transactions by using JDBC or database savepoints.
+**4. Gait and Balance Problems Leading to Falls**
+Gait and balance disturbance is a core clinical feature of Parkinson's disease. While this is an expected symptom, an increase in the frequency of falls is a critical warning sign. Frequent falls indicate a need for a medical review to adjust treatment and prevent serious injury [https://www.sciencedirect.com/science/article/pii/S0025712505701073].
 
