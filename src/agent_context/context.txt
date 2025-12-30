@@ -1,387 +1,324 @@
-Search Query: foundational review of modern control theory applications in computer vision for process automation and robustness
-Search Answer: Based on the available information, which is limited for a comprehensive foundational review, a 2023 review explores the applications of intelligent control theory. This theory is highlighted for its role and function in the optimization of equipment, operations, and controls.
+Search Query: Java Servlets architecture and lifecycle vs Common Gateway Interface (CGI)
+Search Answer: Common Gateway Interface (CGI) and Java Servlets are two technologies used to generate dynamic web content, with Servlets representing a significant architectural evolution over CGI.
 
-Search Query: state-space modeling for 3D computer vision and image-based reconstruction processes
-Search Answer: Based on the provided information, here is a design report outline summarizing relevant methods for 3D reconstruction, while also noting the limitations of the source material concerning the application of modern control theory.
+Before the advent of Servlets, CGI was the standard method for a web server to pass a user's request to an external application or script. CGI is a language-independent standard where for each request received, the server starts an entirely new external process to handle it.
 
-**Design Report: 3D Reconstruction and Phenotypic Analysis of Crop Grains**
+To address the inefficiencies of the CGI model, Java Servlets were introduced. A Java Servlet is a Java class specifically designed to extend the capabilities of a server operating within a request-response model. The fundamental difference lies in their architecture:
 
-**1. Introduction to 3D Reconstruction Methodologies**
+*   **CGI:** Is process-based. It creates a new, separate process for every incoming request, which is resource-intensive.
+*   **Java Servlets:** Are thread-based. Instead of launching a new process, a servlet handles each request by creating a new, lightweight thread.
 
-Several modern methods are available for 3D reconstruction, which can be applied to the analysis of crop grains. These techniques primarily leverage computer vision and image processing.
+This thread-based approach allows Servlets to operate at the server level, enabling them to share data among each other. Consequently, Servlets are considered more secure and efficient for data sharing compared to the process-per-request model of CGI.
 
-*   **Image-Based Modeling (IBM):** A passive system for 3D reconstruction that encompasses both depth-map and volume-based methods. This approach is foundational for creating 3D models from 2D images.
-*   **Multi-View Diffusion Models:** This advanced technique generates 3D models by using multi-view diffusion to create a series of images from different perspectives. These images are then processed by a multi-view reconstructor which maps the image tokens to 3D Gaussians, forming the final 3D representation.
-*   **Specialized Frameworks:**
-    *   **ExploreGS:** A framework designed for drone-based 3D scene reconstruction, which could be adapted for large-scale field analysis of crops.
-    *   **SAM 3D Objects:** A tool capable of generating 3D models from a single image or an object selected within an image, offering a potential method for rapid, individual grain analysis.
+Search Query: JavaServer Pages (JSP) role as a view technology and the problems of scriptlet abuse in early Java EE
+Search Answer: JavaServer Pages (JSP) is a server-side technology within Java Enterprise Edition (Java EE) used to create dynamic web content, such as HTML or XML documents, by embedding Java code within HTML pages. Its primary role is to function as a display, view, or presentation technology focused on the user interface (UI).
 
-**2. Application of Modern Control Theory (State-Space Modeling)**
+JSP was intended to provide a cleaner separation of concerns by allowing developers to mix Java and HTML using special tags. These embedded snippets of Java code are known as "scriptlets." However, a significant problem arose from the misuse of this feature, a practice known as "scriptlet abuse." This occurred when developers wrote extensive business logic directly into the JSP files, which were meant only for display logic. This practice contradicted JSP's intended purpose, blurring the separation of concerns by mixing business logic with the presentation code.
 
-While the aforementioned 3D reconstruction techniques are powerful, the provided search results do not contain specific information or examples of applying state-space modeling or other modern control theories directly to these 3D computer vision or image-based reconstruction processes. Therefore, the integration of control theory would represent a novel extension of these existing frameworks.
+Search Query: Detailed explanation of Java Servlet lifecycle methods (init, service, destroy) and the request-response model with HttpServletRequest and HttpServletResponse
+Search Answer: A Java Servlet's lifecycle is managed by the servlet container and consists of three essential methods: `init()`, `service()`, and `destroy()` [https://www.quora.com/What-does-the-Java-Servlet-Container-state]. The lifecycle dictates how the servlet is created, handles requests, and is eventually taken out of service.
 
-Search Query: survey of 3D imaging modalities for small object scanning including multi-view stereo, structured light, and laser triangulation comparing resolution, speed, and cost
-Search Answer: Based on your query, here is a design report section focusing on the selection of a 3D imaging modality for the reconstruction and phenotypic analysis of crop grains. This section synthesizes information on relevant theoretical methods and models for data acquisition.
+1.  **`init()`**: This method is called by the container only once after creating a servlet instance. Its purpose is to initialize the servlet before it can handle any client requests. Once the `init()` method completes, the single servlet instance is ready to process all subsequent requests [https://stackoverflow.com/questions/3894088/what-is-the-lifecycle-of-a-httpservlet].
 
-***
+2.  **`service()`**: This is the primary method that performs the actual task of handling client requests [https://www.youtube.com/watch?v=RJYxr7ThD00, https://www.upgrad.com/blog/servlet-life-cycle-in-java/]. The request-response model works as follows: for every new HTTP request from a client, the servlet container creates new `HttpServletRequest` and `HttpServletResponse` objects [https://stackoverflow.com/questions/3894088/what-is-the-lifecycle-of-a-httpservlet]. It then calls the servlet's `service(HttpServletRequest request, HttpServletResponse response)` method, passing these objects as arguments to be processed [https://www.upgrad.com/blog/servlet-life-cycle-in-java/, https://stackoverflow.com/questions/3894088/what-is-the-lifecycle-of-a-httpservlet]. A single servlet instance can handle multiple requests concurrently, with its `service()` method being called by multiple threads [https://stackoverflow.com/questions/3894088/what-is-the-lifecycle-of-a-httpservlet].
 
-### **Design Report: 3D Reconstruction and Phenotypic Analysis of Crop Grains**
+3.  **`destroy()`**: This method is executed only once at the end of the servlet's lifecycle, signifying its termination [https://medium.com/@niitwork0921/understanding-servlet-life-cycle-in-java-eba0e73ca379]. After the `destroy()` method is invoked, the container will not route any more requests to that specific servlet instance [https://stackoverflow.com/questions/3894088/what-is-the-lifecycle-of-a-httpservlet].
 
-#### **1.0 System Modeling and Design: Data Acquisition Modality Selection**
+Search Query: How Apache Struts 1 architecture addressed the problems of tight coupling and testability in the Java Servlet and JSP model
+Search Answer: I am sorry, but the provided search results do not contain specific information about how the Apache Struts 1 architecture addressed the problems of tight coupling and testability inherent in the Java Servlet and JSP model. The available text only offers a high-level description of the Struts framework.
 
-The foundational component of any 3D reconstruction system for grain phenotyping is the data acquisition sensor. The choice of imaging modality directly impacts the accuracy, resolution, speed, and cost of the entire analysis pipeline. Several 3D imaging modalities are suitable for scanning small objects like crop grains, including structured light, laser triangulation, and multi-view stereo (also known as stereo vision or photogrammetry) [https://www.researchgate.net/publication/391519768_Advancements_and_Challenges_in_3D_Scanning_A_Comprehensive_Review_of_Engineering_Applications, https://www.ml6.eu/en/blog/optical-3d-acquisition-methods-a-comprehensive-guide-part-2].
+Search Query: Apache Struts 1 request processing flow detailing the roles of ActionServlet, Action classes, ActionForms, and struts-config.xml
+Search Answer: In the Apache Struts 1 framework, the request processing flow centers around the `ActionServlet`, which acts as the central controller. This servlet is responsible for initializing the framework by parsing the `struts-config.xml` configuration file [https://www.scribd.com/document/344954456/Struts-1-doc, https://coderanch.com/t/56109/frameworks/understand-ActionServlet, https://www.zzrose.com/tech/pmr_sweSimpleStruts1xExample.html].
 
-A comparative analysis of these methods is presented below to inform the design choice.
+When a request is received, the `ActionServlet` handles runtime events based on the rules defined in the configuration and then delegates the request to a `RequestProcessor` [https://www.scribd.com/document/344954456/Struts-1-doc, https://stackoverflow.com/questions/5808585/basic-flow-of-struts].
 
-#### **1.1 Comparison of 3D Imaging Modalities**
+Key components in a Struts 1 application include `Action` classes, `ActionForms` (also known as Form beans), `web.xml`, `struts-config.xml`, and JSP files [https://www.zzrose.com/tech/pmr_sweSimpleStruts1xExample.html]. `ActionForms` are Java model classes used to store data submitted from forms [https://struts.apache.org/getting-started/processing-forms].
 
-**Multi-View Stereo (Stereo Vision)**
-*   **Methodology**: As a form of photogrammetry, this is a versatile and cost-effective 3D acquisition method [https://www.researchgate.net/publication/391519768_Advancements_and_Challenges_in_3D_Scanning_A_Comprehensive_Review_of_Engineering_Applications, https://www.ml6.eu/en/blog/optical-3d-acquisition-methods-a-comprehensive-guide-part-2]. It is particularly well-suited for applications that require real-time depth information.
-*   **Performance**: Stereo vision typically provides higher accuracy and resolution compared to other methods like Time of Flight (ToF). However, its accuracy may be lower than that of structured light systems [https://www.ml6.eu/en/blog/optical-3d-acquisition-methods-a-comprehensive-guide-part-2].
+Search Query: code examples illustrating how mixing business logic in Servlets and JSPs leads to tight coupling and poor testability
+Search Answer: While the provided information does not contain specific code examples, it defines the concepts that explain how mixing business logic in Servlets and JSPs leads to tight coupling and poor testability.
 
-**Structured Light**
-*   **Methodology**: This technique captures a 2D image of a deformed light pattern projected onto an object. This captured image is then used to generate a detailed 3D point cloud or depth map that represents the object's surface structure [https://www.ml6.eu/en/blog/optical-3d-acquisition-methods-a-comprehensive-guide-part-2].
-*   **Performance**: Structured light systems are known for providing higher accuracy and resolution compared to methods like ToF sensors, making them suitable for capturing fine details on grain surfaces [https://www.ml6.eu/en/blog/optical-3d-acquisition-methods-a-comprehensive-guide-part-2].
+Tight coupling occurs when different parts of an application's code are overly interdependent. More specifically, a piece of code is considered tightly coupled if it depends on the concrete implementation of another piece, rather than on an abstraction.
 
-**Laser Triangulation**
-*   **Methodology**: This technique is considered the optimal solution for high-speed scanning, especially when the target objects are in motion, such as on a conveyor line for high-throughput phenotyping [https://www.automate.org/vision/tech-papers/structured-light-vs-laser-triangulation-for-3d-scanning-and-inspection]. A related method, LiDAR, generates a 3D point cloud using the timing and intensity information from each laser pulse [https://www.ml6.eu/en/blog/optical-3d-acquisition-methods-a-comprehensive-guide-part-2].
-*   **Performance**: Its primary advantage is speed, making it the optimal choice for dynamic scanning environments [https://www.automate.org/vision/tech-papers/structured-light-vs-laser-triangulation-for-3d-scanning-and-inspection].
+When business logic (e.g., database calls, calculations) is embedded directly within a Servlet or a JSP page, the presentation layer becomes directly dependent on the specific implementation of that logic. This creates several significant problems:
 
-#### **1.2 Summary and Recommendation**
+*   **Difficult Maintenance**: Changes in one class can cascade, requiring modifications in other dependent classes. This makes the codebase cumbersome to update. For instance, if business logic written inside a JSP needs to be changed, the JSP file itself must be modified, mixing presentation and logic concerns.
+*   **Poor Reusability**: The business logic cannot be easily reused in other parts of the application because it is entangled with presentation code, such as HTML and the Servlet API.
+*   **Reduced Testability**: Tight coupling makes code difficult to test in isolation. To test business logic that is embedded in a Servlet, a developer might need to simulate an entire HTTP request-response cycle, which makes unit testing complex and inefficient.
 
-The selection of the optimal modality depends on the specific research priorities:
+Search Query: Mapping Apache Struts 1 components (ActionServlet, Action, ActionForm, JSP) to MVC (Model, View, Controller) roles
+Search Answer: Based on the Model-View-Controller (MVC) design pattern, the open-source Apache Struts 1 framework was developed for creating Java web applications. Its components map to the MVC roles as follows:
 
-*   **For High-Throughput Analysis:** **Laser triangulation** is the optimal choice for scanning grains in motion (e.g., on a conveyor belt) due to its superior speed [https://www.automate.org/vision/tech-papers/structured-light-vs-laser-triangulation-for-3d-scanning-and-inspection].
-*   **For High-Fidelity Models:** **Structured light** is recommended when the highest accuracy and resolution are required to capture minute surface details, though this may come at the cost of scanning speed.
-*   **For Cost-Effective & Real-Time Applications:** **Stereo vision** presents a versatile and economical option, providing a good balance of performance, especially when real-time processing is a consideration [https://www.ml6.eu/en/blog/optical-3d-acquisition-methods-a-comprehensive-guide-part-2].
+*   **Controller**: The controller role is shared by two primary components: the `ActionServlet` and `Action` classes. The `ActionServlet` serves as the central front controller. It is configured in the `web.xml` file to manage and route all incoming requests. Using the `struts-config.xml` file, the `ActionServlet` maps a specific request URL to an appropriate `Action` class. The `Action` class then processes the user's action, executes any necessary business logic, and returns a result that determines which view should be displayed next.
 
-Search Query: algorithms to compute grain morphometric phenotypes (volume, surface area, sphericity, dimensions) from 3D point cloud and mesh data
-Search Answer: For the modeling, analysis, and design of a system for 3D reconstruction and phenotypic analysis of crop grains, the following framework can be implemented.
+*   **Model**: The model is primarily represented by the `ActionForm` bean. This component is responsible for capturing, holding, and validating user input submitted from web forms. The data from the form fields is populated into the `ActionForm` and then passed to the `Action` class. The business logic that the `Action` class calls to interact with the application's data and state is also considered part of the model layer.
 
-The process begins with 3D reconstruction, where a technique such as Structure-from-Motion (SfM) is employed to generate a 3D point cloud from images of the grains [https://www.mdpi.com/2077-0472/14/3/391]. Once the point cloud is created, analysis can proceed. To isolate individual grains from a larger sample, a watershed algorithm is used for 3D point cloud segmentation [https://esurf.copernicus.org/articles/10/1211/2022/]. For determining the shape of individual grains, G3Point, a semi-automatic and non-destructive method, can be utilized [https://ui.adsabs.harvard.edu/abs/2025EGUGA..2715463L/abstract].
+*   **View**: JavaServer Pages (JSP) are used to represent the view. After an `Action` class processes a request, its `execute` method returns a result. Struts uses this result to select and forward the request to the appropriate JSP page, which is then rendered and sent back to the user's browser.
 
-From the processed point cloud data, algorithms can then calculate crucial morphometric phenotypes, including length, width, thickness, surface area, and volume [https://www.researchgate.net/publication/354674020_Cereal_Grain_3D_Point_Cloud_Analysis_Method_For_Shape_Extraction_And_FilledUnfilled_Grain_Identification_Based_On_Structured_Light_Imaging, https://pubmed.ncbi.nlm.nih.gov/35210561/].
+Search Query: Complexity and problems of Enterprise JavaBeans (EJB) 2.x architecture leading to rise of lightweight frameworks
+Search Answer: The architecture of Enterprise JavaBeans (EJB) was characterized by its complexity, which also extended to the process of deploying EAR and WAR files [https://www.infoq.com/news/2025/03/day-two-java-one-2025/]. This was part of a broader "legacy complexity" issue within the Java EE platform, on which many large enterprises had built their mission-critical applications. This complexity was a significant issue for these enterprises, making migration a risky endeavor [https://itidoltechnologies.com/blog/java-2025-trends-shaping-enterprise-application-development/].
 
-To validate the design, the accuracy of the 3D reconstruction can be assessed by computing the Hausdorff distance between the original point cloud data and the resulting 3D mesh model [https://www.mdpi.com/2077-0472/14/3/391].
+Search Query: EJB 2.x development pain points: required Home/Remote interfaces, complex ejb-jar.xml deployment descriptors, and difficulty in unit testing
+Search Answer: Developing with Enterprise JavaBeans (EJB) 2.x presented several challenges, often referred to as "pain points." A major issue was the complex XML configuration required. Developers had to create detailed and extensive `ejb-jar.xml` deployment descriptors, which were mandatory for the container to recognize the EJB code [http://letssharejavaexperience.blogspot.com/2012/12/ejb-2x-vs-ejb-30-vs-ejb-31.html, https://medium.com/javarevisited/jakarta-ee-12-the-death-of-enterprise-javabeans-4132a0ab6a9d]. This process was sometimes called the "XML Configuration Nightmare," where a descriptor for a single simple bean could be as long as 200 lines [https://medium.com/javarevisited/jakarta-ee-12-the-death-of-enterprise-javabeans-4132a0ab6a9d].
 
-Search Query: state-space model formulation for active vision systems in robotic 3D object scanning and analysis
-Search Answer: For the 3D reconstruction and phenotypic analysis of crop grains, a design report can be structured around an active vision system using a robotic platform. This approach integrates modern control theory for modeling, analysis, and design.
+Another difficulty was the requirement for developers to create home and remote interfaces for their beans [https://www.infoworld.com/article/2163165/accelerate-ejb-2-0-development-with-ejbgen.html]. Furthermore, unit testing EJB 2.x components and their remote interfaces was known to be significantly difficult [https://stackoverflow.com/questions/5337779/unit-testing-ejb-2-x].
 
-One method involves using an explicitly defined state-space model that incorporates both the state of the robot and the locations of the grains being scanned [https://pmc.ncbi.nlm.nih.gov/articles/PMC7973267/]. The objective of such an active vision system is to enable a robotic platform to track the grains and accurately reconstruct their poses in a virtual 3D space [https://rovislab.com/papers/Gigi_RAAD_2011.pdf].
+Search Query: How the MVC pattern in Apache Struts 1 using Action classes and JSPs improved testability and reduced coupling compared to the Servlet/JSP model
+Search Answer: Apache Struts 1 improved upon the Servlet/JSP model by extending the Java Servlet API to encourage developers to adopt a Model-View-Controller (MVC) architecture. The MVC pattern separates an application into three main components: the model, the view, and the controller. This separation of concerns inherently reduces coupling between business logic, presentation (JSPs), and request handling (Action classes), which in turn makes the individual components easier to test in isolation.
 
-A more modern approach, which can be used as an alternative or in conjunction, is a visual servoing-based active vision framework that does not require prior knowledge of the grain's geometry. This method couples Next-Best-View (NBV) planning with visual servo control. It employs a dual-task visual control law that uses a segmented point cloud and a probabilistic occupancy map as inputs to continuously determine the desired camera velocity. This control law directs the camera to simultaneously achieve two objectives:
-1.  Maintain its position relative to the grain, keeping it centered in the field of view.
-2.  Explore the grain's surface to maximize an NBV objective, ensuring comprehensive data acquisition for real-time 3D reconstruction [https://hal.science/hal-05397812v1/file/2025_ral_misimi.pdf].
+Search Query: Rod Johnson's critique of EJB 2.x in "J2EE Development without EJB" and the introduction of Inversion of Control (IoC) and Dependency Injection (DI) as a solution
+Search Answer: Rod Johnson's book, *Expert One-on-One J2EE Development Without EJB*, served as a foundational critique of the complexities associated with the EJB 2.x model [https://www.everand.com/book/254392114/Beginning-Spring, https://www.quora.com/Is-the-Spring-Framework-less-or-more-difficult-than-the-problems-it-wants-to-solve-Isn%E2%80%99t-it-overcomplicated, https://www.quora.com/Why-do-you-think-people-like-the-Spring-Framework]. The Spring framework emerged from the concepts detailed in this book, introducing Inversion of Control (IoC) and Dependency Injection (DI) as a solution and alternative [https://www.quora.com/Is-the-Spring-Framework-less-or-more-difficult-than-the-problems-it-wants-to-solve-Isn%E2%80%99t-it-overcomplicated, https://www.quora.com/Why-do-you-think-people-like-the-Spring-Framework].
 
-These techniques are situated within a broader context of significant advancements in active vision for robotic applications over the last 15 years, as detailed in several surveys on the topic [https://journals.sagepub.com/doi/10.1177/0278364911410755, https://www.researchgate.net/publication/220122397_Active_Vision_in_Robotic_Systems_A_Survey_of_Recent_Developments].
+Dependency Injection is a central component of Spring's modular architecture and is a common method for implementing the principle of Inversion of Control [https://www.scribd.com/document/6569879/The-Complete-Spring-Tutorial, https://www.quora.com/What-is-Spring-Framework-and-its-architecture].
 
-Search Query: observability and controllability analysis of state-space models for active vision systems in 3D reconstruction
-Search Answer: **Design Report: Modeling, Analysis, and Design for 3D Reconstruction and Phenotypic Analysis of Crop Grains**
+Search Query: How Spring's IoC container (ApplicationContext/BeanFactory) uses Dependency Injection to manage POJO components and solve EJB 2.x tight coupling and testing issues
+Search Answer: The Spring framework's Inversion of Control (IoC) container is a foundational component that manages the entire lifecycle of plain Java objects (POJOs), known as beans, from instantiation to destruction. At its most basic level, the IoC container is represented by the `BeanFactory`, which provides the core support for Dependency Injection (DI).
 
-**1. Modeling with State-Space Representations**
+DI is a principle where an object's dependencies are supplied by an external source—in this case, the IoC container—rather than the object creating them itself. This process is crucial for promoting loose coupling between components and avoiding the tightly coupled architectures that were problematic in earlier frameworks like EJB 2.x. By discouraging tight coupling, Spring significantly simplifies unit testing. The resulting loose coupling makes it easier to substitute complex dependencies with mock objects, thereby making the testing process more straightforward and effective.
 
-For the task of 3D reconstruction, state-space models are a pertinent approach from modern control theory. A specific application can be seen in the use of visual state space models (VMamba) within Depth-Visual-Inertial (DVI) Mapping Systems, which have been effectively used for robust indoor 3D reconstruction. This demonstrates a viable modeling framework for capturing the system's dynamics.
+Search Query: comparison of Spring framework POJO-based model vs EJB 2.x heavyweight component model
+Search Answer: The Spring framework was developed as a direct alternative to the complex and heavyweight Enterprise JavaBeans (EJB) 2.x model, aiming to address what were considered its "broken parts." A fundamental difference between them is that EJB is a specification for building enterprise applications, whereas Spring is an implementation of a framework that provides similar capabilities.
 
-**2. System Analysis and Design Principles**
+### The EJB 2.x Heavyweight Model
+The EJB 2.x model was considered "heavyweight" due to its high level of complexity and the tight coupling it enforced between application components and the EJB framework. To create a component like a message-driven bean, developers were required to implement specific interfaces, such as `javax.jms.MessageListener`, and use particular annotations, like `javax.ejb.MessageDriven`. This made the components difficult to test outside of an EJB container and burdened them with excessive boilerplate code.
 
-In the analysis and design of such control systems, the canonical form of a state-space model is a significant and fundamental concept. This representation is crucial for various aspects of control theory, including network analysis and control.
+### The Spring Lightweight, POJO-Based Model
+In contrast, the Spring framework introduced a "lightweight" model centered on Plain Old Java Objects (POJOs). POJOs are simple Java classes that do not have restrictions, do not need to adhere to a specific framework, and do not follow an enforced convention or pattern. This POJO-based approach allows developers to write business logic in simple classes that are not tightly coupled to the Spring framework itself. The primary advantage is that it enables the development of enterprise applications where business logic is decoupled from the framework's infrastructure, making the code more flexible and significantly easier to test.
 
-**3. Observability and Controllability Considerations**
+Search Query: overview of key Spring Framework modules: Spring Core (IoC), Spring AOP (Aspect-Oriented Programming), Spring MVC, Spring Data Access/JDBC, and Spring Security
+Search Answer: The Spring Framework is designed to be modular, with its architecture organized into layers that handle different functionalities such as core container services, data access, web/microservices, and integration.
 
-A critical component of system analysis involves assessing observability and controllability. However, specific details regarding the observability and controllability analysis of state-space models for active vision systems, which would be essential for designing the 3D reconstruction process, are not detailed in the provided materials.
+The main components and modules of the framework include:
 
-Search Query: derivation of system dynamics and control law for dual-task visual servoing in active 3D reconstruction
-Search Answer: Based on the provided information, here is a design report utilizing modern control theory for 3D reconstruction and phenotypic analysis of crop grains.
+*   **Spring Core**: This is the fundamental module that serves as the foundation for the entire framework. The `spring-core` and `spring-beans` modules provide the basic parts of the framework, including the Inversion of Control (IoC) and Dependency Injection (DI) features.
+*   **Spring Context**: This module is an extension of Spring Core.
+*   **Spring AOP**: This module provides support for Aspect-Oriented Programming (AOP).
 
-### **Design Report: A Modern Control Theory Framework for 3D Grain Reconstruction**
+Search Query: Explain the purpose of Spring Framework modules: Core container for IoC, AOP for cross-cutting concerns, MVC for web applications, Data Access for JDBC and transactions, and Spring Security for authentication
+Search Answer: The Spring Framework is composed of several core modules that facilitate the development of enterprise applications by serving distinct purposes.
 
-This report outlines a design approach for the modeling, analysis, and control of a system for 3D reconstruction and phenotypic analysis of crop grains, incorporating modern control theory, specifically through visual servoing techniques.
+### Core Functionalities of the Spring Framework
 
-#### **1. System Modeling**
+*   **Core Container**: This is the central and fundamental component of the framework. It provides the Inversion of Control (IoC) container, which manages the lifecycle and dependencies of objects, referred to as "beans." The container uses a design pattern known as Dependency Injection, where it automatically provides the required dependencies to a class instead of the class creating them itself.
 
-The initial step involves modeling the system dynamics. A classical and effective method for modeling the 3D scanning setup is to calibrate the camera and a structured light projector to deduce the rigid motion matrix between the two devices. This establishes the geometric relationship essential for accurate 3D reconstruction.
+*   **AOP (Aspect-Oriented Programming)**: The AOP module enables the separation of cross-cutting concerns—such as logging, security, and transactions—from the main business logic. This allows developers to modularize functionalities that span multiple parts of an application, such as implementing a unified logging interface.
 
-#### **2. Control System Design and Analysis**
+*   **Data Access/Integration**: Spring is designed to integrate seamlessly with various data access technologies, including Hibernate, JPA (Java Persistence API), and JMS (Java Message Service). The `spring-data` module is specifically used for Object-Relational Mapping (ORM) functionalities with tools like Hibernate. AOP is also utilized to handle transactional management in this layer.
 
-For the control law design, a dual-task visual servoing framework is proposed to manage both the scanning (reconstruction) and handling (positioning) of the grain samples. This approach leverages different visual servoing strategies, including two-dimensional, three-dimensional, and optimized hybrid methods, to overcome the limitations of classical approaches.
+*   **Spring Security**: Security is handled as a cross-cutting concern within the framework, often implemented and managed through AOP principles.
 
-A specific and robust control framework for this application involves a multi-robot setup:
+Search Query: Detailed explanation of Spring MVC architecture (DispatcherServlet, controllers, views) and how Spring's JDBC/Data Access module simplifies database interactions with templates and transaction management
+Search Answer: The Spring MVC framework is a request-driven web framework built on the Model-View-Controller (MVC) design pattern. This architecture helps separate an application's concerns, making it easier to manage and scale.
 
-*   **Task 1: Object Tracking and Scanning (Eye-in-Hand Configuration):** One robotic manipulator, equipped with an eye-in-hand camera, would be responsible for tracking and scanning the grain. The control system for this robot would utilize an **eye-in-hand visual servoing controller**. To incorporate modern safety and constraint-handling techniques, **Control Barrier Functions (CBFs)** can be integrated into the control law. The CBF ensures that critical constraints are met, such as keeping the grain or its fiducial markers visible within the camera's field of view at all times, preventing loss of tracking during the reconstruction process.
+At the heart of Spring MVC is the `DispatcherServlet`, which acts as a central or "front controller." It intercepts all incoming HTTP requests, manages the entire request lifecycle, and is fully integrated with the Spring Inversion of Control (IoC) container, allowing it to leverage all other features of the Spring framework.
 
-*   **Task 2: Precise Placement (Eye-to-Hand Configuration):** A second robot with an eye-to-hand camera configuration can be used for the precise pick-and-place of individual grains. This is crucial for ensuring stability and correct positioning of the sample before and after scanning.
+The request handling process follows these steps:
 
-#### **3. Addressing System Challenges**
+1.  **Request Reception**: An HTTP request from a client is first received by the `DispatcherServlet`.
+2.  **Handler Mapping**: The `DispatcherServlet` consults a `HandlerMapping` to identify which controller is responsible for handling the request.
+3.  **Controller Invocation**: A `HandlerAdapter` then invokes the designated `Controller`.
+4.  **Request Processing**: The `Controller` handles the incoming request, processes user input, and interacts with the service layer to execute business logic. It then prepares a model, which is an object containing the application data.
+5.  **Model and View Return**: The `Controller` returns a `ModelAndView` object, which contains both the model data and the logical name of the view that will render the response.
+6.  **View Resolution**: The `DispatcherServlet` uses a `ViewResolver` to translate the logical view name into a specific view file. For instance, it might resolve the view name "home" to the file `/WEB-INF/views/home.jsp`.
+7.  **Response Rendering**: The selected `View` component uses the data from the model to render the final response (e.g., as HTML, JSON, or XML) and sends it back to the client.
 
-A critical aspect of the design is ensuring robustness to real-world conditions. The control system must be designed to handle measurement disturbances, such as the potential for **target occlusion**. This is a common issue in 3D visual servoing for mobile robots and is equally relevant in the context of manipulating small, potentially irregularly shaped objects like crop grains.
+Search Query: Java servlet code example with direct request.getParameter(), manual session management, and direct object instantiation
+Search Answer: In the early stages of Java web development with Servlets, developers were responsible for manually handling low-level HTTP operations and state management. This involved direct interaction with the Servlet API for request handling, session management, and object instantiation.
 
-While these documents outline a robust framework combining different visual servoing techniques and modern control methods like CBFs, they do not provide a specific, detailed derivation of the system dynamics or control laws for the dual-task of active 3D reconstruction. However, they offer a strong conceptual basis for developing such a system.
+### Manual HTTP Request and Session Management
 
-Search Query: mathematical analysis of observability and controllability for image-based visual servoing systems
-Search Answer: For a design report on 3D reconstruction and phenotypic analysis of crop grains, modern control theory can be applied through the framework of image-based visual servoing. This is a control technique where data from a vision sensor, such as a camera, serves as the input to a control loop [https://open.clemson.edu/context/all_theses/article/4446/viewcontent/Allen_clemson_0050M_16045.pdf].
+With Java Servlets, developers directly retrieve parameters from an HTTP request using the `getParameter()` method on the `HttpServletRequest` object. This approach tightly couples the application logic to the raw request data [https://www.digitalocean.com/community/tutorials/java-session-management-servlet-httpsession-url-rewriting, https://medium.com/@meowmbaikar/servlet-session-management-and-redirection-0497c5e8b40a].
 
-The modeling, analysis, and design of such a system involve the following principles:
+```java
+String user = request.getParameter("user");
+String pwd = request.getParameter("pwd");
+```
 
-*   **System Modeling and Control Law:** In the classic image-based visual servoing framework, control is achieved by directly computing error signals from image feature parameters [https://journals.sagepub.com/doi/10.1177/0278364908096706]. The controlled output is the vector of these features within the image plane. The error signal, which drives the control law, is also defined within this task space [http://www.diag.uniroma1.it/deluca/rob2_en/17_VisualServoing.pdf].
+Session management, which is crucial for tracking a user's state across multiple requests, is also handled manually. The process involves several steps:
+1.  **Creating or Retrieving a Session**: A session is obtained from the request using `request.getSession()`. This creates a new session if one does not already exist for the user [https://www.digitalocean.com/community/tutorials/java-session-management-servlet-httpsession-url-rewriting, https://medium.com/@meowmbaikar/servlet-session-management-and-redirection-0497c5e8b40a, http://web.cs.ucla.edu/classes/winter15/cs144/projects/java/session/, https://stackoverflow.com/questions/1835764/java-servlet-session-management-how-to-create-session-for-login].
+    ```java
+    HttpSession session = request.getSession();
+    ```
+2.  **Storing Data in the Session**: User-specific data is stored as attributes in the session object.
+    ```java
+    session.setAttribute("user", "Pankaj");
+    ```
+3.  **Managing Session Lifetime**: Developers can control the session's lifecycle, for instance, by setting its expiration time.
+    ```java
+    session.setMaxInactiveInterval(30*60); // expires in 30 minutes
+    ```
+4.  **Invalidating the Session**: The session can be explicitly destroyed using `session.invalidate()` [https://www.digitalocean.com/community/tutorials/java-session-management-servlet-httpsession-url-rewriting, https://stackoverflow.com/questions/1835764/java-servlet-session-management-how-to-create-session-for-login].
 
-*   **Controllability and Observability Analysis:** The analysis of the system can be approached through the fundamental concepts of controllability and observability.
-    *   **Controllability** pertains to the ability to drive the system to a desired state. In this context, the controlled output is the vector of features in the image plane, and the error defined in this space drives the control law [http://www.diag.uniroma1.it/deluca/rob2_en/17_VisualServoing.pdf].
-    *   **Observability** relates to the ability to determine the internal state of the system from its external outputs. For visual servoing, one approach interprets feature depth (Z) as an unmeasurable state. This depth must be "observed" and made available to the control system to execute the servoing task [https://www.researchgate.net/publication/220121980_Feature_Depth_Observation_for_Image-based_Visual_Servoing_Theory_and_Experiments].
+### Direct Object Instantiation
 
-*   **Design Framework:** The mathematical analysis and design for these systems often employ rigorous methods from nonlinear control theory, which provides the tools to handle the complex dynamics inherent in visual servoing tasks [https://commons.erau.edu/cgi/viewcontent.cgi?article=1017&context=edt].
+In a servlet-based application, objects are instantiated directly within the code as needed. For example, creating a new `Cookie` or getting a `PrintWriter` to write to the response is done explicitly inside the servlet's methods [https://www.digitalocean.com/community/tutorials/java-session-management-servlet-httpsession-url-rewriting, https://medium.com/@meowmbaikar/servlet-session-management-and-redirection-0497c5e8b40a].
 
-Search Query: nonlinear observability and controllability analysis for visual servoing systems using Lie derivatives and the image Jacobian matrix
-Search Answer: For nonlinear systems, such as those encountered in visual servoing for 3D reconstruction, a differential geometry approach utilizing Lie derivatives is employed for observability and controllability analysis [https://www.mdpi.com/2227-7390/8/11/1876]. This methodology involves constructing an observability matrix for the nonlinear system based on these Lie derivatives [https://www.researchgate.net/publication/338805605_Nonlinear_Observability_Analysis, https://math.stackexchange.com/questions/4459003/observability-of-non-linear-system-using-lie-derivative].
+```java
+Cookie userName = new Cookie("user", user);
+response.addCookie(userName);
+```
 
-The observability matrix is defined as the Jacobian of the observability map, and its rows are composed of the gradients of the Lie derivatives [https://www.roebenack.de/observability]. Performing this analysis is a critical preliminary step in the design process, informing the development of components like an Extended Kalman Filter (EKF) and aiding in the determination of optimal sensor layout [https://math.stackexchange.com/questions/4459003/observability-of-non-linear-system-using-lie-derivative]. To facilitate this complex computation, efficient methods, such as those using automatic differentiation, have been developed to compute both the Lie derivatives and the observability matrix [https://www.researchgate.net/publication/318039789_An_efficient_method_to_compute_Lie_derivatives_and_the_observability_matrix_for_nonlinear_systems].
+### Code Example of a Login Servlet
 
-Search Query: design of visual servoing controller integrating Next-Best-View planning with Control Barrier Functions for field-of-view safety constraints
-Search Answer: Visual Servoing (VS) is a control method that utilizes vision as a perception tool to compute robot control inputs from visual feedback in real-time [https://ieeexplore.ieee.org/iel8/3516/4785241/11173962.pdf]. A significant challenge in this area is managing view constraints, such as the camera's limited field-of-view (FOV), particularly when tracking dynamic targets [https://www.mdpi.com/2218-6581/14/12/190, https://discovery.ucl.ac.uk/10209946/1/ICARM25_0172_FI.pdf].
+The following code demonstrates these manual processes within a single `doPost` method:
 
-To address this, modern control theory offers powerful tools. Control Barrier Functions (CBFs) have emerged as an effective method for enforcing safety constraints and certifying the safety of feedback controllers [https://mit-realm.github.io/nerf-cbf/, https://ras.papercept.net/conferences/conferences/IROS25/program/IROS25_ContentListWeb_1.html]. For the specific task of managing FOV limitations in image-based visual servoing, a novel control method that incorporates dual constraints can be implemented to ensure the target remains within the camera's view [https://www.mdpi.com/2218-6581/14/12/190].
+```java
+protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    // 1. Direct parameter retrieval
+    String user = request.getParameter("user");
+    String pwd = request.getParameter("pwd");
 
-Search Query: application of Kalman Filters or Particle Filters for real-time estimation of object geometric features in active vision 3D reconstruction
-Search Answer: For the tasks of modeling, analysis, and design in 3D reconstruction and phenotypic analysis of crop grains, methods from modern control theory can be applied to object tracking, which is essential for assembling a complete 3D model from multiple images.
+    if("admin".equals(user) && "password".equals(pwd)){
+        // 2. Manual session management
+        HttpSession session = request.getSession();
+        session.setAttribute("user", "Pankaj");
+        session.setMaxInactiveInterval(30*60);
 
-**State Estimation for 3D Object Tracking**
+        // 3. Direct object instantiation
+        Cookie userName = new Cookie("user", user);
+        response.addCookie(userName);
 
-Key techniques for vision-based tracking include Kalman filters and particle filters. These methods are adept at estimating the state of a dynamic system based on a series of measurements that may be noisy and incomplete.
+        response.sendRedirect("LoginSuccess.jsp");
+    }else{
+        RequestDispatcher rd = getServletContext().getRequestDispatcher("/login.html");
+        PrintWriter out= response.getWriter();
+        out.println("Either user name or password is wrong.");
+        rd.include(request, response);
+    }
+}
+```
 
-*   **Kalman Filters:** The Kalman filter is a powerful tool for 3D object tracking [1]. In vision tracking applications, it is particularly useful for managing challenges such as minor or small occlusions [2]. For real-time phenotypic analysis, a tracking system can be implemented by combining the Kalman filter with feature matching techniques. One such system pairs it with Multi-scale Block Local Binary Patterns (MB-LBP) to create a real-time visual object tracking system [3].
+Search Query: How Struts 1 ActionForm beans automatically populate from HttpServletRequest parameters to avoid manual request.getParameter() calls
+Search Answer: In the Apache Struts 1 framework, `ActionForm` beans are used to automatically capture and represent data from an incoming `HttpServletRequest`. This mechanism's primary benefit is eliminating the need for developers to manually call `request.getParameter()` for each form field [0].
 
-*   **Particle Filters:** As an alternative, particle filtering offers another robust approach. This method can be combined with other techniques, such as geometric active contours, for effective object tracking, providing flexibility for different dynamic models or noise characteristics [4].
+To enable this automatic data binding, a developer creates a Java class that extends `ActionForm` [3]. Within this class, variables are declared that correspond to the input field names in the HTML or JSP form, and each variable must have a public getter and setter method [3, 4]. When a user submits the form, the Struts framework intercepts the request and matches the request parameter names to the properties in the configured `ActionForm` bean. The framework then uses the bean's setter methods to automatically populate its properties with the submitted values [1, 3]. This fully populated `ActionForm` bean is then passed as an argument to the associated `Action` class's method, making the request data readily available before the main action logic is executed [0].
 
----
-**References**
+Search Query: How the Struts 1 Action class execute method signature decouples controller logic from the Servlet API (HttpServletRequest) for improved unit testing
+Search Answer: Based on the provided information, the premise that the Struts 1 `Action` class decouples controller logic from the Servlet API is incorrect. The `Action` class and its methods create a tight coupling to the Servlet API, which has implications for unit testing.
 
-[1] https://medium.com/@boukamchahamdi/how-to-create-a-kalman-filter-for-3d-object-tracking-c-6977fe5e1e91
+In Struts 1.0, the `Action` class had a `perform()` method, which was later renamed to `execute()`. The signature for this method and its variants, such as those in `DispatchAction`, directly includes `HttpServletRequest` and `HttpServletResponse` as parameters. A common signature is `(mapping, form, request, response)`, where `request` and `response` are the core Servlet API objects.
 
-[2] https://www.researchgate.net/publication/246598201_Kalman_Filter_for_vision_tracking
+This direct dependency means the controller logic is tightly coupled to the Servlet API and the web container. Consequently, this design does not simplify unit testing. Instead, it makes testing more complex because developers need to mock the `HttpServletRequest` and `HttpServletResponse` objects to test the business logic within the action class, contradicting any premise that the signature improves testability.
 
-[3] https://www.researchgate.net/publication/269723326_A_real-time_visual_object_tracking_system_based_on_Kalman_filter_and_MB-LBP_feature_matching
+Search Query: Explain how Spring AOP uses dynamic proxies to implement cross-cutting concerns with code examples for logging and declarative transaction management
+Search Answer: Spring Aspect-Oriented Programming (AOP) modularizes and manages cross-cutting concerns such as logging, security, and transaction management [https://medium.com/@sharmapraveen91/mastering-spring-aop-the-ultimate-guide-for-2025-55a146c8204c, https://www.codeproject.com/articles/Dynamic-Proxy-in-Spring-A-Comprehensive-Guide-with, https://medium.com/@umeshcapg/avamastering-aop-in-spring-boot-sta-0b9aef096c45]. By separating these concerns from the core business logic, AOP enhances modularity and reduces code duplication [https://medium.com/@umeshcapg/avamastering-aop-in-spring-boot-sta-0b9aef096c45, https://www.codingshuttle.com/spring-proxy-and-internal-working-of-aop].
 
-[4] https://pmc.ncbi.nlm.nih.gov/articles/PMC3663080/
+This is achieved through a proxy-based implementation. When an aspect is applied, Spring creates an "AOP Proxy" object that wraps the target object to implement the aspect's behavior [https://medium.com/@sharmapraveen91/mastering-spring-aop-the-ultimate-guide-for-2025-55a146c8204c]. Spring AOP employs two types of dynamic proxies to accomplish this:
 
-Search Query: MATLAB/Simulink tutorial for simulating a visual servoing system for high-throughput 3D object inspection or sorting
-Search Answer: For your research in 3D reconstruction and phenotypic analysis of crop grains, a design report can be developed by integrating modeling, analysis, and control theory using MATLAB and Simulink as the primary environment. This framework centers on a visual servoing system for automated 3D object inspection, analysis, and sorting.
+1.  **JDK dynamic proxies**: This is the default and preferred method. Spring uses JDK dynamic proxies when the target class implements at least one interface [https://medium.com/@sharmapraveen91/mastering-spring-aop-the-ultimate-guide-for-2025-55a146c8204c, https://www.dineshonjava.com/understanding-aop-proxies-chapter-31/].
+2.  **CGLIB proxies**: If the target class does not implement any interfaces, Spring AOP will use CGLIB to create the proxy instead [https://medium.com/@sharmapraveen91/mastering-spring-aop-the-ultimate-guide-for-2025-55a146c8204c, https://www.dineshonjava.com/understanding-aop-proxies-chapter-31/].
 
-### **1. System-Level Modeling and Simulation**
+Search Query: How Spring MVC's use of POJO controllers with flexible method signatures (@RequestParam, @RequestBody) decouples business logic from the Servlet API, and why this improves unit testability compared to Struts 1's Action class.
+Search Answer: In Spring MVC, handler methods that are annotated with `@RequestMapping` are designed to have highly flexible signatures. This allows them to use Plain Old Java Objects (POJOs) as command or form objects for binding request parameters.
 
-The foundational step is to create a complete simulation of the physical system. A conveyor and robotic sorting system model serves as an excellent testbed for developing and validating algorithms before hardware implementation. A complete model and simulation designed in MATLAB/Simulink for such a system is available and can be adapted for crop grain analysis. This provides a virtual environment to test the entire workflow, from imaging to sorting.
+However, the provided information is insufficient to answer the broader question about the evolution from Java Servlets to Spring Boot, how the use of POJOs decouples business logic from the Servlet API, or how this design improves testability.
 
-### **2. Visual System for Inspection and Phenotypic Analysis**
+Search Query: Spring MVC controller code examples using @RequestParam @PathVariable @RequestBody to avoid direct dependency on HttpServletRequest
+Search Answer: In Spring MVC, developers can use annotations to bind parts of an HTTP request directly to method parameters in a controller. This approach avoids a direct dependency on the `HttpServletRequest` object, allowing the framework to handle data extraction and validation, which significantly simplifies controller logic. The primary annotations for this purpose are `@RequestParam`, `@PathVariable`, and `@RequestBody`.
 
-The core of phenotypic analysis is the visual inspection component, which can be developed using advanced computer vision and deep learning techniques.
+### @RequestParam
+This annotation is used to extract query parameters from the request URL. Query parameters are the key-value pairs that appear after a question mark (`?`) in a URL, such as `id` and `name` in `http://example.com/api/products?id=123&name=Laptop`.
 
-*   **Automated Visual Inspection:** MATLAB's Computer Vision Toolbox™ offers an Automated Visual Inspection Library. This can be used to develop deep learning-based systems to detect and localize anomalies or specific phenotypic traits on crop grains.
-*   **Deep Learning Workflow:** For implementing this, specific apps within MATLAB are highly useful. The **'Registration Estimator'** app can be used to register and align misaligned images of grains, ensuring consistent analysis. Following this, the **'Deep Network Designer'** app allows for building, visualizing, and training custom deep learning networks. For instance, an object detection model like YOLOX can be trained to find small anomalies or features characteristic of specific phenotypes.
+By default, parameters annotated with `@RequestParam` are required. However, you can make them optional by setting the `required` attribute to `false`.
 
-### **3. Control System Design using Visual Feedback**
+**Example:**
+```java
+@GetMapping("/products")
+public ResponseEntity getProductById(
+    @RequestParam Long id,
+    @RequestParam(required = false) String name) {
+    // Method logic to retrieve product details
+}
+```
 
-Modern control theory can be applied through a vision-based control (visual servoing) approach, where the robotic manipulator's actions are guided by real-time visual data.
+### @PathVariable
+This annotation extracts values from the URI path itself, which is useful for creating clean, RESTful URLs where parameters are part of the path (e.g., `/products/{id}`). `@PathVariable` automates the process of parsing the request URI to find and bind these values to method parameters. For instance, if a URL pattern is defined as `/users/{userId}`, this annotation can bind the value passed in that segment of the URL.
 
-*   **Vision-Based Control Implementation:** The Machine Vision Toolbox (MVTB) is a critical resource, providing a wide array of functions specifically designed for developing vision-based control systems. This toolbox facilitates the integration of image data into the control loop of the robotic system.
-*   **Feedback Control Systems:** The overall control architecture can be designed and simulated as either an open- or closed-loop feedback control system. MathWorks provides numerous tutorials that cover the fundamental principles and practical steps for designing and simulating these control algorithms for robotics applications.
+### @RequestBody
+This annotation indicates that a method parameter should be bound to the body of the web request. It is commonly used with `POST`, `PUT`, and `PATCH` requests where the client sends data, often in JSON or XML format. Spring automatically deserializes the request body into a Java object, which removes the need for the developer to manually read from the request's input stream.
 
-### **4. 3D Manipulation and Visualization**
+Search Query: Compare unit testing a Struts 1 Action class versus a Spring MVC POJO Controller focusing on the dependency on HttpServletRequest and the need for mocking
+Search Answer: Unit testing is widely considered easier in Spring MVC than in Struts, a difference that stems from their core design philosophies regarding coupling, dependencies, and inheritance.
 
-To address the 3D reconstruction and manipulation aspects of your research, the physical interaction between the robotic system and the crop grains must be modeled and visualized. A Simulink example demonstrates how to configure a model for a 3D shape tracing manipulator. This can be adapted to model the task of picking, reorienting, or tracing the surface of a grain for full 3D reconstruction. The performance of this manipulator can be visualized in a virtual 3D environment using Simulink 3D Animation, providing crucial insights into the system's dynamic performance and accuracy.
+Spring MVC is a loosely coupled framework where controllers are typically Plain Old Java Objects (POJOs). This design means the controllers do not have a direct dependency on the Servlet API. As a result, they can be instantiated and tested as standalone objects in isolation, without needing to mock the servlet environment or rely on a servlet container.
 
-**References and Resources:**
+In contrast, Struts is a tightly coupled framework. Its `Action` classes have an explicit dependency on the dispatcher servlet and other web-tier components, such as `HttpServletRequest` and `HttpServletResponse`. This tight coupling to the Servlet API necessitates the use of mock objects to conduct unit testing.
 
-*   **Complete System Simulation:** [https://wiredwhite.com/matlab-simulink-conveyor-robotic-sorting-simulation/](https://wiredwhite.com/matlab-simulink-conveyor-robotic-sorting-simulation/)
-*   **Automated Visual Inspection:** [https://www.mathworks.com/discovery/visual-inspection.html](https://www.mathworks.com/discovery/visual-inspection.html)
-*   **Machine Vision Toolbox (MVTB):** [https://sir.upc.edu/projects/ris_tutorials/advanced/tutorialT4/tutorialT4.html](https://sir.upc.edu/projects/ris_tutorials/advanced/tutorialT4/tutorialT4.html)
-*   **3D Manipulator Simulation:** [https://www.mathworks.com/help/simulink/slref/shape-tracing-manipulator-with-simulink-3d-animation.html](https://www.mathworks.com/help/simulink/slref/shape-tracing-manipulator-with-simulink-3d-animation.html)
-*   **General Robotics and Control Tutorials:** [https://www.mathworks.com/academia/students/tutorials-videos.html](https://www.mathworks.com/academia/students/tutorials-videos.html)
+Furthermore, the inheritance models of the two frameworks impact testability. Struts forces its `Action` and `Form` objects into a concrete inheritance structure. This design restricts flexibility and complicates testing. Spring MVC, on the other hand, is based on interfaces, a design that avoids forced concrete inheritance and facilitates a more straightforward testing process.
 
-Search Query: derivation of state-space model for visual servoing incorporating image Jacobian for nonlinear observability analysis using Lie derivatives
-Search Answer: Based on the provided information, while the search results mention relevant concepts such as Image-Based Visual Servoing (IBVS) and the image Jacobian, they do not contain the specific theoretical details necessary to construct the requested design report.
+Search Query: Direct comparison of method signatures: Struts 1 Action.execute(HttpServletRequest, HttpServletResponse) vs. Spring MVC @RequestMapping method with @RequestParam, explaining impact on unit testing and mocking
+Search Answer: I am sorry, but the provided search results do not contain the specific information needed to fulfill your request. The available information does not allow for a direct comparison of the method signatures of Struts 1 `Action.execute` and Spring MVC `@RequestMapping`, nor does it explain the impact of these differences on unit testing and mocking. While some sources discuss the possibility of using both frameworks together and offer a high-level preference for Spring MVC, they do not detail the specific technical differences required to trace the evolution from one to the other.
 
-The sources discuss applications of visual servoing in contexts like controlling a 3-DOF robot and a visual servoing approach for space manipulators capturing satellite docking rings [https://www.researchgate.net/publication/251919514_Image_Base_Visual_Servoing_Estimation_of_the_image_Jacobian_by_using_lines_in_a_stereo_vision_system, https://www.sciencedirect.com/science/article/pii/S1000936124001961]. However, they lack the in-depth mathematical and theoretical framework required for your research.
+Search Query: Detailed explanation of Spring bean lifecycle, scopes (singleton, prototype, request, session), and configuration examples using XML and annotations
+Search Answer: In the Spring framework, bean scopes are a fundamental concept that defines the lifecycle of a bean, including when an object is instantiated, its lifespan, and the number of instances created [https://www.geeksforgeeks.org/java/singleton-and-prototype-bean-scopes-in-java-spring/, https://codesignal.com/learn/courses/introduction-to-spring-boot-and-spring-core-with-kotlin/lessons/bean-scopes-and-lifecycle]. The lifecycle of a bean commences when the Spring container creates an instance at application startup, based on configurations such as `@Component` or `@Bean`. After its creation, Spring injects all the necessary dependencies into the bean [https://codesignal.com/learn/courses/introduction-to-spring-boot-and-spring-core-with-kotlin/lessons/bean-scopes-and-lifecycle].
 
-Specifically, the provided materials do not offer information on the following key components requested for the design report:
-*   The derivation of a state-space model for a visual servoing system.
-*   Nonlinear observability analysis using Lie derivatives.
+Spring offers several bean scopes to manage the object instances:
+*   **Singleton**: This is the default scope in Spring. It ensures that only one instance of the bean is created for the entire application context [https://codesignal.com/learn/courses/introduction-to-spring-boot-and-spring-core-with-kotlin/lessons/bean-scopes-and-lifecycle, https://devcookies.medium.com/the-scope-of-beans-in-spring-boot-a-comprehensive-guide-ca4de7c531f3].
+*   **Prototype**: A new instance of the bean is created every time it is requested from the Spring container [https://codesignal.com/learn/courses/introduction-to-spring-boot-and-spring-core-with-kotlin/lessons/bean-scopes-and-lifecycle, https://devcookies.medium.com/the-scope-of-beans-in-spring-boot-a-comprehensive-guide-ca4de7c531f3].
+*   **Session**: Specific to web applications, this scope creates a new bean instance for each user's HTTP session [https://devcookies.medium.com/the-scope-of-beans-in-spring-boot-a-comprehensive-guide-ca4de7c531f3].
+*   **Application**: This scope creates a single bean instance for the entire lifecycle of a web application [https://devcookies.medium.com/the-scope-of-beans-in-spring-boot-a-comprehensive-guide-ca4de7c531f3].
+*   **Request**: In a web application, this scope creates a new bean instance for each individual HTTP request [https://devcookies.medium.com/the-scope-of-beans-in-spring-boot-a-comprehensive-guide-ca4de7c531f3].
 
-Search Query: state-space model formulation for image-based visual servoing using the image Jacobian interaction matrix
-Search Answer: For the tasks of modeling, analysis, and design related to the 3D reconstruction and phenotypic analysis of crop grains, a control system based on image-based visual servoing (IBVS) is highly applicable. The core of a traditional IBVS control scheme is the image Jacobian, also known as the interaction or feature Jacobian matrix, which relates changes in image features to the robot's motion [https://www.sciencedirect.com/science/article/abs/pii/S0736584510000645]. A primary challenge in visual servoing is the estimation of this feature Jacobian matrix and its pseudoinverse, particularly in uncalibrated environments [https://www.sciencedirect.com/science/article/abs/pii/S0736584510000645].
+Developers can configure a bean's scope using the `@Scope` annotation. If no scope is specified, the bean will default to singleton. For other scopes, the annotation is used with the desired scope name. For instance, to define an application-scoped bean, you would use `@Component @Scope("application")` [https://devcookies.medium.com/the-scope-of-beans-in-spring-boot-a-comprehensive-guide-ca4de7c531f3].
 
-Modern control theory offers several methods to address this challenge. These include the development of on-line estimation algorithms that compute the Jacobian based on the robot's previous movements [https://www.researchgate.net/publication/221472673_Image_Based_Visual_Servoing_A_New_Method_for_the_Estimation_of_the_Image_Jacobian_in_Dynamic_Environments], the use of advanced filtering schemes such as Kalman-neural-networks [https://www.sciencedirect.com/science/article/abs/pii/S0736584510000645], and the application of reinforcement learning frameworks to adaptively adjust the image Jacobian matrix in real-time [https://www.sciencedirect.com/science/article/abs/pii/S0952197625017804].
+Here is an example of defining an application-scoped bean and using it in a controller:
 
-An alternative and more recent approach is to formulate a state-space model through state representation learning. This method constructs a compact state representation of the robot's configuration directly from images and learns the system's transition dynamics from collected execution traces. The learned model is then used to compute control velocities to move the robot to a desired goal state, which is also identified by its image. A significant advantage of this technique is its ability to function effectively even with an uncalibrated camera [https://www.merl.com/publications/docs/TR2025-094.pdf].
+```java
+@Component
+@Scope("application")
+public class ApplicationScopedBean {
+    private String appData = "Application-Wide Data";
+    public String getAppData() {
+        return appData;
+    }
+}
+```
 
-Search Query: survey of State Representation Learning methods for vision-based robotic control and dynamics modeling
-Search Answer: State Representation Learning (SRL) is a method used for vision-based robotic control, and surveys on the topic often categorize these methods within a model-free online setting where agents learn state information [https://www.researchgate.net/publication/392941690_A_Survey_of_State_Representation_Learning_for_Deep_Reinforcement_Learning, https://arxiv.org/abs/2506.17518, https://arxiv.org/html/2506.17518v1].
+```java
+@RestController
+public class ApplicationScopeController {
+    @Autowired
+    private ApplicationScopedBean applicationScopedBean;
 
-One specific approach for visual servo-control uses images from an uncalibrated camera to build compact state representations of a robot's configuration. In this method, the system learns transition dynamics from collected execution traces to compute the control velocities needed to reach a desired goal state, which is also identified by an image [https://www.merl.com/publications/docs/TR2025-094.pdf].
+    @GetMapping("/application-scope")
+    public String getApplicationScope() {
+        return "Application Scoped Data: " + applicationScopedBean.getAppData();
+    }
+}
+```
+[https://devcookies.medium.com/the-scope-of-beans-in-spring-boot-a-comprehensive-guide-ca4de7c531f3]
 
-A common model design for this type of task features two primary components: state representation and state prediction. For the state representation component, some models utilize a spatially aware approach [https://www.mdpi.com/2075-1702/13/3/231].
+Search Query: official Struts 1.3 Javadoc for org.apache.struts.action.Action class execute method signature
+Search Answer: Based on the provided information, the `org.apache.struts.action.Action` class is a central component in the Struts framework, functioning as an adapter between an incoming HTTP request and the business logic designed to process that request.
 
-Search Query: classical system identification techniques for estimating image Jacobian in visual servoing from input-output data
-Search Answer: In the context of designing a system for 3D reconstruction and phenotypic analysis of crop grains, the control system for automated image acquisition is a critical component. A key technique for this is visual servoing, where the estimation of the image Jacobian from input-output data is essential.
+The primary entry point for this logic within an `Action` class is the `execute` method. If the `Action` interface is not explicitly implemented, the framework can use reflection to find an `execute` method to invoke. Any exceptions thrown by this method can be managed by an `ExceptionHandler` defined in the Struts configuration file.
 
-Several classical system identification techniques are used for this purpose. A popular approach is to use previously collected sample data of robot positions and sensor signal values to approximate a solution ["https://www.wseas.us/e-library/conferences/2008/uk/ISPRA/ispra-06.pdf"]. Specific estimation methods evaluated for their effectiveness in visual servoing include Recursive Least Squares (RLS), FUNDMAT (which utilizes the fundamental matrix), and ANLTC, which are often compared against the Analytic Jacobian method ["https://www.academia.edu/28777782/Image_based_visual_servoing_Estimated_image_Jacobian_by_using_fundamental_matrix_VS_analytic_Jacobian", "https://www.researchgate.net/publication/50991888_Image_Based_Visual_Servoing_Estimated_Image_Jacobian_by_Using_Fundamental_Matrix_VS_Analytic_Jacobian"].
+While the role and exception handling of the `execute` method are described, its specific method signature is not available in the provided text.
 
-These techniques are frequently applied in Image-Based Visual Servoing (IBVS) systems. Further research addresses more advanced scenarios, such as the robust estimation of the visual-motor Jacobian for uncalibrated IBVS systems ["https://www.researchgate.net/publication/224156371_Robust_Jacobian_Estimation_for_Uncalibrated_Visual_Servoing"]. For systems employing stereo vision, another scheme involves estimating the image Jacobian by using lines as features ["https://www.researchgate.net/publication/251919514_Image_Base_Visual_Servoing_Estimation_of_the_image_Jacobian_by_using_lines_in_a_stereo_vision_system"].
+Search Query: Spring JdbcTemplate benefits over standard JDBC for reducing boilerplate code
+Search Answer: Spring's `JdbcTemplate` provides a higher level of abstraction over standard JDBC, which helps to reduce boilerplate code [https://www.linkedin.com/posts/dasa-shekar-8b228722b_java-day-activity-7374393784593395712-b7zR, https://medium.com/@viranthrocky/why-jdbctemplate-still-deserves-a-place-in-modern-applications-over-jpa-f0b8f899ddf6]. A key way it achieves this is by automatically handling resource management, such as opening and closing connections [https://www.linkedin.com/posts/dasa-shekar-8b228722b_java-day-activity-7374393784593395712-b7zR]. This simplifies development and makes it easier for developers to work with JDBC [https://stackoverflow.com/questions/38693768/what-is-the-benefit-of-using-jdbc-template, https://medium.com/@viranthrocky/why-jdbctemplate-still-deserves-a-place-in-modern-applications-over-jpa-f0b8f899ddf6].
 
-Search Query: PhD thesis or dissertation review on active vision for 3D reconstruction integrating state-space modeling, visual servoing control, and simulation-based validation
-Search Answer: ### **Design Report: An Active Vision Framework for 3D Reconstruction and Phenotypic Analysis of Crop Grains**
+Search Query: Struts 1 Action class execute method signature example showing ActionMapping ActionForm HttpServletRequest HttpServletResponse parameters
+Search Answer: In a Struts 1 `Action` class, the signature for the `execute` method is: `public ActionForward execute(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response)` [https://stackoverflow.com/questions/24501341/struts-1-entry-actionform-inputs-from-any-action-class, https://javadoc.io/doc/org.apache.struts/struts-core/1.3.8/org/apache/struts/action/class-use/ActionMapping.html, https://www.oschina.net/uploads/doc/struts-1.3.9/org/apache/struts/action/class-use/ActionForm.html].
 
-This report outlines a system design for the 3D reconstruction and phenotypic analysis of crop grains, incorporating principles from modern control theory. The proposed approach is based on a visual servoing-based active vision framework, which allows for real-time, high-fidelity modeling without prior knowledge of the object's geometry.
+This method accepts the following parameters:
+*   `ActionMapping`
+*   `ActionForm`
+*   `javax.servlet.http.HttpServletRequest`
+*   `javax.servlet.http.HttpServletResponse`
 
-#### **1. Core Methodology: Visual Servoing-Based Active Vision**
+The method processes the request and returns an `ActionForward` object to determine the next view [https://www.scribd.com/document/105974072/Struts-1, https://www.d.umn.edu/~tcolburn/cs4531/struts/api/org/apache/struts/action/class-use/ActionMapping.html].
 
-The foundation of this design is a visual servoing-based active vision framework. This approach is particularly suited for agricultural applications due to its ability to operate in real-time and adapt to the geometric variability inherent in biological samples like crop grains. It functions as a closed-loop system, enabling continuous 3D reconstruction and intelligent view planning.
+Search Query: Contrast testability of Struts 1 Action.execute(ActionMapping, ActionForm, HttpServletRequest, HttpServletResponse) versus a Spring MVC controller method using @RequestParam. Explain how POJO arguments remove the need to mock HttpServletRequest for unit testing.
+Search Answer: Based on the provided information, a complete answer tracing the evolution from Java Servlets to Spring Boot cannot be constructed. The available answers are insufficient and do not contain the necessary details about Spring MVC, Spring Boot, or the progression of these technologies.
 
-#### **2. System Modeling and Design**
+The only specific detail provided is regarding the Struts 1 framework, which is a step in this evolution. In a Struts 1 `Action` class, the `Action.execute` method has a direct dependency on the Servlet API, as it takes `HttpServletRequest` and `HttpServletResponse` as arguments.
 
-**2.1 System Configuration:**
-The system will be implemented in an "eye-in-hand" configuration, where a 3D camera is mounted on a robotic manipulator. This setup provides the necessary mobility to actively view the crop grain from multiple perspectives to build a complete model.
+However, there is no information regarding Spring MVC, `@RequestParam`, POJO arguments, the testability of these frameworks, or how each iteration solved the problems of the previous one. Therefore, a comprehensive explanation as requested by the user cannot be provided.
 
-**2.2 Control System Architecture:**
-A dual-task, closed-loop visual control law will govern the system's behavior. This control law utilizes real-time visual feedback to guide the robotic manipulator.
+Search Query: How Spring's declarative transaction management with @Transactional annotation simplifies data consistency compared to manual transaction handling in JDBC
+Search Answer: Spring's declarative transaction management simplifies data consistency by abstracting away the manual, boilerplate code required in traditional JDBC transaction handling. By using the `@Transactional` annotation, it replaces manual transaction management with a declarative API. Instead of manually writing code to start, commit, or roll back JDBC transactions, a developer can simply annotate a class or method with `@Transactional` to define its transactional boundaries.
 
-*   **Inputs:** The control law will use data from a segmented point cloud of the target grain and a probabilistic occupancy map, which is continuously updated to represent the reconstructed model.
-*   **Dual-Task Control Law:** The controller is designed to perform two tasks simultaneously:
-    1.  **Object Tracking:** The primary task is to maintain the camera's focus on the crop grain, ensuring it remains centered in the field of view.
-    2.  **Exploration & Reconstruction:** The secondary task is to actively explore the grain's surface by maximizing a Next-Best-View (NBV) objective. The system will continuously calculate and move the camera to the optimal next viewpoint to reveal unmapped areas, thereby ensuring a comprehensive 3D reconstruction.
+Behind the scenes, Spring employs an aspect and creates a dynamic CGLib proxy for the class. This proxy intercepts calls to the annotated methods and automatically handles the transaction's lifecycle. It opens a database transaction before the method executes, commits it upon successful completion, and rolls it back in the case of an exception.
 
-This dual-task approach allows the system to build the 3D model efficiently while keeping the object of interest in view, a critical function for robust operation.
-
-#### **3. Theoretical Foundation and Relevant Research**
-
-The proposed design is supported by foundational research in active vision and robotic control. Key works that inform this framework include:
-
-*   A 2025 PhD thesis from Aarhus University by L. Li titled, **"Active 3D Vision for Robotic Manufacturing Enhancement."**
-*   A Master's thesis from Carnegie Mellon University titled, **“Controlled Active Vision,”** supervised by Professor Pradeep K. Khosla.
-
-These theses and related research papers describe the successful implementation of visual servoing frameworks for 3D reconstruction, providing a strong theoretical and practical basis for the application in agricultural phenotyping.
-
-Search Query: derivation of kinematic model for image-based visual servoing relating camera velocity to image feature dynamics via the image Jacobian
-Search Answer: The kinematic model for image-based visual servoing is fundamental for designing kinematic controllers. This model establishes a relationship between the camera's velocity and the dynamics of features within an image through a concept known as the image Jacobian or interaction matrix [3, 4, https://robotacademy.net.au/lesson/the-image-jacobian/, https://www.youtube.com/watch?v=XDE6oxEJn3c].
-
-The Jacobian matrix, which can be for instance a two-by-six matrix, relates the camera's spatial velocity, including its translational components, to the velocity of the image features [3, 4, https://robotacademy.net.au/lesson/the-image-jacobian/]. This model is crucial for designing the kinematic controllers that guide the imaging system [5, https://inria.hal.science/inria-00436722v1/document].
-
-Various methods exist for the derivation and implementation of the image Jacobian. These include innovative algorithms for its on-line estimation in dynamic environments based on previous movements [1, https://www.researchgate.net/publication/221472673_Image_Based_Visual_Servoing_A_New_Method_for_the_Estimation_of_the_Image_Jacobian_in_Dynamic_Environments]. Additionally, specific derivations have been developed for different imaging technologies, such as the light field image Jacobian for use in light field-based visual servoing [2, https://ui.adsabs.harvard.edu/abs/2017IRAL....2..912T/abstract].
-
-Search Query: formal state-space representation for active 3D reconstruction modeling the evolution of object geometry estimates as system state
-Search Answer: Based on the provided information, a formal state-space representation for active 3D reconstruction, which models the evolution of object geometry estimates as the system state, could not be found.
-
-The search results do mention state-space models, but in different contexts such as for actuator systems and multivariate time series forecasting ["https://css.paperplaza.net/conferences/conferences/ACC25/program/ACC25_ContentListWeb_3.html", "https://ecai2025.org/accepted-papers/"].
-
-Separately, the documents discuss the evolution of 3D reconstruction techniques. They note a shift from traditional methods like Structure from Motion (SfM), which use explicit geometric modeling, to newer methods with implicit depth representation, such as Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3DGS) ["https://www.mdpi.com/1424-8220/25/18/5748"]. There is also a recognized need for robust online methods capable of reconstructing dynamic 3D scenes in real-time ["https://openreview.net/pdf/47e4f7aed1fadec7617b0314d78968366b8e661d.pdf"].
-
-However, the provided results do not connect the concepts of state-space modeling and 3D reconstruction to provide the specific formal model requested.
-
-Search Query: modeling information gain dynamics for next-best-view 3D reconstruction
-Search Answer: To address the tasks of modeling, analysis, and design for 3D reconstruction and phenotypic analysis of crop grains, a key area to model is the information gain dynamics for next-best-view (NBV) 3D reconstruction. This involves selecting the optimal subsequent viewpoints for a camera, often mounted on a mobile robot, to efficiently build a volumetric model of an object [https://dl.acm.org/doi/10.1109/ICRA.2016.7487527, https://www.researchgate.net/publication/303719117_An_Information_Gain_Formulation_for_Active_Volumetric_3D_Reconstruction].
-
-One approach is to utilize a utility function to evaluate and select viewpoints. This function bases its decision on the potential information gain, along with other factors such as the distance to the next viewpoint and the density of the existing model [https://www.mdpi.com/2072-4292/11/20/2440]. Within this framework, entropy is a crucial metric used to quantify the information gain within the volumetric map. The effectiveness of this process is evaluated by tracking metrics such as surface coverage and entropy reduction throughout the reconstruction steps [https://rpg.ifi.uzh.ch/docs/ICRA16_Isler.pdf].
-
-For implementation, various algorithms can be employed to solve the NBV problem, including specific methods like cluster-based path planning [https://hal.science/hal-03086499/file/HaMoMoMaMo_IROS20.pdf].
-
-Search Query: probabilistic models of 3D object reconstruction for active vision and next-best-view planning
-Search Answer: For the 3D reconstruction and phenotypic analysis of crop grains, this design report outlines a system based on active vision and control theory principles. The core of this system is an active 3D reconstruction framework designed to efficiently and accurately model each grain.
-
-This framework operates in a continuous cycle that involves inferring an optimal viewpoint, moving a sensor to capture new data from that view, and integrating this data to update and refine the 3D model of the grain. A critical component of this automated process is the strategic planning of a set of sensor locations, or "views," to ensure a complete and high-fidelity reconstruction with minimal acquisitions.
-
-The primary control problem within this framework is the determination of the "Next-Best-View" (NBV). The NBV is the next sensor position that is predicted to yield the most valuable information for completing the 3D model. Several theoretical methods and models can be employed for this task:
-
-*   **Probabilistic and Volumetric Methods**: A foundational approach for NBV selection is a probabilistic, volumetric method that operates on a partial model of the unknown 3D object. This technique uses a volumetric representation, often employing voxels, to model the grain. By analyzing the current state of the voxel grid (e.g., distinguishing between known empty, known occupied, and unknown space), the algorithm can probabilistically determine the view that will resolve the most uncertainty and reveal the largest unknown portion of the object's surface.
-
-*   **Predictive Shape Completion Methods**: To enhance realism and efficiency, more advanced methods like Pred-NBV can be implemented. This approach leverages an enhanced 3D prediction model, potentially trained on a large dataset of object shapes (such as the ShapeNet dataset), to predict the complete geometry of the grain from a limited number of initial scans. This predicted shape then guides the NBV selection process, focusing the sensor on areas where the initial model and the predicted model have the highest discrepancy, thereby refining the reconstruction more intelligently.
-
-Search Query: derivation of error dynamics for image-based visual servoing control using the image Jacobian
-Search Answer: In the context of 3D reconstruction and phenotypic analysis of crop grains, a control system based on Image-Based Visual Servo (IBVS) can be designed. The primary objective of an IBVS control system is to minimize an error, `e(t)`, defined within the image plane [https://dellaert.github.io/21S-8803MM/Readings/L7%20Visual%20Servo%20Control.pdf]. This error is expressed by the equation `e(t) = s(t) - s*`, where `s(t)` represents a set of current image measurements (such as the coordinates of interest points or parameters of image segments), and `s*` represents the desired or target measurements. The fundamental aim of the control scheme is to drive this error `e(t)` to zero [https://dellaert.github.io/21S-8803MM/Readings/L7%20Visual%20Servo%20Control.pdf].
-
-The control process utilizes a full-rank Image Jacobian matrix (Jimg), also known as an interaction matrix, which establishes the connection between the camera's velocity and the corresponding changes in the image features [https://mediatum.ub.tum.de/doc/1344440/18465862505.pdf, https://open.clemson.edu/context/all_theses/article/4446/viewcontent/Allen_clemson_0050M_16045.pdf]. Specifically, the error dynamics relate the time derivative of the error, `ė(t)`, to the camera's velocity, `ξ`, through this Jacobian matrix. Based on this relationship, a control law is designed to generate the necessary camera velocities to minimize the defined error, ultimately driving `e(t)` to zero [https://dellaert.github.io/21S-8803MM/Readings/L7%20Visual%20Servo%20Control.pdf, https://www.tandfonline.com/doi/full/10.1080/15599610802303579].
-
-Search Query: state-space representation of image-based visual servoing error dynamics for exponential decay control law design
-Search Answer: A proposed control system for automated image acquisition utilizes image-based visual servoing. The primary objective of this vision-based control scheme is to minimize an error, `e(t)`, which is defined as the difference between a set of current image measurements, `s(t)`, and a desired set of measurements, `s*`. This relationship is represented by the equation: `e(t) = s(t) - s*`.
-
-For more granular control, the image measurements `s(t)` can be expressed as a function of specific measured features, `m(t)` (such as the coordinates of points of interest), and other parameters, `a`. This provides a more detailed error definition: `e(t) = s(m(t), a) - s*`.
-
-The control strategy to minimize this error involves creating compact state representations of the robot's configuration from the captured images. These representations, combined with transition dynamics learned from execution traces, are used to compute the control velocities required to guide the robot. This process directs the robot to a desired goal state, which is identified by its corresponding target image, `s*`.
-
-Search Query: quadratic programming formulation for integrating visual servoing controllers with control barrier functions for field-of-view safety guarantees
-Search Answer: Control Barrier Function (CBF) based quadratic programs (QPs) are an established and effective method for enforcing safety in critical systems, particularly those with potentially conflicting control objectives and safety constraints [https://repository.lboro.ac.uk/articles/journal_contribution/CBF-based_hierarchical_quadratic_programs_with_guaranteed_feasibility_for_safety-critical_systems/30830948, https://ui.adsabs.harvard.edu/abs/2016arXiv160906408A/abstract]. This approach is formulated as a Control Barrier Function Quadratic Programming Framework (CBF-QP) to address the coupling between these objectives and constraints, ensuring safe and efficient operations [https://arxiv.org/abs/2502.08129].
-
-In the context of vision-based control, which is central to your research in 3D reconstruction, CBFs can be used to enforce safety constraints without requiring a complete environmental map [https://www.researchgate.net/publication/372131019_Enforcing_safety_for_vision-based_controllers_via_Control_Barrier_Functions_and_Neural_Radiance_Fields]. A practical strategy involves integrating this methodology with image-based visual servoing (IBVS) to manage operational tasks. This creates a comprehensive control strategy for systems, such as mobile manipulators, to perform their functions while maintaining safety [https://www.sciencedirect.com/science/article/pii/S0921889024001970].
-
-Search Query: system dynamics equation ẋ=f(x,u) for image-based visual servoing using image Jacobian
-Search Answer: Based on the information provided, here is a design report utilizing modern control theory for the 3D reconstruction and phenotypic analysis of crop grains.
-
-***
-
-### **Design Report: Application of Modern Control Theory for 3D Reconstruction and Phenotypic Analysis of Crop Grains**
-
-**1. Introduction and System Overview**
-
-This report outlines a design framework for the automated 3D reconstruction and phenotypic analysis of crop grains, leveraging principles from modern control theory. The core task involves controlling a camera's position and orientation relative to a grain sample to acquire the necessary images for reconstruction. For this purpose, **Image-Based Visual Servoing (IBVS)** is identified as a highly relevant and effective control method.
-
-IBVS is a control strategy where a robot manipulates a camera to ensure that the features observed in the camera's image converge to a desired state. The control action is determined directly from the dynamics of feature points within the image plane.
-
-**2. System Modeling and Analysis**
-
-The proposed system can be modeled as a **Multiple Input Multiple Output (MIMO)** system. In this context, the inputs are the velocity commands sent to the robotic system holding the camera, and the outputs are the positions of key feature points on the grain as captured in the 2D image plane.
-
-A central component in the IBVS control loop is the **Image Jacobian matrix (Jimg)**. This matrix establishes the linear relationship between the camera's velocity and the corresponding velocity of the feature points in the image. For effective control, a full-rank Image Jacobian matrix is utilized.
-
-An innovative aspect of this approach is the potential to use an algorithm for the **online estimation of the Image Jacobian**. This allows the system to adapt to dynamic environments or variations in the system's parameters without needing a precise, pre-calibrated model, which is highly advantageous for agricultural applications where grain size, shape, and orientation may vary.
-
-**3. System Dynamics and Control Law**
-
-While the foundational principles of IBVS are well-established, the specific system dynamics equation in the state-space form `ẋ = f(x, u)` is not explicitly available in the provided reference materials. However, the control law is based on the dynamics of the image points. The relationship is governed by the Image Jacobian, which connects the change in image features to the camera's motion, forming the basis for designing the controller that drives the image error to zero.
-
-Search Query: derivation of nonlinear state-space model ẋ=f(x,u) for image-based visual servoing where state vector x represents image features and dynamics f(x,u) are defined by the image Jacobian
-Search Answer: In the application of modern control theory to image-based visual servoing for 3D reconstruction, a central challenge is the accurate estimation of the Jacobian matrix and the design of the corresponding control law algorithm [https://arxiv.org/pdf/2211.11178].
-
-To address this, one effective method is an algorithm for the on-line estimation of the image Jacobian. This approach utilizes previous movements to dynamically update the estimation, making it suitable for dynamic environments [https://www.researchgate.net/publication/221472673_Image_Based_Visual_Servoing_A_New_Method_for_the_Estimation_of_the_Image_Jacobian_in_Dynamic_Environments].
-
-It is important to note, however, that while the importance of the image Jacobian is highlighted, a specific derivation for a nonlinear state-space model, such as `ẋ=f(x,u)`, for image-based visual servoing is not provided in the source materials. The primary focus remains on methods for estimating the Jacobian rather than detailing the complete formulation of the state-space dynamics [https://www.researchgate.net/publication/221472673_Image_Based_Visual_Servoing_A_New_Method_for_the_Estimation_of_the_Image_Jacobian_in_Dynamic_Environments, https://arxiv.org/pdf/2211.11178].
-
-Search Query: mathematical derivation of image Jacobian matrix for point features in visual servoing
-Search Answer: In the design of an automated system for the 3D reconstruction and phenotypic analysis of crop grains, modern control theory provides a robust framework for precise data acquisition, particularly when using robotic manipulators and vision systems. A key approach in this domain is visual servoing, where the control of the robot is based on visual feedback.
-
-Central to the modeling and analysis of such a system is the **image Jacobian matrix**, also known as the interaction matrix or feature Jacobian (Js). This matrix is crucial as it mathematically relates the motion of a rigid body (e.g., a camera mounted on a robot arm) to the corresponding changes in image features (e.g., key points on a crop grain) [https://limbs.lcsr.jhu.edu/wp-content/uploads/2013/05/Cowangeometric2005.pdf, https://inria.hal.science/hal-00920414v1/document]. The feature Jacobian matrix can be denoted as Js ∈ Rk×n, where n is the number of robot joints [https://inria.hal.science/hal-00920414v1/document].
-
-A significant challenge in the design and implementation of visual servoing systems is obtaining this matrix and its pseudoinverse, especially in uncalibrated setups where the exact camera and system parameters are unknown [https://www.sciencedirect.com/science/article/abs/pii/S0736584510000645]. To overcome the difficulty of direct mathematical derivation, various theoretical models and methods have been developed for robustly estimating the feature Jacobian. These advanced estimation techniques are critical for creating an adaptive and reliable control system. Notable methods include:
-*   Extreme Learning Machines (ELM)
-*   Fuzzy Logic (FL)
-*   Kalman-neural-network filtering schemes
-
-By employing these estimation methods, it is possible to design a high-performance control system for the precise positioning of sensors relative to the grain samples, ensuring high-quality data for subsequent 3D reconstruction and phenotypic analysis [https://www.sciencedirect.com/science/article/abs/pii/S0736584510000645, http://culturetechlab.culture.upatras.gr/sites/default/files/downloads/rcim_10.pdf, http://vigir.missouri.edu/~gdesouza/Research/Conference_CDs/IEEE_ICRA_2010/data/papers/1516.pdf].
-
-Search Query: derivation of image feature velocity equation ṡ = J(s, z)v_c for visual servoing
-Search Answer: In the application of visual servoing for robotic control, a core theoretical model establishes the relationship between the velocity of visual features in an image and the velocity of the camera. This relationship is expressed by the equation ṡ = J(s, z)v_c, often written as ṡ(t) = LsVc.
-
-The components of this equation are defined as follows:
-*   **ṡ** represents the time derivative or velocity of **s**, which is a vector of the values of the visual features being tracked.
-*   **v_c** is a vector, typically 6x1, that denotes the camera's velocity.
-*   **J** or **Ls** is a matrix known as the Image Jacobian or the interaction matrix. This matrix maps the camera's velocity to the resulting velocity of the features in the image, describing how the visual feature vector **s** is modified when the camera moves with a velocity **v**. The role of the Image Jacobian is analogous to that of a classical robot Jacobian.
-
-This equation is fundamental to a real-time, closed-loop control scheme designed to manipulate a robot's motion. The control system works by calculating the error between the current visual features and the desired visual features. Based on this error, a control output, typically the robot's velocity, is continuously updated to minimize the error and reduce it to zero. This process involves inverting the image Jacobian to derive the necessary camera velocity required to produce the desired change in visual features.
-
-Search Query: analytical derivation of interaction matrix (image Jacobian) for a 3D point feature in image-based visual servoing
-Search Answer: For the task of 3D reconstruction and phenotypic analysis of crop grains, a design report incorporating modern control theory can be structured around a visual servoing framework. This approach uses visual feedback to control a camera or sensor system for automated and precise data acquisition.
-
-**Modeling and Analysis: The Analytical Jacobian**
-
-A core component of a visual servoing control system is the image Jacobian, which relates the velocity of the camera to the motion of features in the image. The image Jacobian is composed of an interaction matrix. The analytical derivation of this matrix for a generic point feature—a common feature type for identifying points on a grain's surface—can be accomplished using Green formulas [http://www.diag.uniroma1.it/deluca/rob2_en/17_VisualServoing.pdf]. In this control scheme, 3D features such as points and planes on the crop grain can be used to guide the sensor-equipped robot's end-effector to desired positions for comprehensive scanning [https://arxiv.org/html/2405.18830v1].
-
-**Design Challenges and Alternative Approaches**
-
-A significant challenge with implementing a purely analytical model is that the interaction matrix depends on spatial information, particularly the depth of the visual features from the camera, which is often unknown or difficult to measure accurately in a dynamic setting [https://arxiv.org/pdf/2210.10549]. This dependency makes the direct use of the analytic Jacobian impractical for many applications.
-
-To overcome this limitation, the system design can incorporate methods for Jacobian approximation and estimation. Several alternatives to the analytic Jacobian are available:
-*   **Online Estimation Methods:** The Jacobian can be estimated online using various algorithms. These are often compared to the analytic Jacobian and include methods such as FUNDMAT (based on the fundamental matrix), RLS (Recursive Least Squares), and ANLTC [https://www.academia.edu/28777782/Image_based_visual_servoing_Estimated_image_Jacobian_by_using_fundamental_matrix_VS_analytic_Jacobian].
-*   **Learning-Based Methods:** For uncalibrated systems, local estimation of the Jacobian can be achieved through training [http://culturetechlab.culture.upatras.gr/sites/default/files/downloads/rcim_10.pdf]. This approach can adapt to the specific sensor and hardware configuration without requiring precise prior calibration.
-
-In summary, while the analytical derivation of the image Jacobian provides a strong theoretical foundation for modeling the system, a practical design for 3D grain phenotyping will likely rely on Jacobian estimation techniques to create a robust and adaptive control system capable of handling uncertainties in the physical environment.
-
-Search Query: derivation of nonlinear state-space dynamics for visual servoing with state vector including image features and feature depth
-Search Answer: Based on the provided information, it is not possible to develop the requested design report. The search results are insufficient and do not contain the necessary details to describe the derivation of nonlinear state-space dynamics for visual servoing.
-
-The available information consists only of titles of research papers, without the abstracts, methodologies, or body of work required to answer the query. Furthermore, the content that is present is not relevant to the user's research area.
+This approach allows developers to declaratively specify transaction behavior, such as setting a transaction to read-only, without managing low-level connection states, which reduces boilerplate code and potential errors. The `@Transactional` annotation can be applied at the class level to set a default transaction behavior, which can then be overridden by applying the annotation to specific methods with different settings, providing granular control. Additionally, Spring is capable of managing nested transactions by using JDBC or database savepoints.
 
