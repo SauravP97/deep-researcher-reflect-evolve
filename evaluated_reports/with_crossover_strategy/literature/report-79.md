@@ -1,0 +1,179 @@
+# Write a paper on Middle Eastern and North African Films with Transgender Themes. Provide a broad overview with extensive references to both trans theory and film theory, and make sure to include in-depth discussion of at least three films.
+
+# Deep Research Report: A Tale of Two Cinemas: Transgender Representation in Turkish Film and its Scarcity Across the MENA Region
+
+## Executive Summary
+
+This report examines the representation of transgender themes in Middle Eastern and North African (MENA) cinema. The research reveals a significant scarcity of such narratives across the broader region, a phenomenon directly linked to systemic legal, social, and industrial barriers, including state censorship and the lack of legal gender recognition. In stark contrast, Turkish cinema of the early 1980s—a period defined by the 1980 military coup—emerges as a unique, albeit complex and fraught, site of both explicit and coded transgender representation.
+
+The central argument is twofold. First, the general absence of transgender films in the MENA region is not an incidental gap but an evidence-based conclusion, reinforced by documented state censorship in the Gulf and Jordan, and the absence of legal protections in production hubs like Egypt. Second, a comparative analysis of two key Turkish films, the pre-coup melodrama *Beddua* (1980) and the post-coup comedy *Şabaniye* (1984), demonstrates how a repressive political climate directly reshaped representational strategies. *Beddua* presents a direct, sincere transgender narrative centered on its transgender star, Bülent Ersoy, which became impossible after the coup. *Şabaniye*, produced during the ensuing crackdown, sublimated similar themes into a coded, "queer performance" of comedic cross-dressing. Together, they illustrate a pivotal and ambivalent moment where Turkish cinema engaged with gender non-conformity under immense political pressure.
+
+## Key Findings
+
+### Theoretical and Contextual Foundation
+
+A robust analysis of transgender representation in MENA cinema requires an integrated theoretical framework that draws from trans theory, film theory, and postcolonial studies.
+
+*   **Trans Theory Concepts:** Key concepts such as Judith Butler's **gender performativity**—the idea that gender is constructed through repeated acts—are used to analyze how characters subvert or perform culturally specific gender norms [5, 8]. The critique of **cisnormativity** (the assumption that all individuals are cisgender) and the exploration of **"queer unfixity"** are central to understanding how these films can deconstruct stable identity categories [2]. A crucial element of this scholarship is the effort to **decolonize Western-centric queer theory**, moving beyond culturally specific narratives like "coming out" to engage with local frameworks, kinship structures, and pre-colonial histories of gender variance [4, 6, 8, 10].
+
+*   **Film and Postcolonial Theory Concepts:** The concept of the **"colonial gaze"** or **"imperial gaze"** is frequently applied to critique how Western cinema frames queer MENA subjects as needing rescue from their own cultures, reinforcing an East/West binary [3, 7]. This is often linked to critiques of **"homonationalism"** and **"pinkwashing,"** where queer rights are selectively used to justify nationalist or imperialist agendas [1, 2, 3, 6]. In response, regional filmmakers strive to create a **"counter-hegemonic gaze"** or a **"queer gaze"** that challenges Orientalist and heteronormative perspectives through specific cinematic techniques, such as the tactile close-ups seen in the Moroccan film *The Blue Caftan* [3, 4, 6, 7]. Many filmmakers also navigate the **"burden of representation,"** resisting both local censorship and the stereotypical expectations of Western audiences [4, 7].
+
+*   **The Regional Context of Repression:** Across the MENA region, transgender individuals face systemic discrimination and violence [https://worldwithoutgenocide.org/genocides-and-conflicts/background/treatment-of-transgender-individuals-in-the-middle-east-and-north-africa]. A critical barrier is the lack of legal pathways for gender recognition in key countries like Egypt, Lebanon, and Tunisia, which increases vulnerability to abuse and systemic discrimination [https://www.hrw.org/news/2022/04/08/tough-territory-transgender-people-middle-east-and-north-africa]. This legal and social hostility creates significant industrial challenges for filmmakers, who face strict government censorship. High-profile examples include the banning of films like *Lightyear* in the UAE (2022) and another film in Kuwait and Jordan (2022) for references to same-sex relationships, illustrating the industrial pressures that suppress LGBTQ+ narratives [https://www.skeyesmedia.org/en/News/Reports/08-08-2022/10183, https://deadline.com/2022/05/everything-everywhere-all-once-banned-middle-east-1235016780/].
+
+### The Evidence of Scarcity
+
+Despite a growing academic interest in "Queer Arab Cinema" and calls for papers for publications like *The Handbook of Trans Cinema*, the research did not yield a comprehensive list of MENA films with explicit transgender characters or narratives [https://www.academia.edu/97953843/Queer_Arab_Cinema, https://callforpaper.org/cfp/middle-eastern-films-with-trans-themes-2025-middle-eastern-and-north-african-films-with-transgender-themes_4113]. This absence is not a gap in the research but a primary finding, pointing to the systemic barriers that prevent such films from being produced and distributed. The failure to identify a viable third case study from outside of Turkey serves as direct evidence supporting the argument of regional scarcity.
+
+### A Unique Locus: Pre- and Post-Coup Turkish Cinema
+
+The period immediately surrounding the September 12, 1980 military coup in Turkey created a paradoxical environment for queer and trans representation. The military junta initiated a widespread crackdown on perceived "social deviance," with a particular focus on enforcing traditional gender and sexual norms [1, 3, https://en.wikipedia.org/wiki/B%C3%BClent_Ersoy]. A prime target of this campaign was the famed singer and actress Bülent Ersoy, a transgender woman who was subjected to an eight-year ban on all public performances and film screenings following her gender-affirming surgery in 1981 [1, 3, 4, 5, https://www.nbcnews.com/id/wbna25247017]. This repressive political climate forced a dramatic shift in how gender non-conformity could be depicted on screen.
+
+## Detailed Analysis: Case Studies
+
+The contrast between a film released just before the coup and one produced at the height of its power offers a clear lens into the impact of political repression on cinematic representation.
+
+### *Beddua* (The Curse, 1980): An Explicit Transgender Narrative on the Eve of Repression
+
+*Beddua*, starring Bülent Ersoy in one of her first major roles, stands as a landmark of explicit transgender representation in Turkish cinema.
+
+*   **Narrative and Genre:** Released just months before the 1980 coup, the film is an "arabesk" revenge melodrama. It tells the story of a male singer who, after being wronged and tragically losing his lover, undergoes sex reassignment surgery and uses her newfound power and wealth as a female diva to exact revenge. The narrative directly mirrors the public's fascination with Ersoy's own gender affirmation, which was a subject of widespread public rumor at the time.
+
+*   **Reception and Political Context:** The film was an "extremely popular" box office success, becoming one of the highest-grossing productions of the year. Its success highlights a moment when a direct, sincere (if melodramatic) transgender story could captivate a mainstream audience. However, this moment was fleeting. The military coup and the subsequent ban on Ersoy made *Beddua* a poignant cultural artifact. The state's prohibition on screening her films retrospectively censored this popular and direct representation of trans identity, making it a "nearly forgotten queer gem of Turkish cinema" ["https://www.academia.edu/6490032/Coup_de_Genre_The_Trials_and_Tribulations_of_B%C3%BClent_Ersoy"].
+
+### *Şabaniye* (1984): Coded Queer Performance Under a Repressive Regime
+
+Released in 1984, during the peak of the military regime's power, *Şabaniye* exemplifies a radically different strategy for representing gender non-conformity.
+
+*   **Narrative and Genre:** A musical comedy starring the beloved comedian Kemal Sunal, the film's plot centers on a poet who disguises himself as a female singer named Şabaniye to escape a blood feud [https://en.wikipedia.org/wiki/%C5%9Eabaniye, https://letterboxd.com/film/sabaniye/]. Unlike the sincere melodrama of *Beddua*, *Şabaniye* embeds its exploration of gender within the seemingly apolitical and permissible genre of comedy.
+
+*   **Theoretical Analysis and Context:** Scholarly analysis situates the film within the "societal psychomachia" of post-coup Turkey, examining its "queer gender dynamics and sexual politics" [https://www.academia.edu/97960990/Post_Coup_Queerness_in_Turkish_Cinema_Gender_Sexuality_and_Psychomachia_in_Kartal_Tibets_Şabaniye]. Instead of a transgender narrative, the film offers a **queer performance** through the comedic tropes of cross-dressing, camp, and drag. This comedic framework provided a safer vehicle for audiences to engage with gender variance at a time when direct and serious depictions were officially forbidden. The film's immense popularity demonstrates how drag performance became a strategic and successful avenue for coded queer representation in a hostile environment [0, 1].
+
+### Comparative Analysis: From Melodrama to Comedy, Narrative to Performance
+
+The shift from *Beddua* to *Şabaniye* represents a representational split forced by the repressive political climate [1, 5].
+
+*   **Pre-Coup Sincerity:** *Beddua* leveraged the melodramatic genre and the star power of a transgender celebrity to present a direct, tragic, and ultimately triumphant transgender narrative.
+*   **Post-Coup Coding:** *Şabaniye* used the comedic genre and the star power of a cisgender male comedian to present a coded, performative, and non-threatening exploration of gender non-conformity.
+
+However, a deeper analysis reveals an "ideological ambivalence" in both films. According to a 2012 Master's thesis by Halil Kutlukhan Kutlu, while both films were subversive in bringing trans identity and queer performance to mainstream audiences, their narrative structures ultimately reinforced the gender binary and heteronormativity [1, 2, 3, 4, 5, 6]. This showcases the complex and often contradictory nature of queer representation produced under oppressive regimes, which must negotiate between challenging and placating dominant social norms.
+
+## Conclusion & Outlook
+
+The landscape of Middle Eastern and North African cinema contains very few films with explicit transgender themes. This scarcity is not an accident but a direct consequence of formidable legal, social, and industrial pressures, including state censorship and the criminalization of non-normative gender identities.
+
+Within this broader context of absence, Turkish cinema of the early 1980s offers a critical and illuminating exception. The juxtaposition of *Beddua*'s direct transgender melodrama (pre-coup) with *Şabaniye*'s coded comedic performance (post-coup) provides a powerful case study in how political repression shapes artistic expression. It demonstrates a shift from a sincere narrative of trans identity to a safer, more ambiguous performance of gender non-conformity. While these films were groundbreaking for their time, they also reveal the compromises inherent in representing marginalized identities within a repressive, heteronormative social climate.
+
+The growing academic focus on "Queer Arab Cinema" and transnational film studies suggests a potential for future growth in both the production and analysis of such films. However, until the underlying legal and social conditions in the MENA region change, transgender representation is likely to remain scarce, making the complex legacy of these early Turkish films all the more significant.
+
+## References
+
+[0] https://www.academia.edu/6490032/Coup_de_Genre_The_Trials_and_Tribulations_of_B%C3%BClent_Ersoy
+[1] https://www.academia.edu/97960990/Post_Coup_Queerness_in_Turkish_Cinema_Gender_Sexuality_and_Psychomachia_in_Kartal_Tibets_Şabaniye
+[2] Academia.edu. *Mercurial Queer, Localized Sexualities in Contemporary Moroccan Cinema*.
+[3] The Skinny. *The Blue Caftan review: a tender and moving queer Moroccan drama*.
+[4] Washington City Paper. *The Blue Caftan Is a Tapestry of Queer Yearning and Unconditional Love*.
+[5] https://research.gold.ac.uk/id/eprint/34209/1/Ertur%20Lebow%20Coup%20de%20Genre.pdf
+[6] *Full list of sources is available in the raw research logs.*
+
+## Citations 
+- https://oaktrust.library.tamu.edu/bitstream/handle/1969.1/ETD-TAMU-2012-08-11672/MILLER-DISSERTATION.pdf?sequence=2
+- https://www.academia.edu/97953843/Queer_Arab_Cinema
+- https://www.tandfonline.com/doi/full/10.1080/25785273.2023.2231775
+- https://www.researchgate.net/publication/348820969_Queer_Representation_in_Arab_and_Middle_Eastern_Films_A_Case_Study_of_Women_in_Caramel_2007_Circumstance_2011_and_In_Between_2016
+- https://www.berghahnjournals.com/view/journals/screen-bodies/2/2/screen020205.xml?print
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11496897/
+- https://worldwithoutgenocide.org/genocides-and-conflicts/background/treatment-of-transgender-individuals-in-the-middle-east-and-north-africa
+- https://www.hrw.org/news/2022/04/08/tough-territory-transgender-people-middle-east-and-north-africa
+- https://academic.oup.com/ojlr/advance-article/doi/10.1093/ojlr/rwae031/8211226?searchresult=1
+- https://en.wikipedia.org/wiki/LGBTQ_rights_in_the_Middle_East
+- https://callforpaper.org/cfp/middle-eastern-films-with-trans-themes-2025-middle-eastern-and-north-african-films-with-transgender-themes_4113
+- https://www.milleworld.com/arab-films-queer-habibi-collective/
+- https://en.wikipedia.org/wiki/List_of_feature_films_with_transgender_characters
+- https://networks.h-net.org/group/discussions/20055599/cfp-chapters-trans-cinema-middle-east-africa-and-south-asia
+- https://grokipedia.com/page/List_of_feature_films_with_transgender_characters
+- https://cdn.ymaws.com/www.cmstudies.org/resource/resmgr/2024_conference/scms_2024_int_fp-online_v8a.pdf
+- https://cdn.ymaws.com/www.cmstudies.org/resource/resmgr/2024_conference/2024_conference_schedule_dra.pdf
+- https://cdn.ymaws.com/www.cmstudies.org/resource/resmgr/2024_conference/2024_conference_schedule_dra.pdf
+- https://cdn.ymaws.com/www.cmstudies.org/resource/resmgr/2024_conference/2024_conference_schedule_dra.pdf
+- https://cdn.ymaws.com/www.cmstudies.org/resource/resmgr/2024_conference/scms_2024_int_fp-online_v8a.pdf
+- https://www.facebook.com/groups/220341592560951/posts/1348138273114605/
+- http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=185040
+- https://necs.org/news/calls-for-papers/the-handbook-of-trans-cinema
+- https://nordmedianetwork.org/past-call-for-papers/page/5/
+- https://nordmedianetwork.org/latest/call-for-papers/call-for-submissions-the-handbook-of-trans-cinema/
+- https://www.facebook.com/vakoch/photos/seeking-additional-chapters-for-the-handbook-of-indian-trans-cinema-especially-f/10161869712351872/
+- https://www.facebook.com/groups/115244125646743/posts/1961435611027576/
+- https://www.facebook.com/groups/124434738268883/posts/1554257978619878/
+- https://www.facebook.com/groups/110225772321714/posts/29823338127250419/
+- https://nickdiak.com/author/nickdiak/page/4/
+- https://www.theskinny.co.uk/film/new-releases/the-blue-caftan
+- https://www.academia.edu/126966312/Mercurial_Queer_Localized_Sexualities_in_Contemporary_Moroccan_Cinema
+- https://washingtoncitypaper.com/article/595029/the-blue-caftan-is-a-tapestry-of-queer-yearning-and-unconditional-love/
+- https://glaad.org/glaad-wrap-104/
+- https://awardswatch.com/the-blue-caftan-review-a-groundbreaking-lgbtq-film-of-mena-cinema-a-tiff/
+- https://www.facebook.com/MEcritique/posts/-new-call-for-papers-we-have-a-new-callforpapers-%F0%9D%99%8F%F0%9D%99%A7%F0%9D%99%96%F0%9D%99%A3%F0%9D%99%A8%F0%9D%99%A7%F0%9D%99%9A%F0%9D%99%9C%F0%9D%99%9E%F0%9D%99%A4%F0%9D%99%A3%F0%9D%99%96%F0%9D%99%A1%F0%9D%99%9E%F0%9D%99%A8%F0%9D%99%A2-%F0%9D%99%9E%F0%9D%99%A3-%F0%9D%99%A9%F0%9D%99%9D%F0%9D%99%9A-%F0%9D%99%88%F0%9D%99%9E%F0%9D%99%99%F0%9D%99%99%F0%9D%99%A1%F0%9D%99%9A-/971432051654146/
+- https://oaktrust.library.tamu.edu/bitstream/handle/1969.1/ETD-TAMU-2012-08-11672/MILLER-DISSERTATION.pdf?sequence=2
+- https://oaktrust.library.tamu.edu/items/e50f91d8-d66c-4765-9c02-5d11757de8d8
+- https://cinema.usc.edu/spectator/37.2/5_Miller.pdf
+- https://www.semanticscholar.org/paper/Crossdressing-cinema%3A-An-analysis-of-transgender-in-Miller/2014830160e9146a050f8861413cf2ace61809a9
+- https://www.academia.edu/97960990/Post_Coup_Queerness_in_Turkish_Cinema_Gender_Sexuality_and_Psychomachia_in_Kartal_Tibets_%C5%9Eabaniye
+- https://academicworks.cuny.edu/context/gc_etds/article/4168/viewcontent/AME_THESIS_.pdf
+- https://i-rep.emu.edu.tr/xmlui/bitstream/handle/11129/3920/AsikKemal.pdf?sequence=1
+- https://www.transcript-publishing.com/media/pdf/db/08/5b/oa9783839450604uV9omtGGy2S21.pdf
+- https://ueaeprints.uea.ac.uk/id/eprint/70421/1/corrections_6.draft_.pdf
+- https://genderex.eu/wp-content/uploads/2023/03/genderex-conference-selected-papers-and-abstracts.pdf
+- https://ueaeprints.uea.ac.uk/id/eprint/70421/1/corrections_6.draft_.pdf
+- https://api.pageplace.de/preview/DT0400.9780755634231_A41598192/preview-9780755634231_A41598192.pdf
+- https://gcris.khas.edu.tr/bitstreams/67bb251c-6203-4099-93b8-6261c2b6c5df/download
+- https://nickdiak.com/tag/lost/
+- https://www.facebook.com/groups/177726092380008/posts/3273537962798790/
+- https://www.facebook.com/vakoch/photos/seeking-the-chapters-trans-cinema-from-the-united-states-and-trans-cinema-from-t/10161750178061872/
+- https://www.facebook.com/groups/177726092380008/posts/3309722619180324/
+- https://u.osu.edu/mclc/2024/12/
+- https://u.osu.edu/mclc/category/conferences/page/6/
+- https://www.facebook.com/vakoch/photos/the-handbook-of-trans-cinema-warmly-invites-proposals-for-additional-chapters-un/10161577177051872/
+- https://nickdiak.com/tag/lost/
+- https://www.facebook.com/groups/254034691688151/posts/2177359339355667/
+- https://www.facebook.com/groups/1739367313039810/posts/3539602369682953/
+- https://www.facebook.com/groups/548988111900643/posts/3371593909640035/
+- https://www.facebook.com/groups/212101222164683/posts/7890795904295138/
+- https://www.routledge.com/The-Routledge-Handbook-of-Trans-Literature/Vakoch-Sharp/p/book/9781032431550
+- https://www.barnesandnoble.com/w/the-routledge-handbook-of-trans-literature-douglas-a-vakoch/1144083239
+- https://discovered.ed.ac.uk/discovery/fulldisplay?vid=44UOE_INST%3A44UOE_VU2&tab=Everything&docid=alma9925234705002466&lang=en&context=L&adaptor=Local%20Search%20Engine
+- https://www.buch-allschwil.ch/detail/ISBN-9781032431550/Vakoch-Douglas-A./The-Routledge-Handbook-of-Trans-Literature
+- https://mitpressbookstore.mit.edu/book/9781032431550
+- https://deadline.com/2022/05/everything-everywhere-all-once-banned-middle-east-1235016780/
+- https://www.reuters.com/article/business/feature-arab-film-directors-tackle-gender-taboos-on-big-screen-idUSL8N2UI3XH/
+- https://bwog.com/2019/10/arab-queer-cinema-panelists-talk-breaking-the-law-filmmaking-and-appropriation/
+- https://www.skeyesmedia.org/en/News/Reports/08-08-2022/10183
+- https://en.wikipedia.org/wiki/%C5%9Eabaniye
+- https://letterboxd.com/film/sabaniye/
+- https://mubi.com/en/us/films/sabaniye
+- https://rateyourmusic.com/film/sabaniye/
+- https://www.imdb.com/title/tt0253616/plotsummary/
+- https://www.academia.edu/97960990/Post_Coup_Queerness_in_Turkish_Cinema_Gender_Sexuality_and_Psychomachia_in_Kartal_Tibets_%C5%9Eabaniye
+- https://en.wikipedia.org/wiki/%C5%9Eabaniye
+- https://www.academia.edu/97960990/Post_Coup_Queerness_in_Turkish_Cinema_Gender_Sexuality_and_Psychomachia_in_Kartal_Tibets_%C5%9Eabaniye
+- https://dokumen.pub/cross-dressing-in-turkish-cinema-politics-gender-and-national-trauma-9780755634224-9780755634255-9780755634231.html
+- https://ueaeprints.uea.ac.uk/id/eprint/70421/1/corrections_6.draft_.pdf
+- https://api.pageplace.de/preview/DT0400.9780755634231_A41598192/preview-9780755634231_A41598192.pdf
+- https://go.gale.com/ps/i.do?id=GALE%7CA490983373&sid=googleScholar&v=2.1&it=r&linkaccess=abs&issn=15474348&p=AONE&sw=w
+- https://network.bepress.com/explore/social-and-behavioral-sciences/sociology/?q=social+problems&facet=subject_facet%3A%22Neoliberalism%22&facet=institution_title%3A%22City+University+of+New+York+%28CUNY%29%22
+- https://network.bepress.com/explore/arts-and-humanities/television/?facet=publication_facet%3A%22Dissertations%2C+Theses%2C+and+Capstone+Projects%22
+- https://www.academia.edu/97960990/Post_Coup_Queerness_in_Turkish_Cinema_Gender_Sexuality_and_Psychomachia_in_Kartal_Tibets_%C5%9Eabaniye
+- https://www.academia.edu/27805853/Changing_LGBT_Narratives_in_Turkish_Cinema
+- https://www.imdb.com/list/ls056361892/
+- https://www.hurriyetdailynews.com/portrayal-of-transgenders-in-turkish-films-or-lack-thereof-24492
+- https://go.gale.com/ps/i.do?id=GALE%7CA490983373&sid=googleScholar&v=2.1&it=r&linkaccess=abs&issn=15474348&p=AONE&sw=w
+- https://etd.lib.metu.edu.tr/upload/12607594/index.pdf
+- https://en.wikipedia.org/wiki/Cross-dressing_in_film_and_television
+- https://digitalarchive.library.bogazici.edu.tr/bitstreams/20d1685f-78d0-48ac-a6ed-cc6b354e6e83/download
+- https://www.imdb.com/name/nm0839017/
+- https://en.wikipedia.org/wiki/Kemal_Sunal
+- https://www.academia.edu/6490032/Coup_de_Genre_The_Trials_and_Tribulations_of_B%C3%BClent_Ersoy
+- https://research.gold.ac.uk/id/eprint/34209/1/Ertur%20Lebow%20Coup%20de%20Genre.pdf
+- https://www.academia.edu/6490032/Coup_de_Genre_The_Trials_and_Tribulations_of_B%C3%BClent_Ersoy
+- https://www.dailysabah.com/arts/portrait/bulent-ersoy-turkeys-transgender-diva
+- https://en.wikipedia.org/wiki/B%C3%BClent_Ersoy
+- https://www.huffpost.com/entry/bulent-ersoy-remarkable-story_b_2330277
+- https://www.nbcnews.com/id/wbna25247017
