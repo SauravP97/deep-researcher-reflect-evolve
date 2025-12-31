@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 80, "topic": "Literature", "language": "en", "prompt": "Please investigate the influence of mass media on language, specifically the queer community of Japan. I am trying to see if the consumption of shoujo manga by queer Japanese young adults affects their pronoun use and sentence ending particles. Both grammatical categories are gendered in Japanese and a distinct pattern emerges in shoujo manga compared to majority use in society, so observing a minority group would give insight into the effect of media in personal expression."}
+research_task = {"id": 82, "topic": "History", "language": "en", "prompt": "Research and analyze the diverse paths taken by various countries in Europe, Asia, and the Americas to transition into the ranks of 'developed nations' following World War II. The analysis should cover their foundational conditions, resource endowments, development strategies, and other relevant factors."}
 
 
 
