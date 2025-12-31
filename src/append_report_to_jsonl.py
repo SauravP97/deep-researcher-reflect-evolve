@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 79,
-    "prompt": "Write a paper on Middle Eastern and North African Films with Transgender Themes. Provide a broad overview with extensive references to both trans theory and film theory, and make sure to include in-depth discussion of at least three films.",
+    "id": 80, 
+    "prompt": "Please investigate the influence of mass media on language, specifically the queer community of Japan. I am trying to see if the consumption of shoujo manga by queer Japanese young adults affects their pronoun use and sentence ending particles. Both grammatical categories are gendered in Japanese and a distinct pattern emerges in shoujo manga compared to majority use in society, so observing a minority group would give insight into the effect of media in personal expression.",
     "article": report_content,
 }
 
