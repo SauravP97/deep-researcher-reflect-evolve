@@ -56,7 +56,7 @@ We use [DeepResearch Bench's](https://deepresearch-bench.github.io/) RACE (Refer
 2. We perform a complete evaluation of our Deep Researcher on the entire `100 PhD-level` Research Tasks from `22` distinct fields in `2` language (English and Chinese).
 
 
-# Cost for Research Report generation and Evaluation on the benchmark
+## Cost for Research Report generation and Evaluation on the benchmark
 
-1. Dec 2025: USD 223.06 (INR 20,121.07)
+1. Dec 2025: `USD 223.06` (`INR 20,121.07`)
 2. Jan 2026: USD <NA>
