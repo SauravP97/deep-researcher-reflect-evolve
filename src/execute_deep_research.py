@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 87, "topic": "Art & Design", "language": "en", "prompt": "Are AI fashion design tools leading to creative homogenization in the industry? How can the copyright disputes between independent designers and algorithms be resolved?"}
+research_task = {"id": 88, "topic": "Art & Design", "language": "en", "prompt": "How did Netflix manage to successfully adapt One Hundred Years of Solitude, a notoriously difficult book to bring to the screen?"}
 
 
 
