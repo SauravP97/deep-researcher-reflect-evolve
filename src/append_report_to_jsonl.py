@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 89, 
-    "prompt": "Research and analyze the latest advancements and cutting-edge theories within the field of game design. Specifically include recent developments, research, and practical design applications related to established frameworks like MDA (Mechanics-Dynamics-Aesthetics).",
+    "id": 90,
+    "prompt": "Analyze the complex issue of liability allocation in accidents involving vehicles with advanced driver-assistance systems (ADAS) operating in a shared human-machine driving context. Your analysis should integrate technical principles of ADAS, existing legal frameworks, and relevant case law to systematically examine the boundaries of responsibility between the driver and the system. Conclude with proposed regulatory guidelines or recommendations.",
     "article": report_content,
 }
 

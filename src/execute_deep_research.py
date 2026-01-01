@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 89, "topic": "Games", "language": "en", "prompt": "Research and analyze the latest advancements and cutting-edge theories within the field of game design. Specifically include recent developments, research, and practical design applications related to established frameworks like MDA (Mechanics-Dynamics-Aesthetics)."}
+research_task = {"id": 90, "topic": "Crime & Law", "language": "en", "prompt": "Analyze the complex issue of liability allocation in accidents involving vehicles with advanced driver-assistance systems (ADAS) operating in a shared human-machine driving context. Your analysis should integrate technical principles of ADAS, existing legal frameworks, and relevant case law to systematically examine the boundaries of responsibility between the driver and the system. Conclude with proposed regulatory guidelines or recommendations."}
 
 
 
