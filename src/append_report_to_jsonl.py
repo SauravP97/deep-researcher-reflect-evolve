@@ -8,7 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 88, "prompt": "How did Netflix manage to successfully adapt One Hundred Years of Solitude, a notoriously difficult book to bring to the screen?",
+    "id": 89, 
+    "prompt": "Research and analyze the latest advancements and cutting-edge theories within the field of game design. Specifically include recent developments, research, and practical design applications related to established frameworks like MDA (Mechanics-Dynamics-Aesthetics).",
     "article": report_content,
 }
 
