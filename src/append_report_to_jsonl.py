@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 82, 
-    "prompt": "Research and analyze the diverse paths taken by various countries in Europe, Asia, and the Americas to transition into the ranks of 'developed nations' following World War II. The analysis should cover their foundational conditions, resource endowments, development strategies, and other relevant factors.",
+    "id": 83, 
+    "prompt": "Acting as a senior hardware product manager, conduct in-depth research on tablet-style devices used for payments or SaaS applications. Your report should: 1) List major manufacturers, specific device models, and their configurations. 2) Include images of these devices. 3) Analyze the primary use cases and scenarios where these devices are deployed. 4) Investigate the market penetration, common usage scenarios, typical price ranges, and estimated installed base for such devices across different regions (North America, Japan/Korea, Southeast Asia, South America).",
     "article": report_content,
 }
 
