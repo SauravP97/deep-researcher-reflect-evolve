@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 85, 
-    "prompt": "The primary components of a precision piezoelectric vibration isolation system include sensors, actuators, and controllers. How can system accuracy be enhanced through hardware design, structural design, manufacturing processes, and control algorithms? Additionally, how should the design and production phases be managed to ensure consistent performance across identical products?",
+    "id": 87,
+    "prompt": "Are AI fashion design tools leading to creative homogenization in the industry? How can the copyright disputes between independent designers and algorithms be resolved?",
     "article": report_content,
 }
 

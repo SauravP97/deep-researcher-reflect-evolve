@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 85, "topic": "Industrial", "language": "en", "prompt": "The primary components of a precision piezoelectric vibration isolation system include sensors, actuators, and controllers. How can system accuracy be enhanced through hardware design, structural design, manufacturing processes, and control algorithms? Additionally, how should the design and production phases be managed to ensure consistent performance across identical products?"}
+research_task = {"id": 87, "topic": "Art & Design", "language": "en", "prompt": "Are AI fashion design tools leading to creative homogenization in the industry? How can the copyright disputes between independent designers and algorithms be resolved?"}
 
 
 
