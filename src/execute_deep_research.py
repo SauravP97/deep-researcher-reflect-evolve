@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 91, "topic": "Entertainment", "language": "en", "prompt": "I would like a detailed analysis of the Saint Seiya franchise (anime/manga). The analysis should be structured around the different classes of armor (Cloths, Scales, Surplices, God Robes, etc.), such as Bronze Saints, Silver Saints, Gold Saints, Marina Generals, Specters, God Warriors, etc. For each significant character within these categories, provide details on their power level, signature techniques, key appearances/story arcs, and final outcome/fate within the series."}
+research_task = {"id": 92, "topic": "Sports & Fitness", "language": "en", "prompt": "For a research project titled 'Analysis and Study of Singles Badminton Player Actions Using Sports Videos,' please refine and optimize the following four research components: 1) Object Detection and Tracking within Badminton Videos; 2) Recognition of Technical Actions performed by Singles Players; 3) Recognition of Tactical Intent behind Singles Players' Actions; 4) Prediction of Singles Players' Subsequent Actions."}
 
 
 
