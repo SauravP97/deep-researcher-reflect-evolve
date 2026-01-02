@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 92,
-    "prompt": "For a research project titled 'Analysis and Study of Singles Badminton Player Actions Using Sports Videos,' please refine and optimize the following four research components: 1) Object Detection and Tracking within Badminton Videos; 2) Recognition of Technical Actions performed by Singles Players; 3) Recognition of Tactical Intent behind Singles Players' Actions; 4) Prediction of Singles Players' Subsequent Actions.",
+    "id": 93, 
+    "prompt": "Please prepare a market research analysis of the global video editing and creation software/tool market. Include major products like those from Adobe (Premiere Pro, After Effects), CapCut, DaVinci Resolve, Final Cut Pro, and others relevant in the current landscape.",
     "article": report_content,
 }
 
