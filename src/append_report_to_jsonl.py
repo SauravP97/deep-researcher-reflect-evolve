@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 94, 
-    "prompt": "Could you provide information on recent developments in cloud-based train control systems for urban rail transit? I'm also interested in understanding the key technologies involved.",
+   "id": 95, 
+   "prompt": "Create comprehensive, in-depth study notes for the Diamond Sutra (Vajracchedikā Prajñāpāramitā Sūtra). These notes should offer deep analysis and interpretation from various perspectives, exploring its teachings and relevance in contexts such as daily life, the workplace/career, business practices, marriage, parenting, emotional well-being, and interpersonal dynamics.",
     "article": report_content,
 }
 

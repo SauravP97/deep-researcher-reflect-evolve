@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 94, "topic": "Transportation", "language": "en", "prompt": "Could you provide information on recent developments in cloud-based train control systems for urban rail transit? I'm also interested in understanding the key technologies involved."}
+research_task = {"id": 95, "topic": "Religion", "language": "en", "prompt": "Create comprehensive, in-depth study notes for the Diamond Sutra (Vajracchedikā Prajñāpāramitā Sūtra). These notes should offer deep analysis and interpretation from various perspectives, exploring its teachings and relevance in contexts such as daily life, the workplace/career, business practices, marriage, parenting, emotional well-being, and interpersonal dynamics."}
 
 
 
