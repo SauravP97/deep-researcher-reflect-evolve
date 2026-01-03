@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 96, "topic": "Home & Hobbies", "language": "en", "prompt": "Please draft a research report analyzing future product development trends within the smart home industry. The report should conclude by identifying specific types of products, or products with particular features, that are expected to be major trends shaping the industry's future."}
+research_task = {"id": 100, "topic": "Social Life", "language": "en", "prompt": "Write a paper to discuss the influence of AI interaction on interpersonal relations, considering AI's potential to fundamentally change how and why individuals relate to each other."}
 
 
 

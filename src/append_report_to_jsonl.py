@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 96, 
-    "prompt": "Please draft a research report analyzing future product development trends within the smart home industry. The report should conclude by identifying specific types of products, or products with particular features, that are expected to be major trends shaping the industry's future.",
+    "id": 100, 
+    "prompt": "Write a paper to discuss the influence of AI interaction on interpersonal relations, considering AI's potential to fundamentally change how and why individuals relate to each other.",
     "article": report_content,
 }
 
