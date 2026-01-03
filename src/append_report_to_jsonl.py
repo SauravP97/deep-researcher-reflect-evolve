@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 100, 
-    "prompt": "Write a paper to discuss the influence of AI interaction on interpersonal relations, considering AI's potential to fundamentally change how and why individuals relate to each other.",
+    "id": 1, 
+    "prompt": "收集整理目前中国9阶层实际收入和财务状况，特别研究得出中国的中产有哪些特点，实际中产人数，财力等等",
     "article": report_content,
 }
 
@@ -26,4 +26,4 @@ if isinstance(existing_data, list):
     existing_data.append(report_object)
 
 with open(filename, "w") as file:
-    json.dump(existing_data, file, indent=4)
+    json.dump(existing_data, file, indent=4, ensure_ascii=False)

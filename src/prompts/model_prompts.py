@@ -181,6 +181,8 @@ No Hallucinations: You must rely strictly on the provided aggregated_research_lo
 Citations: Inline citations are preferred. If a fact comes from a specific source in the logs, reference it (e.g., "Market growth is projected at 5% [<cited_url>]").
 
 Tone: Professional, analytical, and unbiased.
+
+Note: Please write the report in the same language as of the "research_topic".
 """
 
 RESEARCH_PROGRESS_TEMPLATE = """

@@ -58,5 +58,5 @@ We use [DeepResearch Bench's](https://deepresearch-bench.github.io/) RACE (Refer
 
 ## Cost for Research Report generation and Evaluation on the benchmark
 
-1. Dec 2025: `USD 223.06` (`INR 20,121.07`)
+1. Dec 2025: `USD 157.60` (`INR 14,186.28`)
 2. Jan 2026: N/A
