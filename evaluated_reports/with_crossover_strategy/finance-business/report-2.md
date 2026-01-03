@@ -1,0 +1,278 @@
+# 收集整理目前国际综合实力前十的保险公司的相关资料，横向比较各公司的融资情况、信誉度、过往五年的增长幅度、实际分红、未来在中国发展潜力等维度，并为我评估出最有可能在未来资产排名靠前的2-3家公司
+
+好的，作为首席研究编辑，我将根据提供的原始研究笔记，为您整理并撰写一份全面、专业的深度研究报告。
+
+---
+
+### **全球顶尖保险公司综合实力深度研究报告**
+
+**报告日期:** 2024年10月27日
+**报告ID:** AI-RES-2024-1027-01
+**研究目标:** 对全球综合实力排名前十的保险公司进行多维度横向比较，评估其信誉度、增长潜力及在华发展前景，并筛选出未来最有可能在资产规模上保持领先的2-3家公司。
+
+---
+
+### **执行摘要 (Executive Summary)**
+
+本报告旨在深入分析全球顶级保险公司的综合实力。基于权威评级机构A.M. Best（贝氏）按2022年非银行业务资产的排名，我们确定了全球十大保险公司，其中**中国平安**首次超越**安联集团**位居榜首。
+
+报告的核心发现如下：
+*   **资产规模格局:** 中国平安（1.15万亿美元）与德国安联（1.11万亿美元）构成了全球保险业的第一梯队，两者在资产规模上竞争激烈。法国安盛、中国人寿及伯克希尔·哈撒韦紧随其后。
+*   **信誉度评估:** 大多数顶级欧美保险公司，如安联、安盛、保德信金融等，均拥有国际评级机构（标普、贝氏等）的“AA-”或同等级别的卓越评级。相比之下，部分亚洲公司的评级数据相对有限或评级稍低。
+*   **数据局限性:** 本次研究未能获取所有公司关于**具体融资情况、过往五年完整的财务增长数据及实际分红**的系统性、可比数据。因此，对增长幅度的量化比较受到限制。
+*   **在华发展潜力:** 中国本土巨头**中国平安**和**中国人寿**凭借其市场根基拥有巨大优势。同时，随着中国金融市场持续开放，**安联集团**等外资公司凭借其全球经验，在高端市场和特定领域拥有显著增长机会。
+
+综合评估，**中国平安**、**安联集团**和**伯克希尔·哈撒韦**是最有可能在未来全球资产排名中保持领先地位的三家公司。中国平安依托其“金融+科技”战略和庞大的本土市场，安联集团凭借其全球化稳健经营，而伯克希尔·哈撒韦则以其无可比拟的“保险+投资”模式保持着强大的竞争力。
+
+---
+
+### **1. 全球顶尖保险公司版图确立**
+
+为了客观评估各公司的综合实力，本报告主要采纳**A.M. Best（贝氏）发布的基于2022年年终非银行资产（NBAM）的2023年全球最大保险公司排名**。该排名直接反映了公司的资产体量，是衡量综合实力的核心指标之一。
+
+**表1：全球十大保险公司（按2022年非银行资产排名）**
+
+| 排名 | 公司名称 (中/英) | 总部所在地 | 2022年非银行资产 (约) |
+|:---:|:---|:---|:---:|
+| 1 | **中国平安保险（集团）股份有限公司** (Ping An Insurance) | 中国 | 1.15万亿美元 |
+| 2 | **安联集团** (Allianz SE) | 德国 | 1.11万亿美元 |
+| 3 | **安盛** (AXA S.A.) | 法国 | 9388亿美元 |
+| 4 | **中国人寿保险（集团）公司** (China Life Insurance) | 中国 | 8657亿美元 |
+| 5 | **伯克希尔·哈撒韦公司** (Berkshire Hathaway Inc.) | 美国 | 8271亿美元 |
+| 6 | **保德信金融集团** (Prudential Financial, Inc.) | 美国 | 7379亿美元 |
+| 7 | **美国大都会集团** (MetLife, Inc.) | 美国 | 6631亿美元 |
+| 8 | **法通保险公司** (Legal & General Group plc) | 英国 | 6139亿美元 |
+| 9 | **宏利金融公司** (Manulife Financial Corporation) | 加拿大 | 5842亿美元 |
+| 10| **印度人寿保险公司** (Life Insurance Corporation of India) | 印度 | 5608亿美元 |
+
+*资料来源：A.M. Best 2023年全球最大保险公司排名报告。*
+
+---
+
+### **2. 核心维度深度分析**
+
+#### **2.1. 信誉度横向比较 (Credit Rating Comparison)**
+
+信誉度是衡量保险公司财务健康状况和偿付能力的关键。下表汇总了各大国际评级机构对榜单中公司的核心评级。
+
+**表2：全球顶尖保险公司信用评级概览 (2023-2024)**
+
+| 公司名称 | A.M. Best (财务实力) | S&P Global (长期发行人) | Moody's (保险财务实力) | Fitch (保险财务实力) | 综合评价 |
+|:---|:---:|:---:|:---:|:---:|:---|
+| **中国平安** | A (优秀)¹ | 未提供 | 未提供 | 未提供 | 评级数据有限，子公司评级优秀 |
+| **安联集团** | A+ (卓越) | AA | 未提供 | AA (非常强劲) | 评级极高，全球领先 |
+| **安盛** | A+ (卓越) | AA- | Aa2 | 未提供 | 评级极高，展望积极 |
+| **中国人寿** | 未提供 | A+ | A1 | A+ (强) | 评级高，但部分机构展望为负面 |
+| **伯克希尔·哈撒韦** | A++ (卓越)² | 未提供 | 未提供 | AA- (控股公司) | 评级为最高级别，实力超群 |
+| **保德信金融** | A+ (卓越) | AA- | 未提供 | AA- (非常强劲) | 评级极高，非常稳健 |
+| **大都会集团** | A+ (卓越) | AA- | 未提供 | AA- (非常强劲) | 评级极高，非常稳健 |
+| **法通保险** | A+ (卓越) | AA- | A3 (债券) | BBB+ (债券) | 核心子公司评级极高 |
+| **宏利金融** | A+ (卓越) | 未提供 | 未提供 | A (债券) | 评级优秀，财务稳健 |
+| **印度人寿** | B (一般) | 未提供 | 未提供 | 未提供 | 评级相对较低 |
+
+¹ *注：评级对象为中国平安财产保险股份有限公司。*
+² *注：评级对象为国民赔偿公司等核心子公司。*
+
+**分析:**
+*   欧美老牌保险巨头（安联、安盛、伯克希尔·哈撒韦、保德信、大都会）普遍拥有全球最高级别的信用评级，反映了其极其稳健的财务状况和强大的风险管理能力。
+*   中国两家公司（平安、人寿）的评级虽处于较高水平，但国际评级覆盖面或展望略逊于欧美顶级同业。
+*   印度人寿保险公司的评级在榜单中相对较低，这可能反映了其运营环境和资本充足率方面的挑战。
+
+#### **2.2. 过往增长幅度分析 (Analysis of Historical Growth)**
+
+本次研究旨在收集各公司过往五年的总资产、总营收和净利润数据以计算复合年均增长率（CAGR）。然而，**研究结果显示，缺乏系统、一致的五年期财务数据**。
+*   **数据不完整与冲突:** 针对中国平安、安联集团和安盛等公司的财务数据检索，得出了相互冲突或不完整的年度数据，无法进行严谨的纵向和横向比较。
+*   **宏观趋势:** 唯一相关的宏观数据显示，受全球经济环境影响，2022年全球前十大保险公司的非银行资产总体出现了1.8%的温和下降。
+
+由于缺乏可靠的连续数据，本报告无法对各公司的五年增长幅度进行量化评估。
+
+#### **2.3. 在中国市场的发展潜力 (Development Potential in the China Market)**
+
+*   **本土巨头 (中国平安、中国人寿):** 作为中国市场的领导者，这两家公司拥有无与伦比的品牌认知度、庞大的客户基础和分销网络。中国平安的“金融+科技”战略通过科技赋能，在提升效率和客户体验方面构筑了独特的护城河。随着中国中产阶级的壮大和老龄化趋势的加剧，其在国内市场的增长潜力依然巨大。
+*   **外资领先者 (安联集团、安盛等):** 随着中国金融业对外开放政策的深化，这些全球巨头正加速布局中国市场。它们凭借在财富管理、养老金、健康险以及风险管理方面的全球经验和先进技术，能够满足中国高净值人群和企业客户的复杂需求。虽然在规模上难以与本土公司抗衡，但在高端和细分市场具备强大的竞争优势和增长潜力。
+
+#### **2.4. 融资情况与分红政策**
+
+根据本次研究的资料，**未能获取关于这十家公司具体融资活动和历史分红政策的详细、可比信息**。这些数据通常分散于各公司的年度报告和投资者公告中，需要更专项的数据挖掘才能进行横向对比。
+
+---
+
+### **3. 未来资产排名领先者评估**
+
+基于以上分析，特别是资产规模、信誉评级和市场潜力，我们评估以下三家公司最有可能在未来持续领跑全球资产排名：
+
+1.  **中国平安 (Ping An Insurance Group)**
+    *   **理由:** 作为新晋的全球资产规模第一的保险公司，平安已展示出强大的增长动能。其独特的“综合金融+医疗健康”生态系统，结合领先的科技应用，在中国这个潜力巨大的市场中具有强大的协同效应和增长确定性。只要中国经济保持稳定增长，平安极有可能在未来几年内稳固其领先地位。
+
+2.  **安联集团 (Allianz SE)**
+    *   **理由:** 作为长期占据榜首的全球保险与资产管理巨头，安联拥有极其稳健和多元化的业务组合。其业务遍布全球，能够有效分散区域性风险。强大的品牌信誉、卓越的风险管理能力以及在资产管理领域的深厚实力（旗下拥有PIMCO和AllianzGI），使其具备穿越经济周期的强大韧性，将是中国平安最强有力的竞争者。
+
+3.  **伯克希尔·哈撒韦 (Berkshire Hathaway Inc.)**
+    *   **理由:** 伯克希尔的模式独一无二。其保险业务（如GEICO、通用再保险）为其提供了巨额、低成本的浮存金，成为其传奇投资策略的燃料。这种“保险承保+价值投资”的飞轮效应使其资产能够实现长期、稳健的复合增长。凭借其强大的盈利能力和稳固的资本基础，伯克希尔将长期稳居全球资产排名的第一梯队。
+
+---
+
+### **4. 结论与展望**
+
+当前，全球保险业的领导者格局正由中国平安与德国安联共同引领。中国平安凭借其在本土市场的深耕和科技创新优势，展现了强劲的上升势头；而安联集团则以其全球化、稳健的经营策略保持着强大的竞争力。
+
+尽管本次研究因数据限制，未能对所有公司的五年增长和分红等指标进行量化比较，但从现有的资产规模和信誉评级来看，**中国平安、安联集团和伯克希尔·哈撒韦**构成了未来全球保险业资产规模的“第一梯队”。它们的战略布局、风险管理能力和市场适应性，将是决定其未来排名的关键因素。
+
+---
+
+### **5. 参考文献/资料来源**
+
+本报告的分析基于以下研究日志中提及的信息来源：
+*   A.M. Best（贝氏）2023年全球保险公司排名报告（基于2022年非银行业务资产）。
+*   S&P Global（标普全球）、Moody's（穆迪）、Fitch Ratings（惠誉国际）发布的针对各公司的信用评级报告（2023-2024年）。
+*   《福布斯》全球企业2000强榜单（2023年）。
+*   《财富》世界500强榜单（2023年、2024年）。
+*   中国平安保险（集团）股份有限公司2023年度业绩演示文稿。
+*   其他通过系统化网络搜索获得的公司财务摘要和市场分析数据。
+
+## Citations 
+- https://zhuanlan.zhihu.com/p/23621574770
+- https://finance.sina.com.cn/jryx/insurance/2024-08-05/doc-inchqhuh5874989.shtml
+- https://www.21jingji.com/article/20240807/herald/b262ea88c096df62a7392d0093bf3b21.html
+- https://www.fortunechina.com/fortune500/c/2024-08/05/content_456770.htm
+- https://resource.emagecompany.com/finance/2024insurancebrand100.html
+- https://www.cuiqq.com/newsdetail/9591
+- https://www.spglobal.com/market-intelligence/en/news-insights/articles/2024/12/the-world-s-largest-life-insurers-2024-86682846
+- https://www3.ambest.com/ambv/sales/bwpurchase.aspx?record_code=344023
+- https://news.ambest.com/articlecontent.aspx?refnum=298241&altsrc=43
+- https://www.sohu.com/a/766175880_465408
+- https://press.spglobal.com/2023-12-12-S-P-Global-Market-Intelligence-Releases-Inaugural-Global-Rankings-of-the-Largest-Life-and-Property-and-Casualty-Insurers
+- https://www.spglobal.com/market-intelligence/en/news-insights/research/the-worlds-largest-life-insurers-2023
+- https://www.baoxianguancha.com/content-44-7749-1.html
+- https://bestsreview.ambest.com/displaychart.aspx?Record_Code=328159
+- https://zhuanlan.zhihu.com/p/676785208
+- https://www.forbes.com/sites/rachelpeachman/2023/06/13/meet-the-worlds-best-insurance-companies-2023/
+- https://www.atlas-mag.net/en/article/forbes-2000-top-20-of-the-largest-insurers-in-2018
+- https://x.com/Camax3000/status/1723980602657886588?lang=ar
+- https://www.forbes.com/sites/sergeiklebnikov/2023/06/08/forbes-global-2000-the-worlds-largest-insurance-companies-in-2023/
+- https://www.forbesmiddleeast.com/industry/business/forbes-global-2000-the-worlds-largest-insurance-companies-in-2022
+- https://zhuanlan.zhihu.com/p/464438133
+- https://www.shenlanbao.com/wenda/topics/1101315
+- https://www.caijian.info/?p=34371
+- https://finance.sina.com.cn/wm/2024-03-27/doc-inapteca4898367.shtml
+- https://brandirectory.com/reports/insurance/2024
+- https://www.fortunechina.com/fortune500/c/2023-08/02/content_437103.htm
+- https://www.fortunechina.com/fortune500/c/2023-08/02/content_437121.htm
+- https://app.dahecube.com/nweb/news/20230802/170316n7357e64f01d.htm
+- https://news.qq.com/rain/a/20230807A06O8M00
+- https://zhuanlan.zhihu.com/p/648546982
+- https://www.spglobal.com/market-intelligence/en/news-insights/research/the-worlds-largest-p-and-c-insurers-2023
+- https://www.swfinstitute.org/fund-rankings/insurance
+- https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/10/the-world-s-largest-life-insurers-2025-92777109
+- https://bestsreview.ambest.com/displaychart.aspx?Record_Code=328159
+- https://www3.ambest.com/ambv/sales/bwpurchase.aspx?record_code=332829
+- https://www3.ambest.com/ambv/sales/bwpurchase.aspx?record_code=327766
+- https://www.reinsurancene.ws/worlds-largest-insurance-companies/
+- https://bestsreview.ambest.com/displaychart.aspx?Record_Code=328159
+- https://news.ambest.com/PR/PressContent.aspx?refnum=35667&altsrc=2
+- https://bestsreview.ambest.com/edition/2023/February/World-s-Largest-Insurers-2023-Edition-US-Health-Insurers-Top-List-B-pdf.html
+- https://press.spglobal.com/2023-12-12-S-P-Global-Market-Intelligence-Releases-Inaugural-Global-Rankings-of-the-Largest-Life-and-Property-and-Casualty-Insurers
+- https://www.spglobal.com/market-intelligence/en/news-insights/research/the-worlds-largest-life-insurers-2023
+- https://www.insurancejournal.com/news/national/2024/10/25/798514.htm
+- https://programbusiness.com/news/the-worlds-largest-pc-insurers-in-2023-sp-global/
+- https://www.spglobal.com/market-intelligence/en/news-insights/research/the-worlds-largest-p-and-c-insurers-2023
+- https://www.linkedin.com/posts/ambestinformationservices_insurancecompanies-insuranceindustry-insurers-activity-7354975809771560960-mkrK
+- https://bestsreview.ambest.com/displaychart.aspx?Record_Code=328159
+- https://news.ambest.com/newscontent.aspx?refnum=271765&altsrc=23
+- https://www3.ambest.com/ambv/sales/bwpurchase.aspx?record_code=332829
+- https://www3.ambest.com/ambv/sales/bwpurchase.aspx?record_code=350211&AltSrc=22&AltServ=643
+- https://news.ambest.com/newscontent.aspx?refnum=263274
+- https://www.reinsurancene.ws/ranked-by-2023-npw-health-carriers-again-dominate-list-of-worlds-largest-insurers/
+- https://bestsreview.ambest.com/displaychart.aspx?Record_Code=328159
+- https://www3.ambest.com/ambv/sales/bwpurchase.aspx?record_code=332830
+- https://en.wikipedia.org/wiki/List_of_largest_insurance_companies
+- https://www.163.com/dy/article/INKRUCDC0539U8OD.html
+- https://www3.ambest.com/ambv/sales/bwpurchase.aspx?record_code=332829
+- https://zhuanlan.zhihu.com/p/607765755
+- https://news.ambest.com/newscontent.aspx?refnum=263274
+- https://www.baoxianguancha.com/tags-3135-1.html
+- https://word.baidu.com/view/58314d0df52d2af90242a8956bec0975f465a482.html
+- https://zhuanlan.zhihu.com/p/678119078
+- https://www.phb123.com/pinpai/daquan/4845_0_76_0.html
+- https://www.163.com/dy/article/I74TQ4JE0539U8OD.html
+- https://www.forbeschina.com/lists/1807
+- https://news.ambest.com/PressContent.aspx?altsrc=2&refnum=35880
+- https://www.allianz.com/en/investor_relations/bonds/rating.html
+- https://www.fi-desk.com/allianz-se-maintains-superior-am-best-ratings/
+- https://www.fitchratings.com/research/insurance/fitch-affirms-allianz-se-insurer-financial-strength-rating-at-aa-stable-05-12-2025
+- https://news.ambest.com/newscontent.aspx?refnum=256889&altsrc=23
+- https://www.forbes.com/sites/forbesstaff/2023/07/07/forbes-global-2000-list-2023-the-top-200/
+- https://www.forbes.com/sites/sergeiklebnikov/2023/06/08/forbes-global-2000-the-worlds-largest-insurance-companies-in-2023/
+- https://www.atlas-mag.net/en/article/forbes-2000-top-20-of-the-largest-insurers-in-2018
+- https://s3.amazonaws.com/Weblinks/OnlineContent/Attachments/Website/Tour_01/index.html?pano=data:text%2Fxml,%3Ckrpano%20onstart=%22loadpano(%27%2F%5C%2Fp6.pics%2Fp%2F151620958%27)%3B%22%3E%3C/krpano%3E
+- https://www.scribd.com/document/704295217/Forbes-Global-2000-List-2023
+- https://news.ambest.com/presscontent.aspx?refnum=35234&altsrc=9
+- https://news.ambest.com/pr/PressContent.aspx?refnum=36577&altsrc=2
+- https://www.reinsurancene.ws/moodys-raises-axas-insurance-financial-strength-rating-to-aa2-with-stable-outlook/
+- https://axaxl.com/about-us/ratings
+- https://martini.ai/pages/research/AXA-48d86701898185b058beef29ecdabbe8
+- https://news.ambest.com/pr/PressContent.aspx?altsrc=2&refnum=35824
+- https://news.ambest.com/presscontent.aspx?refnum=36404&altsrc=2
+- https://news.ambest.com/newscontent.aspx?refnum=266522&altsrc=177
+- https://www.spglobal.com/ratings/pt/regulatory/article/-/view/sourceId/101625519
+- https://www.fitchratings.com/research/insurance/fitch-revises-unitedhealth-outlook-to-negative-affirms-ifs-ratings-at-aa-30-07-2025
+- https://news.ambest.com/newscontent.aspx?refnum=260471&altsrc=23
+- https://group.pingan.com/media/news/2023/pingan-property-and-casualty-ambest-rating-2023.html
+- https://news.ambest.com/newscontent.aspx?refnum=266124&altsrc=23
+- https://finance.yahoo.com/news/am-best-affirms-credit-ratings-141600211.html
+- https://finance.yahoo.com/news/am-best-upgrades-credit-ratings-125000603.html
+- https://www.fitchratings.com/research/insurance/fitch-affirms-china-life-ifs-at-a-outlook-stable-23-09-2025
+- https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3210745
+- https://www.e-chinalife.com/tzzgx/investor-relations/about-us/credit-rating/2023/
+- https://www.fitchratings.com/entity/china-life-insurance-company-limited-87601574
+- https://www.fitchratings.com/research/insurance/fitch-affirms-china-life-ifs-at-a-outlook-stable-30-09-2024
+- https://news.ambest.com/newscontent.aspx?AltSrc=23&RefNum=222157
+- https://news.ambest.com/NewsContent.aspx?refnum=264802
+- https://news.ambest.com/newscontent.aspx?refnum=256268
+- https://www.fitchratings.com/entity/berkshire-hathaway-inc-80090743
+- https://www.fitchratings.com/research/insurance/fitch-affirms-berkshire-hathaway-inc-ratings-outlook-stable-24-11-2025
+- https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3126908
+- https://news.ambest.com/pr/PressContent.aspx?refnum=35645&altsrc=2
+- https://www.fitchratings.com/research/insurance/fitch-affirms-prudential-financial-ratings-outlook-stable-18-10-2024
+- https://s203.q4cdn.com/245412310/files/doc_financials/2024/q4/4Q24-Prudential-Financial-Fact-Sheet.pdf
+- https://news.ambest.com/newscontent.aspx?refnum=256655&altsrc=23
+- https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3130118
+- https://www.fitchratings.com/research/insurance/fitch-affirms-metlife-ratings-outlook-stable-18-09-2025
+- https://finance.yahoo.com/news/am-best-affirms-credit-ratings-220200069.html
+- https://news.ambest.com/PressContent.aspx?altsrc=2&refnum=35804
+- https://www.fitchratings.com/entity/metlife-inc-80090552
+- https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/13266136
+- https://www.marketwatch.com/press-release/am-best-affirms-credit-ratings-of-legal-general-group-plc-and-most-of-its-rated-subsidiaries-2999cbe0?gaa_at=eafs&gaa_n=AWEtsqfq8l5_eCvihV2EYRW8dzQBLWEXMzFixujzn1yE-bM-umYtCsDfHJA4&gaa_ts=6958e35e&gaa_sig=XLnTv2BkgAL1s-94I_U4LoVn1cvvpuz6-JdbTfSEnineIGTrcQxcgWfakF0-Ruqk6N61-DxpTZmDqR6A44jbFw%3D%3D
+- https://group.legalandgeneral.com/en/investors/debt-investors
+- https://cbonds.com/news/3264593/
+- https://news.ambest.com/newscontent.aspx?refnum=253703
+- https://news.ambest.com/newscontent.aspx?refnum=271497&altsrc=23
+- https://www.fitchratings.com/entity/manulife-financial-corporation-80603002
+- https://news.ambest.com/newscontent.aspx?refnum=251743&altsrc=23
+- https://finance.yahoo.com/news/am-best-affirms-credit-ratings-171200823.html
+- https://dbrs.morningstar.com/research/436184/manulife-financial-corporation-credit-rating-report
+- https://news.ambest.com/newscontent.aspx?refnum=263537&altsrc=9
+- https://news.ambest.com/newscontent.aspx?refnum=255255&altsrc=23
+- https://www.soderbergpartners-wm.co.uk/contentassets/f5cdfc73c8c14a2a9f9dd4c8d0d7f5ab/nordic_report_2024_q3.pdf
+- https://web.ambest.com/docs/default-source/events/credit_rating_monitor_11-23_global_a4.pdf?sfvrsn=3af4e92b_4
+- https://web.ambest.com/docs/default-source/ratings/am-best's-credit-ratings_web.pdf
+- https://beinsure.com/ranking/top-25-insurance-companies-worldwide-assets/
+- https://www.investopedia.com/articles/personal-finance/010715/worlds-top-10-insurance-companies.asp
+- https://www.globaldata.com/companies/top-companies-by-sector/financial-services/global-insurers-by-market-cap/
+- https://www.financecharts.com/screener/best-performing-5-years/keyword-insurers?download=1&columns=custom-value
+- https://www.statista.com/statistics/431580/leading-insurance-companies-usa-by-total-assets/?srsltid=AfmBOopcIXXMp-qsmIz2s8_WSFjj5Oz_5uDaM6CGcS8KYYO3Z8exRJ6f
+- https://www.statista.com/statistics/225335/total-assets-of-ping-an-insurance/?srsltid=AfmBOoqT2XI0479VRj6SYltekJVB7RAoKbe2NmXAlAobLh_moDKMaAFo
+- https://group.pingan.com/resource/pingan/IR-Docs/2024/pingan-ar23-presentation.pdf
+- https://doc.irasia.com/listco/hk/pingan/annual/ar296583-e101.pdf
+- https://companiesmarketcap.com/ping-an-insurance/revenue/
+- https://www.macrotrends.net/stocks/charts/PNGAY/ping-an-insurance-of-china/revenue
+- https://www.ethifinance.com/en/ratings/company/1084/5907
+- https://companiesmarketcap.com/allianz/total-assets/
+- https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/annual-report/ar-2023/en-Allianz-Group-Annual-Report-2023.pdf
+- https://www.statista.com/statistics/272265/allianz-group-worldwide-revenue-since-2005/?srsltid=AfmBOoouNFOMsGh_pVRzlFbt95O1sppdreDjD82GUMKESJbrNENEnAyn
+- https://www.macrotrends.net/stocks/charts/ALIZY/allianz-se/revenue
+- https://finbox.com/DB:AXA/explorer/total_rev/
+- https://global.morningstar.com/en-gb/investments/stocks/0P0000ATCX/key-metrics
+- https://www.macrotrends.net/stocks/charts/AXAHY/axa-sa/revenue
+- https://www-axa-com.cdn.axa-contento-118412.eu/www-axa-com/2b5affa7-2af2-4bc4-a291-67211c0b5af0_AXA_Full_Year_Results_2023_with_commentaries.pdf
+- https://www.axa.com/en/about-us/key-figures

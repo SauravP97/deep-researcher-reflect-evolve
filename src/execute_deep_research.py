@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 1, "topic": "Finance & Business", "language": "zh", "prompt": "收集整理目前中国9阶层实际收入和财务状况，特别研究得出中国的中产有哪些特点，实际中产人数，财力等等"}
+research_task = {"id": 4, "topic": "Finance & Business", "language": "zh", "prompt": "分析 2010 年至今的黄金走势，用思维导图告诉我黄金未来有可能的趋势，关键压力，关键支撑位置"}
 
 
 

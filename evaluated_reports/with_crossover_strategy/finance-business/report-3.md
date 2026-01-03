@@ -1,0 +1,227 @@
+# 中国金融未来的发展趋势，未来哪一个细分领域（例如投行、pe、固收等）更有上升空间
+
+好的，作为首席研究编辑，我将根据您提供的原始研究主题、最终执行计划以及详细的研究笔记，编写一份全面、专业的深度研究报告。
+
+---
+
+# **深度研究报告：中国金融未来的发展趋势与细分领域潜力评估**
+
+**报告日期:** 2024年10月27日
+**报告ID:** AI-DDR-2024-CF-01
+**研究核心:** 基于“五篇大文章”战略框架，评估中国金融各细分领域的未来上升空间。
+
+---
+
+### **执行摘要**
+
+本报告旨在深度剖析中国金融行业的未来发展趋势，并对各细分领域的上升空间进行前瞻性评估。研究发现，中国金融的未来图景正由顶层战略设计深度重塑。2023年中央金融工作会议提出的“金融强国”目标，特别是作为核心抓手的**“五篇大文章”（科技金融、绿色金融、普惠金融、养老金融、数字金融）**，已成为评估所有金融领域未来潜力的核心基准。
+
+研究结论表明，未来最具上升空间的领域不再是传统的机构划分（如投行、PE），而是那些能够深度服务并融入“五篇大文章”国家战略的功能性赛道。根据政策权重与市场驱动力综合研判，各领域潜力排序如下：
+
+*   **第一梯队（最高潜力）**：
+    *   **科技金融相关领域 (PE/VC与投行)**：由于“科技金融”在“五篇大文章”中位列首位，且在监管评价体系中占据最高权重，专注于“硬科技”、先进制造等领域的私募股权投资（PE/VC）和投资银行业务（投行）拥有最明确、最广阔的上升空间。
+    *   **养老金融与财富管理**：受人口结构变迁的刚性驱动和“养老金第三支柱”政策的强力支持，服务于养老金管理和居民财富保值增值的资产管理、财富科技（WealthTech）领域，面临历史性的发展机遇。
+
+*   **第二梯队（高潜力）**：
+    *   **绿色金融相关领域 (PE/VC, 资管, 投行)**：在“双碳”目标下，满足绿色产业巨大融资需求的PE/VC、ESG资管和绿色债券发行业务，具备长期且稳定的增长动力。
+    *   **数字金融赋能领域 (产业数字金融, 监管科技)**：作为贯穿五大领域的横向技术驱动力，产业数字金融、监管科技（RegTech）等通过技术创新提升金融服务实体经济的效率与安全性，是实现高质量发展的关键。
+
+*   **特定机遇领域**：
+    *   **固定收益**：在当前扩张性财政政策背景下，由政府大规模发债驱动，固收领域的债券承销、交易和资管业务在中短期内拥有确定性的增长机会。
+
+---
+
+### **核心发现**
+
+#### **1. 顶层设计重塑金融格局：“五篇大文章”成为核心分析框架**
+
+中国金融的未来发展已明确以服务国家战略为核心导向。2023年中央金融工作会议将金融提升至“国家核心竞争力的重要组成部分”的高度，并系统性地提出了“五篇大文章”作为建设“金融强国”的核心抓手。这一框架不仅是政策宣言，更已转化为对金融机构（特别是券商）的量化评价体系，直接影响资源配置和业务导向。其中，**科技金融被置于首位，并在评价体系中被赋予最高权重（在某券商评价体系中占50分，远超其他项）**，这明确预示了国家金融战略的最高优先级。
+
+#### **2. 宏观驱动力与“五篇大文章”的内在逻辑**
+
+未来的增长机会由四大宏观驱动力塑造，且每个驱动力都与“五篇大文章”的特定领域紧密相连：
+
+*   **技术创新与融资结构转型**：中国经济正转向由“新质生产力”驱动的高质量发展模式，融资结构也随之从间接融资转向直接融资。这为服务于科技企业的**科技金融**（PE/VC、科创板IPO）提供了广阔舞台。
+*   **人口结构变迁**：中国加速进入老龄化社会，预计未来5-10年养老金缺口高达8-10万亿元。这一严峻挑战催生了对**养老金融**的巨大刚需，推动养老金管理、财富管理等资管业务的蓬勃发展。
+*   **可持续发展与“双碳”目标**：实现“双碳”目标预计需新增约139万亿元的气候领域投资。巨大的资金缺口为**绿色金融**（绿色信贷、绿色债券、ESG投资、碳金融）创造了历史性机遇。
+*   **扩张性财政与货币政策**：为稳定经济增长，政府加大宏观调控力度，通过发行国债等扩张性财政政策拉动投资。这直接利好**固定收益**市场，提升了其在中短期的业务活跃度。
+
+#### **3. 垂直领域的潜力重估：从“机构为本”到“功能为王”**
+
+在“五篇大文章”的框架下，传统金融细分领域的价值正在被重新定义。其未来的潜力不再取决于其机构形式，而在于其服务国家战略的功能。
+
+*   **PE/VC 与 投行**：核心增长点在于其作为资本形成工具，在**科技金融**（投向硬科技企业）和**绿色金融**（投向碳中和相关产业）中的关键作用。全面注册制等资本市场改革为其发展提供了制度保障。
+*   **资产管理**：核心增长点在于其作为财富管理工具，在服务**养老金融**（承接第三支柱养老金）和**绿色金融**（践行ESG投资理念）方面的巨大潜力。保险资管因其资金的长期性和稳定性，表现出尤为强劲的增长势头。
+*   **固定收益**：短期增长点源于积极财政政策下的政府债券发行潮。长期增长点则在于绿色债券等创新品种的发展。
+*   **银行业**：作为金融体系的主体，其增长模式正从规模扩张转向结构优化，重点在于发展科技金融、绿色金融和普惠金融等业务，并向智能化、精细化运营转型。
+
+#### **4. 横向技术的赋能价值：数字金融是底层基础设施**
+
+数字金融不仅是“五篇大文章”之一，更是赋能其他四篇文章实现的关键。以金融科技（FinTech）为核心的横向功能赛道，展现出强大的跨领域增长潜力。
+
+*   **产业数字金融**：通过融合产业互联网数据与金融服务，有效解决中小微企业信息不对称的痛点，是**普惠金融**和**科技金融**的有力实现路径。
+*   **财富科技 (WealthTech)**：利用人工智能、大数据为居民提供智能投顾和个性化资产配置服务，是满足**养老金融**需求、提升**普惠金融**覆盖面的核心技术手段。
+*   **监管科技 (RegTech) 与智能风控**：在金融业务日趋复杂和风险交织的背景下，利用技术加强风险识别与合规管理的需求持续增长，是保障整个金融体系稳健运行的重要基石。
+
+---
+
+### **深度分析**
+
+#### **第一梯队：战略核心与刚需驱动**
+
+**1. 科技金融 (PE/VC & 投行)**
+政策的倾斜是该领域潜力的最强背书。监管机构对券商的评价体系将服务科技创新的能力作为核心指标，直接与**股权投资（PE/VC）和债券承销（投行）**业务挂钩 [https://finance.sina.cn/2025-07-09/detail-infevnxx2994996.d.html]。这意味着，能够精准识别并服务于国家战略性新兴产业和未来产业的股权投资机构与投资银行，将获得最直接的政策红利和市场机遇。随着资本市场改革深化和多层次市场体系完善，直接融资渠道的拓宽将进一步利好该领域发展。
+
+**2. 养老金融 (资产管理 & 财富科技)**
+这是一个由社会结构变化驱动的万亿级蓝海市场。截至2024年底，中国60岁以上人口达3.1亿，庞大的老年群体和日益增强的养老储备意识构成了市场的基本盘。政策层面，个人养老金制度已从试点向全国推广，为资管行业带来长期、稳定的资金来源。市场需求正从单一产品向“财富+服务”的综合解决方案演变，这为能够整合医疗、康养等非金融资源的金融机构和提供智能化解决方案的财富科技公司创造了巨大机遇。数据显示，已有机构的养老金管理规模在2023年末达到1.05万亿元，印证了其巨大的市场潜力。
+
+#### **第二梯队：长期趋势与广泛赋能**
+
+**1. 绿色金融 (PE/VC, 资管, 投行)**
+“双碳”目标是中国的长期国策，其带来的经济社会系统性变革将持续释放对绿色金融的需求。巨大的融资缺口意味着专注于新能源、低碳技术、环保产业的PE/VC基金将迎来黄金发展期。同时，ESG投资理念正从边缘走向主流，养老金、保险资金等长线资本已成为ESG投资的主力军，这将持续推动ESG主题资管产品的增长。在企业端，良好的ESG表现正成为影响其融资能力的关键因素，从而为投行的绿色债券发行、绿色企业IPO和并购业务提供了持续的业务来源。
+
+**2. 数字金融 (产业数字金融, 监管科技)**
+数字金融是实现金融高质量发展的基础设施。
+*   **产业数字金融**：其核心价值在于利用数据作为新的生产要素，打通产业链、数据链与资金链，解决传统金融模式下难以覆盖的长尾客群的融资需求。随着中国数字经济规模已达53.9万亿元，占GDP比重超四成，以产业数字化为基础的金融服务模式前景广阔 [https://www.caict.ac.cn/kxyj/qwfb/bps/202408/P020240830315324580655.pdf]。
+*   **监管科技与智能风控**：随着金融创新加速和风险传递的复杂化，监管要求日趋严格。利用AI、大数据等技术提升合规效率和风险管理能力的RegTech解决方案，已成为金融机构的刚需。
+
+#### **特定机遇领域：宏观政策驱动**
+
+**固定收益**
+该领域的机遇与当前宏观经济政策高度绑定。为实现5%左右的经济增长目标，政府采取扩张性财政政策，通过大规模发行国债和地方政府债为基础设施投资提供资金。这将直接导致债券一级发行和二级市场的交易活跃度显著提升，为固收相关的销售、交易、研究及承销（DCM）业务带来确定性的增长。然而，这种机遇受宏观政策周期影响较大。
+
+---
+
+### **结论与展望**
+
+中国金融行业的未来发展正经历一场深刻的范式转换。上升空间最大的机会，已不再局限于传统金融机构的业务边界，而是集中在那些能与**“五篇大文章”国家战略同频共振**的交叉领域和功能性赛道。
+
+**最终结论是，以服务“科技金融”为核心的PE/VC和投行业务，以及由人口结构变迁驱动的“养老金融”相关资管和财富管理业务，共同构成了未来5-10年中国金融最具爆发潜力的第一梯队。** 紧随其后的是服务于“绿色金融”和“数字金融”的相关领域，它们代表了长期、可持续的增长方向。
+
+展望未来，金融机构的核心竞争力将取决于其战略的敏锐度、专业化的深度以及科技应用的能力。成功者将是那些能够超越传统业务模式，将自身能力与国家战略需求紧密结合，在服务实体经济高质量发展的过程中实现自身价值创造的机构。同时，所有参与者都必须高度关注和管理潜在的系统性风险，包括房地产和地方政府债务问题，以及复杂的地缘政治环境，在稳健经营的基础上捕捉结构性增长机遇。
+
+## Citations 
+- https://m.21jingji.com/article/20231031/herald/d04cc1327641e118443b3962e47cd1de.html
+- http://www.china-cer.com.cn/guwen/2023110126406.html
+- https://pdf.dfcfw.com/pdf/H3_AP202311011607624255_1.pdf
+- https://www.12371.cn/2023/11/02/ARTI1698895777222888.shtml
+- http://www.jjckb.cn/2023-10/31/c_1310748281.htm
+- https://www.21jingji.com/article/20240115/herald/a8d9cddb15f86d7f86654bff703e5add.html
+- https://www.jingjidaokan.com/icms/null/null/ns:LHQ6LGY6LGM6MmM5ZTg0NzU4Y2EwZTU4YjAxOGUwNzdmOWVmODAwMWQscDosYTosbTo=/show.vsml
+- https://pic.bankofchina.com/bocappd/rareport/202312/P020231220533798319914.pdf
+- https://www.imf.org/-/media/files/publications/cr/2024/chinese/1chnca2024003-print-pdf.pdf
+- http://ier.ruc.edu.cn/docs/2024-03/f401d9c27ccc44fb8b10d2b8669a587b.pdf
+- https://www.21jingji.com/article/20230414/herald/fb17c3c3c50df3707fe5f5f7ab87f276.html
+- https://r.img.cctvpic.com/photoAlbum/page/20231222/2023122218161782885.pdf?spm=C73544894212.P59511941341.0.0&file=2023122218161782885.pdf
+- https://www.amac.org.cn/sjtj/tjbg/nb/202412/P020241220404659661116.pdf
+- https://pdf.dfcfw.com/pdf/H3_AP202402051620557450_1.pdf
+- https://assets.kpmg.com/content/dam/kpmg/cn/pdf/zh/2024/09/mainland-china-securities-survey-2024.pdf
+- https://assets.kpmg.com/content/dam/kpmg/cn/pdf/zh/2024/09/2024-chinese-fintech-ceo-survey-report.pdf
+- https://pdf.dfcfw.com/pdf/H3_AP202504011649888138_1.pdf
+- https://m.jfdaily.com/wx/detail.do?id=844466
+- http://www.caict.ac.cn/english/research/whitepapers/202312/P020231215388551378350.pdf
+- https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1226280&itemId=919
+- https://usewealth.com/Information/Details.aspx?i=121854
+- https://news.cnstock.com/news,jg-202402-5195928.htm
+- https://finance.sina.cn/2022-02-23/detail-imcwipih4959973.d.html?oid=3845397678451512&vt=4&cid=76646&node_id=76646
+- https://www.crhcc.com/hydj/2023/8/17dfdc8c00234b20b2ba63dcfb89a575.htm
+- http://library.ttcdw.com/dev/upload/webUploader/202302/1677206933a9bb41e3f7c67174.pdf
+- https://jrj.sh.gov.cn/ZXYW178/20251023/048d37b3495643f9924815ba079f901e.html
+- https://jrj.sh.gov.cn/ZXYW178/20250919/1f720f8959b643888c44de6a6263c133.html
+- https://www.ey.com/content/dam/ey-unified-site/ey-com/zh-cn/insights/financial-services/documents/ey-annual-report-on-chinas-financial-liberalization-2024-zh.pdf
+- http://www.scio.gov.cn/xwfb/bwxwfb/gbwfbh/rmyx/202504/t20250424_892776.html
+- https://www.stcn.com/article/detail/2125746.html
+- https://www.icmagroup.org/assets/Whitepaper-on-ESG-practices-Chinese-version-January-2023.pdf
+- https://www.ifs.net.cn/storage/files/0f99b420f0e695488b03c6834c56e4a2.pdf
+- https://pdf.dfcfw.com/pdf/H3_AP202202141546915576_1.pdf
+- http://www.greenfinance.org.cn/displaynews.php?id=4227
+- https://cjfx.cufe.edu.cn/__local/8/52/50/4804814A7EF7BBC772022473998_BB81E412_1262B4.pdf
+- https://www.youraccountonline.com/content/dam/oliver-wyman/asia-pacific/china/zh-cn/Publications/ChinaBankingFutureDevelopmentAgenda.pdf
+- https://guangzhou.pbc.gov.cn/eportal/fileDir/publish/guangzhou/1387267362616/_fileupload/4F3CEE90.pdf
+- https://view.inews.qq.com/a/20250821A071QH00
+- https://m.21jingji.com/article/20250818/herald/8e71e47fe73ad84d6bcb1d7465595acf_zaker.html
+- https://www.sky.yn.gov.cn/UpLoadFiles/File/2023-05-12/NXLQ1RS7BG%E5%87%8C%E6%B0%B8%E8%BE%89.pdf
+- https://pdf.dfcfw.com/pdf/H3_AP202404111630141793_1.pdf?1712843025000.pdf
+- http://www.chinabanker.net/News/Info?id=1537
+- https://pdfs.cir.cn/pdf.ashx?id=2095259
+- http://www.cvca.org.cn/ueditor/php/upload/file/20250328/1743167644588660.pdf
+- http://www.pe.tsinghua.edu.cn/__local/D/C2/A5/0D1874D11818387432B75B17A26_D236C748_4B2A5.docx?e=.docx
+- https://zhuanlan.zhihu.com/p/721612633
+- https://www.163.com/dy/article/KHPF0JQU05387IEF.html
+- https://m.sdba.org.cn/article/show_18_13246.html
+- https://www3.weforum.org/docs/WEF_China_Asset_Management_CN_2020.pdf
+- https://www.mckinsey.com.cn/wp-content/uploads/2023/05/2023%E5%AD%A3%E5%88%8AQ1%E8%B5%84%E7%AE%A10511v5%E7%AE%80%E7%89%88.pdf
+- https://txt.cir.cn/2607903.html
+- https://assets.kpmg.com/content/dam/kpmg/cn/pdf/zh/2020/12/china-asset-management-technology-development-report-2020-key-findings.pdf
+- https://www.mckinsey.com.cn/wp-content/uploads/2019/05/2019_%E9%BA%A6%E8%82%AF%E9%94%A1_%E5%88%B6%E8%83%9C%E4%B8%AD%E5%9B%BD%E5%85%BB%E8%80%81%E9%87%91%E8%9E%8D%E5%B8%82%E5%9C%BA.pdf
+- https://zhuanlan.zhihu.com/p/27646099644
+- https://www.citicbank.com/about/companynews/banknew/message/202511/P020251127647700983905.pdf
+- https://pic.bankofchina.com/bocappd/rareport/202304/P020230406597875949701.pdf
+- https://www.stcn.com/article/detail/1078688.html
+- https://www.qyresearch.com.cn/reports/4963797/wealthtech-solutions
+- https://blog.csdn.net/devops8pract/article/details/154599436
+- https://www.industryresearch.co/zh/market-reports/wealthtech-solutions-market-301542
+- https://www.researchnester.com/cn/reports/wealthtech-solutions-market/6065
+- https://static.lufaxcdn.com/docs/fund/20180509_quanqiucaifuguanlibaogao.pdf
+- http://www.nifd.cn/Uploads/Paper/95a771f7-f029-465c-93d6-a672c45e3167.pdf
+- http://www.globalhha.com/doclib/data/upload/doc_con/5c22ff69cc08f.pdf
+- http://www.caict.ac.cn/kxyj/qwfb/ztbg/201804/P020180116491991162222.pdf
+- https://www.tdcc.com.tw/portal/zh/file/download/402897967d841dba017e3226bd08006c
+- https://assets.kpmg.com/content/dam/kpmg/cn/pdf/zh/2025/12/china-banking-outlook-2026.pdf
+- http://dbase.gslib.com.cn:8000/DRCNet.Mirror.Documents.Web/DocAttachments.aspx?AttachmentId=282033
+- https://pdf.dfcfw.com/pdf/H3_AP202204131558974897_1.pdf
+- https://mzqb.cyol.com/html/2024-01/16/content_351561.htm
+- https://www.caict.ac.cn/kxyj/qwfb/bps/202408/P020240830315324580655.pdf
+- https://www.analysys.cn/article/detail/20021051
+- https://pic.bankofchina.com/bocappd/rareport/202507/P020250701348749666259.pdf
+- https://www.vzkoo.com/read/20250620a8338c9170fe4f2c8b2c2d92.html
+- https://assets.kpmg.com/content/dam/kpmg/cn/pdf/zh/2025/01/china-banking-outlook-2025.pdf
+- https://cn.ceibs.edu/sites/portal.prod1.dpmgr.ceibs.edu/files/2025quanqiuziguanzhongxinpingjiazhishubaogao-waifaban.pdf
+- https://www.mordorintelligence.com/zh-CN/industry-reports/china-fintech-market
+- http://mp.cnfol.com/59302/article/1766973329-142188489.html
+- https://news.qq.com/rain/a/20251229A061AW00
+- https://finance.sina.com.cn/roll/2025-01-01/doc-inecmnkx3021537.shtml
+- https://pdf.dfcfw.com/pdf/H3_AP202308181595066266_1.pdf
+- https://pic.bankofchina.com/bocappd/rareport/202310/P020231008346817767559.pdf
+- https://creditcard1.ccb.com/chn/attachDir/2025/07/2025073117152655251.pdf
+- http://zgyhy.com.cn/upload/1631086942239.pdf
+- https://assets.kpmg.com/content/dam/kpmg/cn/pdf/zh/2025/12/china-banking-outlook-2026.pdf
+- https://www.shbanking.cn/UploadFile/day_20240131/000200020002/2024013102431270638.pdf
+- https://www.rmlt.com.cn/2025/0422/728265.shtml
+- https://m.21jingji.com/article/20240911/herald/535ddb10a878bf7e6bbf296dc9cc5a02.html
+- https://assets.kpmg.com/content/dam/kpmg/cn/pdf/zh/2025/12/china-banking-outlook-2026.pdf
+- https://www2.ccb.com/chn/attachDir/2025/04/2025042419065935109.pdf
+- https://v.icbc.com.cn/userfiles/Resources/ICBCLTD/download/2019/2019A20190926.pdf
+- http://fund.eastmoney.com/gonggao/011705,AN202507031702024388.html
+- https://m.chinabgao.com/finance/stock/64251.html
+- https://assets.kpmg.com/content/dam/kpmg/cn/pdf/zh/2025/12/china-banking-outlook-2026.pdf
+- https://www.cicc.com/upload/file/2025/07/16/5965d5b3-4ef1-4c88-b8c6-3ecaf99c9b68.pdf
+- https://www2.ccb.com/chn/attachDir/2025/08/2025082910301359451.pdf
+- https://assets.kpmg.com/content/dam/kpmg/cn/pdf/zh/2025/08/mainland-china-securities-survey-2025.pdf
+- https://www.voachinese.com/a/7975716.html
+- https://fae.ucass.edu.cn/info/1066/2607.htm
+- https://html.huiyiguanjia.com/custom/moodys//series-Inside-China.html
+- https://www.imf.org/zh/publications/fandd/issues/2023/12/china-bumpy-path-eswar-prasad
+- https://www.aisixiang.com/data/156191.html
+- https://pic.bankofchina.com/bocappd/report/202508/P020250829610484273117.pdf
+- https://www.stcn.com/article/detail/1091835.html
+- https://pic.bankofchina.com/bocappd/report/202509/P020250929596448298159.pdf
+- https://v.icbc.com.cn/userfiles/resources/icbcltd/download/2025/esg2024cn.pdf
+- https://finance.sina.cn/2025-07-09/detail-infevnxx2994996.d.html
+- https://assets.kpmg.com/content/dam/kpmg/cn/pdf/zh/2025/12/china-banking-outlook-2026.pdf
+- https://ccb.com/cn/group/esg/upload/20240806_1722925967/20240806143319596766.pdf
+- https://www.cs.ecitic.com/newsite/tzzgx/ggyth/gg/hggg/202509/P020250925600054975557.pdf
+- https://www.everbright.com/sites/default/files/results-announcements/CW00165-AR24.pdf
+- https://www.cicc.com/upload/file/2025/04/01/ccb3aeab-9739-4169-aaa0-1d890bba7148.pdf
+- https://creditcard1.ccb.com/chn/attachDir/2025/07/2025073117152655251.pdf
+- https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=600036&id=10806399
+- https://m.cnopendata.com/pages/data?module=listedcompany-special&dataKey=wxgzh&title=A%E8%82%A1%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E5%85%A8%E6%96%87%E6%95%B0%E6%8D%AE
+- https://www.ifs.net.cn/storage/files/ESG%E4%B8%8E%E7%BB%BF%E8%89%B2%E9%87%91%E8%9E%8D%E5%8F%8C%E6%9C%88%E5%88%8A%EF%BC%882024%E5%B9%B405-06%EF%BC%89.pdf
+- https://www.scribd.com/document/894503019/2024%E4%B8%8A%E6%B5%B7%E9%87%91%E8%9E%8D%E4%BF%A1%E6%81%AF%E8%A1%8C%E4%B8%9A%E5%8F%91%E5%B1%95%E6%8A%A5%E5%91%8A
+- https://www.jjccb.com/jjccb/tzzgx/xxpl/yjbg/2024042920282883797/2024043008395020274.pdf
+- https://ir.cmbc.com.cn/media/3wdl2opk/hkex-eps_20240426_11182810_0.pdf
+- https://assets.kpmg.com/content/dam/kpmg/cn/pdf/zh/2025/12/china-banking-outlook-2026.pdf
+- https://stockmc.xueqiu.com/202508/601187_20250829_BQZM.pdf
+- https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0829/2025082901371_c.pdf
+- https://www.shandian.io/newsletter
+- http://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=600036&id=9896243
