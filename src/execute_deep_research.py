@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 4, "topic": "Finance & Business", "language": "zh", "prompt": "分析 2010 年至今的黄金走势，用思维导图告诉我黄金未来有可能的趋势，关键压力，关键支撑位置"}
+research_task = {"id": 6, "topic": "Finance & Business", "language": "zh", "prompt": "请帮我整理下目前全球具身智能发展的技术路线，以及各个路线的代表性公司，需要包括这些公司的技术路径，产品进度，商业化进度，融资情况，团队情况"}
 
 
 
