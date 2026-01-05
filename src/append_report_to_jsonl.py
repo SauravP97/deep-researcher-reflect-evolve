@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 13, 
-    "prompt": "为我调研AI算法能否提升现有电子学读出时幅修正方法",
+    "id": 14, 
+    "prompt": "收集整理全球数学与量子计算交叉领域的主要研究团队及其成果，横向比较其研究方向、论文产出、国际合作、资金支持、工业界合作等维度，评估哪些团队最有可能在未来5-10年内推动量子计算技术的重大突破，并预测可能产生的关键性数学理论或应用技术",
     "article": report_content,
 }
 
