@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 10, "topic": "Science & Technology", "language": "zh", "prompt": "在800V高压/碳化硅电驱/固态电池/分布式驱动等技术迭代加速的窗口期，如何构建覆盖研发制造-使用场景-残值管理的评估体系，量化不同动力系统技术路线（纯电/增程/插混/氢燃料+集中式驱动/分布式驱动）的商业化临界点？"}
+research_task = {"id": 11, "topic": "Science & Technology", "language": "zh", "prompt": "请总结碳钢常用缓蚀剂种类，并分析每种缓蚀剂是具有拉曼活性还是红外活性。注意如果是复合缓蚀剂需要分别分析再总结。"}
 
 
 
