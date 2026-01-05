@@ -1,510 +1,382 @@
-Search Query: 综述量子网络的核心概念、关键技术（量子密钥分发QKD、量子中继、纠缠分发）和最终目标（量子互联网）
-Search Answer: 量子网络的最终目标是构建一个将量子计算、量子测量与通信相融合的量子互联网，这是量子信息技术演进的未来方向 ["https://www.telecomsci.com/rc-pub/front/front-article/download/59809286/lowqualitypdf/%E9%87%8F%E5%AD%90%E4%BA%92%E8%81%94%E7%BD%91%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%8F%91%E5%B1%95%E7%A0%94%E7%A9%B6.pdf"]。其核心在于遵循量子力学规律，但同时也面临着由量子不可克隆、量子纠缠与测量坍塌等物理特性带来的新挑战，这些挑战对网络功能、协议设计以及信息传输提出了特殊要求 ["https://www.telecomsci.com/rc-pub/front/front-article/download/59809286/lowqualitypdf/%E9%87%8F%E5%AD%90%E4%BA%92%E8%81%94%E7%BD%91%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%8F%91%E5%B1%95%E7%A0%94%E7%A9%B6.pdf"]。
+Search Query: ("contactless sensing" OR "device-free sensing") AND (taxonomy OR classification OR survey) AND (Wi-Fi OR RF OR mmWave OR vision OR acoustic)
+Search Answer: 根据现有资料，目前非接触式（或无设备）感知领域主要采用以下几种输入信号和策略：
 
-量子网络的发展依赖于以下几项关键技术：
+**输入信号类型：**
 
-1.  **量子密钥分发 (Quantum Key Distribution, QKD)**
-    这是一种利用量子纠缠等现象来安全传输秘密对称加密密钥的创新方法，可以有效抵御由量子计算增强的窃听企图，从而确保加密和身份验证的安全 ["https://www.senko.com/zh-cn/basics-of-quantum-key-distribution/"]。QKD的主要功能是分发用于保障经典通信安全的随机密钥，这与利用量子态直接传输信息的量子密集编码等技术有所不同 ["https://zhuanlan.zhihu.com/p/651906130"]。
+*   **Wi-Fi信号** [https://www.sciencedirect.com/science/article/pii/S1389128625008734?dgcid=rss_sd_all, https://www.techscience.com/cmc/v86n1/64495/html]
+*   **声学信号** [https://www.computer.org/csdl/journal/tm/2025/09/10964381/25UAatWZcOs]
+*   **蜂窝网络信号** (例如 OFDM 信号) [https://dl.acm.org/doi/10.1145/3714394.3754369]
 
-2.  **量子中继 (Quantum Repeater) 与纠缠分发 (Entanglement Distribution)**
-    *   **远距离通信的挑战与理想方案**：实现远距离量子通信需要克服信号衰减和退相干问题，理想的解决方案是量子中继技术。该技术可通过量子纠缠交换和纠缠纯化等手段来中继纠缠，从而连接远距离的节点 ["https://www.china-cic.cn/upload/202012/05/73453ac5127a48aeb2a01f218460b9e5.pdf", "https://www.telecomsci.com/rc-pub/front/front-article/download/59809286/lowqualitypdf/%E9%87%8F%E5%AD%90%E4%BA%92%E8%81%94%E7%BD%91%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%8F%91%E5%B1%95%E7%A0%94%E7%A9%B6.pdf"]。然而，真正的量子中继技术难度极大，目前尚未达到实用化阶段 ["https://www.china-cic.cn/upload/202012/05/73453ac5127a48aeb2a01f218460b9e5.pdf"]。
+**算法策略：**
 
-    *   **当前的主流方案**：鉴于量子中继的技术瓶颈，当前构建远距离QKD网络的基础设施主要采用“可信中继”（Trusted Repeater）方案。其基本思想是利用“hop-by-hop”（逐跳）机制，通过一系列可信的中间节点传递密钥，例如使用一次性密码本（OTP）算法在节点间进行加密解密，从而将密钥从源头安全地传递到目的地 ["https://www.china-cic.cn/upload/202012/05/73453ac5127a48aeb2a01f218460b9e5.pdf", "https://www.sciengine.com/doi/pdf/81DF29368AE04EEA9C2543589D4E94EE?ipInfo=66.249.75.11"]。
+*   一些方法会利用**深度学习技术**进行信号处理和分析 [https://www.techscience.com/cmc/v86n1/64495/html]。
+*   在特定应用场景下，会采用**多模态传感系统**，即结合多种不同类型的信号源进行综合感知，以提高鲁棒性和准确性 [https://www.researchgate.net/publication/397588254_Development_and_validation_of_a_multi-modal_contactless_sensing_system_for_surgical_risk_analysis_in_a_real-world_environment]。
 
-    *   **纠缠分发的核心作用**：纠缠分发是量子网络的一项关键功能，是多项量子技术应用的基础。除了用于QKD，利用分发后的纠缠量子比特对还可以实现量子密集编码等应用，在通信双方之间直接传输特定的二进制位串 ["https://zhuanlan.zhihu.com/p/651906130"]。
+**准确率评估：**
 
-Search Query: 评估顶尖科研团队潜力的标准和指标 (量子信息 OR 量子网络)
-Search Answer: 好的，根据您提供的候选答案，我将它们整合并梳理成一份关于如何评估全球顶尖量子网络（及量子信息）课题组的综合性报告。这份报告将从多个维度提供评估标准，并结合候选答案中提到的实例进行说明。
+然而，当前整合的资料并未提供关于“最好”的算法策略的具体排名、评估或其相关的准确率数据。
+
+Search Query: ("contactless sensing" OR "device-free sensing") AND ("comprehensive review" OR "survey" OR "taxonomy") AND ("human activity recognition" OR "health monitoring" OR "vital signs")
+Search Answer: 根据提供的资料，目前可以识别出非接触式感知领域的一种技术，即基于RSSI（接收信号强度指示器）的免设备（device-free）感知技术。
+
+这种技术的相关信息如下：
+*   **应用领域**：该技术可用于健康监测，例如生命体征监测和人类活动识别，尤其适用于老年人的监护场景 [https://koara.lib.keio.ac.jp/xoonips/modules/xoonips/download.php/KO50002002-20256506-0003.pdf?file_id=191778]。
+*   **输入信号**：该技术主要利用RSSI（接收信号强度指示器）作为输入信号。
+*   **局限性与准确率**：资料明确指出，基于RSSI的方法存在局限性 [https://www.tandfonline.com/doi/full/10.1080/10095020.2019.1612600]。然而，所提供的搜索结果中并未包含足够的信息来全面概述或比较当前性能最好的算法策略，也未能提供这些算法具体的准确率数据。因此，无法对不同的算法及其表现进行详细评估和排名。
+
+Search Query: ("CSI-based sensing" OR "Wi-Fi sensing") AND ("human activity recognition" OR "vital signs monitoring") AND ("state-of-the-art" OR SOTA OR "deep learning") AND (performance OR accuracy OR comparison OR benchmark)
+Search Answer: 好的，根据您提供的候选答案，我将它们整合为一份关于非接触式感知领域先进算法策略的总结报告。
 
 ---
 
-### 全球顶尖量子网络及信息科研团队潜力评估框架
+在非接触式感知领域，特别是基于Wi-Fi的感知技术中，目前最先进的算法策略主要围绕深度学习模型展开，并以**Wi-Fi的信道状态信息（CSI）**作为核心输入信号。这些技术被广泛应用于人体活动识别（HAR）、手势识别、生命体征监测等任务。
 
-要全面评估和比较全球范围内在量子网络及更广泛的量子信息领域具有领导潜力的科研团队，可以从以下五个核心维度进行考量：
+以下是对当前领先算法策略、输入信号及准确率评估的综合整理：
 
-#### 1. 人才与团队构成 (Talent and Team Composition)
+### **核心输入信号**
 
-团队的领导者和成员构成是其创新能力和持久发展的基础。
+*   **信道状态信息 (Channel State Information, CSI):** 这是目前非接触式Wi-Fi感知领域最主要的输入信号。CSI能够详细描述无线信号在传播路径中经历的衰减、多径等信道特性。当环境中有人体活动或姿态变化时，会引起CSI数据的波动，深度学习模型通过分析这些波动模式来实现感知。
 
-*   **领导者背景与声望：** 团队领导者的学术地位、行业影响力及所获荣誉是关键指标。例如，中国科学技术大学的郭光灿院士长期深耕量子光学与量子信息领域，荣获国家自然科学二等奖，其学术声望极高。
-*   **团队专业能力与构成：** 一个顶尖团队通常具备物理学、数学、计算机科学等多学科交叉的知识背景，并拥有量子算法专家、硬件工程师等高端人才。
-*   **人才培养与吸引力：** 团队的“造血”能力至关重要。例如，郭光灿院士团队已培养超过90名博士，其中多人成为国家杰出青年基金获得者。同时，团队能否在全球范围内吸引并留住顶尖人才，也是衡量其潜力的重要标准。
-*   **所属机构声誉：** 团队所依托的平台，如顶尖高校（中国科学技术大学、北京大学）、国家级科研院所（中科院量子信息重点实验室、北京量子信息科学研究院、合肥国家实验室），为其提供了强大的支持和资源。
+### **最先进的算法策略与框架**
 
-#### 2. 科研产出与技术实力 (Research Output and Technical Strength)
+目前业界已经提出了一系列先进的深度学习算法和框架，旨在提升感知的准确性、鲁棒性和效率：
 
-基础研究的深度和关键技术的突破是衡量团队硬实力的核心。
+*   **Attention Based BLSTM (基于注意力的双向长短期记忆网络):** 这是一种先进的神经网络模型，专门用于被动式的人体活动识别。它能够有效捕捉CSI时间序列中的长期依赖关系，并通过注意力机制聚焦于最关键的信号特征。
+*   **DeepSeg:** 这是一个基于深度学习的活动分割框架。与简单地识别整个时间段内的单一活动不同，DeepSeg可以对连续的CSI信号流进行分割，并识别出其中包含的多个不同活动。
+*   **WiADG (Adversarial Domain Adaptation):** 该策略采用无监督的对抗性领域自适应技术，旨在解决设备异构性带来的挑战。通过这种技术，模型可以实现稳健、设备无关（device-free）的手势识别，增强了算法的通用性和鲁棒性。
+*   **EfficientFi:** 此方法着眼于解决大规模部署和轻量化应用的需求。它通过对CSI信号进行压缩，在保证感知性能的同时，降低了数据存储和计算的开销，使得大规模、轻量级的Wi-Fi感知成为可能。
+*   **One-shot Learning:** 这是一种学习策略，旨在通过极少量（甚至一个）的样本来识别新的活动类别，从而提高人体活动识别系统的适应性和快速部署能力。
 
-*   **顶级学术发表：** 在《Nature》、《Science》及其子刊等国际顶级期刊上发表论文，是衡量团队基础研究能力的关键。例如，潘建伟院士团队在光量子计算、量子通信等领域就发表了多篇顶级期刊论文。
-*   **专利数量与质量：** 核心技术的专利布局是技术创新和保护的体现。截至2024年8月，中国在量子计算机领域的公开专利数量位居全球第一，这背后是众多团队的贡献。
-*   **关键技术突破：** 实现里程碑式的技术成果是核心标准，例如研制出“九章”、“祖冲之号”等量子计算原型机，或在量子比特稳定性、量子纠错、系统扩展性等关键瓶颈上取得实质性进展。
-*   **全产业链研发能力：** 顶尖团队应具备从上游核心器件（如稀释制冷机、量子芯片）、中游整机与软件（如测控系统、操作系统）到下游应用与服务的全链条自主研发能力。
+### **评估与准确率**
 
-#### 3. 项目与经费来源 (Projects and Funding Sources)
+尽管上述算法代表了该领域的前沿水平，但目前存在一个普遍性挑战：**缺乏像计算机视觉领域那样统一的公开基准和数据集**，这使得对不同算法进行直接、公平的准确率比较变得困难。
 
-充足且多元化的经费支持是科研工作持续推进的保障。
+为了解决这一问题，研究社区正在努力构建标准化的评估工具和数据集：
 
-*   **承担国家级重大项目：** 是否牵头或参与国家重点研发计划（如“量子调控与量子信息”专项）、国家科技创新2030重大专项等，这不仅代表着资金支持，更是国家层面的战略认可。
-*   **资金吸引能力：** 除了国家经费，团队能否吸引知名创投机构（如红杉资本、高瓴资本）的投资，或获得“投贷联动”等创新金融模式的支持，反映了其技术路线和商业前景的市场认可度。
-*   **产业集群与地方支持：** 是否位于安徽、北京、深圳等重点产业集群区域，并能获得地方政府在政策和资金上的大力支持。
+*   **SenseFi 框架:** 这是一个被提出的综合性WiFi感知基准和开源库。它的目标是为基于深度学习的WiFi感知研究提供一个全面的测试平台，用以系统性地评估不同深度学习模型在**识别准确率、模型大小、计算复杂度和特征可转移性**等多个维度上的表现。
+*   **构建高质量数据集:** 研究人员正在创建更全面的CSI数据集，例如 **EHUNAM**，这些数据集覆盖了多种应用场景，如人数统计（PC）、人体活动识别（HAR）和机器活动识别（MAR），为训练和验证更强大的算法模型提供了基础。
 
-#### 4. 产业合作与生态构建 (Industry Collaboration and Ecosystem Building)
+**总结：**
 
-将技术推向应用、构建开放合作生态是团队影响力的延伸。
+目前，非接触式感知领域（特别是Wi-Fi感知）的主流方法是使用CSI信号作为输入，并应用各种先进的深度学习模型。虽然存在如Attention Based BLSTM、DeepSeg等优秀策略，但**候选资料中并未提供这些算法具体的准确率数值**。整个领域正处于一个建立标准化评估基准（如SenseFi框架）和丰富数据集的阶段，以便未来能够对算法性能进行更精确和公平的量化评估。
 
-*   **产学研深度合作：** 与产业界建立紧密合作关系，构建跨领域协作平台。例如，IBM与麻省理工学院联合成立量子计算实验室；在国内，华夏银行与量旋科技合作开发量子金融模型。
-*   **平台化服务与生态构建：** 建立并运营量子计算云平台，向学术界和产业界提供算力服务，降低技术使用门槛，是扩大影响力的重要方式。
-*   **行业标准制定参与度：** 在国内外标准化组织（如ISO/IEC JTC 1/WG 14、SAC/TC 28/WG 34）中担任领导职务或牵头制定关键技术标准，是掌握行业话语权的重要体现。
-*   **跨界领导力：** 团队核心成员是否同时在学术界和产业界担任重要角色，如中国科学技术大学的郭国平教授同时也是本源量子公司的创始人兼首席科学家，这体现了团队强大的成果转化潜力。
+Search Query: ("Attention Based BLSTM" OR "DeepSeg" OR "WiADG" OR "EfficientFi") AND ("Wi-Fi sensing" OR "CSI-based sensing") AND (benchmark OR comparison OR evaluation) AND (accuracy OR performance) AND dataset
+Search Answer: 根据现有研究，要确定单一“最好”的非接触式感知算法是困难的，因为它们的性能评估往往基于不同的数据集、特定的任务（如活动识别、手势识别、信号分割）以及不同的环境。然而，以下是对当前领域中几种表现突出的算法策略的综合评估：
 
-#### 5. 商业化与市场应用 (Commercialization and Market Application)
+### 1. WiADG (Wi-Fi-based Activity Recognition with Adversarial Domain Generalization)
+该算法专门解决感知模型在迁移到新环境时性能下降（即领域漂移）的问题，鲁棒性较强。它结合了基于注意力的双向长短期记忆网络（Attention-based BLSTM）和门控循环单元（GRU）。
 
-将科研成果转化为实际产品和解决方案是衡量其最终价值的关键。
+*   **输入信号**: Wi-Fi CSI 信号。
+*   **准确率**: 其性能因评估场景而异。
+    *   在公开的 ARIL 数据集上，有研究报告其准确率达到 **98.7%**，另有研究指出为 **94.7%**。
+    *   在自建数据集上，准确率可达 **97.5%**。
+    *   在跨越12个不同领域的交叉验证场景中，其平均准确率约为 **92.8%**，相较于基线模型有显著提升。
 
-*   **成果商业化与交付：** 是否已成功推出商业化产品并实现销售。例如，中科酷原交付了国内首台商业化原子量子计算机“汉原1号”；本源量子已向海外客户提供量子算力服务。
-*   **应用场景落地与价值验证：** 技术是否已在金融、生物医药、AI、能源电力等关键领域找到实际应用场景并验证其价值。例如，玻色量子的相干光量子计算机已服务于生物制药等行业。
+### 2. EfficientFi
+这是一种轻量级模型，专注于在保持高精度的同时提升计算效率，使其更适合部署在资源受限的设备上。它通常基于卷积神经网络（CNN），并通过强化学习等方法选择信息最丰富的CSI子载波，从而大幅减少数据维度。
 
-**总结评估**
+*   **输入信号**: 主要使用 CSI 的振幅信息（CSI amplitude），也有研究提及同时使用振幅和相位信息。
+*   **准确率**: 在不同任务上均有优异表现。
+    *   在 ARIL 数据集上进行人类活动识别，准确率为 **97.4%**。
+    *   在 Widar3.0 数据集上进行手势识别，平均准确率为 **96.2%**。
+    *   在跨环境评估中，其平均准确率超过 **95%**，同时计算成本显著低于其他先进模型。
 
-综合以上维度，一个最有潜力的量子网络（或量子信息）课题组，不仅需要在顶级期刊上发表突破性研究，还应具备强大的工程化能力、多元化的资金支持、开放的合作生态以及清晰的商业化路径。他们不仅是科学的探索者，更是新技术的塑造者和产业生态的构建者。
+### 3. Attention Based BLSTM (基于注意力的双向长短期记忆网络)
+这是一种常用于处理CSI这类时间序列数据的深度学习架构。它不仅可以作为独立的活动识别模型，也常被用作更复杂模型（如WiADG）的核心组件。
 
-虽然上述信息提供了评估框架和一些代表性案例，但要给出一份确切的“全球最有潜力的十个课题组”名单，还需要基于这些标准进行更广泛和深入的全球性调研。您可以使用此框架来系统地分析和比较您所关注的不同研究团队。
+*   **输入信号**: Wi-Fi CSI 数据，特别是 CSI 振幅。
+*   **准确率**: 作为独立模型进行评估时，表现非常出色。
+    *   在 WiAR 数据集上准确率为 **97.41%**。
+    *   在 WiDAR 数据集上为 **97.52%**。
+    *   在自建数据集上可达 **98.42%**。
 
-Search Query: 全球主要从事量子网络研究的大学、实验室和团队
-Search Answer: 根据您提供的资料，以下是目前世界上关于量子网络研究的课题组和机构的整理与横向比较。
+### 4. DeepSeg
+此模型专注于一个特定的预处理任务：信号分割。它的主要功能不是直接进行活动分类，而是将连续的、混杂的CSI数据流准确地分割成独立的活动片段，为后续的分类模型提供干净的输入。
 
-**全球主要量子网络研究机构概述**
+*   **输入信号**: CSI 数据流，特别是 CSI 振幅信息。
+*   **准确率**: 评估指标为**分割准确率**，而非分类准确率。
+    *   在三个公开数据集上，其分割准确率超过 **95%**。
+    *   在某些自定义数据集上，分割准确率甚至高达 **99.8%**。
+    *   在一项评估中，其平均 F1-score 达到了 **93%**，优于传统方法。
 
-全球范围内，多个顶尖大学、国家实验室以及科技公司正在积极布局和研究量子网络及其相关技术。这些机构分布在北美、欧洲和亚洲，形成了多个研究重镇。
+### 总结
+*   **对于追求最高准确率和跨环境鲁棒性**: **WiADG** 是一个优秀的选择，尤其是在部署环境可能变化的场景下。
+*   **对于计算资源受限或需要高效运行的场景**: **EfficientFi** 在保持高准确率（~96%）的同时，显著降低了计算成本。
+*   **作为强大的基础模型**: **Attention Based BLSTM** 架构本身在处理CSI信号方面非常有效，准确率普遍在 **97%-98%** 之间。
+*   **对于处理连续、未分割的数据流**: **DeepSeg** 是一个至关重要的预处理工具，其高达95%以上的分割准确率能为后续的分类任务奠定坚实基础。
 
-**各国家/地区主要研究机构与项目**
+Search Query: ("mmWave radar sensing" OR "millimeter-wave sensing") AND ("human activity recognition" OR "gesture recognition" OR "sleep monitoring") AND ("state-of-the-art" OR SOTA OR survey OR review) AND ("signal processing" OR "point cloud" OR "Range-Doppler Map" OR "3D CNN" OR LSTM)
+Search Answer: 根据现有资料，目前无法全面地识别和评估非接触式感知领域中性能最好的算法、其具体的输入信号以及准确率。
 
-*   **中国**
-    *   **清华大学量子信息中心**: 将量子网络作为其核心研究方向之一。
-    *   **南京大学物理学院**: 依托其南京微结构国家实验室，是中国科技部“重大科学研究计划”量子调控项目的主要研究基地。
-    *   **中国科学技术大学**: 同样是量子研究领域的重要参与者。
+不过，现有信息确实提供了一些关于该领域的研究方向和技术挑战，主要集中在基于毫米波（mmWave）雷达的人体感知技术上：
 
-*   **美国**
-    *   **麻省理工学院 (MIT)**: 通过其理论物理中心和林肯实验室深度参与量子领域的研究。
-    *   **哈佛大学**: 设有哈佛量子计划 (Harvard Quantum Initiative)，是该领域的研究重镇。
-    *   **加州大学伯克利分校** 与 **芝加哥大学**: 均为美国在量子网络研究方面的重要学术机构。
-    *   **ADVA Optical Networking**: 作为企业代表，参与了量子加密技术的相关研究。
+*   **应用领域**：相关研究涵盖了手势识别、生命体征监测等应用。
+*   **输入信号**：在这类应用中，通常使用的数据是**点云数据**。
+*   **技术挑战**：研究指出了处理毫米波雷达信号时面临的一些挑战，例如点云重叠（point cloud overlap）和“身体反射鬼影”（body-bounce ghost）效应。
 
-*   **英国**
-    *   **牛津大学**: 是欧洲量子研究的领先者之一。
-    *   **跨机构合作项目**: 英国在该领域展现了强大的产学研合作能力，例如，英国电信 (BT)、英国国家物理实验室 (NPL) 与日本的东芝研究所 (Toshiba Research)、美国的ADVA Optical Networking 等机构合作，共同研究量子加密技术。
+综上所述，虽然我们了解到了毫米波雷达是一种重要的非接触式感知技术，其输入以点云数据为主，并面临着特定的信号处理难题，但现有资料并未提供具体的顶尖算法名称及其详细的性能指标（如准确率）。
 
-*   **加拿大**
-    *   **滑铁卢大学量子计算研究所 (IQC)**: 是全球知名的量子信息技术研究中心。
+Search Query: ("mmWave gesture recognition" OR "millimeter-wave hand gesture") AND ("deep learning model" OR "SOTA algorithm") AND (comparison OR benchmark OR evaluation) AND accuracy AND dataset
+Search Answer: 好的，这是根据您提供的资料整理的关于非接触式感知领域（以毫米波手势识别为例）表现最好的算法策略、输入信号及准确率的综合评估。
 
-*   **新加坡**
-    *   **量子技术中心 (CQT)**: 由新加坡国立大学 (NUS) 和南洋理工大学 (NTU) 联合成立，是亚洲一个重要的量子技术研究中心。
+### 核心技术趋势
+目前，在毫米波（mmWave）非接触式感知领域，特别是手势识别方向，最顶尖的算法策略主要基于深度学习模型。这些模型，尤其是能够处理时空数据的架构，如**三维卷积神经网络（3D-CNN）、图卷积网络（GCN）、循环神经网络（RNN/LSTM）及其混合模型**，展现出卓越的性能，通常优于传统的机器学习方法（如SVM）。
 
-*   **日本**
-    *   **东芝研究所**: 在量子加密技术方面表现突出，并积极参与国际合作，如与英国电信等机构的合作项目。
+### 主要输入信号
+算法的性能高度依赖于从毫米波雷达传感器获取的输入信号或数据表征方式。主流的输入信号包括：
 
-**横向比较与潜力评估**
+*   **距离-多普勒图（Range-Doppler Maps, RDM）**：以序列形式捕捉目标的运动信息，形成数据立方体。
+*   **点云（Point Clouds）**：提供目标（如手部）在三维空间中的稀疏反射点，能够表征其形状和运动轨迹。
+*   **距离-角度图（Range-Angle Maps, RAM）**：提供不同距离下物体的空间角度信息。
+*   **多维张量/热力图（Multi-dimensional Tensors/Heatmaps）**：融合距离、多普勒、角度和时间等多个维度的原始或预处理数据，例如距离-多普勒-时间（RDT）立方体或距离-角度热力图。
+*   **创新特征**：一些研究提出了更独特的特征，如 **4D变换时空-多普勒（TSTD）特征**。
 
-根据现有信息，我们可以在有限的维度上进行初步分析：
+### 顶尖（SOTA）算法策略与准确率评估
 
-1.  **研究模式**:
-    *   **学术驱动型**: 大部分顶尖机构如哈佛、MIT、牛津、清华等，以大学和下属研究中心为核心进行基础和前沿研究。
-    *   **国家战略型**: 中国的“重大科学研究计划”体现了国家层面的战略布局和经费支持。
-    *   **产学研结合型**: 英国的合作项目是一个典型案例，整合了电信运营商（英国电信）、国家级实验室（NPL）、高科技公司（东芝、ADVA）的力量，致力于技术的应用和商业化。
-    *   **联合中心型**: 新加坡的量子技术中心通过联合两所顶尖大学的资源，形成研究合力。
+以下是目前表现较好的一些算法模型、它们所使用的输入信号以及在各自数据集上达到的准确率：
 
-2.  **经费与项目来源**:
-    *   资料中明确提到了中国的“重大科学研究计划”，这属于国家层面的纵向项目经费支持。
-    *   英国电信等公司参与的项目则兼具企业横向项目和潜在的政府资助。
+| 算法模型 | 输入信号 | 准确率 | 数据集规模（手势数量） |
+| :--- | :--- | :--- | :--- |
+| **GRNet (轻量级网络)** | 4D TSTD 特征 | **99.64%** | 10种动态手势 |
+| **ST-GCN (时空图卷积网络)** | 点云 | **99.2%** | 11种手势 |
+| **DAR (3D-CNN + ConvLSTM 混合模型)** | RDM 序列 | **99.2%** | 6种手势 |
+| **CNN + LSTM 组合模型** | 距离-多普勒-时间数据 | **98.8%** | 6种手势 |
+| **Wi-Go (3D-CNN)** | RDT 数据立方体 | **98.7%** | 8种手势 |
+| **GCN (图卷积网络)** | 点云 | **98.2%** | 10种手势 |
+| **3D-CNN** | RDM | **98.0%** | 7种手势 |
+| **轻量级 3D-CNN** | 4D张量 (距离-方位角-俯仰角-时间) | **96.5%** | 15种动态手势 |
+| **3D-CNN** | 距离-角度热力图 | **96.5%** | 11种手势 |
+| **mGes (3D-CNN)** | RDM, RAM 等多种热力图 | **95.3%** (静态), **93.6%** (动态) | 12种静态, 6种动态手势 |
+| **C3D (Convolutional 3D)** | RDM 帧 | **95.2%** | 6种手势 |
+| **基于注意力的 Bi-LSTM** | 点云特征 | **94.67%** | 6种手势 |
 
-**关于“最有潜力的十大课题组”评估的说明**
+### 评估总结与局限性
 
-您要求的评估维度非常专业和深入，包括文章发表等级、成员背景、经费来源等。然而，**当前提供的资料主要列举了参与量子网络研究的宏观机构，并未包含评估单个课题组所需的详细数据**，例如：
-*   具体的课题组领导者（PI）及其学术声誉。
-*   近年来在《Nature》、《Science》等顶级期刊上的论文发表记录。
-*   具体的项目经费数额和来源。
-*   核心团队成员的构成和背景。
+从以上数据可以看出，非接触式感知算法的准确率普遍非常高，许多顶尖算法在特定数据集上都超过了95%，甚至接近100%。
 
-因此，基于现有信息，无法进行精确的量化排名来评选出“最有潜力的十个课题组”。
+*   **模型趋势**：3D-CNN 及其变体是应用最广泛且效果最好的模型之一。同时，针对点云数据的图卷积网络（GCN/ST-GCN）也展现出极强的竞争力。
+*   **输入信号的重要性**：不同的输入信号表征方式对最终性能有显著影响。RDM、点云和多维张量是当前最有效的主流选择。
 
-**总结**
+**重要提示**：需要特别注意的是，当前该领域**缺乏一个标准化的、大规模的公共数据集**。上述大部分高准确率的算法都是在各自的私有或自建数据集上进行测试和验证的。因此，这些准确率数值虽然展示了算法的巨大潜力，但在不同研究之间进行直接和公平的性能比较存在一定困难。
 
-以上列出的所有机构，如中国的清华、科大、南大，美国的哈佛、MIT，加拿大的滑铁卢大学，英国的牛津大学以及新加坡的量子技术中心等，都处于全球量子网络研究的第一梯队。它们各自依托强大的学术背景、国家战略支持或产业合作，从不同角度推动着量子网络技术的发展，均具备引领未来的巨大潜力。要进行更精细的评估，则需要针对每个机构内部的具体研究团队进行更深入的调研。
+Search Query: ("mmWave radar" OR "millimeter-wave sensing") AND ("sleep monitoring" OR "sleep staging" OR "driver monitoring system") AND (SOTA OR "state-of-the-art" OR "deep learning" OR survey) AND (accuracy OR performance OR evaluation) AND dataset
+Search Answer: 根据现有信息，目前非接触式感知领域中，毫米波（mmWave）雷达技术是备受关注的研究方向，尤其在驾驶员监控和睡眠监测两大应用场景中涌现出了一些先进的算法策略。
 
-Search Query: 清华大学 MIT 牛津大学 量子网络 首席研究员 OR 课题组负责人
-Search Answer: 根据现有信息，我们整理了以下关于全球量子网络研究课题组的情况：
+**主要算法策略与输入信号：**
 
-*   **牛津大学**：Chris Ballance 领导一个量子信息研究团队。
+1.  **驾驶员监控**
+    *   **基于CNN的运动监测**：一种主流策略是使用小型的毫米波雷达传感器作为信号输入源，结合基于卷积神经网络（CNN）的深度学习算法来监测驾驶员的运动状态。
+    *   **多模态风险检测**：另一种更复杂的策略是构建多模态监控系统。该系统不仅使用毫米波雷达进行行为分类，还集成了生理信号作为另一维度的输入，以实现更全面的驾驶员风险检测。
 
-*   **清华大学**：清华大学智能产业研究院（AIR）有一位名为聂再清的首席研究员。他的本科和硕士毕业于清华大学计算机科学与技术系，其技术背景为计算机科学，研究方向为人工智能。
+2.  **睡眠监测**
+    *   **姿势转换监测**：在睡眠监测方面，研究人员通过毫米波雷达采集信号来感知人的睡眠姿势变化。为此，已有公开的毫米波睡眠姿势转换数据集可供研究使用，该数据集包含了20名志愿者（15名男性和5名女性）的信号数据。
 
-*   **麻省理工学院（MIT）**：在现有资料中，未能检索到关于MIT量子网络课题组负责人或首席研究员的具体信息。
+**准确率评估：**
 
-Search Query: "quantum network" OR "quantum repeater" OR "entanglement distribution" highly cited review papers authors and institutions
-Search Answer: 根据所提供的资料，目前在量子网络领域有以下几项值得关注的研究成果：
+综合现有资料，虽然上述算法策略代表了该领域的前沿方向，但这些资料中**并未提及这些算法具体的准确率或性能评估数据**。
 
-*   **多节点网络实现**：
-    *   一个来自布里斯托尔（Bristol）的研究团队已经成功创建了一个八节点的量子网络。
-    *   另一项研究工作成功实现了一个五节点的异构量子网络，该网络可用于执行量子密钥分发（QKD）和量子数字签名等任务。
+Search Query: ("remote photoplethysmography" OR rPPG OR "thermal imaging") AND ("vital signs" OR "heart rate" OR respiration) AND ("state-of-the-art" OR SOTA OR "deep learning") AND (model OR algorithm) AND (accuracy OR MAE OR RMSE) AND (dataset OR benchmark)
+Search Answer: 根据现有信息，目前在非接触式感知领域，尤其是在生命体征监测方面，表现最好的算法策略主要集中于**远程光电容积描记法（Remote Photoplethysmography, rPPG）**，特别是那些利用深度学习的方法。
 
-*   **理论与应用研究**：
-    *   一篇题为《Concurrence Percolation in Quantum Networks》的综述论文，应用逾渗理论来探讨在不完美的量子网络中分发纠缠的问题。
-    *   其他相关论文还包括《Analysis of multipartite entanglement distribution using a central quantum-network node》、《Opportunistic entanglement distribution for the quantum Internet》以及《Deterministic delivery of remote entanglement on a quantum network》等。
+以下是对这些策略的输入信号和准确率的评估整理：
 
-**综合评估**：
+*   **输入信号**：
+    rPPG算法的主要输入信号是来自标准摄像头的**视频**。该技术通过记录受试者的面部视频，来检测由心跳引起的皮肤颜色细微变化，从而实现生命体征的非接触式测量。数据采集可以方便地使用通用设备，例如智能手机的前置摄像头。
 
-尽管上述研究成果展示了量子网络领域的进展，但目前提供的资料并未明确指出这些工作背后的具体作者、所属研究机构、学术头衔、经费来源或项目背景等详细信息。因此，无法依据现有信息对各课题组进行您所要求的横向比较，也无法评估出最有潜力的十大课题组。
+*   **算法策略**：
+    当前最前沿的策略是基于**深度学习（Deep Learning）**的rPPG方法。随着计算机视觉技术的发展，深度学习模型已成为该领域的主流和研究重点，其性能通常优于传统方法。一个具体的先进算法实例是 **"Enhanced DeepPhys"**。
 
-Search Query: highly cited review articles in quantum networks with authors and affiliations
-Search Answer: 根据现有资料，目前可以整理出关于量子网络研究的几篇重要综述性文章，这些文章从宏观上描绘了该领域的发展现状和研究方向。然而，资料中并未提供具体的课题组信息（如成员背景、经费来源、具体项目等），因此无法直接进行横向比较或评估出最具潜力的十个课题组。
+*   **准确率与评估**：
+    这些先进算法的性能通常在公开的基准数据集上进行测试和评估，例如 **UBFC-rPPG** 数据集。然而，现有信息中**并未提供**这些顶尖算法具体的准确率指标（如平均绝对误差MAE或均方根误差RMSE等）。因此，虽然深度学习rPPG被公认为当前最好的策略，但无法给出其精确的量化准确率数值。
 
-以下是根据现有信息整理的几篇关键综述文章，它们可以作为了解该领域前沿的切入点：
+Search Query: ("mmWave radar" OR "millimeter-wave") AND ("sleep monitoring" OR "driver monitoring") AND (survey OR review) AND (challenges OR "evaluation methods" OR privacy OR "data annotation")
+Search Answer: 根据所提供的资料，毫米波（mmWave）雷达是目前非接触式感知领域的一项关键技术，尤其在睡眠追踪和生命体征监测等应用中备受关注。
 
-1.  **《Progress in quantum networks》**
-    *   **发表期刊与时间**：该文章由 A. Forbes 撰写，于2022年发表在 *AVS Quantum Science* 上。
-    *   **主要内容**：这篇综述回顾了当时可用的量子中继器技术，并探讨了其在连接量子网络节点中的关键作用。
-    *   **引用情况**：已被引用一次。
+学术界对此技术有持续的研究，例如有专门探讨“基于毫米波雷达的非接触式睡眠监测研究进展”的综述性文章。
 
-2.  **《The road to quantum internet: Progress in quantum network testbeds and major demonstrations》**
-    *   **文章类型**：这是一篇受邀发表的系统性综述论文。
-    *   **主要内容**：系统地梳理了全球近50个量子网络试验平台（testbeds）的进展，并按地理位置（如美洲、欧洲）和发展时间线进行了分类。文章还重点介绍了这些平台取得的主要成果和示范，例如在波士顿地区建立的一个50公里光纤量子网络试验平台。
+然而，尽管可以确定毫米波雷达是该领域的重要技术方向，但现有资料并未提供关于具体哪种算法策略性能最好、其对应的输入信号是什么，以及能够达到的准确率等详细评估信息。
 
-3.  **关于量子复杂网络（Quantum Complex Networks）的综述**
-    *   **发表期刊与时间**：该文章于2024年发表在 *Journal of Physics A: Mathematical and Theoretical*。
-    *   **主要内容**：文章提出了一个统一的框架来整合量子复杂网络领域的研究，并将其归纳为四个主要研究方向：网络广义化（network-generalized）、量子应用（quantum-applied）、量子广义化（quantum-generalized）和量子增强（quantum-enhanced）。
+Search Query: ("remote photoplethysmography" OR rPPG) AND ("robustness" OR "motion artifacts" OR "illumination changes") AND (evaluation OR comparison OR analysis) AND (DeepPhys OR PhysNet) AND ("signal-to-noise ratio" OR SNR OR "pearson correlation")
+Search Answer: 好的，以下是根据您提供的候选答案整理的关于非接触式感知领域最佳算法策略、输入信号与准确率的综合评估：
 
-4.  **P. Arrighi 的一篇文章**
-    *   **发表期刊与时间**：该文章于2024年发表在同行评审期刊 *Quantum* 上。
-    *   **主要内容**：文章讨论了量子科学及相关领域的研究。
-    *   **引用情况**：已被引用18次。
+在非接触式感知领域，远程光电容积脉搏波（Remote Photoplethysmography, rPPG）是一种前沿且重要的技术。它通过普通摄像头分析人脸反射的光线变化来非接触式地监测心率等生理活动。该技术目前的研究重点在于应对两大核心挑战：**运动伪影**和**多变的光照条件**，以提升算法的鲁棒性。
 
-**总结与局限性**
+以下是目前该领域一些先进的算法策略：
 
-综合来看，现有资料提供了对量子网络领域（特别是量子中继器、全球试验平台和量子复杂网络理论）高层次的概述。这些综述文章发表在 *AVS Quantum Science*、*Quantum* 等专业期刊上，本身就代表了其学术价值。
+*   **基于深度学习的算法：**
+    *   **时空卷积网络 (Spatiotemporal Convolutional Networks):** 这是当前的主流方法之一。研究者致力于设计轻量级且高效的网络，通过时空卷积来学习视频中内在的rPPG生理特征，从而直接从视频中估算出rPPG信号。
+    *   **PhysNet:** 这是一个具体的深度学习模型，能够从视频输入中预测rPPG信号。然而，有评估指出，PhysNet预测的rPPG信号与地面真实值（如接触式PPG信号）相比，有时会存在**明显的相位偏移**。为了增强其在复杂光照场景下的鲁棒性，研究人员提出了结合深度学习图像增强方法来预处理输入的视频。
 
-然而，由于资料中**未包含作者的具体隶属机构、课题组成员、经费来源或项目细节**，因此无法满足您对全球各课题组进行详细横向比较以及评估出十大最具潜力团队的要求。要完成这项任务，需要对这些综述文章中引用的原始研究论文进行深入挖掘，追溯其背后的研究团队和机构。
+*   **基于信号处理的算法：**
+    *   **自适应噪声消除与改进的HSI模型:** 这是一种针对性策略，旨在通过信号处理技术有效减少由头部或身体移动造成的运动伪影，从而提取更纯净的rPPG信号。
 
-Search Query: QuTech Delft quantum networking research groups and principal investigators
-Search Answer: 根据提供的资料，以下是关于量子网络研究机构QuTech的相关信息整合：
+### **输入信号与准确率评估**
 
-QuTech是荷兰代尔夫特理工大学（TU Delft）与荷兰应用科学研究组织（TNO）合作建立的一个以任务为导向的量子技术研究机构，其研究重点涵盖量子计算和量子互联网。
+*   **输入信号:** 上述算法策略的输入信号通常是**通过普通摄像头（如手机、电脑摄像头）拍摄的面部视频**。
 
-在量子网络领域，QuTech拥有多个知名的课题组和首席研究员（Principal Investigator, PI），其中最杰出的代表之一是**Ronald Hanson课题组**。
-*   **领导者背景**: Ronald Hanson是代尔夫特理工大学的特聘教授，同时也是QuTech的创始首席研究员之一。
-*   **主要贡献**: 他领导的研究团队取得了突破性进展，首次通过一个中间节点成功连接了两个量子处理器，并在多个独立的量子处理器之间建立了共享纠缠，从而实现了世界上第一个基于纠缠的量子网络。其团队成员还包括博士生Matteo Pompili等。
+*   **准确率评估:**
+    *   **定性评估:** 如前所述，像PhysNet这类算法存在与真实信号的**相位偏移**问题，这是评估其准确性时的一个重要考量。
+    *   **定量评估:** 尽管信噪比（SNR）、皮尔逊相关系数（Pearson Correlation Coefficient）等是衡量rPPG算法准确率的关键指标，但根据现有信息，**目前无法提供上述算法在具体数据集上的确切数值**。算法的实际表现会因数据集、测试环境（如运动强度、光照变化）等因素而有差异。
 
-此外，QuTech内部还有其他专注于量子网络研究的团队，例如**Machado课题组**。
-*   **研究方向**: 该课题组致力于开发用于连接远程量子系统的协议，旨在通过量子网络实现稳健的通信、分布式计算和传感应用。
+Search Query: ("multi-modal sensing" OR "sensor fusion") AND (("mmWave radar" AND vision) OR (RF AND vision)) AND ("human activity recognition" OR "occupant monitoring") AND ("state-of-the-art" OR SOTA OR review) AND (architecture OR "fusion level" OR performance OR accuracy)
+Search Answer: 根据现有信息，在非接触式感知领域，尤其是在人类活动识别（HAR）方面，目前最先进的算法策略是**多模态传感融合**。该策略通过结合来自不同类型传感器的数据，以达到最先进的（State-of-the-art, SOTA）性能。
 
-**机构发展**:
-为了持续推动该领域的发展，QuTech在2023年下半年至2024年2月1日期间，迎来了六位新的首席研究员，他们将领导新的实验室和研究小组，预示着该机构在量子技术领域的进一步扩张和深化。
+以下是对具体算法策略、输入信号和准确率的评估整理：
 
-Search Query: IQC Waterloo quantum networking research groups and principal investigators
-Search Answer: 根据提供的资料，滑铁卢大学的量子计算研究所 (Institute for Quantum Computing, IQC) 是量子通信和网络研究的一个主要中心。
+**核心算法策略与输入信号**
 
-该研究所的研究人员在量子光子学、通信协议和系统设计方面拥有专业知识，致力于推动全球量子通信网络的发展。IQC 领导着一个名为“变革性量子技术 (Transformative Quantum Technologies, TQT)”的合作研究计划，旨在加速量子设备的开发和部署。此外，该研究所还参与了一项由美国能源部资助的计划，旨在扩展量子计算互联网。
+1.  **毫米波雷达（mmWave radar）与深度学习融合**：
+    *   **策略描述**：这是一种具体的先进策略，它使用毫米波雷达作为传感器，并将采集到的数据作为输入，通过深度卷积神经网络（Deep CNNs）进行分析，从而实现对人类活动的识别。
+    *   **应用场景**：该方法已被证实可用于实时检测和监测多名患者的行为。
+    *   **输入信号**：毫米波雷达数据。
 
-在人员方面，资料提到了 John Donohue 博士，他是 IQC 的科学拓展经理，拥有物理学和量子信息博士学位。
+2.  **射频（RF）传感**：
+    *   **策略描述**：利用射频信号进行人类活动识别也是一项重要的非接触式感知技术。
+    *   **输入信号**：射频（RF）信号。
 
-然而，所有提供的文件均未明确指出 IQC 内部具体的量子网络研究课题组或其首席研究员 (Principal Investigator)。
+3.  **多模态融合（更广泛的例子）**：
+    *   **策略描述**：除了雷达和射频，其他多模态方法也取得了成功，例如通过视频与音频信号的对应关系来执行识别任务。
+    *   **输入信号**：视频、音频等。
 
-Search Query: University of Chicago quantum networking research groups and principal investigators
-Search Answer: 在芝加哥大学，量子网络和通信的研究主要集中在普利兹克分子工程学院（Pritzker School of Molecular Engineering, PME）。该学院拥有多个从事相关研究的课题组和首席研究员。
+**准确率评估**
 
-PME中从事量子通信研究的主要研究员包括：
-*   **David Awschalom**：研究领域涵盖量子通信、量子自旋电子学（Quantum Spintronics）和量子计算。
-*   **Andrew Cleland**：研究领域包括量子通信和量子计算。
-*   **Alex High**：分子工程学副教授。
-*   **Liang Jiang**：分子工程学教授。
-*   **Tian Zhong**：分子工程学助理教授，研究兴趣包括量子通信、量子传感、量子光学及量子材料。
+相关文献指出，上述多模态融合方法能够达到“最先进的性能”。然而，**所提供的资料中并未给出具体的准确率数值**。此外，也未能明确指出在融合视觉信号与射频/毫米波信号的应用中，哪种具体算法的性能最佳。
 
-其中，由**Liang Jiang教授**领导的**Jiang小组**是一个代表性的研究团队。该小组的研究重点是量子控制和量子纠错，致力于保护量子信息免受退相干的影响。其研究成果在量子传感、量子通信和量子计算领域具有广泛的应用潜力，具体研究方向包括实现模块化量子计算和构建全球范围的量子网络。
+Search Query: "sensor fusion" AND ("mmWave radar" AND camera) AND "human activity recognition" AND (("fusion level" OR "fusion architecture") AND ("performance gain" OR "accuracy improvement" OR "ablation study"))
+Search Answer: 在非接触式感知领域，目前最先进的算法策略之一是融合毫米波（mmWave）雷达与视觉传感器（摄像头）的技术，这种多传感器融合策略能够显著增强在复杂环境下的感知与目标检测能力 [https://www.mdpi.com/1424-8220/22/7/2542]。
 
-此外，芝加哥大学还与芝加哥量子交易所（Chicago Quantum Exchange）合作，提供一门关于量子科学、网络和通信的在线课程，以推动该领域的人才培养和知识传播。
+该策略的核心是利用不同传感器的互补优势：
 
-Search Query: Nature journal "A quantum network of clocks" authors and affiliations
-Search Answer: 根据现有信息，关于论文《A quantum network of clocks》（发表于 2014 年的 Nature Physics 10, 582）的作者存在矛盾之处。
+*   **输入信号**：
+    *   **毫米波雷达**：提供目标精确的距离和角度测量数据。
+    *   **视觉传感器**：提供高分辨率的视觉图像数据，用于图像识别 [https://www.mdpi.com/2071-1050/14/9/5114]。
 
-*   一份资料显示，该论文的作者为 Guo, X., Breum, C. R., Borregaard, J., Izumi, S. & Andersen, U. L.。
-*   然而，另一份资料则将同一篇论文的作者归为 J. Ye 和 M. D. Lukin。
+通过结合雷达的测距测角能力和摄像头的识别能力，系统可以更可靠地进行感知。常见的融合算法架构包括数据级（data-level）、特征级（feature-level）和决策级（decision-level）融合 [https://www.mdpi.com/1424-8220/22/7/2542]。在3D目标检测等任务中，一种实现方式是在现有的纯视觉检测网络基础上，增加雷达输入分支和信息融合模块。
 
-此外，相关信息中提到了一个附属机构“School of Physics”，但未提供更详细的说明。
+*   **准确率评估**：
+    *   根据一项针对室内人员占用检测和跟踪的融合系统研究，该系统在商业环境中的测试表明，其总体检测准确率达到了 **93.8%**，中位位置误差为 **1.7米** [https://www.researchgate.net/publication/383643448_A_mmWave_Sensor_and_Camera_Fusion_System_for_Indoor_Occupancy_Detection_and_Tracking]。
 
-Search Query: "Harvard Quantum Initiative" "quantum networking" faculty OR "principal investigator"
-Search Answer: 根据现有信息，可以对哈佛大学的一个重要量子网络研究课题组进行整理和介绍：
+Search Query: ("SenseFi framework" OR "EHUNAM dataset") AND ("research team" OR "main contributors" OR "university" OR "lab") AND ("Wi-Fi sensing" OR "contactless sensing")
+Search Answer: 根据提供的资料，目前有一个名为EHUNAM的综合信道状态信息（CSI）数据集，专为Wi-Fi感知领域的多种应用而设计，例如人数统计、人类活动识别以及机器活动识别。这表明，基于Wi-Fi的信道状态信息（CSI）是一种重要的非接触式感知输入信号。
 
-**课题组：哈佛量子计划 (Harvard Quantum Initiative, HQI) - Mikhail Lukin 课题组**
+然而，所有提供的资料都明确指出，其中并未具体说明是哪个研究团队、主要贡献者、大学或实验室开发了此数据集或相关的SenseFi框架，也未提供关于具体算法策略及其准确率的评估信息。
 
-*   **领导者及其技术背景：**
-    该课题组的首席研究员（Principal Investigator）是米哈伊尔·卢金（Mikhail Lukin）。他拥有卓越的学术头衔，是哈佛大学的物理学教授，同时担任哈佛量子科学与工程计划（Harvard Quantum Initiative in Science and Engineering）的联席主任以及哈佛-麻省理工超冷原子中心（Harvard-MIT Center for Ultracold Atoms）的联席主任，也被誉为拥有最高教师荣誉的教授。
+Search Query: ("SenseFi: A Comprehensive Framework and Library for Deep Learning-based WiFi Sensing" OR "EHUNAM: A Comprehensive CSI Dataset for Wi-Fi Sensing") AND (publication OR paper OR authors)
+Search Answer: 好的，这是根据您提供的候选答案整理和评估的非接触式感知领域最前沿的算法策略、输入信号与准确率。
 
-*   **代表性研究工作与发表：**
-    卢金教授的团队在构建实用量子互联网方面取得了突破性进展。他们在美国波士顿地区（包括剑桥、萨默维尔、沃特敦）铺设了一个长达22英里（约35公里）的光纤环路，并成功实现了两个量子存储节点的纠缠。这项研究被认为是构建“第一个量子互联网的实际雏形”，是迈向量子网络实用化的重要一步。
-    *   **技术细节：** 该实验采用了基于“硅-空位中心”（silicon-vacancy-center）的纳米光子学量子存储节点，这些节点能够有效地捕获、存储和纠缠量子信息，同时还能校正信号在传输中的损耗。
-    *   **相关论文：** 这一重要成果发表于题为《Entanglement of Nanophotonic Quantum Memory Nodes in a Telecom Network》的论文中。
+### 核心方法：基于Wi-Fi CSI的深度学习
 
-*   **经费与项目来源：**
-    该课题组的研究获得了多个顶级机构和项目的支持，体现了其工作的领先地位和重要性。经费来源包括：
-    *   亚马逊云科技（AWS）量子网络中心与哈佛量子计划的研究联盟项目。
-    *   美国国家科学基金会（National Science Foundation, NSF）。
-    *   超冷原子中心（Center for Ultracold Atoms）。
-    *   量子网络中心（Center for Quantum Networks）。
-    *   美国空军科学研究办公室（Air Force Office of Scientific Research）。
+目前，非接触式感知领域的主流方法是利用Wi-Fi信号，特别是**信道状态信息（CSI）**作为输入信号 [4, 6, 8]。CSI提供了关于信号传播路径详细的振幅和相位信息，相比于接收信号强度指示（RSSI）等指标，其信息量更丰富，更适合用于感知任务 [6, 7]。
 
-Search Query: site:uwaterloo.ca/institute-for-quantum-computing/ faculty members research interests "quantum communication" OR "quantum networking"
-Search Answer: 在滑铁卢大学量子计算研究所（IQC），有多位教职员工的研究领域涉及量子通信或量子网络。他们的主要研究方向和成员背景如下：
+### 核心框架与数据集
 
-*   **Kevin Resch**：他是一名教授和实验物理学家，其研究重点是实验性量子通信与计算，以及纠缠的光学源和测量。
-*   **Thomas Jennewein**：他领导着量子光子学实验室（Quantum Photonics Lab）。他的博士研究（2002年毕业于维也纳大学）就聚焦于利用纠缠光子进行量子通信和隐形传态实验。他领导的实验室已经设计并构建了一个便携式量子密钥分发（QKD）演示装置，致力于开发超安全通信渠道和全球量子网络。
-*   **Ashwin Nayak**：他是一名教职员工，其研究兴趣包括量子通信、量子传感以及量子材料和设备。
+**1. SenseFi：综合性深度学习框架**
+SenseFi是一个基于PyTorch构建的、开源的综合性Wi-Fi感知深度学习框架和库 [1, 2, 8]。它旨在标准化和推动基于深度学习的Wi-Fi感知研究，支持多种感知任务，如人类活动识别、手势识别和跌倒检测等 [1, 8]。
 
-总的来说，IQC在量子通信领域的更广泛研究目标是开发超安全通信渠道、全球量子网络以及如QKD等量子安全密码学协议。
+**2. EHUNAM：基准CSI数据集**
+为了训练和评估感知算法，研究人员开发了像EHUNAM这样的综合性CSI数据集 [3, 4, 8]。该数据集使用Intel 5300网卡在实验室环境中采集，包含了10名参与者执行行走、跑步、坐下、站起、跌倒以及空房间等六种活动的原始CSI数据，为算法性能评估提供了基准 [4, 5, 6]。
 
-Search Query: "MIT Research Laboratory of Electronics" OR "MIT Center for Quantum Engineering" faculty "quantum network" OR "quantum communication"
-Search Answer: 根据现有信息，麻省理工学院（MIT）在量子网络领域的研究值得关注，其主要进展和相关背景如下：
+### 最优算法策略与输入信号
 
-**研究方向与技术创新：**
-MIT的研究人员正在开发一种基于钻石色心（diamond color centers）的新型量子通信网络架构。该工作的亮点之一是引入了一种创新的“lock-and-release”制造工艺，旨在将这些量子比特（qubits）高效地与现有的半导体技术相集成，以支持构建广泛的量子通信网络。
+**输入信号**：
+当前最先进的算法策略普遍使用从Wi-Fi信号中提取的**信道状态信息（CSI）**作为输入 [1, 8]。
 
-**相关机构与项目：**
-MIT内部推动量子研究的核心机构包括电子研究实验室（RLE）和量子工程中心（Center for Quantum Engineering）。此外，MIT还启动了更广泛的量子计划（Quantum Initiative）以整合和推动相关领域的发展。
+**算法策略**：
+SenseFi框架本身支持多种先进的深度学习模型，如卷积神经网络（CNNs）、循环神经网络（RNNs，例如DeepConvLSTM）、ResNet和Transformer等 [1, 5, 8]。在该框架下，针对不同感知任务，业界涌现了多种顶尖算法，例如 [2]：
 
-**产业联系与成果转化：**
-MIT在量子领域的成果转化能力表现突出。一个显著的例子是，从MIT电子研究实验室孵化的量子计算初创公司 Atlantic Quantum，专注于可扩展的超导量子硬件，已被 Google Quantum AI 收购（或加入）。
+*   **人类活动识别（Human Activity Recognition）**: DeepMV, RT-Fall, IndoTrack
+*   **手势识别（Gesture Recognition）**: SignFi, Widar, DeepGesture
+*   **跌倒检测（Fall Detection）**: RT-Fall
+*   **人体识别（Human Identification）**: Wi-Fi U-Net
 
-**信息局限性：**
-尽管上述信息展示了MIT在量子网络领域的雄厚实力和前沿方向，但现有资料未能提供具体从事这些研究的课题组领导者或核心成员的姓名及背景信息，也未包含关于经费来源、具体项目以及发表期刊等级的详细数据。因此，无法基于当前信息进行更深入的横向比较或评估出全球最具潜力的十个课题组。
+### 准确率评估
 
-Search Query: MIT Research Laboratory of Electronics faculty working on "diamond color centers" OR "quantum communication"
-Search Answer: 根据现有信息，麻省理工学院（MIT）在量子网络和通信领域的研究主要集中在以下方面：
+算法的准确率高度依赖于具体的应用场景、环境以及所使用的数据集 [2]。
 
-在MIT的电子研究实验室（Research Laboratory of Electronics）中，有一个名为“光学与量子通信小组”（Optical and Quantum Communications Group）的团队。该小组的研究重点是为量子通信开发关键技术，包括纠缠源、测量技术以及高效利用光子的协议。
+*   SenseFi作为一个框架，其本身没有一个固定的准确率指标，它的主要目的是为不同的深度学习模型提供一个公平、透明的性能比较平台 [2, 8]。
+*   不过，相关论文提到，在SenseFi框架下实现的一些模型，在多项传感任务上（如活动识别、手势识别等）取得了**超过90%的高准确率** [7]。
 
-此外，该领域的一项具体研究方向是探索金刚石中的锡空位（tin-vacancy）色心。这种新型色心被认为在远距离量子通信和量子信息应用方面展现出巨大的潜力。
+综上所述，当前非接触式感知领域最前沿的策略是使用以**Wi-Fi CSI**为输入的**深度学习模型**，并利用像**SenseFi**这样的框架进行开发和评估。虽然具体准确率因任务和环境而异，但现有顶尖算法已能在特定场景下达到90%以上的精度。
 
-Search Query: "MIT Research Laboratory of Electronics" "Optical and Quantum Communications Group" faculty OR director OR members
-Search Answer: 麻省理工学院（MIT）电子研究实验室（RLE）的光学与量子通信课题组（Optical and Quantum Communications Group）由以下关键成员组成：
+Search Query: ("contactless sensing" OR "device-free sensing") AND (review OR survey) AND ("emerging trends" OR "future directions") AND ("end-to-end learning" OR "intelligent reflecting surface" OR "edge computing" OR "AI signal processing")
+Search Answer: 根据提供的资料，无法找到关于当前非接触式感知领域最好的算法策略、输入信号或准确率的具体信息。
 
-*   **Jeffrey H. Shapiro 教授**：该课题组的教授，并且是电子研究实验室（RLE）的前任主任。
-*   **Franco N.C. Wong 博士**：该课题组的关键成员。
-*   **Peter Shor 教授**：Morss讲席教授。
-*   **John D. MacArthur**：担任电子研究实验室的副主任。
+所提供的资料内容是关于一个会议（SenSys 2026）的征稿通知，其中讨论了投稿指南和感兴趣的主题（如嵌入式人工智能和传感系统），但并未对具体算法进行评测或评估。
 
-Search Query: 中国科学技术大学 潘建伟 量子网络 OR 量子通信 研究团队 实验室
-Search Answer: 好的，以下是根据您提供的候选答案，围绕中国科学技术大学潘建伟院士课题组，从多个维度整理和合并的信息。
+Search Query: (review OR survey) AND "mmWave radar" AND "sleep monitoring" AND ("signal processing" OR "evaluation metrics" OR challenges OR classification)
+Search Answer: 根据现有信息，目前在非接触式感知领域，尤其是在睡眠和生命体征监测方面，毫米波（mmWave）雷达技术是研究的重点。以下是对其主流算法策略、输入信号和准确率评估的整理：
 
-**课题组：中国科学技术大学 潘建伟团队**
+**核心技术与输入信号**
 
-中国科学技术大学的潘建伟院士领导的研究团队，是国际量子通信与量子网络领域的领军者之一。该团队依托于2001年成立的量子物理与量子信息研究部，由潘建伟院士亲自担任主任。
+*   **主要技术**：当前研究多采用毫米波（mmWave）雷达进行非接触式感知，特别是生命体征的实时监测。
+*   **输入信号**：常用的雷达类型包括**调频连续波（FMCW）雷达**和**多输入多输出（MIMO）毫米波雷达**。这些设备通过发射和接收电磁波来感知由人体呼吸、心跳等引起的微小胸腔位移，从而提取生命体征信号。
 
-**一、 课题组与领导者背景**
+**系统架构与策略**
 
-*   **领导者背景**：潘建伟，中国科学院院士，中国科学技术大学常务副校长。他于1996年在中国科学技术大学获得硕士学位后，赴奥地利维也纳大学师从量子力学大师安东·塞林格（Anton Zeilinger）攻读博士学位。潘建伟院士是国际量子信息实验研究领域的开拓者之一，也是“墨子号”量子科学实验卫星和“京沪干线”项目的首席科学家。
-*   **研究方向**：团队主要从事量子光学、量子信息和量子力学基础问题检验等方面的研究，具体研究方向包括光纤量子通信和自由空间量子通信等。
-*   **人才培养**：团队注重人才梯队建设，截至2019年，已累计培养了超过140名博士。
+一个完整的非接触式传感系统通常包含三个核心模块，构成了其基本策略：
+1.  **硬件配置模块**：负责雷达硬件的设置和数据采集。
+2.  **信号处理模块**：这是算法策略的核心，负责处理从硬件接收到的原始信号，提取出有用的毫米波特征。有研究提到了针对FMCW雷达的新型信号处理方法，但未详述具体算法名称。
+3.  **医疗功能模块**：将信号处理模块提取出的特征（如呼吸率、心率等）与临床相关的生物标志物联系起来，实现具体的医疗监测功能。
 
-**二、 经费与项目**
+**算法与准确率评估**
 
-*   **经费来源**：团队在筹建和发展过程中，获得了中国科学院、国家自然科学基金委员会和科技部等国家主管部门的有力经费支持。
-*   **重大项目**：
-    *   **“墨子号”量子科学实验卫星**：作为世界首颗量子科学实验卫星，该项目于2011年立项，2016年成功发射。潘建伟院士是该项目的首席科学家。
-    *   **“京沪干线”**：作为世界首条远距离量子保密通信骨干网，该项目于2013年立项，2017年9月29日正式开通。该干线已在金融、电力等关键领域开展了应用示范。
+*   **具体算法与准确率**：尽管现有资料提到了信号处理方法的重要性，但**并未指明当前做得最好的具体算法名称，也没有提供其对应的准确率数据**。
+*   **评估方法**：对于这类系统的评估，研究普遍强调必须经过一个明确且定义良好的评估过程。为了证明其在真实世界环境中的可行性和稳健性，评估通常需要涉及**人类受试者、组织模型或临床相关样本**的实验验证。
 
-**三、 主要研究成果与学术影响**
+Search Query: ("intelligent reflecting surface" OR IRS) AND ("contactless sensing" OR "Wi-Fi sensing") AND review
+Search Answer: 根据现有资料，在非接触式感知领域，一项备受关注的新兴技术是**智能反射面（Intelligent Reflecting Surface, IRS）**，也被称为**可重构智能表面（Reconfigurable Intelligent Surface, RIS）**。这是一种超表面技术，能够通过智能调控显著提升无线通信和感知的性能 [https://www.researchgate.net/publication/377995959_Intelligent_Reflecting_Surface_Aided_Wireless_Sensing_Applications_and_Design_Issues, https://public-pages-files-2025.frontiersin.org/journals/signal-processing/articles/10.3389/frsip.2023.1197240/pdf]。
 
-该团队在量子网络领域取得了一系列世界瞩目的“首次”成果，引领中国在量子通信领域从“跟跑者”转变为“并跑者”乃至“领跑者”。
+IRS技术的一个典型应用是在需要高性能感知的领域，例如**Wi-Fi感知** [https://www.researchgate.net/publication/368474160_Intelligent_Reflecting_Surface_Aided_Wireless_Sensing_Applications_and_Design_Issues, https://ieeexplore.ieee.org/iel8/9739/5451756/10812728.pdf]。尽管已有研究利用公开的在线数据库进行IRS系统的相关分析 [https://pmc.ncbi.nlm.nih.gov/articles/PMC9572609/]，但**当前整合的资料并未明确指出目前性能最好的具体算法策略、它们所需要的输入信号类型，以及这些算法能够达到的准确率数据**。
 
-*   **基于“墨子号”的里程碑成就**：在国际上率先通过“墨子号”卫星实现了三大科学目标：
-    1.  千公里级的星地双向量子纠缠分发。
-    2.  星地高速量子密钥分发。
-    3.  地星量子隐形传态。
-    *   **学术荣誉**：由于其杰出贡献，“墨子号”团队荣获美国科学促进会（AAAS）颁发的2018年度克利夫兰奖（Newcomb Cleveland Prize），这是中国科学家在本土完成的科研成果首次获得此项国际荣誉。
+Search Query: ("edge computing" OR "on-device AI") AND ("contactless sensing" OR "mmWave sensing") AND challenges
+Search Answer: 根据现有信息，非接触式感知领域的一项前沿策略是采用毫米波（mmWave）传感技术，该技术利用电磁波进行工作，并常与边缘计算设备结合使用。
 
-*   **其他突破性成果**：
-    *   首次实验实现五光子纠缠和终端开放的量子态隐形传输。
-    *   首次实现16公里及百公里量级的自由空间量子态隐形传输和纠缠分发。
-    *   首次实验实现多自由度量子隐形传态，该成果被英国物理学会（IOP）评为“2015年度十大物理学突破”。
-    *   首次实验实现八光子薛定谔猫态。
+**主要策略与平台：**
 
-Search Query: "University of Oxford" Chris Ballance research group quantum networking ion traps publications funding
-Search Answer: 根据现有信息，可以整理出以下关于一个量子计算研究课题组的情况：
+*   **毫米波（mmWave）传感**：这是目前该领域采用的一种主流传感方法。
+*   **MetaBioLiq 平台**：这是一个具体的示例，它是一个可穿戴的、无源超表面辅助的毫米波传感平台，专门用于生物流体传感，其设计目标是实现高精度的非接触式感知。
 
-在牛津大学，有一个离子阱计算研究组（Ion Trap Computing Group），该组的研究负责人是 David Lucas 教授。该课题组似乎是量子计算与模拟（Quantum Computing & Simulation, QCS）中心的一部分。
+**输入信号：**
 
-课题组的一位研究人员 Chris Ballance 博士被描述为“量子计算领域冉冉升起的新星”，他的研究方向与离子阱相关。
+*   该技术的输入信号是毫米波频谱中的**电磁波**。
 
-然而，现有资料并未提供该课题组在文章发表期刊等级、经费来源、具体横向或纵向项目方面的详细信息，也未明确其在量子网络方面的专门工作。其主要研究方向似乎集中在离子阱量子计算。
+**部署与挑战：**
 
-Search Query: 清华大学 物理系 OR 电子工程系 "量子光学" OR "量子纠缠" 教授 OR 研究组
-Search Answer: 根据现有信息，以下是中国清华大学在量子网络相关领域（量子光学与量子纠缠）的部分研究课题组情况：
+*   这些传感方法通常与**边缘计算单元**（如 Nvidia Jetson Nano）结合使用。
+*   一个显著的挑战在于边缘设备本身的**计算能力有限**，这在应用毫米波传感时需要被考虑。
 
-*   **张巍教授**：隶属于清华大学电子工程系。其研究团队在量子纠缠分配网络方面取得了重要进展。
+**准确率评估：**
 
-*   **龙桂鲁教授**：清华大学教授，同时担任北京量子信息科学研究院的副院长。他的研究组在量子纠缠探测方面取得了新进展。此外，他还指导电子工程系博士生进行量子光学和量子信息方面的研究，并与该领域的专家Yoshihisa Yamamoto（山本喜久）教授共同指导学生。
+*   虽然像 MetaBioLiq 这样的平台旨在实现**高精度**，但目前的资料中**并未提供具体的算法名称或详细的准确率数据（如百分比）**。
 
-*   **尤力教授**：清华大学物理系终身教授。他的研究方向包括利用量子纠缠来提高测量精度。他拥有多个重要的学术头衔，包括国家“千人计划”特聘专家、973项目首席科学家以及长江学者讲座教授。
+Search Query: ("MobiCom" OR "SenSys") AND ("contactless sensing" OR "device-free sensing") AND (survey OR review OR "future directions") AND year:2023-2024
+Search Answer: 根据现有信息，目前无法提供一个详尽的关于2023-2024年度非接触式感知领域最佳算法策略及其具体输入信号和准确率的全面评估。主要原因如下：
 
-Search Query: "David Lucas" AND "Chris Ballance" "University of Oxford" quantum network OR entanglement distribution OR "quantum interconnects" publications
-Search Answer: 根据现有信息，研究人员Chris Ballance和David Lucas与量子领域的研究有所关联。他们在2014年的一篇论文中，因进行了“非常有益的对话”而在致谢部分被提及 [https://link.aps.org/doi/10.1103/PhysRevX.4.041041]。
+1.  **缺乏全面的综述性文章**：在提供的资料中，未能找到来自MobiCom、SenSys等顶级会议或期刊在2023-2024年份发布的综述（Survey）或回顾（Review）性文章，这些文章通常会系统性地比较不同算法的性能。现有提及的相关研究年份大多早于用户指定的时间范围。
 
-此外，一个学术简介网站的条目显示，两人于2022年5月25日关联了一项出版物 [https://sciprofiles.com/profile/author/NTM0Nm0zeTVMVmpEVkhPNFV3c2JjUT09]。
+2.  **具体算法信息不完整**：
+    *   一个名为 **RF-Diffusion** 的算法被特别提及，它获得了ACM MobiCom 2024 最佳工件奖（Best Artifact Award），这表明它在近期是一个备受瞩目的先进算法。
+    *   然而，关于RF-Diffusion具体的**输入信号**和**准确率**等关键性能指标，现有资料中并未提供详细信息。
 
-然而，现有资料并未提供这些出版物的具体内容、标题，也未能明确其研究主题是否与量子网络、纠缠分发或量子互连直接相关。
+3.  **通用的技术方向**：
+    *   **输入信号**：多份资料共同指出，非接触式感知（或称设备无关感知，device-free sensing）领域广泛利用射频（RF）通信设备，特别是**WiFi信号**，来感知人类活动。这是一种低成本且应用潜力巨大的技术方向。
 
-Search Query: University of Oxford ("quantum network" OR "quantum communication" OR "entanglement distribution") faculty OR research group
-Search Answer: 根据现有信息，牛津大学（University of Oxford）在量子网络领域有所研究。
+总结而言，虽然可以确定 **RF-Diffusion** 是近期该领域的一个杰出代表，但缺乏具体的性能数据来进行评估和比较。目前非接触式感知的主流技术之一是利用WiFi等现有的RF信号作为输入源，但无法提供一个包含各类顶尖算法及其准确率的详细列表。
 
-该校的计算机科学系参与了量子通信相关的研究工作。例如，该系的Z. Liu是2023年一篇量子通信领域论文的作者之一。牛津大学在量子科学领域的总体研究方向包括量子计算（Quantum Computing）、量子通信（Quantum Communication）和量子传感（Quantum Sensing）。
+Search Query: RF-Diffusion "contactless sensing" "MobiCom 2024" ("generative model" OR "diffusion model") performance comparison
+Search Answer: 根据现有信息，目前非接触式感知领域一个值得关注的前沿算法策略是 **RF-Diffusion**。以下是关于该算法的输入信号与准确率评估的整理：
 
-然而，当前提供的信息不足以识别出牛津大学具体的课题组、领导者、经费来源或项目详情，也无法对全球范围内的其他课题组进行横向比较，因此无法评估出最有潜力的十大课题组。
+**算法策略：RF-Diffusion**
 
-Search Query: University of Oxford authors highly-cited review article ("quantum networking" OR "entanglement distribution" OR "quantum repeaters")
-Search Answer: 根据所提供的现有资料，目前的信息主要集中在量子网络研究中的几个特定技术领域，特别是纠缠分发和量子中继。
+RF-Diffusion 是一个在 MobiCom 2024 会议上提出的、基于时频扩散（time-frequency diffusion）的射频信号生成模型。它被描述为一个通用解决方案，旨在为无线感知等应用生成多样化、高质量的时间序列射频（RF）数据。
 
-这些资料包含了一些具体的研究论文，其主题涵盖：
-*   在带有净化和优化缓冲时间的量子中继中进行纠缠分发。
-*   利用强化学习来改进协议，以实现快速、可靠的纠缠分发。
-*   在纯态量子网络中的纠缠分发策略及优化。
+*   **输入信号**：
+    该模型处理和生成的信号是**时间序列射频（Time-series RF）数据**。
 
-然而，所有可用的资料均为针对具体技术问题的研究论文，并非能够进行宏观比较的综述性文章。此外，这些资料中也没有提及任何与牛津大学有关的研究人员或团队。
+*   **准确率与评估**：
+    1.  **性能对比**：相关的研究论文将 RF-Diffusion 的性能与另外三种主流的生成模型进行了比较。
+    2.  **具体数据缺失**：然而，现有信息并未提供这次性能比较的具体量化结果、评估指标，也未提及被比较模型的具体名称。
+    3.  **行业挑战**：有资料指出，目前在非接触式感知领域，要获得达到射频信号波长尺度（例如1-10毫米）精度的3D模型，仍然是一个技术挑战。这从侧面反映了当前领域内高精度感知所面临的困难。
 
-因此，仅基于当前提供的信息，无法对世界范围内的量子网络课题组进行全面的横向比较，也无法从文章发表期刊等级、课题组成员背景、经费来源或项目情况等维度进行深入分析，更无法评估出最有潜力的十个课题组。
-
-Search Query: University of Oxford Department of Physics OR "Engineering Science" OR "Computer Science" faculty "quantum networking" OR "quantum communication" OR "ion-photon entanglement"
-Search Answer: 很抱歉，根据提供的资料，我无法完成您的请求。
-
-所给的候选答案均表明，其依据的搜索结果中不包含能够进行横向比较的详细信息。具体来说：
-
-*   搜索结果中没有关于牛津大学（University of Oxford）物理系、工程科学系或计算机科学系中从事量子网络、量子通信或离子-光子纠缠研究的教员或课题组的具体信息。
-*   搜索结果仅提及了其他一些机构，如波鸿鲁尔大学（Ruhr-University Bochum）和雅盖隆大学（Jagiellonian University）的招聘信息或研究，但并未提供足够的数据来进行您所要求的深度分析和比较，例如经费来源、项目详情、成员背景等。
-
-因此，基于现有信息，无法对全球量子网络研究课题组进行整理、比较，也无法评估出最有潜力的十个课题组。
-
-Search Query: (highly cited OR review OR seminal paper) ("ion-photon entanglement" OR "quantum interconnects") author affiliation "University of Oxford" since 2019
-Search Answer: 根据所提供的候选答案，以下是关于世界量子网络研究的综合整理，重点分析了牛津大学的一个杰出课题组，并根据用户要求的维度进行了阐述。
-
-请注意：提供的所有信息均指向同一个研究团队——牛津大学的囚禁离子量子计算研究组。因此，本回答将深入剖析该团队，并说明基于现有信息，虽然无法提供全球十个课题组的横向比较，但该团队无疑是该领域的领导者之一，极具引领未来发展的潜力。
-
-### **重点课题组分析：牛津大学囚禁离子量子计算研究组 (Trapped Ion Quantum Computing Group)**
-
-该课题组位于牛津大学克拉伦登实验室 (Clarendon Laboratory)，是全球在离子-光子纠缠和量子互联领域的顶尖研究力量之一。
-
-**1. 课题组领导者与成员背景 (Leadership and Members)**
-
-*   **核心领导者：** 大卫·卢卡斯教授 (Professor David M. Lucas) 是该课题组的领导者，被公认为该领域的领军人物。
-*   **关键成员/合作领导者：** 克里斯·巴伦斯教授/博士 (Professor/Dr. Chris Ballance) 也是团队的核心人物，在不同文献中被描述为关键成员或与卢卡斯教授共同领导团队。
-*   **其他成员：** 博士后研究员 Peter C. Holz 和博士生 Benjamin Wilhelm 等也是团队的重要组成部分。
-
-该团队成员拥有深厚的囚禁离子量子计算和量子光学技术背景，专注于构建实用化的量子网络。
-
-**2. 研究方向与技术路线 (Research Focus)**
-
-*   **核心技术：** 以“囚禁离子 (Trapped Ions)”作为量子网络节点，利用“离子-光子纠缠 (ion-photon entanglement)”来建立量子连接。
-*   **关键目标：** 实现高保真度 (high-fidelity)、高速率 (high-rate) 的远程纠缠，最终构建能够连接不同量子计算机的模块化量子网络。
-*   **重要突破：** 成功将单个囚禁离子与电信波长 (telecom wavelength) 的光子进行高保真度纠缠，这对于利用现有光纤基础设施进行长距离量子通信至关重要。
-
-**3. 主要成果与发表期刊等级 (Key Achievements and Publications)**
-
-该课题组持续在《自然》(Nature)、《物理评论快报》(Physical Review Letters) 等世界顶级物理学期刊上发表突破性成果，彰显其学术影响力。
-
-*   **2024年:** 发表关于“高保真度、高速率的囚禁离子远程纠缠”的研究论文。
-*   **2023年:** 在 **《自然》(Nature)** 发表论文，成功演示了在两个独立的实验室之间，通过“高保真度量子物质链接 (high-fidelity quantum matter-link)”连接了两个独立的囚禁离子量子计算机。同年，还在 **《物理评论快报》(Physical Review Letters)** 上发表了关于远程囚禁离子之间高保真度、可预报纠缠的成果。
-*   **2022年:** 发表了关于为离子-光子量子网络创建“高保真度、频率可转换、可预报的半链接 (half-link)”的论文。
-*   **2020年:** 在 **《自然》(Nature)** 上发表文章，详细介绍了在两个不同实验室的远程囚禁离子量子处理器之间成功建立量子网络连接。同年，也在 **《物理评论快报》(Physical Review Letters)** 上发表了关于离子与电信波长光子纠缠的重要工作，并发表了题为“Trapped-ion quantum networks”的综述文章。
-
-**4. 经费来源与项目支持 (Funding and Projects)**
-
-该课题组获得了稳定且大量的纵向项目经费支持，是英国国家级量子技术战略的核心参与者。
-
-*   **核心项目：** 该团队是**英国国家量子技术计划 (UK National Quantum Technologies Programme)** 的核心组成部分，并在由牛津大学领导的**网络化量子信息技术中心 (Networked Quantum Information Technologies, NQIT) Hub** 中扮演着中心角色。
-*   **主要经费来源：**
-    *   英国工程和物理科学研究委员会 (Engineering and Physical Sciences Research Council, EPSRC)。
-    *   美国陆军研究办公室 (US Army Research Office)。
-
-这种国家级的战略支持保证了其研究的长期性和领先性。
-
-### **潜力评估**
-
-基于以上信息，牛津大学 David Lucas 教授领导的囚禁离子量子计算研究组是当之无愧的、最有潜力引领未来量子网络发展的课题组之一。其潜力体现在以下几个方面：
-
-1.  **技术路线的前沿性：** 囚禁离子被认为是构建高质量量子网络和模块化量子计算机最有前途的物理系统之一，该团队在此路线上处于全球领先地位。
-2.  **持续的突破性成果：** 团队持续在《Nature》等顶级期刊上发表“首次”或“最佳”级别的研究成果，特别是在连接两个独立量子计算机方面取得了里程碑式的进展。
-3.  **强大的国家战略支持：** 作为英国 NQIT Hub 的核心力量，该团队获得了长期、稳定的国家级经费和项目支持，为其进行大规模、长周期的前沿研究提供了坚实保障。
-4.  **清晰的应用目标：** 其研究不仅关注基础科学问题，还着眼于解决长距离、实用化量子网络中的关键工程技术挑战（如与电信波长兼容），应用前景明确。
-
-**结论：** 虽然本次提供的信息不足以列出全球排名前十的课题组名单，但牛津大学 David Lucas 课题组凭借其在囚禁离子量子网络方面的开创性工作、顶级的学术产出、以及在国家级项目中的核心地位，毫无疑问将是任何此类名单中的有力竞争者，并极有可能在未来量子网络的发展中扮演引领者的角色。
-
-Search Query: "Thomas Jennewein" "Quantum Photonics Lab" IQC research projects OR publications ("quantum satellite" OR "QKD" OR "quantum network")
-Search Answer: 由滑铁卢大学量子计算研究所（IQC）的 Thomas Jennewein 教授领导的团队及其量子光子学实验室（Quantum Photonics Lab），是量子网络研究领域，特别是基于卫星的全球规模量子通信方向的重要力量。
-
-该团队的研究重点是为全球范围的量子密钥分发（QKD）开发关键技术。他们的工作紧密围绕国家级和国际间的重大项目展开，具体成果和项目包括：
-
-*   **加拿大QEYSSat卫星任务**：该团队已成功为加拿大的量子加密与科学卫星（QEYSSat）任务开发了核心组件，包括专用的QKD终端和量子源。这项工作的完成为未来的量子空间技术发展指明了方向。
-
-*   **HyperSpace国际任务**：Jennewein教授的实验室正在领导HyperSpace任务的需求规划与开发工作。这是一个旨在通过量子卫星连接加拿大和欧洲的宏大项目，体现了该团队在国际合作中的领导地位。
-
-*   **关键技术研发**：除了任务导向的开发工作，该团队还致力于基础技术的创新，例如他们开发了一个用于自由空间量子通信中光学设备偏振表征的平台。
-
-*   **未来技术布局**：该团队还积极规划未来的技术验证和部署，曾提出一项微型卫星任务，以展示并验证基于卫星的全球规模QKD技术的可行性。
-
-Search Query: "Kevin Resch" IQC University of Waterloo research projects OR publications ("quantum communication" OR "entanglement distribution")
-Search Answer: Kevin Resch，隶属于滑铁卢大学量子计算研究所（IQC），其研究重点是实验性量子通信和计算，特别关注纠缠的光学源。他的研究涉及生成新的光量子态，并将其应用于量子计算和医学成像等领域。
-
-Resch的课题组在顶级期刊上发表了重要成果，例如在《物理评论快报》（*Physical Review Letters*）上发表的一篇论文探讨了通信中的量子优势。此外，他的一项实验为多方量子通信的可能性做出了贡献。他的其他出版物还包括对“存在量子记忆情况下的不确定性原理及其在见证纠缠中的应用的实验研究”。
-
-Search Query: "Ashwin Nayak" IQC University of Waterloo research projects OR publications ("quantum communication" OR "quantum sensing")
-Search Answer: 根据现有信息，我们可以整理出以下关于一位研究人员 Ashwin Nayak 的相关工作：
-
-Ashwin Nayak 在滑铁卢大学量子计算研究所 (University of Waterloo's Institute for Quantum Computing - IQC) 的研究主要集中在量子信息和计算领域，特别侧重于算法、复杂性和通信。
-
-他的研究成果包括多篇著作。在量子通信领域，一篇相关的出版物是《量子通信中的相互作用与集合不相交性的复杂性》（Interaction in quantum communication and the complexity of set disjointness）。他的其他研究还涵盖了量子学习和复杂性理论，例如《用单拷贝测量学习量子态的下界》（Lower Bounds for Learning Quantum States with Single-Copy Measurements）、《相互作用玻色子问题可以是QMA难的》（Interacting boson problems can Be QMA hard）以及《恰当量子PAC学习与非恰当量子PAC学习》（Proper versus Improper Quantum PAC Learning）。
-
-根据一个学术资料库的统计，他共有76项研究成果，被引用3441次。
-
-Search Query: 清华大学 电子工程系 张巍 教授 量子网络 OR "纠缠分发" 研究团队 项目 论文
-Search Answer: 根据现有资料，以下是对一个在量子网络研究领域取得重要进展的课题组的综合整理：
-
-**课题组：清华大学电子工程系张巍教授团队**
-
-该团队在量子网络，特别是量子纠缠分配网络方面取得了显著进展，其研究旨在解决构建大规模、可重构和高性能量子网络这一核心难题。
-
-*   **研究方向与技术方案**：
-    团队提出了一种分层全连接的量子纠缠分配网络架构。该方案创新性地结合了硅光技术，并将电信领域成熟的波分复用（WDM）技术引入量子纠缠分发网络，旨在高效利用宽带量子光源产生的纠缠资源。
-
-*   **主要成果与发表期刊**：
-    基于上述技术方案，该团队成功实验实现了40个用户的全连接量子网络。这项重要研究成果发表在国际期刊《PhotoniX》上。
-
-*   **团队成员与技术背景**：
-    该研究团队的核心领导者为张巍教授和黄翊东教授，他们是相关论文的通讯作者。团队成员还包括2019级博士生刘东宁，他是其中一篇关键论文的第一作者。
-
-*   **经费与项目来源**：
-    该团队的研究工作获得了北京量子信息科学研究院以及国家自然科学基金的资助与支持。
-
-Search Query: "MIT Optical and Quantum Communications Group" Jeffrey Shapiro Franco Wong research funding collaborations publications
-Search Answer: 根据现有资料，可以整理出以下关于麻省理工学院（MIT）某个量子网络相关课题组的信息：
-
-**麻省理工学院（MIT）- 光学与量子通信课题组 (Optical and Quantum Communications Group)**
-
-这是一个世界知名的研究中心，专注于开发先进的光学通信技术。该课题组隶属于MIT的电子研究实验室（Research Laboratory of Electronics, RLE）。
-
-*   **研究方向**：根据一份可追溯至2007年的资料显示，该课题组的研究涵盖量子密码学、量子计算、量子纠错和量子通信等领域。
-*   **领导者与成员**：该课题组的领导者是Jeffrey H. Shapiro，他是麻省理工学院电子工程与计算机科学系的Julius A. Stratton讲席教授，并曾担任电子研究实验室的主任。资料中提及了Saikat Guha曾是该小组成员，但在2007年做过相关报告。
-*   **局限性**：所提供的资料较为陈旧（主要基于2007年的信息），未能提供关于该课题组当前的经费来源、横向或纵向合作项目、近期发表文章以及其他核心成员（如Franco Wong）的具体信息。
-
-Search Query: 清华大学 龙桂鲁 量子网络 OR 量子通信 研究团队 OR 实验室 经费来源 项目 论文
-Search Answer: 清华大学龙桂鲁教授的团队是国内量子光学和量子信息领域有代表性的研究力量之一。该团队自1998年起便开始了对量子通信和量子算法物理基础的研究，并于2000年提出了量子直接通信理论。
-
-**近期研究与论文发表：**
-该团队近期在量子通信网络方面取得了新进展，提出了一种基于现有光纤网络的混合部署方案，该方案结合了安全中继器与不可信中继器，并构建了全新的量子电路交换与分组交换策略。团队还为此开发了成本估算模型和启发式优化算法（HCOA）。相关研究成果以“Quantum Communication Network Routing with Circuit and Packet Switching Strategies”为题，于2025年2月20日在线发表于《IEEE Journal on Selected Areas in Communications》期刊。论文的共同第一作者为清华大学物理系博士生孙泽洲和程元滨，通讯作者为龙桂鲁教授以及北京量子信息科学研究院的助理研究员潘栋、张飞昊。
-
-**经费与项目来源：**
-团队早期的研究获得了科技部、教育部和国家自然科学基金委项目的支持。近期的研究工作则获得了更广泛的支持，经费来源包括：
-*   国家自然科学基金
-*   广东省重点领域研发计划
-*   清华大学（北京）未来芯片技术高精尖创新中心
-*   清华大学自主科研计划
-*   低维量子物理全国重点实验室
-
-Search Query: 清华大学 物理系 尤力 教授 量子网络 OR 量子传感 研究团队 项目 经费 论文
-Search Answer: 根据现有资料，清华大学的尤力教授的研究方向为“利用旋量玻色-爱因斯坦凝聚原子开展量子增强的精密测量”，这属于量子传感领域 [https://quantum.szu.edu.cn/__local/9/EE/EF/8917DF4C32A20BC1C17091640B2_DE1E0D7E_1C3170.pdf, https://www.phy.pku.edu.cn/shuangnianbaodinggao.pdf]。他的研究团队曾与山西大学的苏晓龙教授实验组进行合作 [https://www.phy.pku.edu.cn/shuangnianbaodinggao.pdf]。然而，目前的搜索结果未能提供关于该课题组发表论文的期刊或会议等级、课题组成员的具体背景、经费来源以及横向或纵向项目等更详细的信息。
+综上所述，RF-Diffusion 是一种先进的用于无线感知的生成模型，它使用时间序列RF信号，但其具体的准确率数据在当前提供的信息中并未明确给出。
 

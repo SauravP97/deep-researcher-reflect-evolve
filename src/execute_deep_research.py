@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 15, "topic": "Science & Technology", "language": "zh", "prompt": "收集整理目前世界上关于量子网络的研究，横向比较各课题组的相关工作，从以下几个维度，也可以不局限于这些维度：文章发表期刊或会议的等级，课题组成员和领导者的技术背景或学术头衔，课题组经费来源，课题组横向或纵向项目等维度，并为我评估出最有潜力的可以引领未来量子网络发展的十个课题组"}
+research_task = {"id": 16, "topic": "Software Development", "language": "zh", "prompt": "收集整理目前非接触式感知领域做的最好的算法策略，并为我评估他们的输入信号与准确率"}
 
 
 
