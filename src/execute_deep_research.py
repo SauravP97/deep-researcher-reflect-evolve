@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 12, "topic": "Science & Technology", "language": "zh", "prompt": "收集整理近10年来国际上自来水生产及销售企业在技术创新且已经实现创新成果产业化应用方面，按技术产业化应用实现的经济收益规模前10的创新成果，列举企业名称，技术创新成果及产业化应用情况，对比分析国内同类型水务企业的情况，给出国内水务企业以实现技术创新成果产业化应用为目的可重点开展技术攻关的3-5个方向的建议"}
+research_task = {"id": 13, "topic": "Science & Technology", "language": "zh", "prompt": "为我调研AI算法能否提升现有电子学读出时幅修正方法"}
 
 
 
