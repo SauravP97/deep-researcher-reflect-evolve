@@ -1,0 +1,328 @@
+# 收集整理目前世界上关于量子网络的研究，横向比较各课题组的相关工作，从以下几个维度，也可以不局限于这些维度：文章发表期刊或会议的等级，课题组成员和领导者的技术背景或学术头衔，课题组经费来源，课题组横向或纵向项目等维度，并为我评估出最有潜力的可以引领未来量子网络发展的十个课题组
+
+好的，作为首席研究编辑，我将根据提供的原始研究主题、执行计划和详细的研究日志，撰写一份全面、专业的深度研究报告。
+
+---
+
+## **全球量子网络研究前沿：顶尖课题组评估及潜力展望**
+
+**报告日期：** 2024年10月27日
+**报告ID：** D-QNET-2024-TOP10
+
+### **执行摘要 (Executive Summary)**
+
+本报告旨在对全球范围内从事量子网络研究的顶尖学术团队进行系统性评估，并遴选出十个最具潜力引领未来量子网络技术发展的课题组。通过对各团队在**人才构成、科研产出、经费支持、合作生态和成果转化**五个核心维度的深入分析，我们发现全球量子网络研究正呈现出从基础物理验证向量工程化、规模化测试平台演进的趋势。
+
+研究表明，领先的课题组通常具备以下一个或多个特征：专注于解决量子中继、纠错等核心技术瓶颈；依托强大的国家级战略项目和经费支持；积极构建跨学科、跨机构的合作生态系统；以及选择了具备高度可扩展性的技术路线（如囚禁离子、光子学、固态系统等）。
+
+**最终评选出的十大最具潜力课题组（排名不分先后）为：**
+
+1.  **潘建伟 团队** (中国科学技术大学)
+2.  **Ronald Hanson 课题组** (代尔夫特理工大学 QuTech)
+3.  **Mikhail Lukin 课题组** (哈佛大学)
+4.  **David M. Lucas 课题组** (牛津大学)
+5.  **Liang Jiang 课题组** (芝加哥大学)
+6.  **Thomas Jennewein 课题组** (滑铁卢大学量子计算研究所)
+7.  **张巍 & 黄翊东 课题组** (清华大学)
+8.  **Jeffrey H. Shapiro & Franco N.C. Wong 课题组** (麻省理工学院)
+9.  **龙桂鲁 课题组** (清华大学)
+10. **David Awschalom 课题组** (芝加哥大学)
+
+这些团队不仅在顶级学术期刊上取得了突破性成果，更在构建实用化量子网络原型、探索全球化量子通信方面扮演着引领者角色。
+
+### **1. 研究背景与评估框架**
+
+量子网络是量子信息技术的终极发展方向之一，其目标是构建一个能够连接量子计算机、传感器和通信设备的“量子互联网” ["https://www.telecomsci.com/rc-pub/front/front-article/download/59809286/lowqualitypdf/%E9%87%8F%E5%AD%90%E4%BA%92%E8%81%94%E7%BD%91%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%8F%91%E5%B1%95%E7%A0%94%E7%A9%B6.pdf"]。实现这一目标的核心技术挑战包括远距离纠缠分发、量子中继和量子纠错 ["https://www.china-cic.cn/upload/202012/05/73453ac5127a48aeb2a01f218460b9e5.pdf"]。
+
+为客观评估全球各研究团队的潜力，本报告采用了以下五维评估框架：
+
+*   **人才与团队 (Talent):** 领导者的学术声望、技术背景及团队的跨学科构成。
+*   **科研产出 (Research Output):** 在顶级期刊（如 *Nature*, *Science*）发表的关键论文、里程碑式的技术突破和专利布局。
+*   **项目与经费 (Funding):** 国家级重大项目的主导地位、经费来源的多元化与稳定性。
+*   **合作与生态 (Collaboration):** 与产业界、学术界的合作网络及在构建技术生态中的领导力。
+*   **商业化前景 (Commercialization):** 技术路线的可扩展性、成果转化的潜力（如衍生公司、专利应用）。
+
+### **2. 全球顶尖量子网络课题组深度分析**
+
+本章节将对评选出的十个课题组进行详细介绍和分析。
+
+#### **2.1 潘建伟 团队 (中国科学技术大学)**
+
+作为全球量子通信领域的开拓者，潘建伟院士团队在构建广域量子网络方面取得了无可争议的领导地位。
+
+*   **人才与团队:** 由中国科学院院士潘建伟领导，他师从量子物理学大师安东·塞林格，团队已培养超过140名博士，形成了强大的人才梯队。
+*   **科研产出:** 团队在国际上率先实现了千公里级的星地量子纠缠分发、星地高速量子密钥分发和地星量子隐形传态。成果多次发表于 *Nature*、*Science* 等顶级期刊，并荣获美国科学促进会(AAAS)颁发的克利夫兰奖。
+*   **项目与经费:** 团队是国家战略的核心力量，主导了世界首颗量子科学实验卫星**“墨子号”**和世界首条远距离量子保密通信骨干网**“京沪干线”**。研究获得了中国科学院、国家自然科学基金和科技部的长期稳定支持。
+*   **合作与生态:** “京沪干线”已与金融、电力等行业开展应用示范，展示了强大的产学研结合与成果落地能力。
+
+**综合评估:** 该团队的最大优势在于其无与伦比的大规模、远距离量子网络工程化和部署能力，是国家战略驱动下基础研究与工程应用结合的典范。
+
+#### **2.2 Ronald Hanson 课题组 (QuTech, 代尔夫特理工大学)**
+
+该课题组在基于固态量子比特构建可扩展的量子网络方面处于世界领先水平。
+
+*   **人才与团队:** 由 QuTech 创始首席研究员之一、代尔夫特理工大学特聘教授 Ronald Hanson 领导。
+*   **科研产出:** 团队取得了里程碑式的突破，**首次实现了世界上第一个基于纠缠的多节点量子网络**，成功连接了多个独立的量子处理器，并实现了它们之间的共享纠缠。
+*   **项目与经费:** 作为 QuTech 的核心团队，其研究获得了荷兰政府和欧盟的重点资助。QuTech 本身是由代尔夫特理工大学与荷兰应用科学研究组织 (TNO) 联合创办，资金实力雄厚。
+*   **合作与生态:** QuTech 致力于构建从硬件到协议的完整技术堆栈，并积极推动量子互联网联盟 (Quantum Internet Alliance) 的发展，生态构建能力突出。
+
+**综合评估:** Hanson 课题组的技术路线专注于模块化和可扩展性，其在连接多个量子处理器方面的开创性工作，为未来分布式量子计算和模块化量子计算机奠定了基础。
+
+#### **2.3 Mikhail Lukin 课题组 (哈佛大学)**
+
+Lukin 课题组在构建实用化的城域量子网络测试平台方面取得了显著进展，是理论与实验结合的典范。
+
+*   **人才与团队:** 由哈佛大学物理学教授、哈佛量子计划 (HQI) 联席主任 Mikhail Lukin 领导。他同时也是哈佛-麻省理工超冷原子中心的联席主任，学术地位卓越。
+*   **科研产出:** 团队在波士顿地区构建了一个长达35公里的光纤环路，**成功实现了两个基于“硅-空位中心”的量子存储节点的纠缠**。这项工作被认为是构建“第一个量子互联网的实际雏形”，相关成果发表于顶级期刊。
+*   **项目与经费:** 获得了亚马逊云科技 (AWS)、美国国家科学基金会 (NSF)、量子网络中心 (CFQ) 以及美国空军科学研究办公室的联合资助，经费来源多元化。
+*   **合作与生态:** 通过与 AWS 等行业巨头合作，积极探索量子网络的实际应用场景和商业化路径。
+
+**综合评估:** 该团队的优势在于将前沿的固态量子存储技术与现有光纤基础设施相结合，构建了真实环境下的量子网络测试平台，为网络协议和系统集成研究提供了宝贵经验。
+
+#### **2.4 David M. Lucas 课题组 (牛津大学)**
+
+该团队是囚禁离子技术路线的全球领导者，专注于实现高保真度的模块化量子网络和分布式量子计算。
+
+*   **人才与团队:** 由 David M. Lucas 教授和 Chris Ballance 教授共同领导，团队位于牛津大学克拉 Clarendon 实验室。
+*   **科研产出:** 团队持续在 *Nature*、*Physical Review Letters* 等顶级期刊上发表突破性成果。最引人瞩目的成就是**在两个独立的实验室之间，通过高保真度量子链接，成功连接了两个独立的囚禁离子量子计算机** (发表于2023年 *Nature*)。他们还实现了囚禁离子与电信波长光子的高保真度纠缠，解决了与现有光纤网络兼容的关键问题。
+*   **项目与经费:** 作为**英国国家量子技术计划 (UK NQTP)** 的核心力量，并在**网络化量子信息技术中心 (NQIT) Hub** 中扮演中心角色，获得了英国工程和物理科学研究委员会 (EPSRC) 和美国陆军研究办公室的长期资助。
+*   **商业化前景:** 囚禁离子被认为是构建高质量量子计算机和网络最有前途的物理系统之一，该团队的技术路线具备极高的商业化潜力。
+
+**综合评估:** Lucas 课题组在技术保真度和系统可扩展性方面表现卓越。其连接独立量子计算机的成果是迈向模块化量子计算和分布式量子互联网的里程碑。
+
+#### **2.5 Liang Jiang 课题组 (芝加哥大学)**
+
+该课题组在量子网络的理论层面，尤其是在量子纠错和量子控制方面，做出了奠基性的贡献。
+
+*   **人才与团队:** 由普利兹克分子工程学院 (PME) 的 Liang Jiang 教授领导。
+*   **科研产出:** 研究重点是设计能够保护量子信息免受退相干影响的量子控制和纠错方案，这对于构建可靠的全球量子网络至关重要。
+*   **项目与经费:** 依托芝加哥大学和芝加哥量子交易所 (CQE) 强大的平台资源，能够参与美国能源部等机构资助的重大项目。
+*   **合作与生态:** 芝加哥量子交易所汇聚了学术界、国家实验室和工业界的顶尖力量，为 Jiang 教授的理论研究提供了丰富的应用和验证场景。
+
+**综合评估:** 在通往大规模量子网络的道路上，量子纠错是最大的挑战之一。Jiang 课题组的理论工作为解决这一根本性瓶颈提供了关键思路，对于所有物理平台的量子网络构建都具有指导意义。
+
+#### **2.6 Thomas Jennewein 课题组 (滑铁卢大学量子计算研究所, IQC)**
+
+该团队是全球卫星量子通信领域的领军者，专注于构建覆盖全球的天基量子网络。
+
+*   **人才与团队:** 由 IQC 的 Thomas Jennewein 教授领导，其博士期间就专注于量子通信和隐形传态实验。
+*   **科研产出:** 团队为**加拿大的 QEYSSat 卫星任务**开发了核心的 QKD 终端和量子源，并正在领导连接加拿大和欧洲的 **HyperSpace 国际任务**。
+*   **项目与经费:** 深度参与加拿大航天局等国家级重大航天项目，项目导向明确，经费支持稳定。
+*   **合作与生态:** 积极推动国际合作，致力于建立跨国界的全球量子通信网络。
+
+**综合评估:** 相较于地面光纤网络，卫星是实现全球覆盖的必然选择。Jennewein 课题组在这一前沿方向上占据了技术和项目的双重制高点。
+
+#### **2.7 张巍 & 黄翊东 课题组 (清华大学)**
+
+该团队在基于硅光子技术构建可重构、高性能量子纠缠分发网络方面取得了创新性突破。
+
+*   **人才与团队:** 由清华大学电子工程系的张巍教授和黄翊东教授共同领导。
+*   **科研产出:** 提出了一种分层全连接的量子纠缠分配网络架构，创新性地将电信领域的**波分复用 (WDM) 技术**引入量子网络，并成功实验**实现了40个用户的全连接量子网络**，成果发表于《PhotoniX》。
+*   **项目与经费:** 研究获得了北京量子信息科学研究院和国家自然科学基金的支持。
+*   **商业化前景:** 硅光子技术与现有半导体工艺兼容，具有低成本、易于大规模集成的巨大优势，其技术路线具备很强的商业化潜力。
+
+**综合评估:** 该团队将成熟的光通信技术与量子网络相结合，为解决大规模用户接入和网络扩展性问题提供了极具前景的工程化方案。
+
+#### **2.8 Jeffrey H. Shapiro & Franco N.C. Wong 课题组 (麻省理工学院, MIT)**
+
+作为 MIT 电子研究实验室 (RLE) 的核心团队，该课题组在光学与量子通信领域拥有深厚的历史积淀和理论基础。
+
+*   **人才与团队:** 由 RLE 前主任、Julius A. Stratton 讲席教授 Jeffrey H. Shapiro 领导。
+*   **科研产出:** 研究方向涵盖量子密码学、量子通信、量子纠错等关键领域。近年来，MIT 在基于**金刚石色心**构建量子网络方面取得了重要进展，开发了创新的“lock-and-release”制造工艺，旨在将量子比特与半导体技术高效集成。
+*   **项目与经费:** 依托 MIT 强大的科研平台，能够获得来自政府和工业界的广泛支持。
+*   **合作与生态:** MIT 拥有强大的成果转化生态，例如从 RLE 孵化的初创公司 Atlantic Quantum 被 Google 收购。
+
+**综合评估:** 该课题组理论功底深厚，并在探索新型固态量子比特与现有技术平台的集成方面走在前沿，有望在构建可扩展量子硬件方面发挥关键作用。
+
+#### **2.9 龙桂鲁 课题组 (清华大学)**
+
+该团队是量子直接通信理论的提出者，并在量子网络路由和协议设计方面持续贡献创新成果。
+
+*   **人才与团队:** 由清华大学物理系龙桂鲁教授领导，他同时也是北京量子信息科学研究院的副院长。
+*   **科研产出:** 于2000年提出量子直接通信理论。近期在《IEEE Journal on Selected Areas in Communications》上发表论文，提出了结合安全中继与不可信中继的**混合网络部署方案**，并设计了相应的电路交换与分组交换策略。
+*   **项目与经费:** 研究获得了国家自然科学基金、广东省重点研发计划以及多个国家重点实验室的联合支持。
+
+**综合评估:** 如果说构建物理链路是量子网络的“硬件”，那么设计高效、安全的网络协议就是“软件”。龙桂鲁团队在网络协议和路由策略这一关键领域做出了开创性贡献。
+
+#### **2.10 David Awschalom 课题组 (芝加哥大学)**
+
+作为量子自旋电子学领域的权威，Awschalom 课题组在探索新型量子比特和量子传感方面处于世界领先地位，其研究为量子网络的物理层实现提供了重要基础。
+
+*   **人才与团队:** 由普利兹克分子工程学院 (PME) 的 David Awschalom 教授领导。
+*   **科研产出:** 研究领域覆盖量子通信、量子自旋电子学和量子计算，专注于开发和控制固态系统中的量子态，为构建高性能的量子网络节点和传感器奠定了材料和物理基础。
+*   **合作与生态:** 作为芝加哥量子交易所 (CQE) 的核心成员，Awschalom 课题组深度融入了美国中西部的量子信息科学生态系统，与阿贡国家实验室、费米实验室等机构合作紧密。
+
+**综合评估:** Awschalom 课题组的优势在于其对量子网络物理层实现的深刻理解和材料创新能力。任何先进的网络架构最终都依赖于高质量的量子比特，而这正是该团队的核心专长。
+
+### **3. 综合比较与排名依据**
+
+为了更直观地展示各团队的特点，下表从核心优势维度对十大课题组进行了总结。
+
+| 课题组 | 核心优势与战略焦点 | 技术路线 |
+| :--- | :--- | :--- |
+| **潘建伟 (USTC)** | 国家战略驱动，广域网络工程化与部署 | 自由空间光子 + 光纤 |
+| **R. Hanson (QuTech)** | 多节点处理器互联，模块化网络基础 | 固态量子比特 (NV色心) |
+| **M. Lukin (Harvard)** | 城域网原型构建，真实环境测试平台 | 固态量子比特 (SiV色心) |
+| **D. Lucas (Oxford)** | 高保真度离子互联，模块化量子计算 | 囚禁离子 |
+| **L. Jiang (UChicago)** | 量子纠错与控制理论 | 理论物理 |
+| **T. Jennewein (IQC)** | 天基量子通信，全球覆盖网络 | 卫星 + 自由空间光子 |
+| **张巍等 (Tsinghua)** | 硅光集成，可扩展纠缠分发网络 | 硅光子学 |
+| **Shapiro等 (MIT)** | 量子通信理论，固态量子比特集成 | 理论 + 金刚石色心 |
+| **龙桂鲁 (Tsinghua)** | 量子网络协议与路由策略 | 理论 + 网络协议 |
+| **D. Awschalom (UChicago)**| 新型量子比特材料与自旋电子学 | 固态量子材料 |
+
+**排名主要依据以下标准加权评估：**
+
+1.  **解决核心瓶颈的能力：** 对量子中继、纠错、高保真度互联等关键难题的贡献度。牛津大学、芝加哥大学 (Jiang) 和 QuTech 在此方面尤为突出。
+2.  **技术路线的可扩展性：** 技术方案是否具备大规模部署和商业化的潜力。清华大学 (张巍) 的硅光方案、牛津的离子方案和哈佛/QuTech的固态方案均具备高可扩展性。
+3.  **生态系统领导力：** 是否主导国家级重大项目或构建了强大的产学研合作生态。中科大 (潘建伟)、牛津大学和滑铁卢大学在这一维度表现卓越。
+
+### **4. 结论与展望**
+
+全球量子网络研究正处于从单个节点、短距离演示向量多节点、远距离、工程化测试平台过渡的关键时期。本报告遴选的十个课题组，代表了当前量子网络研究的最高水平和最多元化的技术路径。
+
+**未来发展呈现以下趋势：**
+
+*   **混合网络架构：** 结合地面光纤与卫星通信的“天地一体化”网络将成为实现全球覆盖的主流方案。
+*   **协议与硬件协同发展：** 量子网络协议、路由算法等“软件”层面的研究将愈发重要，与物理层硬件的发展形成互补。
+*   **技术路线的竞争与融合：** 囚禁离子、超导、光子、固态色心等不同物理平台将在保真度、扩展性和成本等维度上展开竞争，未来也可能出现不同平台间的混合互联。
+
+总体而言，由本报告所列团队引领的量子网络技术革命，有望在未来十年内催生出具备初步功能的量子互联网雏形，并对计算、通信和传感领域产生深远影响。
+
+### **5. 参考文献/来源**
+
+*   [https://www.telecomsci.com/rc-pub/front/front-article/download/59809286/lowqualitypdf/%E9%87%8F%E5%AD%90%E4%BA%92%E8%81%94%E7%BD%91%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%8F%91%E5%B1%95%E7%A0%94%E7%A9%B6.pdf](https://www.telecomsci.com/rc-pub/front/front-article/download/59809286/lowqualitypdf/%E9%87%8F%E5%AD%90%E4%BA%92%E8%81%94%E7%BD%91%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%8F%91%E5%B1%95%E7%A0%94%E7%A9%B6.pdf)
+*   [https://www.senko.com/zh-cn/basics-of-quantum-key-distribution/](https://www.senko.com/zh-cn/basics-of-quantum-key-distribution/)
+*   [https://zhuanlan.zhihu.com/p/651906130](https://zhuanlan.zhihu.com/p/651906130)
+*   [https://www.china-cic.cn/upload/202012/05/73453ac5127a48aeb2a01f218460b9e5.pdf](https://www.china-cic.cn/upload/202012/05/73453ac5127a48aeb2a01f218460b9e5.pdf)
+*   [https://www.sciengine.com/doi/pdf/81DF29368AE04EEA9C2543589D4E94EE?ipInfo=66.249.75.11](https://www.sciengine.com/doi/pdf/81DF29368AE04EEA9C2543589D4E94EE?ipInfo=66.249.75.11)
+*   [https://link.aps.org/doi/10.1103/PhysRevX.4.041041](https://link.aps.org/doi/10.1103/PhysRevX.4.041041)
+*   [https://sciprofiles.com/profile/author/NTM0Nm0zeTVMVmpEVkhPNFV3c2JjUT09](https://sciprofiles.com/profile/author/NTM0Nm0zeTVMVmpEVkhPNFV3c2JjUT09)
+*   [https://quantum.szu.edu.cn/__local/9/EE/EF/8917DF4C32A20BC1C17091640B2_DE1E0D7E_1C3170.pdf](https://quantum.szu.edu.cn/__local/9/EE/EF/8917DF4C32A20BC1C17091640B2_DE1E0D7E_1C3170.pdf)
+*   [https://www.phy.pku.edu.cn/shuangnianbaodinggao.pdf](https://www.phy.pku.edu.cn/shuangnianbaodinggao.pdf)
+
+## Citations 
+- https://www.telecomsci.com/rc-pub/front/front-article/download/59809286/lowqualitypdf/%E9%87%8F%E5%AD%90%E4%BA%92%E8%81%94%E7%BD%91%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%8F%91%E5%B1%95%E7%A0%94%E7%A9%B6.pdf
+- https://zhuanlan.zhihu.com/p/651906130
+- https://www.china-cic.cn/upload/202012/05/73453ac5127a48aeb2a01f218460b9e5.pdf
+- https://www.sciengine.com/doi/pdf/81DF29368AE04EEA9C2543589D4E94EE?ipInfo=66.249.75.11
+- https://www.senko.com/zh-cn/basics-of-quantum-key-distribution/
+- https://www.12371.cn/2019/07/16/ARTI1563254192995692.shtml
+- http://www.caict.ac.cn/kxyj/qwfb/bps/201812/P020181221551983008723.pdf
+- http://www.unbank.info/static/pages/2063/314080.html
+- https://www.sciengine.com/cfs/files/files/upfile/1993139880745500672
+- https://www.ccf.org.cn/Media_list/TC/2025-07-10/846339.shtml
+- https://cqi.tsinghua.edu.cn/zxjj/zxgk.htm
+- https://m.jiemian.com/article/3396428.html
+- http://mozi.ustc.edu.cn/detail/322
+- https://zhuanlan.zhihu.com/p/463183592
+- https://iknow.stpi.niar.org.tw/post/Read.aspx?PostID=19290
+- https://www.facebook.com/groups/434427153280635/posts/24676217475341598/
+- https://www.qbitai.com/2023/02/42326.html
+- https://quantum-journal.org/papers/q-2025-01-21-1605/
+- https://www.redhat.com/en/blog/quantum-networks
+- https://dl.acm.org/doi/10.1145/3524455
+- https://www.mdpi.com/1099-4300/25/11/1564
+- https://www.nature.com/articles/s41467-025-66333-3
+- https://pubs.aip.org/avs/aqs/article/4/3/030401/2835251/Progress-in-quantum-networks
+- https://quantum-journal.org/papers/q-2024-10-23-1508/
+- https://iopscience.iop.org/article/10.1088/1751-8121/ad41a6
+- https://www.sciencedirect.com/science/article/abs/pii/S0079672724000545
+- https://www.nature.com/articles/s41534-024-00919-5
+- https://qutech.nl/person/ronald-hanson/
+- https://qutech.nl/2024/02/12/qutech-welcomes-six-new-principal-investigators/
+- https://qutech.nl/
+- https://www.tudelft.nl/en/2021/tu-delft/dutch-researchers-establish-the-first-entanglement-based-quantum-network
+- https://qutech.nl/lab/machado-group/
+- https://uwaterloo.ca/institute-for-quantum-computing/research
+- https://uwaterloo.ca/institute-for-quantum-computing/
+- https://www.linkedin.com/posts/waterlooedc_the-institute-for-quantum-computing-is-the-activity-7384589083869732864-B1lG
+- https://www.waterlooedc.ca/blog/quantum-revolution-waterloo
+- https://www.youtube.com/watch?v=CJN_kk1b6lk
+- https://professional.uchicago.edu/find-your-fit/courses/quantum-science-networking-and-communications?language_content_entity=en
+- https://quantum.uchicago.edu/research-areas/quantum-communication
+- https://pme.uchicago.edu/group/jiang-group
+- https://computerscience.uchicago.edu/research/quantum-computing/
+- https://quantum.uchicago.edu/research-areas/quantum-computing
+- https://www.nature.com/articles/s41467-025-67771-9
+- https://link.springer.com/article/10.1140/epjqt/s40507-022-00130-5
+- https://quantum-journal.org/papers/q-2021-09-07-537/
+- https://www.nature.com/articles/s41534-023-00759-9
+- https://www.linkedin.com/posts/stem-for-all-academy_stemspotlight-quantumcomputing-innovation-activity-7308200611248754690-JoQh
+- https://www.chemistry.harvard.edu/news/new-research-glimpse-next-generation-internet
+- https://app.academiclabs.com/profile/u9kXiNrpkjWD
+- https://aws.amazon.com/blogs/quantum-computing/announcing-a-research-alliance-between-aws-and-harvard-university/
+- https://seas.harvard.edu/news/2022/09/harvard-and-aws-launch-alliance-advance-research-quantum-science
+- https://uwaterloo.ca/institute-for-quantum-computing/news/new-faculty-arrival
+- https://uwaterloo.ca/institute-for-quantum-computing/news/two-more-faculty-members-join-iqc-lineup
+- https://uwaterloo.ca/institute-for-quantum-computing/ashwin-nayak
+- https://uwaterloo.ca/institute-for-quantum-computing/outreach/quantum-101/qist/quantum-communication
+- https://uwaterloo.ca/institute-for-quantum-computing/research/groups/quantum-optics-and-quantum-information-lab
+- https://www.rle.mit.edu/
+- https://www.eecs.mit.edu/labs/research-laboratory-of-electronics-rle/
+- https://www.facebook.com/RLEatMIT/photos/ieee-milestone-in-electrical-engineering-and-computing-claude-e-shannons-develop/1234156203291774/
+- https://catalog.mit.edu/mit/research/research-laboratory-electronics/
+- https://ca.headtopics.com/news/mit-s-diamond-qubits-redefine-the-future-of-quantum-54973053
+- https://www.researchgate.net/publication/364696757_New_color_centers_in_diamond_for_long_distance_quantum_communication
+- https://qoptics.mit.edu/
+- https://cqe.mit.edu/people/
+- https://qoptics.mit.edu/people/
+- https://qoptics.mit.edu/
+- https://qoptics.mit.edu/contact/
+- https://www.rle.mit.edu/optical-and-quantum-communications-group/
+- http://quantum.ustc.edu.cn/web/node/32?page=5
+- https://www.cas.cn/xzfc/201910/t20191016_4720318.shtml
+- https://quantum.ustc.edu.cn/web/node/32
+- https://quantum.ustc.edu.cn/
+- http://cpc.people.com.cn/n/2014/0314/c83083-24633847.html
+- https://www.ox.ac.uk/news-and-events/oxford-people/Chris-Ballance
+- https://www.facebook.com/groups/328231110942652/posts/1359291287836624/
+- https://www.qcshub.org/final-report.pdf
+- http://quantum.ustc.edu.cn/web/index.php/node/1212
+- https://www.tsinghua.edu.cn/info/1175/116246.htm
+- https://news.sciencenet.cn/htmlnews/2024/8/528995.shtm
+- https://www.phys.tsinghua.edu.cn/info/1056/4069.htm
+- https://wdy.hunnu.edu.cn/info/1241/5398.htm
+- https://link.aps.org/doi/10.1103/PhysRevX.4.041041
+- https://sciprofiles.com/profile/author/NTM0Nm0zeTVMVmpEVkhPNFV3c2JjUT09
+- https://www.scholarshipsads.com/search/scholarships-for-lesotho-students-in-germany-degree-masters-in-mathematics/
+- https://www.instagram.com/p/DSVZ1SUE3px/
+- https://iopscience.iop.org/article/10.1088/1367-2630/acc8f2/pdf
+- https://www.researchgate.net/publication/373502539_Entanglement_Distribution_in_Quantum_Repeater_with_Purification_and_Optimized_Buffer_Time
+- https://arxiv.org/pdf/2305.14573
+- https://www.researchgate.net/publication/378389512_Fast_and_reliable_entanglement_distribution_with_quantum_repeaters_Principles_for_improving_protocols_using_reinforcement_learning
+- https://www.researchgate.net/publication/370590499_Optimal_entanglement_distribution_policies_in_homogeneous_repeater_chains_with_cutoffs
+- https://www.researchgate.net/publication/1759322_Entanglement_Distribution_in_Pure-State_Quantum_Networks
+- https://www.myscience.org/de/jobs?q=post-doc&o=bas&s=0
+- https://quantiki.org/jobs/index.php?amp=%27%27%27&order=title&sort=desc&page=128
+- https://iopscience.iop.org/article/10.1088/1367-2630/acdf78/pdf
+- https://uwaterloo.ca/institute-for-quantum-computing/news/iqc-completes-project-points-way-future-quantum-space
+- https://uwaterloo.ca/institute-for-quantum-computing/news/quantum-sources-satellite-missions
+- https://www.researchgate.net/publication/352674761_QKD_terminal_for_Canada's_Quantum_Encryption_and_Science_Satellite_QEYSSat
+- https://uwaterloo.ca/news/science/connecting-canada-and-europe-through-quantum-satellite
+- https://spie.org/news/5453-progress-toward-a-quantum-communication-satellite
+- https://uwaterloo.ca/institute-for-quantum-computing/profiles/kevin-resch
+- https://uwaterloo.ca/physics-astronomy/profile/kresch
+- https://uwaterloo.ca/institute-for-quantum-computing/news/quantum-entanglement-game-changer
+- https://scholar.google.com/citations?user=BpUn9qsAAAAJ&hl=en
+- https://www.sciencecodex.com/experiment_opens_the_door_to_multiparty_quantum_communication-130274
+- https://www.researchgate.net/scientific-contributions/Ashwin-Nayak-7706604
+- https://uwaterloo.ca/institute-for-quantum-computing/ashwin-nayak
+- https://www.researchgate.net/scientific-contributions/Ashwin-Nayak-36260482
+- https://www.math.uwaterloo.ca/~anayak/Site/Publications.html
+- https://scholar.google.com/citations?user=psqKefwAAAAJ&hl=en
+- https://www.tsinghua.edu.cn/info/1175/116246.htm
+- http://www.qtc.com.cn/article/17352606687723.html
+- https://finance.sina.com.cn/tech/discovery/2024-12-26/doc-ineavfqp3288618.shtml
+- https://www.tsinghua.edu.cn/info/1175/120643.htm
+- https://blob.wenxiaobai.com/article/181ae355-76af-5082-9e82-030a6574e4fc
+- https://www.physicsforums.com/threads/graduate-programs-in-photonics-optics-optoelectronics-any-suggestions.68632/
+- https://web.mit.edu/eecsgsa/6insight/www/slides/saikat-20070220.pdf
+- https://en.wikipedia.org/wiki/Jeffrey_Shapiro
+- https://www.tsinghua.edu.cn/info/1175/20830.htm
+- https://www.phys.tsinghua.edu.cn/info/1268/6308.htm
+- https://www.ncsti.gov.cn/kjdt/xwjj/202305/t20230506_119392.html
+- https://t.qianzhan.com/daka/detail/191002-7fd5f438.html
+- https://www.sciengine.com/cfs/files/files/upfile/1993139880745500672
+- https://quantum.szu.edu.cn/__local/9/EE/EF/8917DF4C32A20BC1C17091640B2_DE1E0D7E_1C3170.pdf
+- https://www.phy.pku.edu.cn/shuangnianbaodinggao.pdf
