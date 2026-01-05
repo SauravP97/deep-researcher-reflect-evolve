@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 11, 
-    "prompt": "请总结碳钢常用缓蚀剂种类，并分析每种缓蚀剂是具有拉曼活性还是红外活性。注意如果是复合缓蚀剂需要分别分析再总结。",
+    "id": 12, 
+    "prompt": "收集整理近10年来国际上自来水生产及销售企业在技术创新且已经实现创新成果产业化应用方面，按技术产业化应用实现的经济收益规模前10的创新成果，列举企业名称，技术创新成果及产业化应用情况，对比分析国内同类型水务企业的情况，给出国内水务企业以实现技术创新成果产业化应用为目的可重点开展技术攻关的3-5个方向的建议",
     "article": report_content,
 }
 
