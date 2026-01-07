@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 20, 
-    "prompt": "研究下Anthropic最新发布的Streamable HTTP的工程中的具体实现方案",
+    "id": 21, 
+    "prompt": "现在AI这么热门，我最感兴趣的就是人工智能在教育领域应用现状，实际能落地的场景还有在教育领域所面临的挑战，再就是反过来教育对培养人工智能高尖端人才的支撑作用如何强化，学校都有怎样的对应的培养AI人才的体系。",
     "article": report_content,
 }
 

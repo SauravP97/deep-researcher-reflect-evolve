@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 20, "topic": "Software Development", "language": "zh", "prompt": "研究下Anthropic最新发布的Streamable HTTP的工程中的具体实现方案"}
+research_task = {"id": 21, "topic": "Education & Jobs", "language": "zh", "prompt": "现在AI这么热门，我最感兴趣的就是人工智能在教育领域应用现状，实际能落地的场景还有在教育领域所面临的挑战，再就是反过来教育对培养人工智能高尖端人才的支撑作用如何强化，学校都有怎样的对应的培养AI人才的体系。"}
 
 
 
