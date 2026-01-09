@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 24, "topic": "Education & Jobs", "language": "zh", "prompt": "如何增强自闭症学生课堂参与度？有哪些有效的策略可供选择？"}
+research_task = {"id": 25, "topic": "Health", "language": "zh", "prompt": "请为我整合近几年有关“中性粒细胞在脑缺血急性期和慢性期的功能和发展变化”的研究成果。在此基础上预测中性粒细胞各个亚群如何和其他的细胞类型发生相互作用，最终如何导向不同的临床结局。最后，为我分析未来可能需要开展的工作。"}
 
 
 
