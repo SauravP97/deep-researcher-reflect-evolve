@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 25, 
-    "prompt": "请为我整合近几年有关“中性粒细胞在脑缺血急性期和慢性期的功能和发展变化”的研究成果。在此基础上预测中性粒细胞各个亚群如何和其他的细胞类型发生相互作用，最终如何导向不同的临床结局。最后，为我分析未来可能需要开展的工作。",
+    "id": 26, 
+    "prompt": "为我调研在慢性抗原刺激下（如肿瘤微环境或HIV潜伏感染），CD8+ T细胞线粒体动力学（融合/裂变平衡）如何通过调控表观遗传重塑（如m6A修饰、乳酸介导的组蛋白乳酸化）驱动终末耗竭与组织驻留记忆（Trm）细胞命运分岔，基于代谢-表观遗传互作网络定量建模",
     "article": report_content,
 }
 
