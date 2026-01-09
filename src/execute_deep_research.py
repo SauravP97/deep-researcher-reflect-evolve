@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 27, "topic": "Health", "language": "zh", "prompt": "如何将AI心理咨询和人类心理咨询有机结合，以便为人类心理健康谋求福利？"}
+research_task = {"id": 28, "topic": "Health", "language": "zh", "prompt": "传统的药物研究，即便是从多组学角度出发也难以系统地，宏观地解析药物对机体产生的影响。而且个人异质性会造成其他的影响，因之，请为我调研现阶段大模型是否能模拟药物产生影响来系统性评估药物，这个方向未来会如何发展呢"}
 
 
 
