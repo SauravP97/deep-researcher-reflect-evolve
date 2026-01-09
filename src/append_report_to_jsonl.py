@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 23, 
-    "prompt": "我们部门正在辅导高校老师竞赛，比较想了解创新赛、青教赛的全国一等奖课程的情况和资料。",
+    "id": 24, 
+    "prompt": "如何增强自闭症学生课堂参与度？有哪些有效的策略可供选择？",
     "article": report_content,
 }
 

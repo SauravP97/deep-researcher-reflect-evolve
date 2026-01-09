@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 23, "topic": "Education & Jobs", "language": "zh", "prompt": "我们部门正在辅导高校老师竞赛，比较想了解创新赛、青教赛的全国一等奖课程的情况和资料。"}
+research_task = {"id": 24, "topic": "Education & Jobs", "language": "zh", "prompt": "如何增强自闭症学生课堂参与度？有哪些有效的策略可供选择？"}
 
 
 
