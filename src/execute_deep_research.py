@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 26, "topic": "Health", "language": "zh", "prompt": "为我调研在慢性抗原刺激下（如肿瘤微环境或HIV潜伏感染），CD8+ T细胞线粒体动力学（融合/裂变平衡）如何通过调控表观遗传重塑（如m6A修饰、乳酸介导的组蛋白乳酸化）驱动终末耗竭与组织驻留记忆（Trm）细胞命运分岔，基于代谢-表观遗传互作网络定量建模"}
+research_task = {"id": 27, "topic": "Health", "language": "zh", "prompt": "如何将AI心理咨询和人类心理咨询有机结合，以便为人类心理健康谋求福利？"}
 
 
 
