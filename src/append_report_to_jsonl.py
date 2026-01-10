@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 29, 
-    "prompt": "50年代至今，中国大陆中国古代文学研究头部学者知识背景差异调查\n具体做法：收集整理50年代至今从事中国古代文学学科研究的头部学者的毕业院校、院校学科总体偏向，及专业、学历、工作经历、导师的专业背景等，和不同时期的文艺方针、学术潮流等时代背景，加权计算，分析比较得出某个特定时期的学者学科背景同异，以及个人的知识构成。",
+    "id": 30, 
+    "prompt": "全球南方合作如何推动文明交流互鉴？从理论角度给出深入的学术分析，必须考虑以下维度：非西方现代化、后殖民主义、东方学、全球史。",
     "article": report_content,
 }
 
