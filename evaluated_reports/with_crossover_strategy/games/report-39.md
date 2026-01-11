@@ -1,0 +1,264 @@
+# 我是一名游戏开发，帮我分析一下不同类型游戏的用户群体画像
+
+好的，作为首席研究编辑，我将根据您提供的研究日志，为您撰写一份关于不同类型游戏用户群体画像的深度研究报告。
+
+---
+
+# 深度研究报告：全球不同类型游戏的用户群体画像分析
+
+## 执行摘要
+
+本报告旨在为游戏开发者提供一份关于不同类型游戏用户群体的全面画像分析。通过整合人口统计学、心理特征和行为模式等多维度数据，报告揭示了主流游戏类型、不同游戏平台以及东西方市场之间的显著用户差异。核心发现表明，成功的游戏开发与本地化策略，必须建立在对目标用户深刻且细致的理解之上。
+
+报告首先确立了构成游戏用户画像的三大核心维度：**人口统计学**（年龄、性别、地域）、**心理特征**（游戏动机、价值观）和**行为特征**（游戏习惯、消费偏好）。随后，报告深入剖析了MOBA、FPS、RPG、SLG等主流游戏类型的用户特征，并引入了东西方市场的对比视角。例如，移动端MOBA游戏成功吸引了大量女性玩家，而SLG游戏的核心用户则高度集中于高收入中年男性。
+
+平台差异是另一关键分析维度。**PC与主机玩家**通常被视为“硬核”玩家，他们投入度高，偏好买断制，并深度参与社区。**移动端玩家**则基数庞大，以休闲玩家为主，习惯碎片化时间游戏，并普遍接受“免费增值”（F2P）模式。
+
+本报告还探讨了驱动玩家行为的深层心理动机，并引入了**Quantic Foundry玩家动机模型**和**巴图（Bartle）玩家分类理论**。更重要的是，报告深入分析了商业化偏好与文化背景的紧密联系，对比了东方市场部分用户更能接受“数值付费”（Pay-to-Win）与西方市场普遍偏好“外观付费”（Pay-for-Cosmetic）的文化与心理根源。
+
+最后，报告系统性地剖析了东西方游戏设计哲学的差异，特别是亚洲游戏UI中常见的“信息聚合”与西方推崇的“简约主义”风格，并将其与用户心智模型、商业模式和文化背景关联，形成了一套可供开发者在立项、设计、运营等环节参考的实践框架。
+
+## 1. 构建游戏用户画像的核心维度
+
+精准的用户画像是游戏成功开发与运营的基石。一个立体的用户画像主要由以下三个核心维度构成：
+
+*   **人口统计学属性**：这是用户画像的基础，提供了用户的客观背景信息，包括年龄、性别、地理位置、教育程度、职业与收入水平。
+*   **行为特征**：该维度关注用户的实际游戏行为，是评估用户粘性与价值的关键。它涵盖游戏内行为（如登录频率、游戏时长、玩法偏好）和消费行为（如是否付费、付费频率、付费金额、偏好购买的道具类型）。
+*   **心理特征**：此维度深入探究用户的内在动机、价值观与兴趣偏好，对于理解用户为何选择某款游戏至关重要。它包括游戏外的兴趣爱好（如动漫、科幻）、对竞技或社交的不同需求，以及个人价值观。
+
+通过对这三个维度的数据进行收集与标签化，可以为不同类型的游戏构建出清晰、可指导决策的用户模型。
+
+## 2. 主流游戏类型的用户画像分析
+
+不同核心玩法的游戏吸引着特征迥异的用户群体。
+
+#### **2.1 MOBA（多人在线战术竞技游戏）**
+
+*   **年龄与性别**：用户呈现明显的年轻化特征，年龄主要集中在11-30岁之间。性别分布在不同平台差异显著：PC端以男性为主（如《英雄联盟》女性用户不足10%），而移动端MOBA（如《王者荣耀》）通过降低门槛和强化社交，成功吸引了大量女性玩家，占比一度超过50%。
+*   **核心需求**：玩家需求呈现多样化。**核心玩家**追求高水平的竞技体验；而更广泛的**普通玩家**则将游戏视为**碎片化时间的娱乐方式**和重要的**社交工具**，与现实好友“开黑”是其主要动机之一。公平竞技环境是所有玩家的共同诉求。
+*   **行为特征**：由于强调竞技与团队协作，MOBA游戏能带来强烈的成就感和归属感，因此用户粘性与忠诚度普遍较高。
+
+#### **2.2 RPG/MMORPG（角色扮演/大型多人在线角色扮演游戏）**
+
+*   **年龄与经济能力**：用户群体偏向成熟，年龄主力为**25至45岁**。他们大多拥有全职工作和中高水平收入，具备高付费意愿和高付费能力。
+*   **性别构成**：存在显著的区域差异。亚洲市场的RPG手游玩家以男性为主，而**欧美市场的玩家性别比例则更为均衡**。
+*   **游戏动机**：与休闲玩家不同，RPG/MMORPG玩家的核心动机并非“打发时间”。他们更看重**社交体验**（团队合作、对抗）、对游戏世界的**探索感**以及剧情带来的**沉浸感**。
+*   **区域特例**：在韩国市场，一个显著特点是近五分之一的RPG玩家是学生，这与其他市场以在职成年人为主的结构不同。
+
+#### **2.3 FPS（第一人称射击游戏）**
+
+*   **心理动机**：核心动机高度集中于**竞技与成就感**。由于对手是真人，战胜后获得的成就感格外强烈。游戏内的排行榜、升级系统等设计，正是为了不断激发玩家的成就动机。此外，团队合作的社交需求和放松娱乐也是重要动机。
+*   **审美偏好**：玩家更偏好符合游戏战斗氛围的写实或半写实艺术风格。例如，角色立绘的画风需要与游戏自身的硬朗调性相匹配，纯粹的二次元卡通风格可能并不适合这类游戏。
+
+#### **2.4 SLG（策略游戏）**
+
+*   **用户画像高度聚焦**：SLG的用户画像是所有类型中最为清晰和集中的。其核心用户主要是**中年、已婚已育、高学历、高收入的中产男性** [2, 5]。
+*   **性别比例**：男性玩家占据绝对主导地位，策略手游的男性玩家占比高达**88%** [5]。
+*   **游戏动机**：这类玩家偏好长期战略规划和深度的博弈心理对抗，享受运筹帷幄的智力快感。通过数据分析，甚至可以识别出在凌晨活跃、善用策略的“夜战指挥官”型玩家群体 [3]。
+
+## 3. 不同游戏平台的用户特征差异
+
+玩家选择的游戏平台（PC、主机、移动端）深刻地反映了他们的游戏习惯和偏好。
+
+#### **3.1 PC与主机玩家**
+
+*   **玩家画像**：通常被视为“硬核”玩家，游戏投入度高。数据显示，23%的硬核玩家每周在主机上的游戏时间超过10小时。
+*   **付费偏好**：更倾向于为高质量、内容完整的游戏体验一次性付费，即接受**“买断制”**模式。
+*   **社交与信息获取**：社交属性强，喜欢通过朋友获取游戏信息，并积极参与在线社区讨论和分享游戏体验。
+*   **区域文化差异**：美国市场因其客厅娱乐文化，主机游戏更受欢迎。而在亚洲市场（如韩国），则形成了独特的PC网吧社交文化。
+
+#### **3.2 移动端玩家**
+
+*   **玩家画像**：用户基数极为庞大，以**轻度、休闲玩家**为主。他们偏爱低门槛、可利用碎片化时间游玩的游戏。
+*   **付费偏好**：普遍不愿为游戏预先付费，但接受在**免费增值（Freemium）**模式下进行内购。其总消费额可能远超买断制游戏。
+*   **市场特征**：中国市场玩家明显偏好手游，这得益于移动互联网的高度普及和便捷的支付方式。
+*   **东西方差异**：移动端用户的偏好在东西方市场差异巨大。西方市场超休闲游戏流行，而东方市场则由重度、复杂的F2P游戏（如MMO、Gacha）主导。
+
+## 4. 商业化偏好与背后的文化心理
+
+玩家对不同付费模式的偏好，是其用户画像的重要组成部分，并深受文化观念影响。
+
+#### **4.1 “数值付费” vs. “外观付费”**
+
+*   **“为赢付费” (Pay-to-Win, P2W) 玩家画像**：
+    *   **核心动机**：通过付费直接获得竞争优势，追求数值上的优越感和排行榜高位。这类玩家通常被称为“鲸鱼用户”或“大R”，他们可能是收入较高但游戏时间有限的用户，希望用金钱换取时间与实力。
+    *   **心理诉求**：由强烈的竞争、攀比和成就感驱动，希望通过实力获得游戏内的社交地位与尊重。
+    *   **偏好类型**：多见于MMORPG、SLG、卡牌等强调数值成长的游戏。
+
+*   **“为外观付费” (Pay-to-Look-Good, P2LG) 玩家画像**：
+    *   **核心动机**：消费主要围绕个性化、审美表达和社交需求，而非提升战斗力。他们通过购买皮肤、饰品等进行自我表达，核心爽点在于道具的“好看”和“稀有度”。
+    *   **心理诉求**：追求个性化与自我表达，通过稀有外观获得社交认同，或纯粹出于对游戏和角色的喜爱（“为爱付费”）。
+    *   **偏好类型**：普遍存在于注重公平竞技的游戏中，如MOBA和战术竞技游戏。这种模式不影响游戏平衡，被认为有助于营造更健康的社区生态。
+
+#### **4.2 特定品类的商业模式洞察**
+
+*   **Gacha（抽卡）游戏**：其核心机制利用了玩家的收藏心理和不确定性带来的刺激感，能有效吸引玩家投入时间和金钱 [https://home.gamer.com.tw/artwork.php?sn=6134537]。
+*   **超休闲游戏**：用户主要是寻求快速娱乐的轻度玩家，其付费意愿低，但对**“广告换内容”模式的容忍度相对较高**。数据显示，这类游戏玩家中，有三分之一的年龄超过45岁，且女性占比较高 [https://unity.com/cn/blog/the-truth-about-hypercasual-games]。
+
+## 5. 区域市场差异与设计哲学
+
+全球不同市场的用户不仅偏好各异，其背后的设计哲学也大相径庭。
+
+#### **5.1 全球主要市场用户特征概览**
+
+*   **欧美市场 (北美、欧洲)**：用户成熟，注重游戏品质和口碑，ARPU（每用户平均收入）较高。对题材包容性强，偏好策略、RPG等中重度游戏和高品质休闲游戏。
+*   **日韩市场**：
+    *   **日本**：二次元品类是主要收入来源，玩家付费意愿极高，但市场受主机游戏和人口老龄化影响。玩家更看重故事沉浸感，社交与竞技动机相对较低。
+    *   **韩国**：对游戏内社交需求（特别是MMORPG）尤为看重。
+*   **亚洲市场 (整体)**：移动游戏贡献了全球超55%的收入。社交元素丰富的游戏备受欢迎，买量是重要获客手段。RPG、FPS等类型受众庞大。
+
+#### **5.2 东西方设计哲学的根源差异**
+
+东西方玩家在UI/UX偏好上的差异尤为显著，这背后是深层的文化与用户心智模型差异。
+
+*   **西方简约主义 (Less is More)**：欧美游戏UI/UX设计强调极简，旨在最大化游戏的沉浸感，减少界面对玩家的干扰。这与西方玩家偏爱挑战、注重探索体验的习惯相符。
+*   **东方信息聚合 (More is More)**：以中日韩为代表的亚洲游戏，其UI/UX设计倾向于在主界面集中展示大量功能入口、运营活动和提示信息。这一设计哲学源于：
+    *   **商业模式驱动**：F2P模式下，UI扮演着“商城导购”的角色，通过“红点”和弹窗等强视觉提示，有效引导玩家参与活动和消费。
+    *   **复杂系统承载**：为承载MMORPG、SLG等游戏的庞大系统，平铺式的UI能让追求效率的玩家快速触达目标功能。
+    *   **用户习惯与文化**：亚洲玩家（特别是经历过早期MMORPG时代的玩家）习惯并能高效处理高密度信息，满满当当的界面反而能带来内容丰富的满足感与安全感。
+
+## 6. 实践应用框架：如何将用户画像应用于游戏开发
+
+基于以上分析，开发者可将用户画像应用于游戏开发的全流程，以做出更精准的决策。
+
+1.  **指导项目立项与定位**：在立项阶段，清晰的目标用户画像是确立游戏核心玩法、题材、美术风格和商业模式的基础。
+2.  **决定玩法设计与美术风格**：依据目标用户的偏好来决策具体的设计。例如，面向偏好写实风格的北美FPS玩家，美术风格应避免过于卡通化；面向看重沉浸感的日本RPG玩家，则应强化剧情和世界观塑造。
+3.  **优化商业化与UI/UX设计**：根据目标市场的用户付费心理和信息处理习惯，选择最合适的商业化模式（P2W或P2LG）与UI布局（简约或信息聚合）。为打入亚洲市场，理解并适应“信息聚合”的设计逻辑至关重要。
+4.  **实现精细化运营与推广**：用户画像结合大数据分析，可以实现精准的用户分层与营销。例如，针对SLG的高价值中年男性用户，推广渠道和素材应侧重于策略深度和博弈快感。
+
+## 结论与展望
+
+对游戏用户群体的画像分析，已从简单的市场划分演变为一门结合了数据科学、心理学和文化研究的复杂学科。本报告揭示了，无论是游戏类型、平台选择还是地理区域，玩家群体都存在深刻且系统性的差异。
+
+对于游戏开发者而言，成功的关键不再仅仅是创造一种有趣的玩法，而是要深刻理解**“为谁设计”**。东西方玩家在游戏动机、付费心理和信息交互习惯上的巨大差异，要求全球化的游戏产品必须采取高度本地化的设计与运营策略。未来，随着数据分析工具的进一步发展，对用户画像的理解将更加精细化和动态化，能够预见并引导玩家需求的游戏，才将在激烈的全球市场竞争中脱颖而出。
+
+## 参考文献
+
+[1] 巴图玩家分类理论. (Multiple Sources)
+[2] SLG用户画像研究. (Source mentioned in logs)
+[3] 夜战指挥官”型玩家群体聚类分析. (Source mentioned in logs)
+[4] SLG游戏定义. (Source mentioned in logs)
+[5] 2022-2023年全球SLG游戏市场研究报告. (Source mentioned in logs)
+[https://www.i32n.com/s/0a0t7K8?p=3](https://www.i32n.com/s/0a0t7K8?p=3)
+[https://zhuanlan.zhihu.com/p/357633670](https://zhuanlan.zhihu.com/p/357633670)
+[https://m.yfchuhai.com/article/9266.html](https://m.yfchuhai.com/article/9266.html)
+[https://home.gamer.com.tw/artwork.php?sn=6134537](https://home.gamer.com.tw/artwork.php?sn=6134537)
+[https://www.reddit.com/r/gachagaming/comments/1dr6uxo/lets_talk_what_did_hoyoverse_do/?tl=zh-hant](https://www.reddit.com/r/gachagaming/comments/1dr6uxo/lets_talk_what_did_hoyoverse_do/?tl=zh-hant)
+[https://zhuanlan.zhihu.com/p/16157627732](https://zhuanlan.zhihu.com/p/16157627732)
+[https://www.csjplatform.com/growthcenter/6101229e00195d0046c272c0?subjectId=26183&live=1](https://www.csjplatform.com/growthcenter/6101229e00195d0046c272c0?subjectId=26183&live=1)
+[https://www.morketing.com/detail/14571](https://www.morketing.com/detail/14571)
+[https://unity.com/cn/blog/the-truth-about-hypercasual-games](https://unity.com/cn/blog/the-truth-about-hypercasual-games)
+[https://gwb.tencent.com/community/detail/105225](https://gwb.tencent.com/community/detail/105225)
+[https://www.xianrenlife.com/2019/08/](https://www.xianrenlife.com/2019/08/)
+[http://www.21jingji.com/article/20220726/herald/df8f514ccc519b8dab373c026efa8339.html](http://www.21jingji.com/article/20220726/herald/df8f514ccc519b8dab373c026efa8339.html)
+[https://www.reddit.com/r/Games/comments/38fir8/what_are_some_cultural_differences_between_games/?tl=zh-hans](https://www.reddit.com/r/Games/comments/38fir8/what_are_some_cultural_differences_between_games/?tl=zh-hans)
+[https://zhuanlan.zhihu.com/p/613292057](https://zhuanlan.zhihu.com/p/613292057)
+
+---
+
+## Citations 
+- https://www.i32n.com/s/0a0t7K8?p=3
+- https://zhuanlan.zhihu.com/p/54843812
+- https://dun.163.com/news/p/1f2ef8b7b1904359a6ff2d030d7dfbab
+- https://note.wcoder.com/BigData/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F.md
+- https://cloud.tencent.com/developer/article/1798048
+- https://blog.csdn.net/2301_79832637/article/details/153120954
+- https://www.youxituoluo.com/526280.html
+- https://www.i32n.com/s/0a0k8o8?p=6
+- https://www.zhihu.com/question/286223133
+- https://blog.csdn.net/qq_44918090/article/details/126412658
+- https://www.reddit.com/r/truegaming/comments/nbd17f/videogame_genres_in_scientific_research/?tl=zh-hans
+- http://www.sgamer.com/news/202012/35902.html
+- http://pdf.dfcfw.com/pdf/H3_AP201904221321160900_1.pdf
+- https://wreport.iresearch.cn/uploadfiles/reports/635654945201718750.pdf
+- https://www.cnblogs.com/zkyzky/p/17508400.html
+- https://www.woshipm.com/pmd/353453.html
+- https://www.youxituoluo.com/520520.html
+- http://www.bilibili.com/read/cv41845774/
+- https://image.c114.com.cn/file/ys201909-09.pdf
+- http://gameinstitute.qq.com/knowledge/100095
+- http://pdf.dfcfw.com/pdf/H3_AP201904221321160900_1.pdf
+- http://pdf.dfcfw.com/pdf/H3_AP201904221321160900_1.pdf
+- https://www.jiemian.com/article/8991128.html
+- https://appgrowing.net/blog/tiktokrpg/
+- https://www.analysys.cn/article/detail/20019317
+- https://enjoyglobal.net/detail/news/ZY038
+- https://college.pandarocket.cn/?p=1895
+- https://www.thinkingdata.cn/thinking/blog/customers/6182.html
+- https://blog.csdn.net/chenby186119/article/details/150462188
+- https://www.sohu.com/a/585270695_121124378
+- https://zhuanlan.zhihu.com/p/707470879
+- https://www.reddit.com/r/gamedev/comments/13ua0lb/why_do_you_think_the_mobile_gaming_industry_is_so/?tl=zh-hans
+- https://www.adjust.com/zh/blog/mobile-gaming-analytics/
+- https://zhuanlan.zhihu.com/p/609292390
+- https://www.i32n.com/s/0a0D2e6?p=4
+- https://www.lojaxd.com/news_zszx/70.html
+- https://book.douban.com/annotation/138076459/
+- https://altairsol.com/news_zsbk/74.html
+- https://blog.csdn.net/2401_82856454/article/details/142694948
+- https://m.thecover.cn/news_details.html?eid=34FxbVuObRCH90qSdq8Jkw==
+- https://knowledge-cn.antom.com/america-gaming/
+- https://www.zhihu.com/question/651866338/answer/3456596383
+- https://www.reddit.com/r/gamedev/comments/13ua0lb/why_do_you_think_the_mobile_gaming_industry_is_so/?tl=zh-hans
+- https://m.10100.com/article/51604015
+- https://zhuanlan.zhihu.com/p/1925251701021049551
+- https://lucigamedesign543.medium.com/%E5%AE%85%E7%A7%91%E6%99%AE-player-motivation-model-%E7%8E%A9%E5%AE%B6%E5%8B%95%E6%A9%9F-part-02-quantic-foundry-gamer-motivation-model-4fba4338347a
+- https://www.reddit.com/r/gamedesign/comments/j4xa9l/introduction_to_players_motivation/?tl=zh-hans
+- https://www.gcores.com/articles/161329
+- https://zh.wikipedia.org/wiki/%E5%B7%B4%E7%89%B9%E5%B0%94%E7%8E%A9%E5%AE%B6%E5%88%86%E7%B1%BB
+- https://www.cnblogs.com/sh1n1ngs/archive/2010/01/28/1658537.html
+- https://gwb.tencent.com/community/detail/102165
+- https://lucigamedesign543.medium.com/%E5%AE%85%E7%A7%91%E6%99%AE-player-motivation-model-%E7%8E%A9%E5%AE%B6%E5%8B%95%E6%A9%9F-part-01-the-bartle-taxonomy-gamerefinery-model-5ea600e5b0c0
+- https://www.gcores.com/articles/173654
+- https://zhuanlan.zhihu.com/p/96947518
+- https://mdnice.com/writing/0e3247f94f41448abb9f8f40c1d99aac
+- https://www.meihua.info/article/6105513588655104
+- https://www.showapi.com/news/article/66991f7d4ddd79f11a009a05
+- https://www.fanruan.com/blog/article/1692939/
+- https://bj.zx.zbj.com/baike/31914.html
+- https://zhuanlan.zhihu.com/p/357633670
+- https://m.yfchuhai.com/article/9266.html
+- https://zhuanlan.zhihu.com/p/1952749780125082541
+- http://www.gamelook.com.cn/2024/01/535034/
+- https://finance.sina.cn/2018-03-03/detail-ifwnpcnt6186380.d.html
+- https://www.reddit.com/r/truegaming/comments/g9d5x2/small_semilinear_worlds_can_be_larger_than_huge/?tl=zh-hans
+- https://www.vrtuoluo.cn/543949.html
+- https://home.gamer.com.tw/artwork.php?sn=6134537
+- https://www.reddit.com/r/gachagaming/comments/1dr6uxo/lets_talk_what_did_hoyoverse_do/?tl=zh-hant
+- https://www.morketing.com/detail/14571
+- https://www.csjplatform.com/growthcenter/6101229e00195d0046c272c0?subjectId=26183&live=1
+- https://zhuanlan.zhihu.com/p/16157627732
+- https://supersonic.com/zh-hans/learn/blog/5-ways-to-refresh-hyper-casual-creatives/
+- https://unity.com/cn/blog/the-truth-about-hypercasual-games
+- https://zhuanlan.zhihu.com/p/566042759
+- https://lhsrubber.com/news_hybk/30.html
+- https://30295522.s21i.faiusr.com/61/ABUIABA9GAAgj_WhxAYokKGnmAY.pdf
+- https://www.analysys.cn/article/detail/20020283
+- https://enjoyglobal.net/detail/news/ZY038
+- https://www.reddit.com/r/Games/comments/38fir8/what_are_some_cultural_differences_between_games/?tl=zh-hans
+- https://zhuanlan.zhihu.com/p/613292057
+- https://gwb.tencent.com/community/detail/105225
+- http://www.21jingji.com/article/20220726/herald/df8f514ccc519b8dab373c026efa8339.html
+- https://www.xianrenlife.com/2019/08/
+- https://www.bilibili.com/read/cv7453875/
+- https://gwb.tencent.com/community/detail/105225
+- http://www.mebilychen.top/2023/04/23/23-45-05/
+- https://www.bilibili.com/read/cv469309/
+- https://www.reddit.com/r/UXDesign/comments/zdvq3z/kinda_wild_how_video_game_ui_and_ux_seems_to/?tl=zh-hans
+- https://blog.csdn.net/weixin_31419153/article/details/151262887
+- https://shyinglin.com/news_baike/33.html
+- https://www.reddit.com/r/UXDesign/comments/1ha0ezx/why_is_chinese_ux_design_so_different_compared_to/?tl=zh-hans
+- https://www.tmogroup.com.cn/insights/ecommerce-design-asian-western/
+- https://necromanov.wordpress.com/tag/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1%E7%90%86%E8%AE%BA/
+- https://pdf.dfcfw.com/pdf/H3_AP202112311537704718_1.pdf
+- https://www.processon.com/view/67e12d56943582726122ec38
+- http://www.idi.zju.edu.cn/wp-content/uploads/2025/06/White_Paper_on_Intelligent_Digital_Media_Design_in_the_Era_of_AIGC.pdf
+- https://blog.csdn.net/weixin_35906794/article/details/148910145
+- https://d1.awsstatic.com/whitepapers/game-white-paper.pdf
+- https://www.jiemian.com/article/3149554.html
+- https://blog.csdn.net/weixin_42561464/article/details/154866615
+- https://zhuanlan.zhihu.com/p/1925251701021049551
+- http://www.lanlanwork.com/blog/author/38/page/6
+- https://sspai.com/post/95265
+- https://apps.quanticfoundry.com/zh-hans/profiles/gamerprofile/1a241eda19a44a78a561b2570965938d/
+- https://apps.quanticfoundry.com/zh-hans/profiles/tabletop/186abf62a6f149a9b11fac7ce5e046ab/
