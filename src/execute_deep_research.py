@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 30, "topic": "Literature", "language": "zh", "prompt": "全球南方合作如何推动文明交流互鉴？从理论角度给出深入的学术分析，必须考虑以下维度：非西方现代化、后殖民主义、东方学、全球史。"}
+research_task = {"id": 32, "topic": "History", "language": "zh", "prompt": "收集整理目前中国历史学界对1937-1949年（抗日战争以及战后）研究的成果和相关论著，横向对比分析这些成果的研究领域、研究视角、研究方法、理论运用、研究结论等方面，并为我预测未来最有研究潜力和研究空间的2-3个选题。"}
 
 
 

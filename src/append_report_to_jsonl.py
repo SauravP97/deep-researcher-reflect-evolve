@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 30, 
-    "prompt": "全球南方合作如何推动文明交流互鉴？从理论角度给出深入的学术分析，必须考虑以下维度：非西方现代化、后殖民主义、东方学、全球史。",
+    "id": 32, 
+    "prompt": "收集整理目前中国历史学界对1937-1949年（抗日战争以及战后）研究的成果和相关论著，横向对比分析这些成果的研究领域、研究视角、研究方法、理论运用、研究结论等方面，并为我预测未来最有研究潜力和研究空间的2-3个选题。",
     "article": report_content,
 }
 
