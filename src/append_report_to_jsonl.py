@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 41, 
-    "prompt": "收集整理目前中国电影票房前十的电影的相关资料，横向比较各电影的主题、技制作公司、题材、时长等维度，并为我评估出最有可能在未来实现高票房的电影类型",
+    "id": 43, 
+    "prompt": "软件行业未来趋势和被AI替代的可能性",
     "article": report_content,
 }
 
