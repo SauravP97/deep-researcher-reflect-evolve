@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 40, "topic": "Crime & Law", "language": "zh", "prompt": "中国当前的刑罚体系中，死刑、死刑缓期执行、终身监禁的数量、比例、减刑率。 你能否结合中国刑罚执行的全部数据，进行量化分析？更进一步，能否评估出中国预计什么时候会彻底废除死刑？"}
+research_task = {"id": 41, "topic": "Entertainment", "language": "zh", "prompt": "收集整理目前中国电影票房前十的电影的相关资料，横向比较各电影的主题、技制作公司、题材、时长等维度，并为我评估出最有可能在未来实现高票房的电影类型"}
 
 
 
