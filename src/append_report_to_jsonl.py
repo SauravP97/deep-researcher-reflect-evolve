@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 44, 
-    "prompt": "国内城市轨道交通行业（主要指地铁）每年的碳滑板用量是多少？主要供应商的份额以及行业趋势分析",
+    "id": 47, 
+    "prompt": "2025 年，有哪些因素影响着旅客选择前往不同目的地旅游",
     "article": report_content,
 }
 

@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 44, "topic": "Transportation", "language": "zh", "prompt": "国内城市轨道交通行业（主要指地铁）每年的碳滑板用量是多少？主要供应商的份额以及行业趋势分析"}
+research_task = {"id": 47, "topic": "Travel", "language": "zh", "prompt": "2025 年，有哪些因素影响着旅客选择前往不同目的地旅游"}
 
 
 
