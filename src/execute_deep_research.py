@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 43, "topic": "Software", "language": "zh", "prompt": "软件行业未来趋势和被AI替代的可能性"}
+research_task = {"id": 44, "topic": "Transportation", "language": "zh", "prompt": "国内城市轨道交通行业（主要指地铁）每年的碳滑板用量是多少？主要供应商的份额以及行业趋势分析"}
 
 
 

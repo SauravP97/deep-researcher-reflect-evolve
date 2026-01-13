@@ -1,0 +1,203 @@
+# 国内城市轨道交通行业（主要指地铁）每年的碳滑板用量是多少？主要供应商的份额以及行业趋势分析
+
+好的，作为首席研究编辑，我将根据提供的研究笔记，编写一份全面、专业的深度研究报告。
+
+---
+
+### **中国城市轨道交通（地铁）碳滑板市场深度研究报告**
+
+**报告日期:** 2024年6月14日
+**研究机构:** 自主AI研究服务
+
+---
+
+### **执行摘要**
+
+本报告旨在深入分析中国城市轨道交通（地铁）领域受电弓碳滑板的市场现状、消耗量、主要供应商格局及核心发展趋势。研究核心发现如下：
+
+*   **市场规模估算：** 行业内缺乏官方发布的碳滑板年用量标准数据。本报告基于关键供应商（朗进科技）在2018年披露的招股书数据模型，并结合2023年最新的地铁车辆保有量（约6.67万辆）进行测算，**预估2023年中国地铁碳滑板更换市场的规模约为9,500万至2.12亿元人民币**。需要指出的是，早期流传的约4亿元市场规模数据包含了高铁及普速铁路，与本地铁专项市场存在差异。
+
+*   **供应商格局：** 市场长期由外资品牌主导。根据2018年的数据显示，德国的**旭克（Schunk）**和法国的**罗兰/美尔森（Mersen）**合计占据了超过80%的市场份额。国内供应商当时合计份额不足20%。然而，近年来以**万高众业、东南佳新材料、朗进科技**等为代表的国内企业正快速崛起。
+
+*   **核心行业趋势：** 行业发展呈现三大明确趋势：
+    1.  **国产化替代加速：** 在国家政策、行业协会和地铁运营商的共同推动下，国产碳滑板的性能验证与应用推广已成为行业核心动态，正逐步改变现有竞争格局。
+    2.  **运维模式智能化：** 行业正从传统的“定期更换”向基于状态监测的“状态修”模式转变。以“便携式碳滑板磨耗智能检测仪”为代表的智能监测技术的应用，旨在提升运维效率与安全性，并可能对碳滑板的更换周期产生影响。
+    3.  **材料技术持续升级：** 为满足大电流、高速度的运营需求，碳滑板材料正从传统石墨向性能更优的碳基复合材料、金属浸渍碳材料演进。
+
+---
+
+### **1. 市场规模与年用量估算**
+
+对地铁碳滑板年用量的精确统计面临挑战，主要原因在于其更换周期并非基于固定的时间或里程，而是取决于实际磨损状态，该状态受线路条件、运营强度、环境湿度和材料特性等多种因素影响。目前，行业内尚无统一的公开消耗数据。
+
+本报告采用基于关键厂商历史披露数据进行模型推算的方法：
+
+*   **基准数据 (2018年):** 根据朗进科技招股说明书披露，2018年国内地铁碳滑板市场存在以下估算模型：
+    *   **车辆保有量:** 截至2018年末，全国地铁车辆为5,233列。
+    *   **更换频率:** 每列车每年需更换2-3套碳滑板。
+    *   **单价:** 每条碳滑板价格约为3,000至5,000元。
+    *   **市场规模估算:** 基于以上参数，2018年仅存量更换市场规模即达到 **4,500万至1亿元人民币**，年需求量约在**1.5万至2.0万条**之间。
+
+*   **当前市场规模测算 (2023年):**
+    *   **车辆保有量增长:** 根据交通运输部数据，截至2023年底，全国城市轨道交通配属车辆已达**6.67万辆**。相较于2018年底约3.14万辆（按每列6辆估算），车辆总数增长了约112%。
+    *   **市场规模推算:** 以车辆保有量增长作为市场规模增长的核心驱动力，应用2018年的基准模型，我们测算**2023年中国地铁碳滑板更换市场的规模已增长至约9,500万至2.12亿元人民币**。
+
+**澄清：** 市场曾有“4亿元规模”的说法，经研究确认，该数据包含了需求量更大的高铁及普速电力机车市场，并非本地铁专项市场的规模。
+
+### **2. 供应商格局与市场份额**
+
+中国地铁碳滑板市场呈现出典型的“外资主导、国产追赶”的竞争格局。尽管最新的精确份额数据无法从公开渠道获取，但基于历史数据和近期市场动态，可勾勒出如下格局：
+
+*   **主导供应商（外资品牌）：**
+    *   **德国旭克（Schunk）**与**法国罗兰/美尔森（Mersen）**是市场的绝对领导者，根据2018年数据，两者合计占据了国内地铁市场**80%以上**的份额。
+    *   其他活跃的国际品牌还包括法国**法维莱（Faiveley）**、瑞士**泛亚（PanTrac）**、德国**雄克（SCHUNK）**、日本**东海炭素（Tokai Carbon）**和**东洋炭素（Toyo Tanso）**等。多个城市的地铁采购公告中仍频繁指定或出现这些品牌。
+
+*   **主要追赶者（国产品牌）：**
+    *   根据2018年数据，国内所有供应商合计市场份额不足20%。
+    *   近年来，一批优秀的国内企业通过技术研发和市场开拓，已成为重要的市场参与者。主要厂商包括：
+        *   **北京万高众业科技股份有限公司：** 成功中标天津地铁等项目。
+        *   **苏州东南佳新材料股份有限公司：** 是南昌、成都等多地地铁项目的成交供应商，并为上海地铁提供备件。
+        *   **朗进科技、成都交大光芒科技、株洲同创：** 作为较早进入市场的国内企业，已在北京、上海、广州等一线城市地铁实现批量应用。
+        *   其他活跃的国内供应商还包括**东信电碳、大同新成新材料**等。
+
+### **3. 核心行业趋势分析**
+
+#### **趋势一：国产化替代进程加速**
+
+国产化替代是当前行业最核心、最强劲的发展趋势，由政策、产业与市场三方合力驱动。
+
+*   **政策与产业推动：** 《中国制造2025》等国家战略规划明确提出要提升核心零部件的自主保障能力。2024年，行业协会启动了“城轨装备自主化先导工程”，将碳滑板等关键部件纳入重点攻关范围。
+*   **市场实践验证：** 各地地铁运营商正积极尝试国产产品。典型案例如**呼和浩特地铁**在2024年启动的“碳滑板国产化替代试验项目”，通过公开招募供应商进行为期6个月的装车试验，这标志着运营商正从单纯采购转向主动的国产化验证与导入。北京万高众业、东南佳新材料等国内企业在天津、南昌、成都等地的项目中持续中标，也印证了这一趋势的实际进展。
+
+#### **趋势二：运维模式向智能化、状态修转变**
+
+为提升运营安全性和经济性，地铁运维正从传统的基于时间和里程的“定期更换”模式，向更科学、更精准的基于实际状态的“状态修”（Condition-Based Maintenance）模式演进。
+
+*   **智能监测技术应用：** “便携式碳滑板磨耗智能检测仪”等设备的出现和招标采购，解决了传统人工测量误差大、效率低的问题。例如，该类设备已在南京地铁投入使用，能够自动、精确地测量磨耗数据，为维修决策提供数据支持。
+*   **技术发展方向：** 更先进的在线监测系统，利用动态图像检测、深度学习等人工智能技术，可实现对运行中列车碳滑板状态的实时监控、趋势分析和故障预警。
+*   **对市场的影响：** 智能监测的普及，一方面旨在通过精准管理延长碳滑板的有效使用寿命，可能在一定程度上平抑更换市场的数量增速；另一方面，它也催生了对“智能监测系统+耗材”整体解决方案的需求，提升了产品的技术附加值。
+
+#### **趋势三：材料技术持续升级**
+
+随着地铁运营速度和牵引电流的不断提升，对碳滑板的导电性、耐磨性、耐高温冲击性提出了更高要求。
+
+*   **新材料的应用：** 行业正从传统的纯碳/石墨材料，转向性能更优的**碳基复合材料**和**金属浸渍碳材料**。
+*   **应对大电流需求：** 针对大电流直流供电系统，供应商（如Mersen）已开发出采用改进铜浸渍技术的新牌号产品（如P2805和P3210），旨在保证优异导电性的同时，控制工作温度和磨损率，并兼顾轻量化。
+
+---
+
+### **结论与展望**
+
+综上所述，中国城市轨道交通（地铁）碳滑板市场是一个由存量车辆运维需求驱动的、稳步增长的细分市场。虽然目前仍由少数外资品牌占据主导地位，但市场格局正处于深刻变革之中。
+
+展望未来3-5年：
+1.  **市场规模将持续扩大：** 随着“十四五”期间城市轨道交通网络的进一步加密和延伸，车辆保有量将继续上升，为碳滑板更换市场提供坚实的增长基础。
+2.  **竞争格局将重塑：** 国产化替代趋势不可逆转。随着更多国产产品完成技术验证并进入主流运营商的供应链，国内厂商的市场份额有望显著提升，外资品牌的垄断地位将受到有力挑战。
+3.  **技术融合将加深：** 市场需求将不再局限于碳滑板耗材本身，而是转向集成了智能监测、数据分析和寿命预测的综合性解决方案。技术创新和提供增值服务的能力，将成为供应商未来竞争的关键。
+
+## Citations 
+- https://baike.baidu.com/item/%E5%8F%97%E7%94%B5%E5%BC%93%E6%BB%91%E6%9D%BF/53359515
+- https://patents.google.com/patent/CN109338145B/zh
+- https://pmt.ustb.edu.cn/cn/article/pdf/preview/10.3321/j.issn:1001-3784.2006.03.014.pdf
+- http://ship-material.725.com.cn/cn/article/pdf/preview/10.19515/j.cnki.1003-1545.2008.05.022.pdf
+- https://www.mersengroup.cn/zh-hans/products/power-transfer-products-rail/pantograph-contact-strips
+- https://www.scribd.com/document/900418473/2023%E5%B9%B4%E5%BA%A6%E7%BB%9F%E8%AE%A1%E5%92%8C%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A
+- https://infosharingp2-oss.camet.org.cn/u/cms/www/202403/28125736mgzp.pdf
+- https://m.tunnelling.cn/news_detail.aspx?Id=855&Type=LibraryArchives.aspx
+- https://www.camet.org.cn/xytj/tjxx/14894.shtml
+- https://www.21jingji.com/article/20230707/herald/13d5a13028edeb197dd13cc7a1474d12.html
+- http://dianzibao.cb.com.cn/html/2024-08/12/content_332373.htm?div=0
+- https://www.hangyan.co/charts/3265238185302557969
+- http://www.chinaiut.com/gdjt/116843.html
+- https://www.sohu.com/a/754071360_682294
+- http://www.bus-info.cn/index.php?c=article&id=5095
+- https://www.researchgate.net/publication/384876257_guidaojiaotongcheliangzhinenghuaweihudeyingyongyuzhanwang
+- https://pubs.cstam.org.cn/data/article/lxxb/preview/pdf/lxxb2025-244.pdf
+- https://djji.cbpt.cnki.net/WKE2/WebPublication/wkTextContent.aspx?colType=4&yt=2025&st=05
+- https://cn.acad-pub.com/index.php/EMT/article/viewFile/21736/18672
+- http://pdf.dfcfw.com/pdf/H3_AP202106161498240230_1.pdf
+- https://edl.csrzic.com/rc-pub/front/front-article/download/26163514/lowqualitypdf/%E7%B3%BB%E5%88%97%E5%8C%96%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E5%9C%B0%E9%93%81%E5%88%97%E8%BD%A6%E7%89%B5%E5%BC%95%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1.pdf
+- https://std.samr.gov.cn/gb/search/gbDetailed?id=7E2903B0D75F5A63E05397BE0A0AF660
+- https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3162/site/attach/-1/1904041239586932673.pdf
+- https://www.mot.gov.cn/yijianzhengji/201710/P020171024479432660729.pdf
+- https://zjw.sh.gov.cn/shsd/userfiles/130%E5%9F%8E%E5%B8%82%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E5%AE%89%E5%85%A8%E8%BF%90%E8%90%A5%E6%8A%80%E6%9C%AF%E8%A7%84%E8%8C%83.pdf
+- https://pubs.cstam.org.cn/data/article/lxxb/preview/pdf/lxxb2025-244.pdf
+- https://youjia.baidu.com/view/articleDetail/9863520063236787503?sa=%E9%9B%86%E9%81%8B%E5%A4%A7%E4%BB%B6_auto
+- https://umt1998.tongji.edu.cn/cn/article/pdf/preview/10.16037/j.1007-869x.20253048.pdf
+- https://www.researchgate.net/publication/363932355_dongchezushoudiangongtanhuabanmohaoguiluyanjiufenxi
+- http://tljsjyy.xml-journal.net/cn/article/pdf/preview/5f42d2ec-201c-4168-ad4e-da8774ea15b5.pdf
+- http://tljsjyy.xml-journal.net/cn/article/pdf/preview/5f42d2ec-201c-4168-ad4e-da8774ea15b5.pdf
+- http://ojs.omniscient.sg/index.php/mece/article/download/20770/19758
+- https://edl.csrzic.com/rc-pub/front/front-article/download/30835015/lowqualitypdf/%E5%9C%B0%E9%93%81%E5%8F%97%E7%94%B5%E5%BC%93%E7%A2%B3%E6%BB%91%E6%9D%BF%E8%A1%A8%E9%9D%A2%E8%BD%BD%E6%B5%81%E7%A3%A8%E6%8D%9F%E5%BE%AE%E8%A7%82%E7%A0%94%E7%A9%B6.pdf
+- https://umt1998.tongji.edu.cn/cn/article/pdf/preview/10.16037/j.1007-869x.2025.04.009.pdf
+- https://cn.acad-pub.com/index.php/EMT/article/viewFile/21736/18672
+- https://img3.gelonghui.com/pdf201808/pdf20180828144851676.pdf
+- https://cg.shenzhenmc.com/fcgjggg/84080.jhtml
+- https://hhhtmetro.com/UploadModule/uploads/ueditor/2024/04/10/1712736184566031628.docx
+- http://xzdtyy.xzdtjt.com/wap/article/6/162/7419.html?1
+- https://cg.shenzhenmc.com/fcggggs/80563.jhtml
+- http://www.rail-transit.com/zhaobiao/show.php?itemid=138543
+- https://m.gelonghui.com/p/3117951
+- http://notice.10jqka.com.cn/api/pdf/45f4ffbedf8ceff0.pdf
+- https://www.163.com/dy/article/JP5NCHUG0530WJIN.html
+- http://pdf.dfcfw.com/pdf/H2_AN201305280003304491_1.pdf
+- https://stockmc.xueqiu.com/202506/600458_20250611_BJD1.pdf
+- https://shanghai.jianyu360.cn/jybx/20240619_24061880144880.html
+- https://www.1688.com/hotbid/ijfeuijjprd.html
+- http://www.rail-transit.com/zhaobiao/show.php?itemid=79988
+- http://www.chinaiut.com/gdjt/110106.html
+- https://www.qixin.com/company/06764d99-dbf3-4268-91ba-0d189145b455
+- https://ggzyfw.beijing.gov.cn/jyxxzbhxrgs/20241202/4751968.html
+- http://ggzyjy.sc.gov.cn/WebBuilder/WebbuilderMIS/attach/downloadZtbAttach.jspx?attachGuid=d4ca5868-d4fa-4524-a92c-04fbbf18b33c&appUrlFlag=scztb001&siteGuid=7eb5f7f1-9041-43ad-8e13-8fcb82ea831a
+- http://www.chinaiut.com/zhaobiao/103361.html
+- http://www.tjgdjt.com/xinwen/content_43985.htm
+- https://www.chinabidding.cn/xcp_417/ditie/
+- https://www.gelonghui.com/p/1326996
+- https://zhuanlan.zhihu.com/p/516976399
+- https://www.gelonghui.com/p/740522
+- https://www.163.com/dy/article/H73HM2C80552UMDJ.html
+- https://word.baidu.com/view/2c5c93526194dd88d0d233d4b14e852459fb3919.html
+- https://www.1688.com/hotbid/bg7qwkhg1vg.html
+- http://www.ditiezhaobiao.com/l_dtbid-zhaobiao_489.html
+- http://www.rail-transit.com/zhaobiao/show.php?itemid=79462
+- https://www.1688.com/hotbid/ijfeuijjprd.html
+- https://www.qixin.com/company/06764d99-dbf3-4268-91ba-0d189145b455
+- https://www.ncmtr.com/topic_detail_12/1069.html
+- https://www.1688.com/bidding/100c09a25e87459b8ce2f953be826304.html
+- https://m.sohu.com/a/929153636_122434053/?pvid=000115_3w_a
+- https://qxb-img-osscache.qixin.com/bid/fa29d251f9d9307afeec890b1871dc60.pdf
+- http://www.tjgdjt.com/xinwen/content_43985.htm
+- https://www.globaltenders.com/tender-detail/nanjing-metro-operation-co-ltd-vehicle-br-119921923
+- https://xiangyang.chinamae.com/news/810b01172e13d3eee7f65d54a9686ac0.html
+- https://m.gelonghui.com/p/2605156
+- https://www.zzmetro.com/data/upload/ueditor/20230228/63fd63094ea70.xlsx
+- https://www.qyresearch.com.cn/reports/6048111/pantograph-carbon-strips-current-collector
+- http://www.rail-transit.com/zhongbiao/show.php?itemid=84537
+- https://www.qixin.com/operation/15ee8c28-e6b2-49e3-b0ea-49a3c3d5a231?section=bidding
+- http://www.tjgdjt.com/xinwen/content_58979.htm
+- https://std.samr.gov.cn/gb/search/gbDetailed?id=5DDA8B9DB34518DEE05397BE0A0A95A7
+- https://www.sciengine.com/doi/pdfView/7C5EF4636BCE449EBDD32089AC51D5CC
+- http://www.rail-transit.com/zhaobiao/show.php?itemid=71634
+- https://qxb-img-osscache.qixin.com/bid/fa29d251f9d9307afeec890b1871dc60.pdf
+- http://www.rail-transit.com/zhaobiao/show.php?itemid=138328
+- http://rail-metro.com/index.php?c=content&a=search&kw=%E7%A2%B3%E6%BB%91%E6%9D%BF
+- https://www.1688.com/pingjia/88cha/shangji/7a020a3893936d0fb343319ce1d747ca.html
+- https://hhhtmetro.com/UploadModule/uploads/ueditor/2024/04/10/1712736184566031628.docx
+- https://ggzyjy.sc.gov.cn/WebBuilder/WebbuilderMIS/attach/downloadZtbAttach.jspx?attachGuid=bcdbbdec-5b2e-423d-b949-0d37ec3f508e&appUrlFlag=scztb001&siteGuid=7eb5f7f1-9041-43ad-8e13-8fcb82ea831a
+- http://www.hunan.gov.cn/hnszf/xxgk/wjk/szfbgt//202108/20396613/files/cf0f922cf3c94af68d4df65f3ffaccdc.doc
+- http://xinyuantong.cn/?list_4/60.html
+- http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3859522/index.phtml
+- http://www.doplerr.com/portfolio/items/doplerr
+- https://baike.baidu.com/item/%E4%BE%BF%E6%90%BA%E5%BC%8F%E7%A2%B3%E6%BB%91%E6%9D%BF%E7%A3%A8%E8%80%97%E6%99%BA%E8%83%BD%E6%A3%80%E6%B5%8B%E4%BB%AA/62696869
+- http://www.qd-metro.com/informationInfo.php?id=7504
+- http://www.chinaiut.com/zhaobiao/101400.html
+- https://patents.google.com/patent/CN113324864A/zh
+- https://stockmc.xueqiu.com/202506/600458_20250611_BJD1.pdf
+- https://pdf.dfcfw.com/pdf/H2_AN202502261643530323_1.pdf?1740600843000.pdf
+- https://vip.stock.finance.sina.com.cn/corp/view/vISSUE_MarketBulletinDetail.php?stockid=300594&id=5445754
+- http://notice.10jqka.com.cn/api/pdf/23ff1ce157e0f90a_1595513551/%E5%8D%83%E7%A6%A7%E9%BE%99%E7%BA%A4:1-1%E6%8B%9B%E8%82%A1%E8%AF%B4%E6%98%8E%E4%B9%A6(%E7%94%B3%E6%8A%A5%E7%A8%BF).pdf
+- https://m.gelonghui.com/p/2605156
+- https://www.168report.com/reports/12291884/rail-transit-pantograph-carbon-skateboard
+- https://www.gelonghui.com/p/1326996
+- https://www.163.com/dy/article/H73HM2C80552UMDJ.html
+- https://tjj.sh.gov.cn/assets2021/img/shgl2023.pdf
