@@ -100,7 +100,7 @@ def write_deep_research_report(
 
 load_dotenv()
 
-research_task = {"id": 47, "topic": "Travel", "language": "zh", "prompt": "2025 年，有哪些因素影响着旅客选择前往不同目的地旅游"}
+research_task = {"id": 50, "topic": "Social Life", "language": "zh", "prompt": "收集整理有关孩子身心健康成长的相关资料，比如怎样合理安排学习、生活、兴趣爱好，以及怎样找到合适自己的目标方向"}
 
 
 

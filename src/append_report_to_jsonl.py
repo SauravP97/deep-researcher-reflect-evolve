@@ -8,8 +8,8 @@ except FileNotFoundError:
     report_content = ""  # Initialize as an empty string if the file doesn't exist
 
 report_object = {
-    "id": 47, 
-    "prompt": "2025 年，有哪些因素影响着旅客选择前往不同目的地旅游",
+    "id": 50, 
+    "prompt": "收集整理有关孩子身心健康成长的相关资料，比如怎样合理安排学习、生活、兴趣爱好，以及怎样找到合适自己的目标方向",
     "article": report_content,
 }
 
