@@ -8,7 +8,7 @@ We use [DeepResearch Bench's](https://deepresearch-bench.github.io/) RACE (Refer
 
 1. We perform a complete evaluation of our Deep Researcher on the entire `100 PhD-level` Research Tasks from `22` distinct fields in `2` languages (English and Chinese).
 
-    - [17 Jan 2025] Our Deep Researcher achieved an overall score of `46.21` on the **Deep ResearchBench** making it in the list of **top-10** Deep Researcher worldwide [See Leaderboard](https://huggingface.co/spaces/muset-ai/DeepResearch-Bench-Leaderboard) beating `Claude Researcher` and currently `0.24` points below `OpenAI Deep Research`.
+    - [17 Jan 2026] Our Deep Researcher achieved an overall score of `46.21` on the **Deep ResearchBench** making it in the list of **top-10** Deep Researcher worldwide [See Leaderboard](https://huggingface.co/spaces/muset-ai/DeepResearch-Bench-Leaderboard) beating `Claude Researcher` and currently `0.24` points below `OpenAI Deep Research`.
 
     - Full Evaluation scores are available here: [View](./evaluation_metrics/with_crossover_strategy/) 
 
