@@ -106,16 +106,7 @@ We perform a complete evaluation of our Deep Researcher on the entire `100 PhD-l
 
 > Note: USD to INR exchange rates as of period around Dec & Jan 2026
 
-## Execution and Pre-requisites
-
-### Execution Steps
-
-1. Place your API Key in the `.env` file within the `/src` directory.
-2. Run the following command 
-```
-cd src
-python execute_deep_research.py
-```
+## Pre-requisites
 
 ### External Libraries and Virtual Environment
 
