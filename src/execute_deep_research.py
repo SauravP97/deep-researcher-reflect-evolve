@@ -1,4 +1,3 @@
-from dotenv import load_dotenv
 from core.planning_agent import (
     plan_for_research_topic,
     reflect_on_research_plan,
@@ -96,16 +95,3 @@ def write_deep_research_report(
         file.write("\n".join([f"- {citation}" for citation in citations]))
 
     return report
-
-
-load_dotenv()
-
-research_task = {"id": 50, "topic": "Social Life", "language": "zh", "prompt": "收集整理有关孩子身心健康成长的相关资料，比如怎样合理安排学习、生活、兴趣爱好，以及怎样找到合适自己的目标方向"}
-
-
-
-research_topic = research_task["prompt"]
-execute_deep_research_module(
-    research_topic,
-    enable_candidate_crossover=True,
-)
