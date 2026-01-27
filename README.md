@@ -77,8 +77,8 @@ Our Deep Researcher significantly outperforms parallel architectures (like Stati
 DeepResearch Bench leaderboard: [View](https://huggingface.co/spaces/muset-ai/DeepResearch-Bench-Leaderboard)
 
 
-| Agent | Overall | Score | Comprehensiveness | Insight | Instruction Following | Readability |
-|---|---|---|---|---|---|---|
+| Agent | Overall Score | Comprehensiveness | Insight | Instruction Following | Readability |
+|---|---|---|---|---|---|
 | Tavily Research | 52.44 | 52.84 | 53.59 | 51.92 | 49.21 |
 | Gemini 2.5 Pro DeepResearch | 49.71 | 49.51 | 49.45 | 50.12 | 50.00 |
 | Deep Researcher (Ours) | 46.21 | 43.44 | 45.48 | 48.99 | 48.21 |
