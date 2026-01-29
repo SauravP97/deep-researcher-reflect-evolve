@@ -6,6 +6,7 @@ Powered by `gemini-2.5-pro`, Deep Researcher achieves an overall score of `46.21
 
 DeepResearch Bench leaderboard: [View](https://huggingface.co/spaces/muset-ai/DeepResearch-Bench-Leaderboard)
 
+![Performance Stats](./media/stats/Deep%20Research%20-%20Comparison%20Stats.png)
 
 ## Running the Deep Researcher
 
@@ -38,6 +39,8 @@ python main.py "What are Deep Research Agents" -ecc
 ## Architecture
 
 The Deep Researcher operates through a cyclic, sequential process that allows for continuous reasoning and course correction.
+
+![deep researcher architechture](./media/hld-with-background.png)
 
 The 7-Step Workflow
 
