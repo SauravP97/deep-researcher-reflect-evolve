@@ -137,3 +137,17 @@ pip install dotenv
 pip install langchain-google-genai
 pip install langchain-tavily
 ```
+
+# Citing the paper
+
+```python
+@misc{prateek2026deepresearchersequentialplan,
+      title={Deep Researcher with Sequential Plan Reflection and Candidates Crossover (Deep Researcher Reflect Evolve)}, 
+      author={Saurav Prateek},
+      year={2026},
+      eprint={2601.20843},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2601.20843}, 
+}
+```
